@@ -43,7 +43,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
 
   fontSizes: {
     // text
-    xs: '0.75rem',
+    xs: '0.75rem', // 12px
     sm: '0.875rem',
     md: '1rem',
     lg: '1.125rem',

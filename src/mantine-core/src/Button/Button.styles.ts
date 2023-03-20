@@ -8,7 +8,6 @@ import {
   getSize,
   rem,
 } from '@mantine/styles';
-import { INPUT_SIZES } from '../Input';
 
 export const BUTTON_VARIANTS = [
   'filled',
@@ -31,12 +30,12 @@ export interface ButtonStylesParams {
 }
 
 export const sizes = {
-  xs: { height: INPUT_SIZES.xs, paddingLeft: rem(14), paddingRight: rem(14) },
-  sm: { height: INPUT_SIZES.sm, paddingLeft: rem(18), paddingRight: rem(18) },
-  md: { height: INPUT_SIZES.md, paddingLeft: rem(22), paddingRight: rem(22) },
-  lg: { height: INPUT_SIZES.lg, paddingLeft: rem(26), paddingRight: rem(26) },
-  xl: { height: INPUT_SIZES.xl, paddingLeft: rem(32), paddingRight: rem(32) },
-  'compact-xs': { height: rem(22), paddingLeft: rem(7), paddingRight: rem(7) },
+  xs: { height: rem(36), paddingLeft: rem(14), paddingRight: rem(14) },
+  sm: { height: rem(40), paddingLeft: rem(16), paddingRight: rem(16) },
+  md: { height: rem(44), paddingLeft: rem(18), paddingRight: rem(18) },
+  lg: { height: rem(48), paddingLeft: rem(20), paddingRight: rem(20) },
+  xl: { height: rem(60), paddingLeft: rem(28), paddingRight: rem(28) },
+  'compact-xs': { height: rem(22), paddingLeft: rem(8), paddingRight: rem(8) },
   'compact-sm': { height: rem(26), paddingLeft: rem(8), paddingRight: rem(8) },
   'compact-md': { height: rem(30), paddingLeft: rem(10), paddingRight: rem(10) },
   'compact-lg': { height: rem(34), paddingLeft: rem(12), paddingRight: rem(12) },
@@ -50,7 +49,13 @@ interface GetSizeStyles {
   withRightIcon: boolean;
 }
 
-function getSizeStyles({ compact, size, withLeftIcon, withRightIcon }: GetSizeStyles): CSSObject {
+function getSizeStyles({
+  compact,
+  size,
+  withLeftIcon,
+  withRightIcon,
+}: // isOnlyIcon,
+GetSizeStyles): CSSObject {
   if (compact) {
     return sizes[`compact-${size}`];
   }
@@ -119,12 +124,17 @@ export default createStyles(
     { variant, size }
   ) => ({
     root: {
-      ...getSizeStyles({ compact, size, withLeftIcon, withRightIcon }),
+      ...getSizeStyles({
+        compact,
+        size,
+        withLeftIcon,
+        withRightIcon,
+      }),
       ...theme.fn.fontStyles(),
       ...theme.fn.focusStyles(),
       ...getWidthStyles(fullWidth),
       borderRadius: theme.fn.radius(radius),
-      fontWeight: 600,
+      fontWeight: 500,
       position: 'relative',
       lineHeight: 1,
       fontSize: getSize({ size, sizes: theme.fontSizes }),

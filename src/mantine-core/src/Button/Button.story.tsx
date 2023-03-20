@@ -156,6 +156,10 @@ export function WithIcon() {
       <Button leftIcon={<IconExternalLink size={16} />} rightIcon={<IconExternalLink size={16} />}>
         Both icons
       </Button>
+      <Button rightIcon={<IconExternalLink size={16} />}>Right icon</Button>
+      <Button>
+        <IconExternalLink size={16} />
+      </Button>
     </Group>
   );
 }
