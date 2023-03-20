@@ -42,19 +42,28 @@ export const _DEFAULT_THEME: MantineThemeBase = {
   },
 
   fontSizes: {
+    // text
     xs: '0.75rem',
     sm: '0.875rem',
     md: '1rem',
     lg: '1.125rem',
     xl: '1.25rem',
+
+    // // display
+    // 'display-xs': '1.5rem',
+    // 'display-sm': '1.875rem',
+    // 'display-md': '2.25rem',
+    // 'display-lg': '3rem',
+    // 'display-xl': '3.75rem',
+    // 'display-2xl': '4.5rem',
   },
 
   radius: {
-    xs: '0.125rem',
-    sm: '0.25rem',
-    md: '0.5rem',
-    lg: '1rem',
-    xl: '2rem',
+    xs: '0.125rem', // 2px
+    sm: '0.25rem', // 4px
+    md: '0.5rem', // 8px
+    lg: '1rem', // 16px
+    xl: '2rem', // 32px
   },
 
   spacing: {
