@@ -14,7 +14,7 @@ function Demo() {
     <Group position="center" spacing="xs">
       <ColorSwatch
         component="button"
-        color={theme.colors.grape[6]}
+        color={theme.colors.rose[6]}
         onClick={() => setChecked((c) => !c)}
         sx={{ color: '#fff', cursor: 'pointer' }}
       >
@@ -33,7 +33,7 @@ function Demo() {
     <Group position="center" spacing="xs">
       <ColorSwatch
         component="button"
-        color={theme.colors.grape[6]}
+        color={theme.colors.rose[6]}
         onClick={() => setChecked((c) => !c)}
         sx={{ color: '#fff', cursor: 'pointer' }}
       >

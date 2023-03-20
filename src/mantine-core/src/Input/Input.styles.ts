@@ -184,7 +184,7 @@ export default createStyles(
         justifyContent: 'center',
         width: iconWidth ? rem(iconWidth) : getSize({ size, sizes }),
         color: invalid
-          ? theme.colors.red[theme.colorScheme === 'dark' ? 6 : 7]
+          ? theme.colors.error[theme.colorScheme === 'dark' ? 6 : 7]
           : theme.colorScheme === 'dark'
           ? theme.colors.dark[2]
           : theme.colors.gray[5],

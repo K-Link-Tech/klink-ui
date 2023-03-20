@@ -31,8 +31,8 @@ export default createStyles((theme) => ({
     borderWidth: 0,
     backgroundImage:
       theme.colorScheme === 'dark'
-        ? theme.fn.linearGradient(50, theme.colors.blue[8], theme.colors.cyan[6])
-        : theme.fn.linearGradient(50, theme.colors.blue[7], theme.colors.cyan[5]),
+        ? theme.fn.linearGradient(50, theme.colors.blue[8], theme.colors.blue_light[6])
+        : theme.fn.linearGradient(50, theme.colors.blue[7], theme.colors.blue_light[5]),
   },
 
   uiDescription: {

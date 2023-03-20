@@ -65,7 +65,7 @@ function Demo() {
               radius="md"
               leftIcon={
                 colorScheme === 'dark' ? (
-                  <IconSun size={rem(16)} color={theme.colors.yellow[4]} />
+                  <IconSun size={rem(16)} color={theme.colors.warning[4]} />
                 ) : (
                   <IconMoonStars size={rem(16)} color={theme.colors.blue[7]} />
                 )

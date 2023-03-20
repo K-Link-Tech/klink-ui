@@ -22,7 +22,7 @@ function Demo() {
           ref={ref}
           p="xl"
           sx={(theme) => ({
-            backgroundColor: entry?.isIntersecting ? theme.colors.green[9] : theme.colors.red[9],
+            backgroundColor: entry?.isIntersecting ? theme.colors.success[9] : theme.colors.error[9],
             minWidth: '50%',
           })}
         >
@@ -50,7 +50,9 @@ function Demo() {
           ref={ref}
           p="xl"
           sx={(theme) => ({
-            backgroundColor: entry?.isIntersecting ? theme.colors.green[9] : theme.colors.red[9],
+            backgroundColor: entry?.isIntersecting
+              ? theme.colors.success[9]
+              : theme.colors.error[9],
             minWidth: '50%',
           })}
         >

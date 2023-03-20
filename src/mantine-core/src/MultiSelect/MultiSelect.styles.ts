@@ -46,7 +46,7 @@ export default createStyles((theme, { invalid }: MultiSelectStylesParams, { size
     '&::placeholder': {
       opacity: 1,
       color: invalid
-        ? theme.colors.red[theme.colorScheme === 'dark' ? 6 : 7]
+        ? theme.colors.error[theme.colorScheme === 'dark' ? 6 : 7]
         : theme.colorScheme === 'dark'
         ? theme.colors.dark[3]
         : theme.colors.gray[5],

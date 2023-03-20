@@ -9,7 +9,7 @@ import {
 import { DEFAULT_THEME } from '@mantine/styles';
 import { ColorPicker, ColorPickerProps } from './ColorPicker';
 
-const swatches = DEFAULT_THEME.colors.red;
+const swatches = DEFAULT_THEME.colors.error;
 const defaultProps: ColorPickerProps = {};
 
 describe('@mantine/core/ColorPicker', () => {

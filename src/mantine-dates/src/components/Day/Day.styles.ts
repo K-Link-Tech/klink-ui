@@ -47,7 +47,7 @@ export default createStyles((theme, { radius, isStatic }: DayStylesParams, { siz
       },
 
       '&[data-weekend]': {
-        color: theme.colors.red[theme.fn.primaryShade()],
+        color: theme.colors.error[theme.fn.primaryShade()],
       },
 
       '&[data-outside]': {

@@ -11,7 +11,7 @@ function Demo() {
       align="center"
       highlight={['highlighted', 'default']}
       highlightStyles={(theme) => ({
-        backgroundImage: theme.fn.linearGradient(45, theme.colors.cyan[5], theme.colors.indigo[5]),
+        backgroundImage: theme.fn.linearGradient(45, theme.colors.blue_light[5], theme.colors.indigo[5]),
         fontWeight: 700,
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',
@@ -29,7 +29,11 @@ function Demo() {
       align="center"
       highlight={['highlighted', 'default']}
       highlightStyles={(theme) => ({
-        backgroundImage: theme.fn.linearGradient(45, theme.colors.cyan[5], theme.colors.indigo[5]),
+        backgroundImage: theme.fn.linearGradient(
+          45,
+          theme.colors.blue_light[5],
+          theme.colors.indigo[5]
+        ),
         fontWeight: 700,
         WebkitBackgroundClip: 'text',
         WebkitTextFillColor: 'transparent',

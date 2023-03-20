@@ -18,7 +18,7 @@ describe('@mantine/core/Box/get-system-styles', () => {
     ).toStrictEqual({
       margin: DEFAULT_THEME.spacing.xl,
       background: DEFAULT_THEME.colors.pink[1],
-      color: DEFAULT_THEME.colors.cyan[6],
+      color: DEFAULT_THEME.colors.blue_light[6],
 
       [DEFAULT_THEME.fn.largerThan('xs')]: {
         background: DEFAULT_THEME.colors.blue[6],

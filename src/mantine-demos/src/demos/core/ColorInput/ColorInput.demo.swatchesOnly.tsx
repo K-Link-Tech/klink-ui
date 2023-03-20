@@ -13,8 +13,8 @@ function Demo() {
       disallowInput
       withPicker={false}
       swatches={[
-        ...DEFAULT_THEME.colors.red,
-        ...DEFAULT_THEME.colors.green,
+        ...DEFAULT_THEME.colors.error,
+        ...DEFAULT_THEME.colors.success,
         ...DEFAULT_THEME.colors.blue,
       ]}
     />
@@ -32,8 +32,8 @@ function Demo() {
       disallowInput
       withPicker={false}
       swatches={[
-        ...DEFAULT_THEME.colors.red,
-        ...DEFAULT_THEME.colors.green,
+        ...DEFAULT_THEME.colors.error,
+        ...DEFAULT_THEME.colors.success,
         ...DEFAULT_THEME.colors.blue,
       ]}
     />

@@ -24,7 +24,7 @@ export function useMantineLogoColors(
   }
 
   return {
-    background: theme.colorScheme === 'dark' ? theme.colors.yellow[4] : theme.colors.cyan[6],
+    background: theme.colorScheme === 'dark' ? theme.colors.warning[4] : theme.colors.blue_light[6],
     color: theme.colorScheme === 'dark' ? theme.colors.dark[9] : theme.white,
   };
 }

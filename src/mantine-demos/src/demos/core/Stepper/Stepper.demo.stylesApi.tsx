@@ -21,7 +21,7 @@ const useStyles = createStyles((theme) => ({
 
   separatorActive: {
     borderWidth: 0,
-    backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.cyan[6]),
+    backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.blue_light[6]),
   },
 
   stepIcon: {
@@ -32,7 +32,7 @@ const useStyles = createStyles((theme) => ({
     '&[data-completed]': {
       borderWidth: 0,
       backgroundColor: 'transparent',
-      backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.cyan[6]),
+      backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.blue_light[6]),
     },
   },
 
@@ -75,7 +75,7 @@ const useStyles = createStyles((theme) => ({
 
   separatorActive: {
     borderWidth: 0,
-    backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.cyan[6]),
+    backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.blue_light[6]),
   },
 
   stepIcon: {
@@ -86,7 +86,11 @@ const useStyles = createStyles((theme) => ({
     '&[data-completed]': {
       borderWidth: 0,
       backgroundColor: 'transparent',
-      backgroundImage: theme.fn.linearGradient(45, theme.colors.blue[6], theme.colors.cyan[6]),
+      backgroundImage: theme.fn.linearGradient(
+        45,
+        theme.colors.blue[6],
+        theme.colors.blue_light[6]
+      ),
     },
   },
 

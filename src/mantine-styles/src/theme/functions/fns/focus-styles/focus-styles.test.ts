@@ -5,7 +5,7 @@ describe('@mantine/styles/focus-styles', () => {
   it('uses primaryColor from given theme', () => {
     expect(
       (focusStyles({ ...DEFAULT_THEME, primaryColor: 'red' })()['&:focus'] as any).outline.includes(
-        DEFAULT_THEME.colors.red[5]
+        DEFAULT_THEME.colors.error[5]
       )
     ).toBe(true);
   });

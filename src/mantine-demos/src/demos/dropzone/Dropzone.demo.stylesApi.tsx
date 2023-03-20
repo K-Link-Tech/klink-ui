@@ -27,7 +27,7 @@ function Demo() {
 
         '&[data-reject]': {
           color: theme.white,
-          backgroundColor: theme.colors.red[6],
+          backgroundColor: theme.colors.error[6],
         },
       })}
     >
@@ -57,7 +57,7 @@ function Demo() {
 
         '&[data-reject]': {
           color: theme.white,
-          backgroundColor: theme.colors.red[6],
+          backgroundColor: theme.colors.error[6],
         },
       })}
     >

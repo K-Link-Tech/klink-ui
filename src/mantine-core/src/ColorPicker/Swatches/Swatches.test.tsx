@@ -5,7 +5,7 @@ import { DEFAULT_THEME } from '@mantine/styles';
 import { Swatches, SwatchesProps } from './Swatches';
 
 const defaultProps: SwatchesProps = {
-  data: [...DEFAULT_THEME.colors.red],
+  data: [...DEFAULT_THEME.colors.error],
   setValue: () => {},
 };
 

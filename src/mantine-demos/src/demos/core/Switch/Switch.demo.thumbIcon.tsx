@@ -23,7 +23,7 @@ function Demo() {
           checked ? (
             <IconCheck size="0.8rem" color={theme.colors.teal[theme.fn.primaryShade()]} stroke={3} />
           ) : (
-            <IconX size="0.8rem" color={theme.colors.red[theme.fn.primaryShade()]} stroke={3} />
+            <IconX size="0.8rem" color={theme.colors.error[theme.fn.primaryShade()]} stroke={3} />
           )
         }
       />
@@ -51,7 +51,7 @@ function Demo() {
               stroke={3}
             />
           ) : (
-            <IconX size="0.8rem" color={theme.colors.red[theme.fn.primaryShade()]} stroke={3} />
+            <IconX size="0.8rem" color={theme.colors.error[theme.fn.primaryShade()]} stroke={3} />
           )
         }
       />

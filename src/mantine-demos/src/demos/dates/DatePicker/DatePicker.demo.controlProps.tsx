@@ -20,9 +20,9 @@ function Demo() {
           if (date.getDay() === 5 && date.getDate() === 13) {
             return {
               sx: (theme) => ({
-                backgroundColor: theme.colors.red[theme.fn.primaryShade()],
+                backgroundColor: theme.colors.error[theme.fn.primaryShade()],
                 color: theme.white,
-                ...theme.fn.hover({ backgroundColor: theme.colors.red[7] }),
+                ...theme.fn.hover({ backgroundColor: theme.colors.error[7] }),
               }),
             };
           }
@@ -79,9 +79,9 @@ function Demo() {
           if (date.getDay() === 5 && date.getDate() === 13) {
             return {
               sx: (theme) => ({
-                backgroundColor: theme.colors.red[theme.fn.primaryShade()],
+                backgroundColor: theme.colors.error[theme.fn.primaryShade()],
                 color: theme.white,
-                ...theme.fn.hover({ backgroundColor: theme.colors.red[7] }),
+                ...theme.fn.hover({ backgroundColor: theme.colors.error[7] }),
               }),
             };
           }

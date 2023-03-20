@@ -14,9 +14,9 @@ function Demo() {
             variants: {
               danger: (theme) => ({
                 root: {
-                  backgroundColor: theme.colors.red[9],
-                  color: theme.colors.red[0],
-                  ...theme.fn.hover({ backgroundColor: theme.colors.red[8] }),
+                  backgroundColor: theme.colors.error[9],
+                  color: theme.colors.error[0],
+                  ...theme.fn.hover({ backgroundColor: theme.colors.error[8] }),
                 },
               }),
 
@@ -24,9 +24,9 @@ function Demo() {
                 root: {
                   backgroundImage: theme.fn.linearGradient(
                     45,
-                    theme.colors.cyan[theme.fn.primaryShade()],
+                    theme.colors.blue_light[theme.fn.primaryShade()],
                     theme.colors.teal[theme.fn.primaryShade()],
-                    theme.colors.green[theme.fn.primaryShade()]
+                    theme.colors.success[theme.fn.primaryShade()]
                   ),
                   color: theme.white,
                 },
@@ -55,9 +55,9 @@ function Demo() {
             variants: {
               danger: (theme) => ({
                 root: {
-                  backgroundColor: theme.colors.red[9],
-                  color: theme.colors.red[0],
-                  ...theme.fn.hover({ backgroundColor: theme.colors.red[8] }),
+                  backgroundColor: theme.colors.error[9],
+                  color: theme.colors.error[0],
+                  ...theme.fn.hover({ backgroundColor: theme.colors.error[8] }),
                 },
               }),
 
@@ -65,9 +65,9 @@ function Demo() {
                 root: {
                   backgroundImage: theme.fn.linearGradient(
                     45,
-                    theme.colors.cyan[theme.fn.primaryShade()],
+                    theme.colors.blue_light[theme.fn.primaryShade()],
                     theme.colors.teal[theme.fn.primaryShade()],
-                    theme.colors.green[theme.fn.primaryShade()]
+                    theme.colors.success[theme.fn.primaryShade()]
                   ),
                   color: theme.white,
                 },

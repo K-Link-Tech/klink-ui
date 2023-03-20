@@ -5,7 +5,7 @@ const getThemeColor = themeColor(DEFAULT_THEME);
 
 describe('@mantine/styles/theme-color', () => {
   it('returns correct shade of given color', () => {
-    expect(getThemeColor('red', 3)).toBe(DEFAULT_THEME.colors.red[3]);
+    expect(getThemeColor('red', 3)).toBe(DEFAULT_THEME.colors.error[3]);
   });
 
   it('returns primary color shade if color was not provided', () => {
@@ -17,8 +17,8 @@ describe('@mantine/styles/theme-color', () => {
   });
 
   it('allows to get color by index', () => {
-    expect(getThemeColor('red.1')).toBe(DEFAULT_THEME.colors.red[1]);
-    expect(getThemeColor('red.1', 5)).toBe(DEFAULT_THEME.colors.red[1]);
+    expect(getThemeColor('red.1')).toBe(DEFAULT_THEME.colors.error[1]);
+    expect(getThemeColor('red.1', 5)).toBe(DEFAULT_THEME.colors.error[1]);
     expect(getThemeColor('red.11', null, false)).toBe('red.11');
   });
 

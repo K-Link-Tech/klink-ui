@@ -36,7 +36,7 @@ function getCodeHighlight(withCodeHighlightStyles: boolean, theme: MantineTheme)
 
       '& .hljs-variable, & .hljs-template-variable, & .hljs-attribute, & .hljs-tag, & .hljs-name, & .hljs-regexp, & .hljs-link, & .hljs-name, & .hljs-selector-id, & .hljs-selector-class':
         {
-          color: theme.colors.red[highlightIndex],
+          color: theme.colors.error[highlightIndex],
         },
 
       '& .hljs-number, & .hljs-meta, & .hljs-built_in, & .hljs-builtin-name, & .hljs-literal, & .hljs-type, & .hljs-params':
@@ -45,7 +45,7 @@ function getCodeHighlight(withCodeHighlightStyles: boolean, theme: MantineTheme)
         },
 
       '& .hljs-string, & .hljs-symbol, & .hljs-bullet': {
-        color: theme.colors.red[highlightIndex],
+        color: theme.colors.error[highlightIndex],
       },
 
       '& .hljs-title, & .hljs-section': {
@@ -53,7 +53,7 @@ function getCodeHighlight(withCodeHighlightStyles: boolean, theme: MantineTheme)
       },
 
       '& .hljs-keyword, & .hljs-selector-tag': {
-        color: theme.colors.violet[highlightIndex],
+        color: theme.colors.purple[highlightIndex],
       },
 
       '& .hljs-emphasis': {

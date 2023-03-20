@@ -47,15 +47,15 @@ function Demo() {
 
     switch (value) {
       case 1:
-        return <IconMoodCry {...defaultProps} color={theme.colors.red[7]} />;
+        return <IconMoodCry {...defaultProps} color={theme.colors.error[7]} />;
       case 2:
         return <IconMoodSad {...defaultProps} color={theme.colors.orange[7]} />;
       case 3:
-        return <IconMoodSmile {...defaultProps} color={theme.colors.yellow[7]} />;
+        return <IconMoodSmile {...defaultProps} color={theme.colors.warning[7]} />;
       case 4:
-        return <IconMoodHappy {...defaultProps} color={theme.colors.lime[7]} />;
+        return <IconMoodHappy {...defaultProps} color={theme.colors.success[7]} />;
       case 5:
-        return <IconMoodCrazyHappy {...defaultProps} color={theme.colors.green[7]} />;
+        return <IconMoodCrazyHappy {...defaultProps} color={theme.colors.success[7]} />;
       default:
         return <IconMoodEmpty {...defaultProps} />;
     }
@@ -93,15 +93,15 @@ function Demo() {
 
     switch (value) {
       case 1:
-        return <IconMoodCry {...defaultProps} color={theme.colors.red[7]} />;
+        return <IconMoodCry {...defaultProps} color={theme.colors.error[7]} />;
       case 2:
         return <IconMoodSad {...defaultProps} color={theme.colors.orange[7]} />;
       case 3:
-        return <IconMoodSmile {...defaultProps} color={theme.colors.yellow[7]} />;
+        return <IconMoodSmile {...defaultProps} color={theme.colors.warning[7]} />;
       case 4:
-        return <IconMoodHappy {...defaultProps} color={theme.colors.lime[7]} />;
+        return <IconMoodHappy {...defaultProps} color={theme.colors.success[7]} />;
       case 5:
-        return <IconMoodCrazyHappy {...defaultProps} color={theme.colors.green[7]} />;
+        return <IconMoodCrazyHappy {...defaultProps} color={theme.colors.success[7]} />;
       default:
         return <IconMoodEmpty {...defaultProps} />;
     }

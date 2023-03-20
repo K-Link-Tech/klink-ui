@@ -10,7 +10,7 @@ function Demo() {
     <Highlight
       highlight={['this', 'that']}
       sx={(theme) => ({
-        '& [data-highlight="this"]': { backgroundColor: theme.colors.grape[4] },
+        '& [data-highlight="this"]': { backgroundColor: theme.colors.rose[4] },
         '& [data-highlight="that"]': { backgroundColor: theme.colors.teal[4] },
       })}
     >
@@ -25,7 +25,7 @@ function Demo() {
     <Highlight
       highlight={['this', 'that']}
       sx={(theme) => ({
-        '& [data-highlight="this"]': { backgroundColor: theme.colors.grape[4] },
+        '& [data-highlight="this"]': { backgroundColor: theme.colors.rose[4] },
         '& [data-highlight="that"]': { backgroundColor: theme.colors.teal[4] },
       })}
     >

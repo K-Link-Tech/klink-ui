@@ -47,13 +47,13 @@ export const dark = (theme: MantineTheme): PrismTheme => ({
     {
       types: ['class-name', 'attr-name'],
       style: {
-        color: theme.colors.yellow[5],
+        color: theme.colors.warning[5],
       },
     },
     {
       types: ['tag', 'deleted'],
       style: {
-        color: theme.colors.red[6],
+        color: theme.colors.error[6],
       },
     },
     {
@@ -65,7 +65,7 @@ export const dark = (theme: MantineTheme): PrismTheme => ({
     {
       types: ['boolean'],
       style: {
-        color: theme.colors.red[6],
+        color: theme.colors.error[6],
       },
     },
     {
@@ -117,7 +117,7 @@ export const light = (theme: MantineTheme): PrismTheme => ({
     {
       types: ['builtin', 'char', 'constant', 'function', 'selector', 'atrule'],
       style: {
-        color: theme.colors.lime[9],
+        color: theme.colors.success[9],
       },
     },
     {
@@ -129,43 +129,43 @@ export const light = (theme: MantineTheme): PrismTheme => ({
     {
       types: ['variable'],
       style: {
-        color: theme.colors.violet[9],
+        color: theme.colors.purple[9],
       },
     },
     {
       types: ['attr-name'],
       style: {
-        color: theme.colors.green[9],
+        color: theme.colors.success[9],
       },
     },
     {
       types: ['class-name'],
       style: {
-        color: theme.colors.red[9],
+        color: theme.colors.error[9],
       },
     },
     {
       types: ['tag', 'deleted'],
       style: {
-        color: theme.colors.violet[9],
+        color: theme.colors.purple[9],
       },
     },
     {
       types: ['operator'],
       style: {
-        color: theme.colors.red[9],
+        color: theme.colors.error[9],
       },
     },
     {
       types: ['boolean'],
       style: {
-        color: theme.colors.red[9],
+        color: theme.colors.error[9],
       },
     },
     {
       types: ['keyword'],
       style: {
-        color: theme.colors.red[9],
+        color: theme.colors.error[9],
       },
     },
     {

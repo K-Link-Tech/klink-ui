@@ -22,7 +22,7 @@ function Demo() {
             },
 
             '&[data-orientation="vertical"] .mantine-ScrollArea-thumb': {
-              backgroundColor: theme.colors.red[6],
+              backgroundColor: theme.colors.error[6],
             },
 
             '&[data-orientation="horizontal"] .mantine-ScrollArea-thumb': {
@@ -61,7 +61,7 @@ function Demo() {
             },
 
             '&[data-orientation="vertical"] .mantine-ScrollArea-thumb': {
-              backgroundColor: theme.colors.red[6],
+              backgroundColor: theme.colors.error[6],
             },
 
             '&[data-orientation="horizontal"] .mantine-ScrollArea-thumb': {
