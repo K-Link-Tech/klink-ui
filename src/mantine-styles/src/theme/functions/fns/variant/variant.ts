@@ -30,7 +30,7 @@ function getColorIndexInfo(color: string, theme: MantineThemeBase): ColorInfo {
     const [splittedColor, _splittedShade] = color.split('.');
     const splittedShade = parseInt(_splittedShade, 10);
 
-    if (splittedColor in theme.colors && splittedShade >= 0 && splittedShade < 11) {
+    if (splittedColor in theme.colors && splittedShade >= 0 && splittedShade < 10) {
       return { isSplittedColor: true, key: splittedColor, shade: splittedShade };
     }
   }
