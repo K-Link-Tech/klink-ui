@@ -18,11 +18,11 @@ export interface BadgeStylesParams {
 }
 
 const sizes = {
-  xs: { fontSize: rem(9), height: rem(16) },
-  sm: { fontSize: rem(10), height: rem(18) },
-  md: { fontSize: rem(11), height: rem(20) },
-  lg: { fontSize: rem(13), height: rem(26) },
-  xl: { fontSize: rem(16), height: rem(32) },
+  xs: { fontSize: rem(9), height: rem(16), lineHeight: rem(16) },
+  sm: { fontSize: rem(12), height: rem(22), lineHeight: rem(18) },
+  md: { fontSize: rem(13), height: rem(24), lineHeight: rem(20) },
+  lg: { fontSize: rem(14), height: rem(28), lineHeight: rem(20) },
+  xl: { fontSize: rem(16), height: rem(32), lineHeight: rem(22) },
 };
 
 const dotSizes = {
@@ -83,7 +83,7 @@ function getVariantStyles({ theme, variant, color, size, gradient }: GetVariantS
 
 export default createStyles(
   (theme, { color, radius, gradient, fullWidth }: BadgeStylesParams, { variant, size }) => {
-    const { fontSize, height } = size in sizes ? sizes[size] : sizes.md;
+    const { lineHeight, fontSize, height } = size in sizes ? sizes[size] : sizes.md;
 
     return {
       leftSection: {
@@ -106,7 +106,7 @@ export default createStyles(
         fontSize,
         height,
         WebkitTapHighlightColor: 'transparent',
-        lineHeight: `calc(${height} - ${rem(2)})`,
+        lineHeight,
         textDecoration: 'none',
         padding: `0 calc(${getSize({ size, sizes: theme.spacing })} / 1.5)`,
         boxSizing: 'border-box',
@@ -114,7 +114,8 @@ export default createStyles(
         alignItems: 'center',
         justifyContent: 'center',
         width: fullWidth ? '100%' : 'auto',
-        textTransform: 'uppercase',
+        // lineHeight: `calc(${height} - ${rem(2)})`,
+        // textTransform: 'uppercase',
         borderRadius: theme.fn.radius(radius),
         fontWeight: 700,
         letterSpacing: rem(0.25),

@@ -16,6 +16,16 @@ const avatar = (
   />
 );
 
+const fullAvatar = (
+  <ActionIcon size="xs" radius="xl" variant="transparent">
+    <Avatar
+      alt="Avatar for badge"
+      size={20}
+      src="https://avatars0.githubusercontent.com/u/10353856?s=460&u=88394dfd67727327c1f7670a1764dc38a8a24831&v=4"
+    />
+  </ActionIcon>
+);
+
 const removeButton = (
   <ActionIcon size="xs" color="blue" radius="xl" variant="transparent">
     <IconX size={rem(10)} />
@@ -27,6 +37,9 @@ function Demo() {
     <Group>
       <Badge pl={0} size="lg" color="teal" radius="xl" leftSection={avatar}>
         Badge with Avatar
+      </Badge>
+      <Badge size="lg" pl={3} color="teal" radius="xl" leftSection={fullAvatar}>
+        Badge with full Avatar
       </Badge>
       <Badge variant="outline" pr={3} rightSection={removeButton}>
         Badge with right section
@@ -48,6 +61,16 @@ const avatar = (
   />
 );
 
+const fullAvatar = (
+  <ActionIcon size="xs" radius="xl" variant="transparent">
+    <Avatar
+      alt="Avatar for badge"
+      size={20}
+      src="https://avatars0.githubusercontent.com/u/10353856?s=460&u=88394dfd67727327c1f7670a1764dc38a8a24831&v=4"
+    />
+  </ActionIcon>
+);
+
 const removeButton = (
   <ActionIcon size="xs" color="blue" radius="xl" variant="transparent">
     <IconX size={rem(10)} />
@@ -59,6 +82,9 @@ function Demo() {
     <Group>
       <Badge pl={0} size="lg" color="teal" radius="xl" leftSection={avatar}>
         Badge with Avatar
+      </Badge>
+      <Badge size="lg" pl={3} color="teal" radius="xl" leftSection={fullAvatar}>
+        Badge with full Avatar
       </Badge>
       <Badge variant="outline" pr={3} rightSection={removeButton}>
         Badge with right section
