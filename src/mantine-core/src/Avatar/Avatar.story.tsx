@@ -40,6 +40,7 @@ export function AvatarGroup() {
         </Tooltip>
         <Avatar radius="xl">+3</Avatar>
       </Avatar.Group>
+      <Avatar radius="xl" isAddAvatar />
     </div>
   );
 }

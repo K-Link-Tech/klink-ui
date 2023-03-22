@@ -20,11 +20,12 @@ export interface AvatarStylesParams {
 }
 
 export const sizes = {
-  xs: rem(16),
-  sm: rem(26),
-  md: rem(38),
-  lg: rem(56),
-  xl: rem(84),
+  xs: rem(24),
+  sm: rem(32),
+  md: rem(40),
+  lg: rem(48),
+  xl: rem(56),
+  '2xl': rem(64),
 };
 
 interface GetGroupStylesInput {
@@ -125,6 +126,11 @@ export default createStyles(
         width: '70%',
         height: '70%',
         ...variantStyles.placeholderIcon,
+      },
+
+      addIcon: {
+        width: '100%',
+        height: '100%',
       },
     };
   }

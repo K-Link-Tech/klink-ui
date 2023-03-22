@@ -9,15 +9,18 @@ import {
   Variants,
 } from '@mantine/styles';
 import { createPolymorphicComponent } from '@mantine/utils';
-import { Box } from '../Box';
-import { AvatarPlaceholderIcon } from './AvatarPlaceholderIcon';
+import { AvatarPlaceholderIcon, AvatarAddIcon } from './AvatarIcon';
 import { AvatarGroup } from './AvatarGroup/AvatarGroup';
 import { useAvatarGroupContext } from './AvatarGroup/AvatarGroup.context';
 import useStyles, { AvatarStylesParams } from './Avatar.styles';
+import { Box } from '../Box';
 
 export type AvatarStylesNames = Selectors<typeof useStyles>;
 
 export interface AvatarProps extends DefaultProps<AvatarStylesNames, AvatarStylesParams> {
+  /** is add Icon avatar or normal image avatar */
+  isAddAvatar?: boolean;
+
   /** Image url */
   src?: string | null;
 
@@ -25,7 +28,7 @@ export interface AvatarProps extends DefaultProps<AvatarStylesNames, AvatarStyle
   alt?: string;
 
   /** Avatar width and height */
-  size?: MantineNumberSize;
+  size?: MantineNumberSize | '2xl';
 
   /** Key of theme.radius or any valid CSS value to set border-radius, "xl" by default */
   radius?: MantineNumberSize;
@@ -50,11 +53,13 @@ const defaultProps: Partial<AvatarProps> = {
   size: 'md',
   color: 'gray',
   variant: 'light',
+  isAddAvatar: false,
 };
 
 export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   const {
     className,
+    isAddAvatar,
     size,
     src,
     alt,
@@ -84,18 +89,24 @@ export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
 
   return (
     <Box component="div" className={cx(classes.root, className)} ref={ref} {...others}>
-      {error ? (
-        <div className={classes.placeholder} title={alt}>
-          {children || <AvatarPlaceholderIcon className={classes.placeholderIcon} />}
-        </div>
+      {!isAddAvatar ? (
+        error ? (
+          <div className={classes.placeholder} title={alt}>
+            {children || <AvatarPlaceholderIcon className={classes.placeholderIcon} />}
+          </div>
+        ) : (
+          <img
+            {...imageProps}
+            className={classes.image}
+            src={src}
+            alt={alt}
+            onError={() => setError(true)}
+          />
+        )
       ) : (
-        <img
-          {...imageProps}
-          className={classes.image}
-          src={src}
-          alt={alt}
-          onError={() => setError(true)}
-        />
+        <div className={classes.placeholder}>
+          <AvatarAddIcon className={classes.addIcon} />
+        </div>
       )}
     </Box>
   );
