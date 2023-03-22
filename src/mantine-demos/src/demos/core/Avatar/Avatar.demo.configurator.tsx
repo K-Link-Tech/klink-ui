@@ -38,6 +38,8 @@ export const configurator: MantineDemo = {
     { name: 'radius', type: 'size', initialValue: 'sm', defaultValue: 'sm' },
     { name: 'size', type: 'size', initialValue: 'md', defaultValue: 'md' },
     { name: 'color', type: 'color', initialValue: 'gray', defaultValue: 'gray' },
+    { name: 'showOnlineActive', type: 'boolean', initialValue: 'false', defaultValue: 'false' },
+    { name: 'isAddAvatar', type: 'boolean', initialValue: 'false', defaultValue: 'false' },
     {
       name: 'src',
       type: 'string',

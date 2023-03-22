@@ -9,7 +9,7 @@ import {
   Variants,
 } from '@mantine/styles';
 import { createPolymorphicComponent } from '@mantine/utils';
-import { AvatarPlaceholderIcon, AvatarAddIcon } from './AvatarIcon';
+import { AvatarPlaceholderIcon, AvatarAddIcon, ActiveStatusIcon } from './AvatarIcon';
 import { AvatarGroup } from './AvatarGroup/AvatarGroup';
 import { useAvatarGroupContext } from './AvatarGroup/AvatarGroup.context';
 import useStyles, { AvatarStylesParams } from './Avatar.styles';
@@ -18,6 +18,11 @@ import { Box } from '../Box';
 export type AvatarStylesNames = Selectors<typeof useStyles>;
 
 export interface AvatarProps extends DefaultProps<AvatarStylesNames, AvatarStylesParams> {
+  /**
+   * show online status Icon
+   */
+  showOnlineActive?: boolean;
+
   /** is add Icon avatar or normal image avatar */
   isAddAvatar?: boolean;
 
@@ -54,12 +59,14 @@ const defaultProps: Partial<AvatarProps> = {
   color: 'gray',
   variant: 'light',
   isAddAvatar: false,
+  showOnlineActive: false,
 };
 
 export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   const {
     className,
     isAddAvatar,
+    showOnlineActive,
     size,
     src,
     alt,
@@ -88,26 +95,34 @@ export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   }, [src]);
 
   return (
-    <Box component="div" className={cx(classes.root, className)} ref={ref} {...others}>
-      {!isAddAvatar ? (
-        error ? (
-          <div className={classes.placeholder} title={alt}>
-            {children || <AvatarPlaceholderIcon className={classes.placeholderIcon} />}
-          </div>
+    <Box component="div" className={cx(classes.parentRoot, className)} ref={ref} {...others}>
+      <Box component="div" className={classes.root}>
+        {!isAddAvatar ? (
+          error ? (
+            <div className={classes.placeholder} title={alt}>
+              {children || <AvatarPlaceholderIcon className={classes.placeholderIcon} />}
+            </div>
+          ) : (
+            <img
+              {...imageProps}
+              className={classes.image}
+              src={src}
+              alt={alt}
+              onError={() => setError(true)}
+            />
+          )
         ) : (
-          <img
-            {...imageProps}
-            className={classes.image}
-            src={src}
-            alt={alt}
-            onError={() => setError(true)}
-          />
-        )
-      ) : (
-        <div className={classes.placeholder}>
-          <AvatarAddIcon className={classes.addIcon} />
+          <div className={classes.placeholder}>
+            <AvatarAddIcon className={classes.addIcon} />
+          </div>
+        )}
+      </Box>
+
+      {showOnlineActive ? (
+        <div className={classes.activeStatusContainer}>
+          <ActiveStatusIcon className={classes.activeStatusIcon} />
         </div>
-      )}
+      ) : null}
     </Box>
   );
 }) as any;

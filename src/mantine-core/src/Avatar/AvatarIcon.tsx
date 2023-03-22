@@ -102,3 +102,19 @@ export function AvatarAddIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
     </svg>
   );
 }
+
+export function ActiveStatusIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="10"
+      height="10"
+      fill="none"
+      viewBox="0 0 10 10"
+    >
+      <rect width="7.5" height="7.5" x="1.25" y="1.25" fill="currentColor" rx="3.75" />
+      <rect width="7.5" height="7.5" x="1.25" y="1.25" stroke="#fff" strokeWidth="1.5" rx="3.75" />
+    </svg>
+  );
+}

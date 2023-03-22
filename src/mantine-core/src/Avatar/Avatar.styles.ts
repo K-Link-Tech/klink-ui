@@ -28,6 +28,15 @@ export const sizes = {
   '2xl': rem(64),
 };
 
+export const statusIconSizes = {
+  xs: rem(6),
+  sm: rem(8),
+  md: rem(10),
+  lg: rem(12),
+  xl: rem(14),
+  '2xl': rem(16),
+};
+
 interface GetGroupStylesInput {
   withinGroup: boolean;
   spacing: MantineNumberSize;
@@ -82,6 +91,10 @@ export default createStyles(
   ) => {
     const variantStyles = getVariantStyles({ theme, color, gradient, variant });
     return {
+      parentRoot: {
+        position: 'relative',
+      },
+
       root: {
         ...theme.fn.focusStyles(),
         WebkitTapHighlightColor: 'transparent',
@@ -131,6 +144,26 @@ export default createStyles(
       addIcon: {
         width: '100%',
         height: '100%',
+        cursor: 'pointer',
+      },
+
+      activeStatusContainer: {
+        position: 'absolute',
+        right: '-1px',
+        bottom: '-1px',
+        zIndex: 10,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: statusIconSizes[size],
+        minWidth: statusIconSizes[size],
+        height: statusIconSizes[size],
+      },
+
+      activeStatusIcon: {
+        width: '100%',
+        height: '100%',
+        color: theme.colors[color]?.[6],
       },
     };
   }
