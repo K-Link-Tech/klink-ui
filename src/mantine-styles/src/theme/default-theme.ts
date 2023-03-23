@@ -62,8 +62,9 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     xs: '0.125rem', // 2px
     sm: '0.25rem', // 4px
     md: '0.5rem', // 8px
-    lg: '1rem', // 16px
-    xl: '2rem', // 32px
+    lg: '0.75rem', // 12px
+    xl: '1rem', // 16px
+    '2xl': '2rem', // 32px
   },
 
   spacing: {
@@ -72,6 +73,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     md: '1rem',
     lg: '1.25rem',
     xl: '1.5rem',
+    // '2xl': '2rem',
   },
 
   breakpoints: {
@@ -80,6 +82,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     md: '62em',
     lg: '75em',
     xl: '88em',
+    // '2xl': '100em',
   },
 
   headings: {

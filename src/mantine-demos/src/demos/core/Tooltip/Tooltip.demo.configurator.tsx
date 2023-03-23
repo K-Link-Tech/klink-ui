@@ -9,7 +9,7 @@ import {
 const Wrapper = (props: TooltipProps) => (
   <Box p="xl">
     <Group position="center">
-      <Tooltip label="Tooltip" {...props}>
+      <Tooltip label="Tooltip test" {...props}>
         <Button variant="outline" size="xl">
           With tooltip
         </Button>
@@ -24,7 +24,7 @@ import { Tooltip, Button } from '@mantine/core';
 function Demo() {
   return (
     <Tooltip
-      label="Tooltip"
+      label="Tooltip test"
      ${props}
     >
       <Button variant="outline" size="xl">
