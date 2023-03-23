@@ -20,9 +20,9 @@ export type DefaultMantineColor =
 export type MantineThemeColorsOverride = {};
 
 export type MantineThemeColors = MantineThemeColorsOverride extends {
-  colors: Record<infer CustomColors, Tuple<string, 10>>;
+  colors: Record<infer CustomColors, Tuple<string, 11>>;
 }
-  ? Record<CustomColors, Tuple<string, 10>>
-  : Record<DefaultMantineColor, Tuple<string, 10>>;
+  ? Record<CustomColors, Tuple<string, 11>>
+  : Record<DefaultMantineColor, Tuple<string, 11>>;
 
 export type MantineColor = keyof MantineThemeColors;

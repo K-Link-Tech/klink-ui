@@ -8,7 +8,7 @@ export const MANTINE_SIZES = ['xs', 'sm', 'md', 'lg', 'xl'] as const;
 export const _DEFAULT_THEME: MantineThemeBase = {
   dir: 'ltr',
   primaryShade: {
-    light: 6,
+    light: 7,
     dark: 8,
   },
   focusRing: 'auto',
@@ -16,7 +16,8 @@ export const _DEFAULT_THEME: MantineThemeBase = {
   colorScheme: 'light',
   white: '#fff',
   black: '#000',
-  defaultRadius: 'sm',
+  defaultRadius: 'md',
+  // defaultRadius: 'sm',
   transitionTimingFunction: 'ease',
   colors: DEFAULT_COLORS,
   lineHeight: 1.55,

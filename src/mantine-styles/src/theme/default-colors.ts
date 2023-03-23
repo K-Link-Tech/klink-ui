@@ -189,20 +189,22 @@ export const DEFAULT_COLORS = {
   // dark: ['#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000', '#000'],
 
   dark: [
-        '#C1C2C5',
-        '#A6A7AB',
-        '#909296',
-        '#5c5f66',
-        '#373A40',
-        '#2C2E33',
-        '#25262b',
-        '#1A1B1E',
-        '#141517',
-        '#101113',
-      ],
+    '#C1C2C5',
+    '#C1C2C5',
+    '#A6A7AB',
+    '#909296',
+    '#5c5f66',
+    '#373A40',
+    '#2C2E33',
+    '#25262b',
+    '#1A1B1E',
+    '#141517',
+    '#101113',
+  ],
 
   gray: [
     '#FCFCFD',
+    '#F9FAFB',
     '#F2F4F7',
     '#E4E7EC',
     '#D0D5DD',
@@ -216,6 +218,7 @@ export const DEFAULT_COLORS = {
 
   primary: [
     '#EEF1FF',
+    '#E4E7F5',
     '#BDC2E5',
     '#939DD4',
     '#6C7AC4',
@@ -229,6 +232,7 @@ export const DEFAULT_COLORS = {
 
   error: [
     '#FFFBFA',
+    '#FEF3F2',
     '#FEE4E2',
     '#FECDCA',
     '#FDA29B',
@@ -242,6 +246,7 @@ export const DEFAULT_COLORS = {
 
   warning: [
     '#FFFCF5',
+    '#FFFAEB',
     '#FEF0C7',
     '#FEDF89',
     '#FEC84B',
@@ -255,6 +260,7 @@ export const DEFAULT_COLORS = {
 
   success: [
     '#F6FEF9',
+    '#ECFDF3',
     '#D1FADF',
     '#A6F4C5',
     '#6CE9A6',
@@ -268,6 +274,7 @@ export const DEFAULT_COLORS = {
 
   blue_gray: [
     '#FCFCFD',
+    '#F8F9FC',
     '#EAECF5',
     '#C8CCE5',
     '#9EA5D1',
@@ -281,6 +288,7 @@ export const DEFAULT_COLORS = {
 
   blue_light: [
     '#F5FBFF',
+    '#F0F9FF',
     '#E0F2FE',
     '#B9E6FE',
     '#7CD4FD',
@@ -294,6 +302,7 @@ export const DEFAULT_COLORS = {
 
   blue: [
     '#F5FAFF',
+    '#EFF8FF',
     '#D1E9FF',
     '#B2DDFF',
     '#84CAFF',
@@ -307,6 +316,7 @@ export const DEFAULT_COLORS = {
 
   indigo: [
     '#F5F8FF',
+    '#EEF4FF',
     '#E0EAFF',
     '#C7D7FE',
     '#A4BCFD',
@@ -320,6 +330,7 @@ export const DEFAULT_COLORS = {
 
   purple: [
     '#FAFAFF',
+    '#F4F3FF',
     '#EBE9FE',
     '#D9D6FE',
     '#BDB4FE',
@@ -333,6 +344,7 @@ export const DEFAULT_COLORS = {
 
   pink: [
     '#FEF6FB',
+    '#FDF2FA',
     '#FCE7F6',
     '#FCCEEE',
     '#FAA7E0',
@@ -346,6 +358,7 @@ export const DEFAULT_COLORS = {
 
   rose: [
     '#FFF5F6',
+    '#FFF1F3',
     '#FFE4E8',
     '#FECDD6',
     '#FEA3B4',
@@ -359,6 +372,7 @@ export const DEFAULT_COLORS = {
 
   orange: [
     '#FFFAF5',
+    '#FFF6ED',
     '#FFEAD5',
     '#FDDCAB',
     '#FEB273',
@@ -369,4 +383,4 @@ export const DEFAULT_COLORS = {
     '#9c2a10',
     '#7e2410',
   ],
-} as Record<string, Tuple<string, 10>>;
+} as Record<string, Tuple<string, 11>>;

@@ -17,7 +17,7 @@ export interface HeadingStyle {
   lineHeight: CSSProperties['lineHeight'];
 }
 
-type Shade = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+type Shade = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 
 export interface MantinePrimaryShade {
   light: Shade;
