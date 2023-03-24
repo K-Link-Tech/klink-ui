@@ -12,7 +12,7 @@ function Demo() {
 
   return (
     <Button
-      color={clipboard.copied ? 'teal' : 'blue'}
+      color={clipboard.copied ? 'success' : 'blue'}
       onClick={() => clipboard.copy('Hello, world!')}
     >
       {clipboard.copied ? 'Copied' : 'Copy'}
@@ -26,7 +26,7 @@ function Demo() {
   return (
     <Group position="center">
       <Button
-        color={clipboard.copied ? 'teal' : 'blue'}
+        color={clipboard.copied ? 'success' : 'blue'}
         onClick={() => clipboard.copy('Hello, world!')}
       >
         {clipboard.copied ? 'Copied' : 'Copy'}

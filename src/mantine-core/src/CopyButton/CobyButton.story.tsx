@@ -8,7 +8,7 @@ export function Usage() {
   return (
     <CopyButton value="mantine.dev" timeout={100}>
       {({ copied, copy }) => (
-        <Button color={copied ? 'teal' : 'blue'} onClick={copy}>
+        <Button color={copied ? 'success' : 'blue'} onClick={copy}>
           {copied ? 'Copied to clipboard' : 'Copy to clipboard'}
         </Button>
       )}

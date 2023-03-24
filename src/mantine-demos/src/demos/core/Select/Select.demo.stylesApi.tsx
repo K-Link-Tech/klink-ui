@@ -18,8 +18,8 @@ function Demo() {
           '&[data-selected]': {
             '&, &:hover': {
               backgroundColor:
-                theme.colorScheme === 'dark' ? theme.colors.teal[9] : theme.colors.teal[1],
-              color: theme.colorScheme === 'dark' ? theme.white : theme.colors.teal[9],
+                theme.colorScheme === 'dark' ? theme.colors.success[9] : theme.colors.success[1],
+              color: theme.colorScheme === 'dark' ? theme.white : theme.colors.success[9],
             },
           },
 
@@ -48,8 +48,8 @@ function Demo() {
           '&[data-selected]': {
             '&, &:hover': {
               backgroundColor:
-                theme.colorScheme === 'dark' ? theme.colors.teal[9] : theme.colors.teal[1],
-              color: theme.colorScheme === 'dark' ? theme.white : theme.colors.teal[9],
+                theme.colorScheme === 'dark' ? theme.colors.success[9] : theme.colors.success[1],
+              color: theme.colorScheme === 'dark' ? theme.white : theme.colors.success[9],
             },
           },
 

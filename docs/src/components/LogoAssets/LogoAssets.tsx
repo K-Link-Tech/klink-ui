@@ -53,7 +53,7 @@ function LogoAsset({ image, code, fileName, imageWidth, background, ...others }:
         </Button>
         <Button
           variant={clipboard.copied ? 'filled' : 'default'}
-          color="teal"
+          color="success"
           onClick={() => clipboard.copy(code)}
         >
           {clipboard.copied ? 'Copied' : 'Copy svg code'}

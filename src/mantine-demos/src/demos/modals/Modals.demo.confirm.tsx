@@ -47,7 +47,7 @@ function Demo() {
         notifications.show({
           title: 'Confirmed',
           message: 'Confirm modal was confirmed',
-          color: 'teal',
+          color: 'success',
         }),
     });
 

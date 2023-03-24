@@ -51,7 +51,7 @@ export function Usage() {
         </Notification>
 
         <Notification
-          color="teal"
+          color="success"
           onClose={() => {}}
           mt="xl"
           title="Success notification with icon"

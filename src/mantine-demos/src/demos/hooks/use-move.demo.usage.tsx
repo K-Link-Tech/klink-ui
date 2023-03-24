@@ -33,7 +33,7 @@ function Demo() {
               top: \`calc(\${value.y * 100}% - \${rem(8)})\`,
               width: rem(16),
               height: rem(16),
-              backgroundColor: active ? theme.colors.teal[7] : theme.colors.blue[7],
+              backgroundColor: active ? theme.colors.success[7] : theme.colors.blue[7],
             }}
           />
         </div>
@@ -70,7 +70,7 @@ function Demo() {
               top: `calc(${value.y * 100}% - ${rem(8)})`,
               width: rem(16),
               height: rem(16),
-              backgroundColor: active ? theme.colors.teal[7] : theme.colors.blue[7],
+              backgroundColor: active ? theme.colors.success[7] : theme.colors.blue[7],
             }}
           />
         </div>

@@ -11,7 +11,7 @@ function Demo() {
   const colorScheme = useColorScheme();
 
   return (
-    <Badge color={colorScheme === 'dark' ? 'blue' : 'teal'} variant="filled">
+    <Badge color={colorScheme === 'dark' ? 'blue' : 'success'} variant="filled">
       Your system color scheme is {colorScheme}
     </Badge>
   );
@@ -22,7 +22,7 @@ function Demo() {
 
   return (
     <Group position="center">
-      <Badge color={colorScheme === 'dark' ? 'blue' : 'teal'} variant="filled">
+      <Badge color={colorScheme === 'dark' ? 'blue' : 'success'} variant="filled">
         Your system color scheme is {colorScheme}
       </Badge>
     </Group>

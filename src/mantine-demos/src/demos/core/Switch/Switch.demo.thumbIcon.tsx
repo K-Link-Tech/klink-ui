@@ -16,12 +16,12 @@ function Demo() {
       <Switch
         checked={checked}
         onChange={(event) => setChecked(event.currentTarget.checked)}
-        color="teal"
+        color="success"
         size="md"
         label="Switch with thumb icon"
         thumbIcon={
           checked ? (
-            <IconCheck size="0.8rem" color={theme.colors.teal[theme.fn.primaryShade()]} stroke={3} />
+            <IconCheck size="0.8rem" color={theme.colors.success[theme.fn.primaryShade()]} stroke={3} />
           ) : (
             <IconX size="0.8rem" color={theme.colors.error[theme.fn.primaryShade()]} stroke={3} />
           )
@@ -40,14 +40,14 @@ function Demo() {
       <Switch
         checked={checked}
         onChange={(event) => setChecked(event.currentTarget.checked)}
-        color="teal"
+        color="success"
         size="md"
         label="Switch with thumb icon"
         thumbIcon={
           checked ? (
             <IconCheck
               size="0.8rem"
-              color={theme.colors.teal[theme.fn.primaryShade()]}
+              color={theme.colors.success[theme.fn.primaryShade()]}
               stroke={3}
             />
           ) : (

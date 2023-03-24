@@ -17,7 +17,7 @@ export const dark = (theme: MantineTheme): PrismTheme => ({
     {
       types: ['string', 'inserted', 'selector', 'atrule'],
       style: {
-        color: theme.colors.teal[4],
+        color: theme.colors.success[4],
       },
     },
     {

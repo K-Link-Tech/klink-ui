@@ -28,7 +28,7 @@ function Demo() {
       </Accordion.Item>
 
       <Accordion.Item value="camera">
-        <Accordion.Control icon={<IconCameraSelfie size={rem(20)} color={getColor('teal')} />}>
+        <Accordion.Control icon={<IconCameraSelfie size={rem(20)} color={getColor('success')} />}>
           Camera settings
         </Accordion.Control>
         <Accordion.Panel>Content</Accordion.Panel>
@@ -59,7 +59,7 @@ export function IconsReplacementDemo(props: Partial<AccordionProps>) {
       </Accordion.Item>
 
       <Accordion.Item value="camera">
-        <Accordion.Control icon={<IconCameraSelfie size={rem(20)} color={getColor('teal')} />}>
+        <Accordion.Control icon={<IconCameraSelfie size={rem(20)} color={getColor('success')} />}>
           Camera settings
         </Accordion.Control>
         <Accordion.Panel>Content</Accordion.Panel>

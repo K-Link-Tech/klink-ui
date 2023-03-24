@@ -11,7 +11,7 @@ function Demo() {
       highlight={['this', 'that']}
       sx={(theme) => ({
         '& [data-highlight="this"]': { backgroundColor: theme.colors.rose[4] },
-        '& [data-highlight="that"]': { backgroundColor: theme.colors.teal[4] },
+        '& [data-highlight="that"]': { backgroundColor: theme.colors.success[4] },
       })}
     >
       Highlight this, that, also this and also that
@@ -26,7 +26,7 @@ function Demo() {
       highlight={['this', 'that']}
       sx={(theme) => ({
         '& [data-highlight="this"]': { backgroundColor: theme.colors.rose[4] },
-        '& [data-highlight="that"]': { backgroundColor: theme.colors.teal[4] },
+        '& [data-highlight="that"]': { backgroundColor: theme.colors.success[4] },
       })}
     >
       Highlight this, that, also this and also that

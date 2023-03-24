@@ -25,7 +25,7 @@ function Demo() {
                   backgroundImage: theme.fn.linearGradient(
                     45,
                     theme.colors.blue_light[theme.fn.primaryShade()],
-                    theme.colors.teal[theme.fn.primaryShade()],
+                    theme.colors.success[theme.fn.primaryShade()],
                     theme.colors.success[theme.fn.primaryShade()]
                   ),
                   color: theme.white,
@@ -66,7 +66,7 @@ function Demo() {
                   backgroundImage: theme.fn.linearGradient(
                     45,
                     theme.colors.blue_light[theme.fn.primaryShade()],
-                    theme.colors.teal[theme.fn.primaryShade()],
+                    theme.colors.success[theme.fn.primaryShade()],
                     theme.colors.success[theme.fn.primaryShade()]
                   ),
                   color: theme.white,

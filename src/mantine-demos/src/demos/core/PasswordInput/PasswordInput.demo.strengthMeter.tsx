@@ -11,7 +11,7 @@ import { PasswordInput, Progress, Text, Popover, Box } from '@mantine/core';
 function PasswordRequirement({ meets, label }: { meets: boolean; label: string }) {
   return (
     <Text
-      color={meets ? 'teal' : 'red'}
+      color={meets ? 'success' : 'red'}
       sx={{ display: 'flex', alignItems: 'center' }}
       mt={7}
       size="sm"
@@ -48,7 +48,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'teal' : strength > 50 ? 'yellow' : 'red';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'red';
 
   return (
     <Box maw={340} mx="auto">
@@ -81,7 +81,7 @@ function Demo() {
 function PasswordRequirement({ meets, label }: { meets: boolean; label: string }) {
   return (
     <Text
-      color={meets ? 'teal' : 'red'}
+      color={meets ? 'success' : 'red'}
       sx={{ display: 'flex', alignItems: 'center' }}
       mt={7}
       size="sm"
@@ -118,7 +118,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'teal' : strength > 50 ? 'yellow' : 'red';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'red';
 
   return (
     <Box maw={340} mx="auto">

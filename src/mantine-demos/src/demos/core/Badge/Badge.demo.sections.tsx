@@ -35,10 +35,10 @@ const removeButton = (
 function Demo() {
   return (
     <Group>
-      <Badge pl={0} size="lg" color="teal" radius="xl" leftSection={avatar}>
+      <Badge pl={0} size="lg" color="success" radius="xl" leftSection={avatar}>
         Badge with Avatar
       </Badge>
-      <Badge size="lg" pl={3} color="teal" radius="xl" leftSection={fullAvatar}>
+      <Badge size="lg" pl={3} color="success" radius="xl" leftSection={fullAvatar}>
         Badge with full Avatar
       </Badge>
       <Badge variant="outline" pr={3} rightSection={removeButton}>
@@ -80,10 +80,10 @@ const removeButton = (
 function Demo() {
   return (
     <Group>
-      <Badge pl={0} size="lg" color="teal" radius="xl" leftSection={avatar}>
+      <Badge pl={0} size="lg" color="success" radius="xl" leftSection={avatar}>
         Badge with Avatar
       </Badge>
-      <Badge size="lg" pl={3} color="teal" radius="xl" leftSection={fullAvatar}>
+      <Badge size="lg" pl={3} color="success" radius="xl" leftSection={fullAvatar}>
         Badge with full Avatar
       </Badge>
       <Badge variant="outline" pr={3} rightSection={removeButton}>

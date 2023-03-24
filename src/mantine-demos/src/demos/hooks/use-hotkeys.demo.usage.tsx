@@ -13,7 +13,7 @@ import { TextInput } from '@mantine/core';
 function Demo() {
   const [value, setValue] = useState("I've just used a hotkey to send a message");
   const handleSubmit = () => notifications.show({ title: 'Your message', message: value });
-  const handleSave = () => notifications.show({ title: 'You saved', color: 'teal', message: value });
+  const handleSave = () => notifications.show({ title: 'You saved', color: 'success', message: value });
 
   return (
     <TextInput
@@ -43,7 +43,7 @@ function Demo() {
   const [value, setValue] = useState("I've just used a hotkey to send a message");
   const handleSubmit = () => notifications.show({ title: 'Your message', message: value });
   const handleSave = () =>
-    notifications.show({ title: 'You saved', color: 'teal', message: value });
+    notifications.show({ title: 'You saved', color: 'success', message: value });
 
   return (
     <TextInput

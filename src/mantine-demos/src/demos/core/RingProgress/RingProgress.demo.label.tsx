@@ -20,10 +20,10 @@ function Demo() {
       />
 
       <RingProgress
-        sections={[{ value: 100, color: 'teal' }]}
+        sections={[{ value: 100, color: 'success' }]}
         label={
           <Center>
-            <ThemeIcon color="teal" variant="light" radius="xl" size="xl">
+            <ThemeIcon color="success" variant="light" radius="xl" size="xl">
               <IconCheck size={22} />
             </ThemeIcon>
           </Center>
@@ -47,10 +47,10 @@ function Demo() {
       />
 
       <RingProgress
-        sections={[{ value: 100, color: 'teal' }]}
+        sections={[{ value: 100, color: 'success' }]}
         label={
           <Center>
-            <ThemeIcon color="teal" variant="light" radius="xl" size="xl">
+            <ThemeIcon color="success" variant="light" radius="xl" size="xl">
               <IconCheck size={22} />
             </ThemeIcon>
           </Center>

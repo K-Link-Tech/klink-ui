@@ -7,7 +7,7 @@ import { MantineProvider, Center, Group } from '@mantine/core';
 
 function Demo() {
   return (
-    <MantineProvider inherit theme={{ defaultGradient: { from: 'blue', to: 'teal', deg: 20 } }}>
+    <MantineProvider inherit theme={{ defaultGradient: { from: 'blue', to: 'success', deg: 20 } }}>
       <Group position="center" grow>
         <Center
           sx={(theme) => ({
@@ -36,7 +36,7 @@ function Demo() {
 
 function Demo() {
   return (
-    <MantineProvider inherit theme={{ defaultGradient: { from: 'blue', to: 'teal', deg: 20 } }}>
+    <MantineProvider inherit theme={{ defaultGradient: { from: 'blue', to: 'success', deg: 20 } }}>
       <Group position="center" grow>
         <Center
           sx={(theme) => ({

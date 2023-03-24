@@ -13,10 +13,10 @@ function Demo() {
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'red' }}>
@@ -36,10 +36,10 @@ function Demo() {
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'red' }}>

@@ -10,8 +10,8 @@ function Demo() {
   return (
     <>
       <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}><IconSun size={18} /></ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}><IconSun size={18} /></ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}><IconSun size={18} /></ActionIcon>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}><IconSun size={18} /></ActionIcon>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}><IconSun size={18} /></ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: 'orange', to: 'red' }}><IconSun size={18} /></ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}><IconSun size={18} /></ActionIcon>
     </>
@@ -25,10 +25,10 @@ function Demo() {
       <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
         <IconSun size={rem(18)} />
       </ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'teal', to: 'lime', deg: 105 }}>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
         <IconSun size={rem(18)} />
       </ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'teal', to: 'blue', deg: 60 }}>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
         <IconSun size={rem(18)} />
       </ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: 'orange', to: 'red' }}>

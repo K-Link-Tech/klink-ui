@@ -7,7 +7,7 @@ import { Tabs } from '@mantine/core';
 
 function Demo() {
   return (
-    <Tabs color="teal" defaultValue="first">
+    <Tabs color="success" defaultValue="first">
       <Tabs.List>
         <Tabs.Tab value="first">Teal tab</Tabs.Tab>
         <Tabs.Tab value="second" color="blue">
@@ -16,7 +16,7 @@ function Demo() {
       </Tabs.List>
 
       <Tabs.Panel value="first" pt="xs">
-        First tab color is teal, it gets this value from context
+        First tab color is success, it gets this value from context
       </Tabs.Panel>
 
       <Tabs.Panel value="second" pt="xs">
@@ -30,7 +30,7 @@ function Demo() {
 
 function Demo() {
   return (
-    <Tabs color="teal" defaultValue="first">
+    <Tabs color="success" defaultValue="first">
       <Tabs.List>
         <Tabs.Tab value="first">Teal tab</Tabs.Tab>
         <Tabs.Tab value="second" color="blue">
@@ -39,7 +39,7 @@ function Demo() {
       </Tabs.List>
 
       <Tabs.Panel value="first" pt="xs">
-        First tab color is teal, it gets this value from context
+        First tab color is success, it gets this value from context
       </Tabs.Panel>
 
       <Tabs.Panel value="second" pt="xs">

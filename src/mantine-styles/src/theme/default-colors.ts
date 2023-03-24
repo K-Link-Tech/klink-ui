@@ -118,7 +118,7 @@ import type { Tuple } from './types';
 //     '#0b7285',
 //   ],
 
-//   teal: [
+//   success: [
 //     '#e6fcf5',
 //     '#c3fae8',
 //     '#96f2d7',

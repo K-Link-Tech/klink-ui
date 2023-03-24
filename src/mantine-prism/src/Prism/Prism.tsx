@@ -119,7 +119,7 @@ export const Prism = forwardRef<HTMLDivElement, PrismProps>((props: PrismProps, 
           withArrow
           arrowSize={6}
           offset={6}
-          color={clipboard.copied ? 'teal' : undefined}
+          color={clipboard.copied ? 'success' : undefined}
           unstyled={unstyled}
         >
           <ActionIcon

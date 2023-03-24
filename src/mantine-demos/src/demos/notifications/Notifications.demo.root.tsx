@@ -21,10 +21,10 @@ function Demo() {
 
       <Button
         variant="outline"
-        color="teal"
+        color="success"
         onClick={() =>
           notifications.show({
-            color: 'teal',
+            color: 'success',
             title: 'You did great',
             message: 'Data was saved',
             icon: <IconCheck size="1rem" />,
@@ -95,7 +95,7 @@ function Demo() {
           setTimeout(() => {
             notifications.update({
               id: 'data-loading',
-              color: 'teal',
+              color: 'success',
               title: 'Data was loaded',
               message: 'Notification will close in 3 seconds, you can close this notification now',
               icon: <IconCheck size="1rem" />,

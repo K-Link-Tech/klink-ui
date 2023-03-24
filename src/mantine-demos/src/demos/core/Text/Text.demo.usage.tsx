@@ -20,7 +20,7 @@ function Demo() {
       <Text td="line-through">Strikethrough</Text>
       <Text c="dimmed">Dimmed text</Text>
       <Text c="blue">Blue text</Text>
-      <Text c="teal.4">Teal 4 text</Text>
+      <Text c="success.4">Teal 4 text</Text>
       <Text tt="uppercase">Uppercase</Text>
       <Text tt="capitalize">capitalized text</Text>
       <Text ta="center">Aligned to center</Text>
@@ -45,7 +45,7 @@ function Demo() {
       <Text td="line-through">Strikethrough</Text>
       <Text c="dimmed">Dimmed text</Text>
       <Text c="blue">Blue text</Text>
-      <Text c="teal.4">Teal 4 text</Text>
+      <Text c="success.4">Teal 4 text</Text>
       <Text tt="uppercase">Uppercase</Text>
       <Text tt="capitalize">capitalized text</Text>
       <Text ta="center">Aligned to center</Text>

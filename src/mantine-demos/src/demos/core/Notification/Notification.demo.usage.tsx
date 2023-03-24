@@ -15,8 +15,8 @@ function Demo() {
         This is default notification with title and body
       </Notification>
 
-      <Notification icon={<IconCheck size="1.1rem" />} color="teal" title="Teal notification">
-        This is teal notification with icon
+      <Notification icon={<IconCheck size="1.1rem" />} color="success" title="Teal notification">
+        This is success notification with icon
       </Notification>
 
       <Notification icon={<IconX size="1.1rem" />} color="red">
@@ -45,11 +45,11 @@ function Demo() {
       <Notification
         mt="md"
         icon={<IconCheck size="1.1rem" />}
-        color="teal"
+        color="success"
         title="Teal notification"
         onClose={() => {}}
       >
-        This is teal notification with icon
+        This is success notification with icon
       </Notification>
 
       <Notification mt="md" icon={<IconX size="1.1rem" />} color="red" onClose={() => {}}>

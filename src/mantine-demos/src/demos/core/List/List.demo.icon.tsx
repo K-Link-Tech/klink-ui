@@ -14,7 +14,7 @@ function Demo() {
       size="sm"
       center
       icon={
-        <ThemeIcon color="teal" size={24} radius="xl">
+        <ThemeIcon color="success" size={24} radius="xl">
           <IconCircleCheck size="1rem" />
         </ThemeIcon>
       }
@@ -46,7 +46,7 @@ function Demo() {
       size="sm"
       center
       icon={
-        <ThemeIcon color="teal" size={24} radius="xl">
+        <ThemeIcon color="success" size={24} radius="xl">
           <IconCircleCheck size="1rem" />
         </ThemeIcon>
       }

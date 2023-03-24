@@ -26,7 +26,7 @@ export function HeaderCode({ code, icon, language }: ImportStatementProps) {
         withArrow
         arrowSize={6}
         offset={10}
-        color={clipboard.copied ? 'teal' : undefined}
+        color={clipboard.copied ? 'success' : undefined}
         sx={{ flex: 1 }}
         disabled={mobile}
       >
