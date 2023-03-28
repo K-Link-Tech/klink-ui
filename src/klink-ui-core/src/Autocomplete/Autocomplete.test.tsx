@@ -24,8 +24,8 @@ const largeDataSet: AutocompleteProps['data'] = Array(50)
 
 const queries = {
   getDropdown: (container: HTMLElement) =>
-    container.querySelector('.mantine-Autocomplete-dropdown'),
-  getItems: (container: HTMLElement) => container.querySelectorAll('.mantine-Autocomplete-item'),
+    container.querySelector('.klink-ui-Autocomplete-dropdown'),
+  getItems: (container: HTMLElement) => container.querySelectorAll('.klink-ui-Autocomplete-item'),
 };
 
 describe('@klink-ui/core/Autocomplete', () => {
@@ -33,13 +33,13 @@ describe('@klink-ui/core/Autocomplete', () => {
   itSupportsInputProps(Autocomplete, defaultProps, 'Autocomplete');
   itSupportsProviderVariant(Autocomplete, defaultProps, 'Autocomplete', ['root', 'input', 'label']);
   itSupportsProviderSize(Autocomplete, defaultProps, 'Autocomplete', ['root', 'input', 'label']);
-  itSupportsFocusEvents(Autocomplete, defaultProps, '.mantine-Autocomplete-input');
+  itSupportsFocusEvents(Autocomplete, defaultProps, '.klink-ui-Autocomplete-input');
   itSupportsSystemProps({
     component: Autocomplete,
     props: defaultProps,
     displayName: '@klink-ui/core/Autocomplete',
     refType: HTMLInputElement,
-    othersSelector: '.mantine-Autocomplete-input',
+    othersSelector: '.klink-ui-Autocomplete-input',
     providerName: 'Autocomplete',
   });
 

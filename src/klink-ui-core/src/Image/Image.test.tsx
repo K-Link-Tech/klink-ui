@@ -47,15 +47,15 @@ describe('@klink-ui/core/Image', () => {
   it('renders placeholder based on withPlaceholder prop', () => {
     const { container: withPlaceholder } = render(<Image src={null} withPlaceholder />);
     const { container: withoutPlaceholder } = render(<Image src={null} withPlaceholder={false} />);
-    expect(withPlaceholder.querySelectorAll('.mantine-Image-placeholder')).toHaveLength(1);
-    expect(withoutPlaceholder.querySelectorAll('.mantine-Image-placeholder')).toHaveLength(0);
+    expect(withPlaceholder.querySelectorAll('.klink-ui-Image-placeholder')).toHaveLength(1);
+    expect(withoutPlaceholder.querySelectorAll('.klink-ui-Image-placeholder')).toHaveLength(0);
   });
 
   it('renders a placeholder after having src updated to null', () => {
     const { rerender, container } = render(<Image src="test-src" withPlaceholder />);
-    expect(container.querySelectorAll('.mantine-Image-placeholder')).toHaveLength(0);
+    expect(container.querySelectorAll('.klink-ui-Image-placeholder')).toHaveLength(0);
     rerender(<Image src={null} withPlaceholder />);
-    expect(container.querySelectorAll('.mantine-Image-placeholder')).toHaveLength(1);
+    expect(container.querySelectorAll('.klink-ui-Image-placeholder')).toHaveLength(1);
   });
 
   it('renders given caption', () => {

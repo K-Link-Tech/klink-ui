@@ -8,11 +8,11 @@ import { Slider } from '@klink-ui/core';
 import styled from '@emotion/styled';
 
 const StyledSlider = styled(Slider)\`
-  & .mantine-Slider-bar {
+  & .klink-ui-Slider-bar {
     background-color: pink;
   }
 
-  & .mantine-Slider-thumb {
+  & .klink-ui-Slider-thumb {
     border-color: pink;
     background-color: white;
     width: ${rem(24)};
@@ -26,11 +26,11 @@ function Demo() {
 `;
 
 const StyledSlider = styled(Slider)`
-  & .mantine-Slider-bar {
+  & .klink-ui-Slider-bar {
     background-color: pink;
   }
 
-  & .mantine-Slider-thumb {
+  & .klink-ui-Slider-thumb {
     border-color: pink;
     background-color: white;
     width: ${rem(24)};

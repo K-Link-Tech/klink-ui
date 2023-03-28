@@ -7749,7 +7749,7 @@ eslint-config-airbnb@19.0.4:
 
 eslint-config-mantine@2.0.0:
   version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-mantine/-/eslint-config-mantine-2.0.0.tgz#feabc3b6383754a82b8e675df2150139149f4c2c"
+  resolved "https://registry.yarnpkg.com/eslint-config-mantine/-/eslint-config-klink-ui-2.0.0.tgz#feabc3b6383754a82b8e675df2150139149f4c2c"
   integrity sha512-uDADuiJLKmhH6tjaEOfhA9o7GRuTnL3DBiox6muOV7hmnV8ESJotfzovUsiknwBSTMqzLTIvo52Cvs213DFiwg==
 
 eslint-import-resolver-node@^0.3.7:

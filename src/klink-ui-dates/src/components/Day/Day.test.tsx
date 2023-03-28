@@ -62,12 +62,12 @@ describe('@klink-ui/dates/Day', () => {
 
   it('has correct default __staticSelector', () => {
     render(<Day {...defaultProps} />);
-    expect(screen.getByRole('button')).toHaveClass('mantine-Day-day');
+    expect(screen.getByRole('button')).toHaveClass('klink-ui-Day-day');
   });
 
   it('supports __staticSelector', () => {
     render(<Day {...defaultProps} __staticSelector="Month" />);
-    expect(screen.getByRole('button')).toHaveClass('mantine-Day-day', 'mantine-Month-day');
+    expect(screen.getByRole('button')).toHaveClass('klink-ui-Day-day', 'klink-ui-Month-day');
   });
 
   it('supports styles api (styles)', () => {

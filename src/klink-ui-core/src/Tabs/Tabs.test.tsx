@@ -253,7 +253,7 @@ describe('@klink-ui/core/Tabs', () => {
     const { container } = render(
       <Tabs {...defaultProps} keepMounted={false} defaultValue="tab-1" />
     );
-    expect(container.querySelectorAll('.mantine-Tabs-panel')[1].textContent).toBe('');
+    expect(container.querySelectorAll('.klink-ui-Tabs-panel')[1].textContent).toBe('');
   });
 
   it('exposes TabsList, Tab and TabsPanel component with as static properties', () => {

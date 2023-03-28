@@ -26,11 +26,11 @@ describe('@klink-ui/dates/MonthPickerInput', () => {
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'MonthPickerInput',
-    othersSelector: '.mantine-MonthPickerInput-input',
+    othersSelector: '.klink-ui-MonthPickerInput-input',
     displayName: '@klink-ui/dates/MonthPickerInput',
   });
 
-  itSupportsFocusEvents(MonthPickerInput, defaultProps, '.mantine-MonthPickerInput-input');
+  itSupportsFocusEvents(MonthPickerInput, defaultProps, '.klink-ui-MonthPickerInput-input');
   itSupportsProviderVariant(MonthPickerInput, defaultProps, 'MonthPickerInput', ['root', 'input']);
   itSupportsProviderSize(MonthPickerInput, defaultProps, 'MonthPickerInput', ['root', 'input']);
   itSupportsDateInputProps(MonthPickerInput, defaultProps);
@@ -84,13 +84,13 @@ describe('@klink-ui/dates/MonthPickerInput', () => {
         popoverProps={{ opened: true, withinPortal: false, transitionProps: { duration: 0 } }}
       />
     );
-    expect(container.firstChild).toHaveClass('mantine-MonthPickerInput-root');
+    expect(container.firstChild).toHaveClass('klink-ui-MonthPickerInput-root');
     expect(container.querySelector('[data-dates-input]')).toHaveClass(
-      'mantine-MonthPickerInput-input'
+      'klink-ui-MonthPickerInput-input'
     );
 
     expect(container.querySelector('table button')).toHaveClass(
-      'mantine-MonthPickerInput-pickerControl'
+      'klink-ui-MonthPickerInput-pickerControl'
     );
   });
 

@@ -10,6 +10,6 @@ export function itSupportsInputAsterisk<P>(
     const { container } = render(
       <Component {...requiredProps} required={false} withAsterisk label="test-label" />
     );
-    expect(container.querySelector(`.mantine-${name}-required`)).toBeInTheDocument();
+    expect(container.querySelector(`.klink-ui-${name}-required`)).toBeInTheDocument();
   });
 }

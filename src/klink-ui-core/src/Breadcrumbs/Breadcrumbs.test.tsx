@@ -28,8 +28,8 @@ describe('@klink-ui/core/Breadcrumbs', () => {
 
   it('renders correct amount of children and separators', () => {
     const { container } = render(<Breadcrumbs {...defaultProps} />);
-    expect(container.querySelectorAll('.mantine-Breadcrumbs-breadcrumb')).toHaveLength(3);
-    expect(container.querySelectorAll('.mantine-Breadcrumbs-separator')).toHaveLength(2);
+    expect(container.querySelectorAll('.klink-ui-Breadcrumbs-breadcrumb')).toHaveLength(3);
+    expect(container.querySelectorAll('.klink-ui-Breadcrumbs-separator')).toHaveLength(2);
   });
 
   it('accepts separator from props', () => {

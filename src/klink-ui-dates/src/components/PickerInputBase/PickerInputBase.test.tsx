@@ -50,8 +50,8 @@ describe('@klink-ui/dates/PickerInputBase', () => {
     const { container } = render(
       <PickerInputBase {...defaultProps} __staticSelector="TestStaticSelector" />
     );
-    expect(container.firstChild).toHaveClass('mantine-TestStaticSelector-root');
-    expect(screen.getByText('test-value')).toHaveClass('mantine-TestStaticSelector-input');
+    expect(container.firstChild).toHaveClass('klink-ui-TestStaticSelector-root');
+    expect(screen.getByText('test-value')).toHaveClass('klink-ui-TestStaticSelector-input');
   });
 
   it('changes between Popover and Modal based on dropdownType prop', () => {
@@ -59,13 +59,13 @@ describe('@klink-ui/dates/PickerInputBase', () => {
       <PickerInputBase {...defaultProps} dropdownOpened dropdownType="popover" />
     );
 
-    expect(container.querySelector('.mantine-Popover-dropdown')).toBeInTheDocument();
-    expect(container.querySelector('.mantine-Modal-content')).not.toBeInTheDocument();
+    expect(container.querySelector('.klink-ui-Popover-dropdown')).toBeInTheDocument();
+    expect(container.querySelector('.klink-ui-Modal-content')).not.toBeInTheDocument();
     expect(screen.getByText('test-children')).toBeInTheDocument();
 
     rerender(<PickerInputBase {...defaultProps} dropdownOpened dropdownType="modal" />);
-    expect(container.querySelector('.mantine-Popover-dropdown')).not.toBeInTheDocument();
-    expect(container.querySelector('.mantine-Modal-content')).toBeInTheDocument();
+    expect(container.querySelector('.klink-ui-Popover-dropdown')).not.toBeInTheDocument();
+    expect(container.querySelector('.klink-ui-Modal-content')).toBeInTheDocument();
     expect(screen.getByText('test-children')).toBeInTheDocument();
   });
 

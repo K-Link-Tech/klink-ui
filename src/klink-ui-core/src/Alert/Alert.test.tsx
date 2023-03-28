@@ -34,8 +34,8 @@ describe('@klink-ui/core/Alert', () => {
       <Alert {...defaultProps} withCloseButton={false} />
     );
 
-    expect(withCloseButton.querySelector('.mantine-Alert-closeButton')).toBeInTheDocument();
-    expect(withoutCloseButton.querySelectorAll('.mantine-Alert-closeButton')).toHaveLength(0);
+    expect(withCloseButton.querySelector('.klink-ui-Alert-closeButton')).toBeInTheDocument();
+    expect(withoutCloseButton.querySelectorAll('.klink-ui-Alert-closeButton')).toHaveLength(0);
   });
 
   it('calls onClose when CloseButton is clicked', async () => {
@@ -57,7 +57,7 @@ describe('@klink-ui/core/Alert', () => {
 
   it('does not render title if title prop was not passed', () => {
     const { container } = render(<Alert>test-alert</Alert>);
-    expect(container.querySelectorAll('.mantine-Alert-title')).toHaveLength(0);
+    expect(container.querySelectorAll('.klink-ui-Alert-title')).toHaveLength(0);
   });
 
   it('renders with the alert role', () => {

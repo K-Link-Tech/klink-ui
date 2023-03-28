@@ -11,7 +11,7 @@ export type SpotlightEvents = {
 };
 
 export const [useSpotlightEvents, createEvent] =
-  createUseExternalEvents<SpotlightEvents>('mantine-spotlight');
+  createUseExternalEvents<SpotlightEvents>('klink-ui-spotlight');
 
 export const openSpotlight = createEvent('open');
 export const closeSpotlight = createEvent('close');

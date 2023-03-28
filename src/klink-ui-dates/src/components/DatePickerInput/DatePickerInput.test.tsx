@@ -26,11 +26,11 @@ describe('@klink-ui/dates/DatePickerInput', () => {
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'DatePickerInput',
-    othersSelector: '.mantine-DatePickerInput-input',
+    othersSelector: '.klink-ui-DatePickerInput-input',
     displayName: '@klink-ui/dates/DatePickerInput',
   });
 
-  itSupportsFocusEvents(DatePickerInput, defaultProps, '.mantine-DatePickerInput-input');
+  itSupportsFocusEvents(DatePickerInput, defaultProps, '.klink-ui-DatePickerInput-input');
   itSupportsProviderVariant(DatePickerInput, defaultProps, 'DatePickerInput', ['root', 'input']);
   itSupportsProviderSize(DatePickerInput, defaultProps, 'DatePickerInput', ['root', 'input']);
   itSupportsDateInputProps(DatePickerInput, defaultProps);
@@ -85,12 +85,12 @@ describe('@klink-ui/dates/DatePickerInput', () => {
         popoverProps={{ opened: true, withinPortal: false, transitionProps: { duration: 0 } }}
       />
     );
-    expect(container.firstChild).toHaveClass('mantine-DatePickerInput-root');
+    expect(container.firstChild).toHaveClass('klink-ui-DatePickerInput-root');
     expect(container.querySelector('[data-dates-input]')).toHaveClass(
-      'mantine-DatePickerInput-input'
+      'klink-ui-DatePickerInput-input'
     );
 
-    expect(container.querySelector('table button')).toHaveClass('mantine-DatePickerInput-day');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-DatePickerInput-day');
   });
 
   it('supports styles api (classNames)', () => {

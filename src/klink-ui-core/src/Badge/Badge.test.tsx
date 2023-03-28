@@ -29,7 +29,7 @@ describe('@klink-ui/core/Badge', () => {
         test
       </Badge>
     );
-    expect(container.querySelector('.mantine-Badge-rightSection').textContent).toBe('test-right');
-    expect(container.querySelector('.mantine-Badge-leftSection').textContent).toBe('test-left');
+    expect(container.querySelector('.klink-ui-Badge-rightSection').textContent).toBe('test-right');
+    expect(container.querySelector('.klink-ui-Badge-leftSection').textContent).toBe('test-left');
   });
 });

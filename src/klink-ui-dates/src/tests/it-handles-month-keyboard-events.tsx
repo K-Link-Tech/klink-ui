@@ -32,7 +32,7 @@ export function itHandlesMonthKeyboardEvents(
 
   it('handles month arrow keyboard events correctly (numberOfColumns=2)', async () => {
     const { container } = render(<Component {...requiredProps} numberOfColumns={2} />);
-    const months = container.querySelectorAll('.mantine-Month-month');
+    const months = container.querySelectorAll('.klink-ui-Month-month');
     const firstMonthDays = months[0].querySelectorAll('button');
     const secondMonthDays = months[1].querySelectorAll('button');
 

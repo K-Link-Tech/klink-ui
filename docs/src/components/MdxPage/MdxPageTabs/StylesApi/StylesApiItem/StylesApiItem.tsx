@@ -1,5 +1,6 @@
 import React from 'react';
 import { Table, Title } from '@klink-ui/core';
+// import { Table, Title } from '@klink-ui/klink-ui-core';
 import * as STYLES_API from '@klink-ui/styles-api';
 import useStyles from './StylesApiItem.styles';
 
@@ -19,7 +20,7 @@ export function StylesApiItem({ component }: StylesApiItemProps) {
   const rows = CLASS_NAMES.map((name) => (
     <tr key={name}>
       <td>{name}</td>
-      <td>{`.mantine-${component}-${name}`}</td>
+      <td>{`.klink-ui-${component}-${name}`}</td>
       <td>{COMPONENT_STYLES[name]}</td>
     </tr>
   ));

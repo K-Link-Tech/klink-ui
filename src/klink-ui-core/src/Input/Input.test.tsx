@@ -20,7 +20,7 @@ import { Input, InputProps } from './Input';
 const defaultProps: InputProps = {};
 
 describe('@klink-ui/core/Input', () => {
-  itIsPolymorphic(Input, defaultProps, '.mantine-Input-input');
+  itIsPolymorphic(Input, defaultProps, '.klink-ui-Input-input');
   itSupportsWrapperProps(Input, defaultProps);
   itSupportsInputIcon(Input, defaultProps);
   itSupportsInputRightSection(Input, defaultProps);

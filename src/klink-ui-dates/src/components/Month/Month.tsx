@@ -178,7 +178,7 @@ export const Month = forwardRef<HTMLTableElement, MonthProps>((props, ref) => {
         >
           <Day
             {...stylesApiProps}
-            data-mantine-stop-propagation={__stopPropagation || undefined}
+            data-klink-ui-stop-propagation={__stopPropagation || undefined}
             renderDay={renderDay}
             date={date}
             weekend={ctx.getWeekendDays(weekendDays).includes(date.getDay() as DayOfWeek)}

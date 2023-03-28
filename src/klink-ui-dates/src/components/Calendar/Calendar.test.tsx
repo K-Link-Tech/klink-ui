@@ -63,11 +63,11 @@ describe('@klink-ui/dates/Calendar', () => {
   itSupportsProviderSize(Calendar, defaultProps, 'Calendar', 'calendar');
   itSupportsMonthProps(Calendar, defaultProps);
   itHandlesMonthKeyboardEvents(Calendar, defaultProps);
-  itHandlesControlsKeyboardEvents(Calendar, 'year', '.mantine-MonthsList-monthsList', {
+  itHandlesControlsKeyboardEvents(Calendar, 'year', '.klink-ui-MonthsList-monthsList', {
     ...defaultProps,
     level: 'year',
   });
-  itHandlesControlsKeyboardEvents(Calendar, 'decade', '.mantine-YearsList-yearsList', {
+  itHandlesControlsKeyboardEvents(Calendar, 'decade', '.klink-ui-YearsList-yearsList', {
     ...defaultProps,
     level: 'decade',
   });

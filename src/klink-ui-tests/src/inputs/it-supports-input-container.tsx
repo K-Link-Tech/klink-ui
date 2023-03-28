@@ -21,7 +21,7 @@ export function itSupportsInputContainer<P>(
 
     expect(container.querySelector('.test-input-container')).toBeInTheDocument();
     expect(
-      container.querySelector(`.test-input-container .mantine-${name}-input`)
+      container.querySelector(`.test-input-container .klink-ui-${name}-input`)
     ).toBeInTheDocument();
   });
 }

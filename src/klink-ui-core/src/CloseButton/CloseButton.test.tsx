@@ -16,7 +16,7 @@ const defaultProps: CloseButtonProps = {};
 
 describe('@klink-ui/core/CloseButton', () => {
   checkAccessibility([<CloseButton aria-label="test" />, <CloseButton title="test" />]);
-  itSupportsFocusEvents(CloseButton, defaultProps, '.mantine-CloseButton-root');
+  itSupportsFocusEvents(CloseButton, defaultProps, '.klink-ui-CloseButton-root');
   itIsPolymorphic(CloseButton, defaultProps);
   itRendersChildren(CloseButton, defaultProps);
   itSupportsProviderSize(CloseButton, defaultProps, 'CloseButton');

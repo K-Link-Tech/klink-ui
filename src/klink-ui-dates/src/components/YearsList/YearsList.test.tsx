@@ -38,14 +38,14 @@ describe('@klink-ui/dates/YearsList', () => {
 
   it('has correct default __staticSelector', () => {
     render(<YearsList {...defaultProps} />);
-    expect(screen.getByRole('table')).toHaveClass('mantine-YearsList-yearsList');
-    expect(screen.getAllByRole('button')[0]).toHaveClass('mantine-YearsList-pickerControl');
+    expect(screen.getByRole('table')).toHaveClass('klink-ui-YearsList-yearsList');
+    expect(screen.getAllByRole('button')[0]).toHaveClass('klink-ui-YearsList-pickerControl');
   });
 
   it('supports custom __staticSelector', () => {
     render(<YearsList {...defaultProps} __staticSelector="Calendar" />);
-    expect(screen.getByRole('table')).toHaveClass('mantine-Calendar-yearsList');
-    expect(screen.getAllByRole('button')[0]).toHaveClass('mantine-Calendar-pickerControl');
+    expect(screen.getByRole('table')).toHaveClass('klink-ui-Calendar-yearsList');
+    expect(screen.getAllByRole('button')[0]).toHaveClass('klink-ui-Calendar-pickerControl');
   });
 
   it('supports styles api (styles)', () => {

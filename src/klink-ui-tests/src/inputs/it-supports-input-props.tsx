@@ -33,9 +33,9 @@ export function itSupportsInputProps<P>(
 
     expect(invalid.querySelector('#invalid-test-id')).toHaveAttribute('aria-invalid', 'true');
     expect(withError.querySelector('#error-test-id')).toHaveAttribute('aria-invalid', 'true');
-    expect(invalid.querySelectorAll(`.mantine-${name}-error`)).toHaveLength(0);
-    expect(withError.querySelector(`.mantine-${name}-error`)).toBeInTheDocument();
-    expect(withError.querySelector(`.mantine-${name}-error`).textContent).toBe('Test error');
+    expect(invalid.querySelectorAll(`.klink-ui-${name}-error`)).toHaveLength(0);
+    expect(withError.querySelector(`.klink-ui-${name}-error`)).toBeInTheDocument();
+    expect(withError.querySelector(`.klink-ui-${name}-error`).textContent).toBe('Test error');
   });
 
   it('sets border-radius on input', () => {

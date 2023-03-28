@@ -146,12 +146,12 @@ describe('@klink-ui/core/Popover', () => {
 
   it('correctly handles withArrow={true}', () => {
     const { container } = render(<TestContainer defaultOpened withArrow />);
-    expect(container.querySelectorAll('.mantine-Popover-arrow')).toHaveLength(1);
+    expect(container.querySelectorAll('.klink-ui-Popover-arrow')).toHaveLength(1);
   });
 
   it('correctly handles withArrow={false}', () => {
     const { container } = render(<TestContainer defaultOpened withArrow={false} />);
-    expect(container.querySelectorAll('.mantine-Popover-arrow')).toHaveLength(0);
+    expect(container.querySelectorAll('.klink-ui-Popover-arrow')).toHaveLength(0);
   });
 
   it('exposes PopoverTarget and PopoverDropdown as static properties', () => {

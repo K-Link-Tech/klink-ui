@@ -19,7 +19,7 @@ type ModalsEvents = {
 };
 
 export const [useModalsEvents, createEvent] =
-  createUseExternalEvents<ModalsEvents>('mantine-modals');
+  createUseExternalEvents<ModalsEvents>('klink-ui-modals');
 
 export const openModal = createEvent('openModal');
 export const closeModal = createEvent('closeModal');

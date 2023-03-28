@@ -17,13 +17,13 @@ const defaultProps: NumberInputProps = {
 };
 
 const getRightSection = (container: HTMLElement) =>
-  container.querySelector('.mantine-NumberInput-rightSection');
+  container.querySelector('.klink-ui-NumberInput-rightSection');
 
 const clickIncrement = (container: HTMLElement) =>
-  userEvent.click(container.querySelector('.mantine-NumberInput-controlUp'));
+  userEvent.click(container.querySelector('.klink-ui-NumberInput-controlUp'));
 
 const clickDecrement = (container: HTMLElement) =>
-  userEvent.click(container.querySelector('.mantine-NumberInput-controlDown'));
+  userEvent.click(container.querySelector('.klink-ui-NumberInput-controlDown'));
 
 const getInput = () => screen.getByRole('textbox');
 const enterText = (text: string) => userEvent.type(getInput(), text);

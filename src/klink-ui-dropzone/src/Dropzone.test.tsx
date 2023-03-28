@@ -22,8 +22,8 @@ describe('@klink-ui/dropzone/Dropzone', () => {
     const { container: loading } = render(<Dropzone {...defaultProps} loading />);
     const { container: notLoading } = render(<Dropzone {...defaultProps} loading={false} />);
 
-    expect(loading.querySelectorAll('.mantine-LoadingOverlay-root')).toHaveLength(1);
-    expect(notLoading.querySelectorAll('.mantine-LoadingOverlay-root')).toHaveLength(0);
+    expect(loading.querySelectorAll('.klink-ui-LoadingOverlay-root')).toHaveLength(1);
+    expect(notLoading.querySelectorAll('.klink-ui-LoadingOverlay-root')).toHaveLength(0);
   });
 
   it('assigns open function to given openRef', () => {

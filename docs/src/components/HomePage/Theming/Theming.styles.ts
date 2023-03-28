@@ -12,11 +12,11 @@ export default createStyles((theme) => ({
       paddingBottom: rem(30),
     },
 
-    '& .mantine-ScrollArea-viewport': {
+    '& .klink-ui-ScrollArea-viewport': {
       borderRadius: theme.radius.md,
     },
 
-    '& .mantine-ScrollArea-root': {
+    '& .klink-ui-ScrollArea-root': {
       marginTop: theme.spacing.xl,
       borderRadius: theme.radius.md,
       boxShadow: theme.shadows.md,

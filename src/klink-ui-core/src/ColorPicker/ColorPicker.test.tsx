@@ -36,22 +36,22 @@ describe('@klink-ui/core/ColorPicker', () => {
   it('renders swatches list based on prop', () => {
     const { container: withSwatches } = render(<ColorPicker swatches={swatches} />);
     const { container: withoutSwatches } = render(<ColorPicker />);
-    expect(withSwatches.querySelectorAll('.mantine-ColorPicker-swatches')).toHaveLength(1);
-    expect(withoutSwatches.querySelectorAll('.mantine-ColorPicker-swatches')).toHaveLength(0);
+    expect(withSwatches.querySelectorAll('.klink-ui-ColorPicker-swatches')).toHaveLength(1);
+    expect(withoutSwatches.querySelectorAll('.klink-ui-ColorPicker-swatches')).toHaveLength(0);
   });
 
   it('renders AlphaSlider based on color format', () => {
     const { container: hex } = render(<ColorPicker format="hex" />);
     const { container: rgba } = render(<ColorPicker format="rgba" />);
-    expect(hex.querySelectorAll('.mantine-ColorPicker-slider')).toHaveLength(1);
-    expect(rgba.querySelectorAll('.mantine-ColorPicker-slider')).toHaveLength(2);
+    expect(hex.querySelectorAll('.klink-ui-ColorPicker-slider')).toHaveLength(1);
+    expect(rgba.querySelectorAll('.klink-ui-ColorPicker-slider')).toHaveLength(2);
   });
 
   it('renders picker based on withPicker prop', () => {
     const { container: withPicker } = render(<ColorPicker withPicker />);
     const { container: withoutPicker } = render(<ColorPicker withPicker={false} />);
-    expect(withPicker.querySelectorAll('.mantine-ColorPicker-saturation')).toHaveLength(1);
-    expect(withoutPicker.querySelectorAll('.mantine-ColorPicker-saturation')).toHaveLength(0);
+    expect(withPicker.querySelectorAll('.klink-ui-ColorPicker-saturation')).toHaveLength(1);
+    expect(withoutPicker.querySelectorAll('.klink-ui-ColorPicker-saturation')).toHaveLength(0);
   });
 
   it('onChangeEnd should be called if clicked on swatch', () => {
@@ -60,7 +60,7 @@ describe('@klink-ui/core/ColorPicker', () => {
       <ColorPicker onChangeEnd={spy} format="hex" swatches={['#ffffff', '#000000']} />
     );
     fireEvent(
-      container.querySelectorAll('.mantine-ColorSwatch-root')[0],
+      container.querySelectorAll('.klink-ui-ColorSwatch-root')[0],
       new MouseEvent('click', { bubbles: true })
     );
     expect(spy).toHaveBeenCalledWith('#ffffff');

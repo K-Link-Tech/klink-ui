@@ -349,10 +349,10 @@ describe('@klink-ui/dates/DateInput', () => {
         popoverProps={{ opened: true, withinPortal: false, transitionProps: { duration: 0 } }}
       />
     );
-    expect(container.firstChild).toHaveClass('mantine-DateInput-root');
-    expect(container.querySelector('[data-dates-input]')).toHaveClass('mantine-DateInput-input');
+    expect(container.firstChild).toHaveClass('klink-ui-DateInput-root');
+    expect(container.querySelector('[data-dates-input]')).toHaveClass('klink-ui-DateInput-input');
 
-    expect(container.querySelector('table button')).toHaveClass('mantine-DateInput-day');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-DateInput-day');
   });
 
   it('supports styles api (classNames)', () => {

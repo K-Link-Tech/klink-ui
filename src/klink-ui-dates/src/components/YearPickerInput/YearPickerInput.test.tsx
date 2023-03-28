@@ -25,11 +25,11 @@ describe('@klink-ui/dates/YearPickerInput', () => {
     props: defaultProps,
     refType: HTMLButtonElement,
     providerName: 'YearPickerInput',
-    othersSelector: '.mantine-YearPickerInput-input',
+    othersSelector: '.klink-ui-YearPickerInput-input',
     displayName: '@klink-ui/dates/YearPickerInput',
   });
 
-  itSupportsFocusEvents(YearPickerInput, defaultProps, '.mantine-YearPickerInput-input');
+  itSupportsFocusEvents(YearPickerInput, defaultProps, '.klink-ui-YearPickerInput-input');
   itSupportsProviderVariant(YearPickerInput, defaultProps, 'YearPickerInput', ['root', 'input']);
   itSupportsProviderSize(YearPickerInput, defaultProps, 'YearPickerInput', ['root', 'input']);
   itSupportsDateInputProps(YearPickerInput, defaultProps);
@@ -74,13 +74,13 @@ describe('@klink-ui/dates/YearPickerInput', () => {
         popoverProps={{ opened: true, withinPortal: false, transitionProps: { duration: 0 } }}
       />
     );
-    expect(container.firstChild).toHaveClass('mantine-YearPickerInput-root');
+    expect(container.firstChild).toHaveClass('klink-ui-YearPickerInput-root');
     expect(container.querySelector('[data-dates-input]')).toHaveClass(
-      'mantine-YearPickerInput-input'
+      'klink-ui-YearPickerInput-input'
     );
 
     expect(container.querySelector('table button')).toHaveClass(
-      'mantine-YearPickerInput-pickerControl'
+      'klink-ui-YearPickerInput-pickerControl'
     );
   });
 

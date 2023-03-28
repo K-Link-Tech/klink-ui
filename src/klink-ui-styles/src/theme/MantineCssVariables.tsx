@@ -10,20 +10,20 @@ function assignSizeVariables(
 ) {
   Object.keys(sizes).forEach((size) => {
     // eslint-disable-next-line no-param-reassign
-    variables[`--mantine-${name}-${size}`] = rem(sizes[size]);
+    variables[`--klink-ui-${name}-${size}`] = rem(sizes[size]);
   });
 }
 
 export function MantineCssVariables({ theme }: { theme: MantineTheme }) {
   const variables: Record<string, string> = {
-    '--mantine-color-white': theme.white,
-    '--mantine-color-black': theme.black,
-    '--mantine-transition-timing-function': theme.transitionTimingFunction,
-    '--mantine-line-height': `${theme.lineHeight}`,
-    '--mantine-font-family': theme.fontFamily,
-    '--mantine-font-family-monospace': theme.fontFamilyMonospace,
-    '--mantine-font-family-headings': theme.headings.fontFamily,
-    '--mantine-heading-font-weight': `${theme.headings.fontWeight}`,
+    '--klink-ui-color-white': theme.white,
+    '--klink-ui-color-black': theme.black,
+    '--klink-ui-transition-timing-function': theme.transitionTimingFunction,
+    '--klink-ui-line-height': `${theme.lineHeight}`,
+    '--klink-ui-font-family': theme.fontFamily,
+    '--klink-ui-font-family-monospace': theme.fontFamilyMonospace,
+    '--klink-ui-font-family-headings': theme.headings.fontFamily,
+    '--klink-ui-heading-font-weight': `${theme.headings.fontWeight}`,
   };
 
   assignSizeVariables(variables, theme.shadows, 'shadow');
@@ -33,15 +33,15 @@ export function MantineCssVariables({ theme }: { theme: MantineTheme }) {
 
   Object.keys(theme.colors).forEach((color) => {
     theme.colors[color].forEach((shade, index) => {
-      variables[`--mantine-color-${color}-${index}`] = shade;
+      variables[`--klink-ui-color-${color}-${index}`] = shade;
     });
   });
 
   const headings = theme.headings.sizes;
 
   Object.keys(headings).forEach((heading) => {
-    variables[`--mantine-${heading}-font-size`] = headings[heading].fontSize;
-    variables[`--mantine-${heading}-line-height`] = `${headings[heading].lineHeight}`;
+    variables[`--klink-ui-${heading}-font-size`] = headings[heading].fontSize;
+    variables[`--klink-ui-${heading}-line-height`] = `${headings[heading].lineHeight}`;
   });
 
   return (

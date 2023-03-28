@@ -44,7 +44,7 @@ describe('@klink-ui/dates/DecadeLevelGroup', () => {
   itHandlesControlsKeyboardEvents(
     DecadeLevelGroup,
     'decade',
-    '.mantine-YearsList-yearsList',
+    '.klink-ui-YearsList-yearsList',
     defaultProps
   );
 
@@ -83,9 +83,9 @@ describe('@klink-ui/dates/DecadeLevelGroup', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<DecadeLevelGroup {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-DecadeLevelGroup-decadeLevelGroup');
+    expect(container.firstChild).toHaveClass('klink-ui-DecadeLevelGroup-decadeLevelGroup');
     expect(container.querySelector('table button')).toHaveClass(
-      'mantine-DecadeLevelGroup-pickerControl'
+      'klink-ui-DecadeLevelGroup-pickerControl'
     );
   });
 
@@ -93,8 +93,8 @@ describe('@klink-ui/dates/DecadeLevelGroup', () => {
     const { container } = render(
       <DecadeLevelGroup {...defaultProps} __staticSelector="Calendar" />
     );
-    expect(container.firstChild).toHaveClass('mantine-Calendar-decadeLevelGroup');
-    expect(container.querySelector('table button')).toHaveClass('mantine-Calendar-pickerControl');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-decadeLevelGroup');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-Calendar-pickerControl');
   });
 
   it('supports styles api (styles)', () => {

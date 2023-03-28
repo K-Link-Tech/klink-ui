@@ -26,7 +26,7 @@ describe('@klink-ui/dates/YearPicker', () => {
   itHandlesControlsKeyboardEvents(
     YearPicker,
     'decade',
-    '.mantine-YearPicker-yearsList',
+    '.klink-ui-YearPicker-yearsList',
     defaultProps
   );
 
@@ -159,11 +159,11 @@ describe('@klink-ui/dates/YearPicker', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<YearPicker {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-YearPicker-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-YearPicker-calendar');
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<YearPicker {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-calendar');
   });
 });

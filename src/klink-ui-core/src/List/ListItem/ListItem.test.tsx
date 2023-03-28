@@ -28,7 +28,7 @@ describe('@klink-ui/core/ListItem', () => {
   it('renders icon based on prop', () => {
     const { container: withIcon } = render(<TestContainer icon="$">test-item</TestContainer>);
     const { container: withoutIcon } = render(<TestContainer>test-item</TestContainer>);
-    expect(withIcon.querySelectorAll('.mantine-List-itemIcon')).toHaveLength(1);
-    expect(withoutIcon.querySelectorAll('.mantine-List-itemIcon')).toHaveLength(0);
+    expect(withIcon.querySelectorAll('.klink-ui-List-itemIcon')).toHaveLength(1);
+    expect(withoutIcon.querySelectorAll('.klink-ui-List-itemIcon')).toHaveLength(0);
   });
 });

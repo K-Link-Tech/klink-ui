@@ -127,12 +127,12 @@ describe('@klink-ui/core/Menu', () => {
 
   it('correctly handles withArrow={true}', () => {
     render(<TestContainer defaultOpened withArrow />);
-    expect(document.querySelectorAll('.mantine-Menu-arrow')).toHaveLength(1);
+    expect(document.querySelectorAll('.klink-ui-Menu-arrow')).toHaveLength(1);
   });
 
   it('correctly handles withArrow={false}', () => {
     render(<TestContainer defaultOpened withArrow={false} />);
-    expect(document.querySelectorAll('.mantine-Menu-arrow')).toHaveLength(0);
+    expect(document.querySelectorAll('.klink-ui-Menu-arrow')).toHaveLength(0);
   });
 
   it('exposes related components as static properties', () => {

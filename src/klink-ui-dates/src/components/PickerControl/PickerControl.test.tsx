@@ -62,12 +62,12 @@ describe('@klink-ui/dates/PickerControl', () => {
 
   it('has correct default __staticSelector', () => {
     render(<PickerControl {...defaultProps} />);
-    expect(screen.getByRole('button')).toHaveClass('mantine-PickerControl-pickerControl');
+    expect(screen.getByRole('button')).toHaveClass('klink-ui-PickerControl-pickerControl');
   });
 
   it('supports custom __staticSelector', () => {
     render(<PickerControl {...defaultProps} __staticSelector="Calendar" />);
-    expect(screen.getByRole('button')).toHaveClass('mantine-Calendar-pickerControl');
+    expect(screen.getByRole('button')).toHaveClass('klink-ui-Calendar-pickerControl');
   });
 
   it('supports styles api (styles)', () => {

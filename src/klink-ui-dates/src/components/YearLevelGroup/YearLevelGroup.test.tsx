@@ -46,7 +46,7 @@ describe('@klink-ui/dates/YearLevelGroup', () => {
   itHandlesControlsKeyboardEvents(
     YearLevelGroup,
     'year',
-    '.mantine-MonthsList-monthsList',
+    '.klink-ui-MonthsList-monthsList',
     defaultProps
   );
 
@@ -85,16 +85,16 @@ describe('@klink-ui/dates/YearLevelGroup', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<YearLevelGroup {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-YearLevelGroup-yearLevelGroup');
+    expect(container.firstChild).toHaveClass('klink-ui-YearLevelGroup-yearLevelGroup');
     expect(container.querySelector('table button')).toHaveClass(
-      'mantine-YearLevelGroup-pickerControl'
+      'klink-ui-YearLevelGroup-pickerControl'
     );
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<YearLevelGroup {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-yearLevelGroup');
-    expect(container.querySelector('table button')).toHaveClass('mantine-Calendar-pickerControl');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-yearLevelGroup');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-Calendar-pickerControl');
   });
 
   it('supports styles api (styles)', () => {

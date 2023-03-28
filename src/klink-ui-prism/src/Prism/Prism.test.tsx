@@ -22,8 +22,8 @@ describe('@klink-ui/prism/Prism', () => {
     const { container: withCopy } = render(<Prism {...defaultProps} noCopy={false} />);
     const { container: withoutCopy } = render(<Prism {...defaultProps} noCopy />);
 
-    expect(withCopy.querySelectorAll('.mantine-Prism-copy')).toHaveLength(1);
-    expect(withoutCopy.querySelectorAll('.mantine-Prism-copy')).toHaveLength(0);
+    expect(withCopy.querySelectorAll('.klink-ui-Prism-copy')).toHaveLength(1);
+    expect(withoutCopy.querySelectorAll('.klink-ui-Prism-copy')).toHaveLength(0);
   });
 
   it('renders line numbers based on withLineNumbers prop', () => {
@@ -31,9 +31,9 @@ describe('@klink-ui/prism/Prism', () => {
     const { container: withoutLineNumbers } = render(
       <Prism {...defaultProps} withLineNumbers={false} />
     );
-    expect(withLineNumbers.querySelectorAll('.mantine-Prism-lineNumber')).toHaveLength(
+    expect(withLineNumbers.querySelectorAll('.klink-ui-Prism-lineNumber')).toHaveLength(
       defaultProps.children.split('\n').length
     );
-    expect(withoutLineNumbers.querySelectorAll('.mantine-Prism-lineNumber')).toHaveLength(0);
+    expect(withoutLineNumbers.querySelectorAll('.klink-ui-Prism-lineNumber')).toHaveLength(0);
   });
 });

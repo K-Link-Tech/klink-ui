@@ -18,8 +18,8 @@ export function itSupportsInputWrapperOrder<P>(
       />
     );
     const children = container.firstChild.childNodes;
-    expect(children[0]).toBe(container.querySelector(`.mantine-${name}-description`));
-    expect(children[1]).toBe(container.querySelector(`.mantine-${name}-error`));
-    expect(children[children.length - 1]).toBe(container.querySelector(`.mantine-${name}-label`));
+    expect(children[0]).toBe(container.querySelector(`.klink-ui-${name}-description`));
+    expect(children[1]).toBe(container.querySelector(`.klink-ui-${name}-error`));
+    expect(children[children.length - 1]).toBe(container.querySelector(`.klink-ui-${name}-label`));
   });
 }

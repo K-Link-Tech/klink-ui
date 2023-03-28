@@ -46,14 +46,14 @@ describe('@klink-ui/core/AppShell', () => {
       </AppShell>
     );
 
-    expect(_static.querySelector('.mantine-Header-root')).toHaveStyle({ position: 'static' });
-    expect(fixed.querySelector('.mantine-Header-root')).toHaveStyle({
+    expect(_static.querySelector('.klink-ui-Header-root')).toHaveStyle({ position: 'static' });
+    expect(fixed.querySelector('.klink-ui-Header-root')).toHaveStyle({
       zIndex: 476,
       position: 'fixed',
     });
 
-    expect(_static.querySelector('.mantine-Navbar-root')).toHaveStyle({ position: 'static' });
-    expect(fixed.querySelector('.mantine-Navbar-root')).toHaveStyle({
+    expect(_static.querySelector('.klink-ui-Navbar-root')).toHaveStyle({ position: 'static' });
+    expect(fixed.querySelector('.klink-ui-Navbar-root')).toHaveStyle({
       zIndex: 476,
       position: 'fixed',
     });

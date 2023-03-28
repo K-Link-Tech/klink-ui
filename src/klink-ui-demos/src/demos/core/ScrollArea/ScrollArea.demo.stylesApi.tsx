@@ -21,11 +21,11 @@ function Demo() {
                 theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
             },
 
-            '&[data-orientation="vertical"] .mantine-ScrollArea-thumb': {
+            '&[data-orientation="vertical"] .klink-ui-ScrollArea-thumb': {
               backgroundColor: theme.colors.error[6],
             },
 
-            '&[data-orientation="horizontal"] .mantine-ScrollArea-thumb': {
+            '&[data-orientation="horizontal"] .klink-ui-ScrollArea-thumb': {
               backgroundColor: theme.colors.blue[6],
             },
           },
@@ -60,11 +60,11 @@ function Demo() {
                 theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.colors.gray[0],
             },
 
-            '&[data-orientation="vertical"] .mantine-ScrollArea-thumb': {
+            '&[data-orientation="vertical"] .klink-ui-ScrollArea-thumb': {
               backgroundColor: theme.colors.error[6],
             },
 
-            '&[data-orientation="horizontal"] .mantine-ScrollArea-thumb': {
+            '&[data-orientation="horizontal"] .klink-ui-ScrollArea-thumb': {
               backgroundColor: theme.colors.blue[6],
             },
           },

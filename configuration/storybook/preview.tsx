@@ -14,7 +14,7 @@ import rtlPlugin from 'stylis-plugin-rtl';
 export const parameters = { layout: 'fullscreen' };
 
 const rtlCache = createEmotionCache({
-  key: 'mantine-rtl',
+  key: 'klink-ui-rtl',
   prepend: true,
   stylisPlugins: [rtlPlugin],
 });

@@ -107,7 +107,7 @@ export const MonthsList = forwardRef<HTMLTableElement, MonthsListProps>((props, 
             styles={styles}
             unstyled={unstyled}
             __staticSelector={__staticSelector || 'MonthsList'}
-            data-mantine-stop-propagation={__stopPropagation || undefined}
+            data-klink-ui-stop-propagation={__stopPropagation || undefined}
             disabled={isMonthDisabled(month, minDate, maxDate)}
             ref={(node) => __getControlRef?.(rowIndex, cellIndex, node)}
             {...controlProps}

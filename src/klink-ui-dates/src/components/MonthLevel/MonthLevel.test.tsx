@@ -68,19 +68,19 @@ describe('@klink-ui/dates/MonthLevel', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<MonthLevel {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-MonthLevel-monthLevel');
-    expect(container.querySelector('table td button')).toHaveClass('mantine-MonthLevel-day');
+    expect(container.firstChild).toHaveClass('klink-ui-MonthLevel-monthLevel');
+    expect(container.querySelector('table td button')).toHaveClass('klink-ui-MonthLevel-day');
     expect(screen.getByLabelText('level-control')).toHaveClass(
-      'mantine-MonthLevel-calendarHeaderLevel'
+      'klink-ui-MonthLevel-calendarHeaderLevel'
     );
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<MonthLevel {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-monthLevel');
-    expect(container.querySelector('table td button')).toHaveClass('mantine-Calendar-day');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-monthLevel');
+    expect(container.querySelector('table td button')).toHaveClass('klink-ui-Calendar-day');
     expect(screen.getByLabelText('level-control')).toHaveClass(
-      'mantine-Calendar-calendarHeaderLevel'
+      'klink-ui-Calendar-calendarHeaderLevel'
     );
   });
 

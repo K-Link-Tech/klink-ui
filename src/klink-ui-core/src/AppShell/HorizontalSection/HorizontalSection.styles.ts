@@ -68,14 +68,14 @@ export default createStyles(
       root: {
         ...theme.fn.fontStyles(),
         ...position,
-        top: layout === 'alt' ? 0 : position?.top || 'var(--mantine-header-height)',
+        top: layout === 'alt' ? 0 : position?.top || 'var(--klink-ui-header-height)',
         bottom: 0,
         zIndex,
         height: height
           ? rem(height)
           : layout === 'alt'
           ? 'auto'
-          : 'calc(100vh - var(--mantine-header-height, 0rem) - var(--mantine-footer-height, 0rem))',
+          : 'calc(100vh - var(--klink-ui-header-height, 0rem) - var(--klink-ui-footer-height, 0rem))',
         width: width?.base ? rem(width?.base) : '100%',
         position: fixed ? 'fixed' : 'static',
         boxSizing: 'border-box',

@@ -13,10 +13,10 @@ import { LayoutInner, LayoutProps } from './LayoutInner';
 import { DirectionContext } from './DirectionContext';
 import { GreycliffCF } from '../../fonts/GreycliffCF/GreycliffCF';
 
-const THEME_KEY = 'mantine-color-scheme';
+const THEME_KEY = 'klink-ui-color-scheme';
 
 const rtlCache = createEmotionCache({
-  key: 'mantine-rtl',
+  key: 'klink-ui-rtl',
   prepend: true,
   stylisPlugins: [rtlPlugin],
 });

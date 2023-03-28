@@ -35,7 +35,7 @@ describe('@klink-ui/core/Progress', () => {
       />
     );
 
-    expect(container.querySelectorAll('.mantine-Progress-bar')).toHaveLength(3);
+    expect(container.querySelectorAll('.klink-ui-Progress-bar')).toHaveLength(3);
   });
 
   it('passes value prop to progressbar', () => {
@@ -62,9 +62,9 @@ describe('@klink-ui/core/Progress', () => {
       />
     );
 
-    await userEvent.click(container.querySelectorAll('.mantine-Progress-bar')[0]);
+    await userEvent.click(container.querySelectorAll('.klink-ui-Progress-bar')[0]);
     expect(spy).toHaveBeenCalledTimes(1);
-    await userEvent.click(container.querySelectorAll('.mantine-Progress-bar')[1]);
+    await userEvent.click(container.querySelectorAll('.klink-ui-Progress-bar')[1]);
     expect(spy).toHaveBeenCalledTimes(1);
   });
 });

@@ -33,8 +33,8 @@ describe('@klink-ui/core/Select/SelectItems', () => {
       <SelectItems {...defaultProps} data={[]} nothingFound="test-nothing" />
     );
 
-    expect(withData.querySelectorAll('.mantine-Select-nothingFound')).toHaveLength(0);
-    expect(withoutData.querySelector('.mantine-Select-nothingFound').textContent).toBe(
+    expect(withData.querySelectorAll('.klink-ui-Select-nothingFound')).toHaveLength(0);
+    expect(withoutData.querySelector('.klink-ui-Select-nothingFound').textContent).toBe(
       'test-nothing'
     );
   });

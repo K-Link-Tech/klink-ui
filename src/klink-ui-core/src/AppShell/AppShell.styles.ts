@@ -32,10 +32,10 @@ function getPositionStyles(props: AppShellStylesParams, theme: MantineTheme): CS
 
   return {
     minHeight: '100vh',
-    paddingTop: `calc(var(--mantine-header-height, 0px) + ${padding})`,
-    paddingBottom: `calc(var(--mantine-footer-height, 0px) + ${padding})`,
-    paddingLeft: `calc(var(--mantine-navbar-width, 0px) + ${padding})`,
-    paddingRight: `calc(var(--mantine-aside-width, 0px) + ${padding})`,
+    paddingTop: `calc(var(--klink-ui-header-height, 0px) + ${padding})`,
+    paddingBottom: `calc(var(--klink-ui-footer-height, 0px) + ${padding})`,
+    paddingLeft: `calc(var(--klink-ui-navbar-width, 0px) + ${padding})`,
+    paddingRight: `calc(var(--klink-ui-aside-width, 0px) + ${padding})`,
 
     [`@media (max-width: ${em(getBreakpointValue(navbarOffset) - 1)})`]: {
       paddingLeft: padding,

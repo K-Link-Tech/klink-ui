@@ -65,6 +65,6 @@ describe('@klink-ui/core/RadioGroup', () => {
 
   it('generates unique name if name prop was not set', () => {
     render(<RadioGroup {...defaultProps} />);
-    expect(screen.getAllByRole('radio')[1].getAttribute('name').includes('mantine-')).toBe(true);
+    expect(screen.getAllByRole('radio')[1].getAttribute('name').includes('klink-ui-')).toBe(true);
   });
 });

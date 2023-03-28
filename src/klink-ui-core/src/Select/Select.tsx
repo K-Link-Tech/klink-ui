@@ -588,7 +588,7 @@ export const Select = forwardRef<HTMLInputElement, SelectProps>((props, ref) => 
               onFocus={handleInputFocus}
               readOnly={!searchable || readOnly}
               disabled={disabled}
-              data-mantine-stop-propagation={shouldShowDropdown}
+              data-klink-ui-stop-propagation={shouldShowDropdown}
               name={null}
               classNames={{
                 ...classNames,

@@ -79,14 +79,14 @@ describe('@klink-ui/dates/MonthLevelGroup', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<MonthLevelGroup {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-MonthLevelGroup-monthLevelGroup');
-    expect(container.querySelector('table button')).toHaveClass('mantine-MonthLevelGroup-day');
+    expect(container.firstChild).toHaveClass('klink-ui-MonthLevelGroup-monthLevelGroup');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-MonthLevelGroup-day');
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<MonthLevelGroup {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-monthLevelGroup');
-    expect(container.querySelector('table button')).toHaveClass('mantine-Calendar-day');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-monthLevelGroup');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-Calendar-day');
   });
 
   it('supports styles api (styles)', () => {

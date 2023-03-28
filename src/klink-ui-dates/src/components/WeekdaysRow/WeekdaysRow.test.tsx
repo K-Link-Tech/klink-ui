@@ -46,14 +46,14 @@ describe('@klink-ui/dates/WeekdaysRow', () => {
 
   it('has correct default __staticSelector', () => {
     render(<Wrapper />);
-    expect(screen.getByRole('row')).toHaveClass('mantine-WeekdaysRow-weekdaysRow ');
+    expect(screen.getByRole('row')).toHaveClass('klink-ui-WeekdaysRow-weekdaysRow ');
   });
 
   it('supports __staticSelector', () => {
     render(<Wrapper __staticSelector="Month" />);
     expect(screen.getByRole('row')).toHaveClass(
-      'mantine-WeekdaysRow-weekdaysRow',
-      'mantine-Month-weekdaysRow '
+      'klink-ui-WeekdaysRow-weekdaysRow',
+      'klink-ui-Month-weekdaysRow '
     );
   });
 

@@ -32,7 +32,7 @@ describe('@klink-ui/core/Select', () => {
     props: defaultProps,
     displayName: '@klink-ui/core/Select',
     refType: HTMLInputElement,
-    othersSelector: '.mantine-Select-input',
+    othersSelector: '.klink-ui-Select-input',
     providerName: 'Select',
   });
 

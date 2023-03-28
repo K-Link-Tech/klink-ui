@@ -20,7 +20,7 @@ describe('@klink-ui/core/Input', () => {
   itSupportsFocusEvents(InputBase, defaultProps, 'input');
   itSupportsProviderVariant(InputBase, defaultProps, 'InputBase', ['root', 'input', 'label']);
   itSupportsProviderSize(InputBase, defaultProps, 'InputBase', ['root', 'input', 'label']);
-  itIsPolymorphic(InputBase, defaultProps, '.mantine-InputBase-input');
+  itIsPolymorphic(InputBase, defaultProps, '.klink-ui-InputBase-input');
   itSupportsSystemProps({
     component: InputBase,
     props: defaultProps,

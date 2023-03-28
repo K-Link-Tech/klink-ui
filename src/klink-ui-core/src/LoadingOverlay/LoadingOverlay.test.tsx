@@ -20,7 +20,7 @@ describe('@klink-ui/core/LoadingOverlay', () => {
   it('renders based on visible prop', () => {
     const { container: notVisible } = render(<LoadingOverlay visible={false} />);
     const { container: visible } = render(<LoadingOverlay visible />);
-    expect(notVisible.querySelector('.mantine-LoadingOverlay-root')).toBe(null);
-    expect(visible.querySelector('.mantine-LoadingOverlay-root')).toBeInTheDocument();
+    expect(notVisible.querySelector('.klink-ui-LoadingOverlay-root')).toBe(null);
+    expect(visible.querySelector('.klink-ui-LoadingOverlay-root')).toBeInTheDocument();
   });
 });

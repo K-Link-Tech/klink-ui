@@ -37,7 +37,7 @@ function deserializeJSON(value: string) {
 }
 
 export function createStorage<T>(type: StorageType, hookName: string) {
-  const eventName = type === 'localStorage' ? 'mantine-local-storage' : 'mantine-session-storage';
+  const eventName = type === 'localStorage' ? 'klink-ui-local-storage' : 'klink-ui-session-storage';
 
   return function useStorage({
     key,

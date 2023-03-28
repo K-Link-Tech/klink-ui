@@ -2,13 +2,13 @@ import { MANTINE_CORE_CATEGORIES, MANTINE_CORE_ORDER } from './klink-ui-core';
 import { MANTINE_HOOKS_ORDER, MANTINE_HOOKS_CATEGORIES } from './klink-ui-hooks';
 
 export const MANTINE_HOOKS_CATEGORIZED = {
-  group: 'mantine-hooks',
+  group: 'klink-ui-hooks',
   categories: MANTINE_HOOKS_CATEGORIES,
   order: MANTINE_HOOKS_ORDER,
 };
 
 export const MANTINE_CORE_CATEGORIZED = {
-  group: 'mantine-core',
+  group: 'klink-ui-core',
   categories: MANTINE_CORE_CATEGORIES,
   order: MANTINE_CORE_ORDER,
 };
@@ -18,9 +18,9 @@ export const CATEGORIZED = [
   { group: 'styles', categories: {}, order: [] },
   { group: 'guides', categories: {}, order: [] },
   MANTINE_HOOKS_CATEGORIZED,
-  { group: 'mantine-form', categories: {}, order: [] },
+  { group: 'klink-ui-form', categories: {}, order: [] },
   MANTINE_CORE_CATEGORIZED,
-  { group: 'mantine-dates', categories: {}, order: [] },
+  { group: 'klink-ui-dates', categories: {}, order: [] },
   { group: 'Other packages', categories: {}, order: [] },
   { group: 'changelog', categories: {}, order: [] },
 ];

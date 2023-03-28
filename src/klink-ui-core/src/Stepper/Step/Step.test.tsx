@@ -18,8 +18,8 @@ describe('@klink-ui/core/Step', () => {
   it('renders icon when withIcon is true', () => {
     const { container: withIcon } = render(<Step withIcon />);
     const { container: withoutIcon } = render(<Step withIcon={false} />);
-    expect(withIcon.querySelectorAll('.mantine-Step-stepIcon')).toHaveLength(1);
-    expect(withoutIcon.querySelectorAll('.mantine-Step-stepIcon')).toHaveLength(0);
+    expect(withIcon.querySelectorAll('.klink-ui-Step-stepIcon')).toHaveLength(1);
+    expect(withoutIcon.querySelectorAll('.klink-ui-Step-stepIcon')).toHaveLength(0);
   });
 
   it('renders step body if Step has label or description', () => {
@@ -27,9 +27,9 @@ describe('@klink-ui/core/Step', () => {
     const { container: withDescription } = render(<Step description="test-description" />);
     const { container: withoutBody } = render(<Step />);
 
-    expect(withoutBody.querySelectorAll('.mantine-Step-stepBody')).toHaveLength(0);
-    expect(withLabel.querySelector('.mantine-Step-stepLabel').textContent).toBe('test-label');
-    expect(withDescription.querySelector('.mantine-Step-stepDescription').textContent).toBe(
+    expect(withoutBody.querySelectorAll('.klink-ui-Step-stepBody')).toHaveLength(0);
+    expect(withLabel.querySelector('.klink-ui-Step-stepLabel').textContent).toBe('test-label');
+    expect(withDescription.querySelector('.klink-ui-Step-stepDescription').textContent).toBe(
       'test-description'
     );
   });

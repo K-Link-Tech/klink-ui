@@ -53,7 +53,7 @@ describe('@klink-ui/core/RingProgress', () => {
     // 0 is root section
     await userEvent.click(container.querySelectorAll('circle')[1]);
     expect(spy).toHaveBeenCalledTimes(1);
-    await userEvent.click(container.querySelectorAll('.mantine-Progress-bar')[2]);
+    await userEvent.click(container.querySelectorAll('.klink-ui-Progress-bar')[2]);
     expect(spy).toHaveBeenCalledTimes(1);
   });
 

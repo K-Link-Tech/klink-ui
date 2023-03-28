@@ -103,7 +103,7 @@ describe('@klink-ui/styles/create-styles', () => {
 
   it('generates name based on name param', () => {
     render(<NamedContainer />);
-    expect(screen.getByText('test-element')).toHaveClass('mantine-NamedComponent-testObject');
+    expect(screen.getByText('test-element')).toHaveClass('klink-ui-NamedComponent-testObject');
   });
 
   it('assigns given classNames', () => {
@@ -185,8 +185,8 @@ describe('@klink-ui/styles/create-styles', () => {
 
   it('adds correct static selectors for multiple names', () => {
     render(<MultipleNames />);
-    expect(screen.getByText('test-element')).toHaveClass('mantine-NamedComponent-testObject');
-    expect(screen.getByText('test-element')).toHaveClass('mantine-TestName-testObject');
+    expect(screen.getByText('test-element')).toHaveClass('klink-ui-NamedComponent-testObject');
+    expect(screen.getByText('test-element')).toHaveClass('klink-ui-TestName-testObject');
   });
 
   it('supports MantineProvider classNames for multiple names', () => {

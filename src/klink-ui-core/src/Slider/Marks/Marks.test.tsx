@@ -21,8 +21,8 @@ const defaultProps: MarksProps = {
 describe('@klink-ui/core/Slider/Marks', () => {
   it('renders correct marks labels', () => {
     const { container } = render(<Marks {...defaultProps} />);
-    const labels = container.querySelectorAll('.mantine-Slider-markLabel');
-    expect(container.querySelectorAll('.mantine-Slider-markWrapper')).toHaveLength(2);
+    const labels = container.querySelectorAll('.klink-ui-Slider-markLabel');
+    expect(container.querySelectorAll('.klink-ui-Slider-markWrapper')).toHaveLength(2);
     expect(labels[0].textContent).toBe('test-1');
     expect(labels[1].textContent).toBe('test-2');
   });
@@ -30,9 +30,9 @@ describe('@klink-ui/core/Slider/Marks', () => {
   it('calls onChange with mark value when mark label is pressed', async () => {
     const spy = jest.fn();
     const { container } = render(<Marks {...defaultProps} onChange={spy} />);
-    await userEvent.click(container.querySelectorAll('.mantine-Slider-markLabel')[0]);
+    await userEvent.click(container.querySelectorAll('.klink-ui-Slider-markLabel')[0]);
     expect(spy).toHaveBeenLastCalledWith(50);
-    await userEvent.click(container.querySelectorAll('.mantine-Slider-markLabel')[1]);
+    await userEvent.click(container.querySelectorAll('.klink-ui-Slider-markLabel')[1]);
     expect(spy).toHaveBeenLastCalledWith(80);
   });
 
@@ -49,7 +49,7 @@ describe('@klink-ui/core/Slider/Marks', () => {
       />
     );
 
-    const marks = container.querySelectorAll('.mantine-Slider-markWrapper');
+    const marks = container.querySelectorAll('.klink-ui-Slider-markWrapper');
     expect(marks[0]).toHaveStyle({ left: '25%' });
     expect(marks[1]).toHaveStyle({ left: '50%' });
   });

@@ -32,7 +32,7 @@ describe('@klink-ui/core/Blockquote', () => {
 
   it('hides icon if icon prop set to null', () => {
     const { container } = render(<Blockquote icon={null} />);
-    expect(container.querySelectorAll('.mantine-Blockquote-icon')).toHaveLength(0);
+    expect(container.querySelectorAll('.klink-ui-Blockquote-icon')).toHaveLength(0);
   });
 
   it('renders given cite based on cite prop', () => {

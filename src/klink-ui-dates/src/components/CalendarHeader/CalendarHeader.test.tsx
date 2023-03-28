@@ -44,13 +44,13 @@ describe('@klink-ui/dates/CalendarHeader', () => {
   it('has correct default __staticSelector', () => {
     render(<CalendarHeader {...defaultProps} />);
     expect(screen.getByLabelText('next')).toHaveClass(
-      'mantine-CalendarHeader-calendarHeaderControl'
+      'klink-ui-CalendarHeader-calendarHeaderControl'
     );
   });
 
   it('supports custom __staticSelector', () => {
     render(<CalendarHeader {...defaultProps} __staticSelector="Calendar" />);
-    expect(screen.getByLabelText('next')).toHaveClass('mantine-Calendar-calendarHeaderControl');
+    expect(screen.getByLabelText('next')).toHaveClass('klink-ui-Calendar-calendarHeaderControl');
   });
 
   it('supports styles api (styles)', () => {

@@ -91,11 +91,11 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
             label="Package"
             icon={<NpmIcon size={rem(14)} />}
             link={`https://www.npmjs.com/package/${frontmatter.package.replace(
-              'mantine-',
+              'klink-ui-',
               '@klink-ui/'
             )}`}
           >
-            {frontmatter.package.replace('mantine-', '@klink-ui/')}
+            {frontmatter.package.replace('klink-ui-', '@klink-ui/')}
           </LinkItem>
         )}
 

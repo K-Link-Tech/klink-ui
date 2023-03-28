@@ -13,7 +13,7 @@ export function itSupportsInputWrapperProps<P>(
     const { container } = render(
       <Component {...requiredProps} required id="secret-test-id" label="Test label" />
     );
-    const requiredGlyph = container.querySelector(`.mantine-${name}-required`);
+    const requiredGlyph = container.querySelector(`.klink-ui-${name}-required`);
     expect(requiredGlyph).toBeInTheDocument();
     expect(requiredGlyph).toHaveAttribute('aria-hidden');
   });

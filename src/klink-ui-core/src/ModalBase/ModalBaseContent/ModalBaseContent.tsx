@@ -29,7 +29,7 @@ export const ModalBaseContent = forwardRef<HTMLElement, ModalBaseContentProps>((
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLDivElement>) => {
     const shouldTrigger =
-      (event.target as HTMLElement)?.getAttribute('data-mantine-stop-propagation') !== 'true';
+      (event.target as HTMLElement)?.getAttribute('data-klink-ui-stop-propagation') !== 'true';
     shouldTrigger && event.key === 'Escape' && ctx.closeOnEscape && ctx.onClose();
     onKeyDown?.(event);
   };

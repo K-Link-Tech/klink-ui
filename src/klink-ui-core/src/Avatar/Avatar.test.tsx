@@ -38,7 +38,7 @@ describe('@klink-ui/core/Avatar', () => {
 
   it('renders placeholder if src was not provided', () => {
     const { container } = render(<Avatar src={null} alt="no-image-test" />);
-    expect(container.querySelector('.mantine-Avatar-placeholder')).toBeInTheDocument();
+    expect(container.querySelector('.klink-ui-Avatar-placeholder')).toBeInTheDocument();
   });
 
   it('renders children if src was not given', () => {

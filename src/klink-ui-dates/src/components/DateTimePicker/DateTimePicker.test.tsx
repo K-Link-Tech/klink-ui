@@ -49,11 +49,11 @@ describe('@klink-ui/dates/DateTimePicker', () => {
     component: DateTimePicker,
     props: defaultProps,
     providerName: 'DateTimePicker',
-    othersSelector: '.mantine-DateTimePicker-input',
+    othersSelector: '.klink-ui-DateTimePicker-input',
     displayName: '@klink-ui/dates/DateTimePicker',
   });
 
-  itSupportsFocusEvents(DateTimePicker, defaultProps, '.mantine-DateTimePicker-input');
+  itSupportsFocusEvents(DateTimePicker, defaultProps, '.klink-ui-DateTimePicker-input');
   itSupportsProviderVariant(DateTimePicker, defaultProps, 'DateTimePicker', ['root', 'input']);
   itSupportsProviderSize(DateTimePicker, defaultProps, 'DateTimePicker', ['root', 'input']);
   itSupportsClearableProps(DateTimePicker, {
@@ -277,12 +277,12 @@ describe('@klink-ui/dates/DateTimePicker', () => {
         popoverProps={{ opened: true, withinPortal: false, transitionProps: { duration: 0 } }}
       />
     );
-    expect(container.firstChild).toHaveClass('mantine-DateTimePicker-root');
+    expect(container.firstChild).toHaveClass('klink-ui-DateTimePicker-root');
     expect(container.querySelector('[data-dates-input]')).toHaveClass(
-      'mantine-DateTimePicker-input'
+      'klink-ui-DateTimePicker-input'
     );
 
-    expect(container.querySelector('table button')).toHaveClass('mantine-DateTimePicker-day');
+    expect(container.querySelector('table button')).toHaveClass('klink-ui-DateTimePicker-day');
   });
 
   it('supports styles api (classNames)', () => {

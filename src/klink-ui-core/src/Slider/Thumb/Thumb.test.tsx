@@ -43,9 +43,9 @@ describe('@klink-ui/core/Thumb', () => {
       <Thumb {...defaultProps} labelAlwaysOn={false} dragging={false} />
     );
 
-    expect(labelAlwaysOn.querySelectorAll('.mantine-Slider-label')).toHaveLength(1);
-    expect(dragging.querySelectorAll('.mantine-Slider-label')).toHaveLength(1);
-    expect(labelOff.querySelectorAll('.mantine-Slider-label')).toHaveLength(0);
+    expect(labelAlwaysOn.querySelectorAll('.klink-ui-Slider-label')).toHaveLength(1);
+    expect(dragging.querySelectorAll('.klink-ui-Slider-label')).toHaveLength(1);
+    expect(labelOff.querySelectorAll('.klink-ui-Slider-label')).toHaveLength(0);
   });
 
   it('has correct displayName', () => {

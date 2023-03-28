@@ -11,7 +11,7 @@ export type NavigationProgressEvents = {
 };
 
 export const [useNavigationProgressEvents, createEvent] =
-  createUseExternalEvents<NavigationProgressEvents>('mantine-nprogress');
+  createUseExternalEvents<NavigationProgressEvents>('klink-ui-nprogress');
 
 export const startNavigationProgress = createEvent('start');
 export const stopNavigationProgress = createEvent('stop');

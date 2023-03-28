@@ -39,8 +39,8 @@ describe('@klink-ui/core/Chip', () => {
   it('displays checked icon when input is checked', () => {
     const { container: checked } = render(<Chip {...defaultProps} checked />);
     const { container: notChecked } = render(<Chip {...defaultProps} checked={false} />);
-    expect(checked.querySelectorAll('.mantine-Chip-checkIcon')).toHaveLength(1);
-    expect(notChecked.querySelectorAll('.mantine-Chip-checkIcon')).toHaveLength(0);
+    expect(checked.querySelectorAll('.klink-ui-Chip-checkIcon')).toHaveLength(1);
+    expect(notChecked.querySelectorAll('.klink-ui-Chip-checkIcon')).toHaveLength(0);
   });
 
   it('sets disabled attribute on input based on disabled prop', () => {

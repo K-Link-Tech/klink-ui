@@ -702,7 +702,7 @@ export const MultiSelect = forwardRef<HTMLInputElement, MultiSelectProps>((props
                   readOnly={!searchable || valuesOverflow.current || readOnly}
                   placeholder={_value.length === 0 ? placeholder : undefined}
                   disabled={disabled}
-                  data-mantine-stop-propagation={dropdownOpened}
+                  data-klink-ui-stop-propagation={dropdownOpened}
                   autoComplete="off"
                   onCompositionStart={() => setIMEOpen(true)}
                   onCompositionEnd={() => setIMEOpen(false)}

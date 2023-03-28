@@ -45,7 +45,7 @@ describe('@klink-ui/core/Accordion', () => {
 
   it('renders correct amount of items', () => {
     const { container } = render(<Accordion {...defaultProps} />);
-    expect(container.querySelectorAll('.mantine-Accordion-item')).toHaveLength(3);
+    expect(container.querySelectorAll('.klink-ui-Accordion-item')).toHaveLength(3);
   });
 
   it('support uncontrolled state (multiple: false, default)', async () => {

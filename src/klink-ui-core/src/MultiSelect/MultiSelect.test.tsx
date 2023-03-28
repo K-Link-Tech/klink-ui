@@ -51,12 +51,12 @@ describe('@klink-ui/core/MultiSelect', () => {
       <MultiSelect {...defaultProps} initiallyOpened disableSelectedItemFiltering />
     );
 
-    expect(container.querySelectorAll('.mantine-MultiSelect-item')).toHaveLength(4);
+    expect(container.querySelectorAll('.klink-ui-MultiSelect-item')).toHaveLength(4);
   });
 
   it('Has un-filtered list when disableSelectedItemFiltering is disabled', () => {
     const { container } = render(<MultiSelect {...defaultProps} initiallyOpened />);
 
-    expect(container.querySelectorAll('.mantine-MultiSelect-item')).toHaveLength(2);
+    expect(container.querySelectorAll('.klink-ui-MultiSelect-item')).toHaveLength(2);
   });
 });

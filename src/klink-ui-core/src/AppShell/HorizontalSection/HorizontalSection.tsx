@@ -96,7 +96,7 @@ export const HorizontalSection = forwardRef<HTMLElement, HorizontalSectionProps>
     const breakpoints = getSortedBreakpoints(width, theme).reduce(
       (acc, [breakpoint, breakpointSize]) => {
         acc[`@media (min-width: ${em(breakpoint)})`] = {
-          [`--mantine-${section}-width`]: rem(breakpointSize),
+          [`--klink-ui-${section}-width`]: rem(breakpointSize),
         };
 
         return acc;
@@ -117,7 +117,7 @@ export const HorizontalSection = forwardRef<HTMLElement, HorizontalSectionProps>
         <Global
           styles={() => ({
             ':root': {
-              [`--mantine-${section}-width`]: width?.base ? rem(width.base) : '0rem',
+              [`--klink-ui-${section}-width`]: width?.base ? rem(width.base) : '0rem',
               ...breakpoints,
             },
           })}

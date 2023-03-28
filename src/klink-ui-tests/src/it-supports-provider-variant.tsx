@@ -37,7 +37,7 @@ export function itSupportsProviderVariant<P>(
     );
 
     selectors.forEach((part, index) => {
-      expect(container.querySelector(`.mantine-${componentName}-${part}`)).toHaveStyle({
+      expect(container.querySelector(`.klink-ui-${componentName}-${part}`)).toHaveStyle({
         borderRightColor: colors[index],
       });
     });

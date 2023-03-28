@@ -26,6 +26,6 @@ describe('@klink-ui/core/Divider', () => {
 
   it('does not render label if label prop is not set or orientation is set to vertical', () => {
     const { container } = render(<Divider label="test-label" orientation="vertical" />);
-    expect(container.querySelectorAll('.mantine-Divider-label')).toHaveLength(0);
+    expect(container.querySelectorAll('.klink-ui-Divider-label')).toHaveLength(0);
   });
 });

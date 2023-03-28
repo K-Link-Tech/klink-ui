@@ -80,23 +80,23 @@ describe('@klink-ui/dates/DecadeLevel', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<DecadeLevel {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-DecadeLevel-decadeLevel');
+    expect(container.firstChild).toHaveClass('klink-ui-DecadeLevel-decadeLevel');
     expect(container.querySelector('table td button')).toHaveClass(
-      'mantine-DecadeLevel-pickerControl'
+      'klink-ui-DecadeLevel-pickerControl'
     );
     expect(screen.getByLabelText('level-control')).toHaveClass(
-      'mantine-DecadeLevel-calendarHeaderLevel'
+      'klink-ui-DecadeLevel-calendarHeaderLevel'
     );
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<DecadeLevel {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-decadeLevel');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-decadeLevel');
     expect(container.querySelector('table td button')).toHaveClass(
-      'mantine-Calendar-pickerControl'
+      'klink-ui-Calendar-pickerControl'
     );
     expect(screen.getByLabelText('level-control')).toHaveClass(
-      'mantine-Calendar-calendarHeaderLevel'
+      'klink-ui-Calendar-calendarHeaderLevel'
     );
   });
 

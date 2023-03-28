@@ -26,7 +26,7 @@ describe('@klink-ui/core/NativeSelect', () => {
     props: defaultProps,
     displayName: '@klink-ui/core/NativeSelect',
     refType: HTMLSelectElement,
-    othersSelector: '.mantine-NativeSelect-input',
+    othersSelector: '.klink-ui-NativeSelect-input',
     providerName: 'NativeSelect',
   });
 

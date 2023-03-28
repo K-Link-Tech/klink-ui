@@ -29,13 +29,13 @@ describe('@klink-ui/core/Timeline', () => {
     const { container: secondActive } = render(<Timeline {...defaultProps} active={1} />);
     const { container: thirdActive } = render(<Timeline {...defaultProps} active={2} />);
 
-    expect(secondActive.querySelectorAll('.mantine-Timeline-item[data-active]')).toHaveLength(2);
-    expect(secondActive.querySelectorAll('.mantine-Timeline-item[data-line-active]')).toHaveLength(
+    expect(secondActive.querySelectorAll('.klink-ui-Timeline-item[data-active]')).toHaveLength(2);
+    expect(secondActive.querySelectorAll('.klink-ui-Timeline-item[data-line-active]')).toHaveLength(
       1
     );
 
-    expect(thirdActive.querySelectorAll('.mantine-Timeline-item[data-active]')).toHaveLength(3);
-    expect(thirdActive.querySelectorAll('.mantine-Timeline-item[data-line-active]')).toHaveLength(
+    expect(thirdActive.querySelectorAll('.klink-ui-Timeline-item[data-active]')).toHaveLength(3);
+    expect(thirdActive.querySelectorAll('.klink-ui-Timeline-item[data-line-active]')).toHaveLength(
       2
     );
   });

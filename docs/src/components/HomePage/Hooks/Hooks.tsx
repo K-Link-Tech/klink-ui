@@ -55,13 +55,13 @@ export function Hooks() {
   return (
     <Box
       sx={(theme) => ({
-        '& .mantine-Prism-code': {
+        '& .klink-ui-Prism-code': {
           backgroundColor: `${
             theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.white
           } !important`,
         },
 
-        '& .mantine-CodeDemo-root': {
+        '& .klink-ui-CodeDemo-root': {
           marginTop: 0,
           boxShadow: theme.shadows.md,
         },

@@ -123,7 +123,7 @@ import { useHotkeys, useLocalStorage } from '@klink-ui/hooks';
 
 function Demo() {
   const [colorScheme, setColorScheme] = useLocalStorage<ColorScheme>({
-    key: 'mantine-color-scheme',
+    key: 'klink-ui-color-scheme',
     defaultValue: 'light',
     getInitialValueInEffect: true,
   });
@@ -200,7 +200,7 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
     const nextColorScheme = value || (colorScheme === 'dark' ? 'light' : 'dark');
     setColorScheme(nextColorScheme);
     // when color scheme is updated save it to cookie
-    setCookie('mantine-color-scheme', nextColorScheme, { maxAge: 60 * 60 * 24 * 30 });
+    setCookie('klink-ui-color-scheme', nextColorScheme, { maxAge: 60 * 60 * 24 * 30 });
   };
 
   return (
@@ -216,7 +216,7 @@ App.getInitialProps = async (appContext: AppContext) => {
   const appProps = await NextApp.getInitialProps(appContext);
   return {
     ...appProps,
-    colorScheme: getCookie('mantine-color-scheme', appContext.ctx) || 'light',
+    colorScheme: getCookie('klink-ui-color-scheme', appContext.ctx) || 'light',
   };
 };
 ```

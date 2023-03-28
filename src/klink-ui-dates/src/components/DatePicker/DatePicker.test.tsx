@@ -163,11 +163,11 @@ describe('@klink-ui/dates/DatePicker', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<DatePicker {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-DatePicker-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-DatePicker-calendar');
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<DatePicker {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-calendar');
   });
 });

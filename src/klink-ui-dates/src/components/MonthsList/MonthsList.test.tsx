@@ -42,14 +42,14 @@ describe('@klink-ui/dates/MonthsList', () => {
 
   it('has correct default __staticSelector', () => {
     render(<MonthsList {...defaultProps} />);
-    expect(screen.getByRole('table')).toHaveClass('mantine-MonthsList-monthsList');
-    expect(screen.getAllByRole('button')[0]).toHaveClass('mantine-MonthsList-pickerControl');
+    expect(screen.getByRole('table')).toHaveClass('klink-ui-MonthsList-monthsList');
+    expect(screen.getAllByRole('button')[0]).toHaveClass('klink-ui-MonthsList-pickerControl');
   });
 
   it('supports custom __staticSelector', () => {
     render(<MonthsList {...defaultProps} __staticSelector="Calendar" />);
-    expect(screen.getByRole('table')).toHaveClass('mantine-Calendar-monthsList');
-    expect(screen.getAllByRole('button')[0]).toHaveClass('mantine-Calendar-pickerControl');
+    expect(screen.getByRole('table')).toHaveClass('klink-ui-Calendar-monthsList');
+    expect(screen.getAllByRole('button')[0]).toHaveClass('klink-ui-Calendar-pickerControl');
   });
 
   it('supports styles api (styles)', () => {

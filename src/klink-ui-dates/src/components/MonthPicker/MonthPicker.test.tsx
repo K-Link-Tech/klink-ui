@@ -33,7 +33,7 @@ describe('@klink-ui/dates/MonthPicker', () => {
   itHandlesControlsKeyboardEvents(
     MonthPicker,
     'decade',
-    '.mantine-MonthPicker-monthsList',
+    '.klink-ui-MonthPicker-monthsList',
     defaultProps
   );
 
@@ -166,11 +166,11 @@ describe('@klink-ui/dates/MonthPicker', () => {
 
   it('has correct default __staticSelector', () => {
     const { container } = render(<MonthPicker {...defaultProps} />);
-    expect(container.firstChild).toHaveClass('mantine-MonthPicker-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-MonthPicker-calendar');
   });
 
   it('supports custom __staticSelector', () => {
     const { container } = render(<MonthPicker {...defaultProps} __staticSelector="Calendar" />);
-    expect(container.firstChild).toHaveClass('mantine-Calendar-calendar');
+    expect(container.firstChild).toHaveClass('klink-ui-Calendar-calendar');
   });
 });
