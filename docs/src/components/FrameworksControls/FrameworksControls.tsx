@@ -1,5 +1,5 @@
 import React from 'react';
-import { UnstyledButton, Text, SimpleGrid } from '@mantine/core';
+import { UnstyledButton, Text, SimpleGrid } from '@klink-ui/core';
 import { Link } from 'gatsby';
 import { FRAMEWORKS_DATA } from './data';
 import useStyles from './FrameworksControls.styles';

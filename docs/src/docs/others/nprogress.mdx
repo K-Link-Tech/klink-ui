@@ -1,43 +1,43 @@
 ---
 group: 'Other packages'
-package: '@mantine/nprogress'
+package: '@klink-ui/nprogress'
 title: 'Navigation progress'
 order: 1
 slug: /others/nprogress/
 description: 'Navigation progress bar'
 props: ['NavigationProgress']
-import: "import { NavigationProgress } from '@mantine/nprogress';"
+import: "import { NavigationProgress } from '@klink-ui/nprogress';"
 source: 'mantine-nprogress/src'
 docs: 'others/nprogress.mdx'
-installation: '@mantine/nprogress'
+installation: '@klink-ui/nprogress'
 license: MIT
 ---
 
-import { NProgressDemos } from '@mantine/demos';
+import { NProgressDemos } from '@klink-ui/demos';
 
 ## Installation
 
-Package depends on `@mantine/core` and `@mantine/hooks`.
+Package depends on `@klink-ui/core` and `@klink-ui/hooks`.
 
 Install with yarn:
 
 ```bash
-yarn add @mantine/nprogress
+yarn add @klink-ui/nprogress
 ```
 
 Install with npm:
 
 ```bash
-npm install @mantine/nprogress
+npm install @klink-ui/nprogress
 ```
 
 ## Setup NavigationProgress
 
-Render `NavigationProgress` anywhere in your app within [MantineProvider](/theming/mantine-provider/):
+Render `NavigationProgress` anywhere in your app within [MantineProvider](/theming/klink-ui-provider/):
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
-import { NavigationProgress } from '@mantine/nprogress';
+import { MantineProvider } from '@klink-ui/core';
+import { NavigationProgress } from '@klink-ui/nprogress';
 
 function Demo() {
   return (
@@ -61,7 +61,7 @@ Create `RouterTransition` component that will handle router events:
 // components/RouterTransition.tsx
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { NavigationProgress, nprogress } from '@mantine/nprogress';
+import { NavigationProgress, nprogress } from '@klink-ui/nprogress';
 
 export function RouterTransition() {
   const router = useRouter();
@@ -85,12 +85,12 @@ export function RouterTransition() {
 }
 ```
 
-Then render it in `_app.tsx` within [MantineProvider](/theming/mantine-provider/):
+Then render it in `_app.tsx` within [MantineProvider](/theming/klink-ui-provider/):
 
 ```tsx
 // pages/_app.tsx
 import { AppProps } from 'next/app';
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@klink-ui/core';
 import { RouterTransition } from '../components/RouterTransition';
 
 export default function App(props: AppProps) {

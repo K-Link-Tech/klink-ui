@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor, rem } from '@mantine/core';
-import { Prism } from '@mantine/prism';
+import { Text, Box, Anchor, rem } from '@klink-ui/core';
+import { Prism } from '@klink-ui/prism';
 
 const code = `
 import styled from '@emotion/styled';

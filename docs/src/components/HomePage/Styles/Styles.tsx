@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, rem } from '@mantine/core';
+import { Tabs, rem } from '@klink-ui/core';
 import { PageSection } from '../PageSection/PageSection';
 import { SxDemo } from './demos/SxDemo';
 import { CreateStylesDemo } from './demos/CreateStylesDemo';

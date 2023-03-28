@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor, em } from '@mantine/core';
-import { Prism } from '@mantine/prism';
+import { Text, Box, Anchor, em } from '@klink-ui/core';
+import { Prism } from '@klink-ui/prism';
 
 const code = `
-import { Text } from '@mantine/core';
+import { Text } from '@klink-ui/core';
 
 function Demo() {
   return (

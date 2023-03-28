@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { ThemeIcon, Text, Group, SimpleGrid, rem } from '@mantine/core';
+import { ThemeIcon, Text, Group, SimpleGrid, rem } from '@klink-ui/core';
 import { NEXT_STEPS_DATA } from './data';
 import { LogoWhite } from './LogoWhite';
 import useStyles from './NextSteps.styles';

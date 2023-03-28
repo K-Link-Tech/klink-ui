@@ -14,8 +14,8 @@ import {
   Stepper,
   Pagination,
   Box,
-} from '@mantine/core';
-import { AuthenticationForm, HoverCardHomePageDemo } from '@mantine/demos';
+} from '@klink-ui/core';
+import { AuthenticationForm, HoverCardHomePageDemo } from '@klink-ui/demos';
 
 function StepperDemo() {
   const [active, setActive] = useState(1);

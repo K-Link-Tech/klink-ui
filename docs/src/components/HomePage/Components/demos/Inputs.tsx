@@ -8,7 +8,7 @@ import {
   NativeSelect,
   MultiSelect,
   Autocomplete,
-} from '@mantine/core';
+} from '@klink-ui/core';
 
 export function Inputs() {
   return (

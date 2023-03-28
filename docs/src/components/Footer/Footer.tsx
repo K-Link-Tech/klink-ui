@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container, Text, Group } from '@mantine/core';
-import { TwitterButton, DiscordButton } from '@mantine/ds';
+import { Container, Text, Group } from '@klink-ui/core';
+import { TwitterButton, DiscordButton } from '@klink-ui/ds';
 import { Logo } from '../Logo/Logo';
 import { LinksGroup } from './LinksGroup/LinksGroup';
 import { FOOTER_LINKS_DATA } from './data';
@@ -36,7 +36,7 @@ export function Footer({ withNavbar }: FooterProps) {
             <Group position="apart">
               <Text size="xs" className={classes.afterFooterNote}>
                 Built by <a href="https://github.com/rtivital">Vitaly Rtishchev</a> and{' '}
-                <a href="https://github.com/mantinedev/mantine/graphs/contributors">
+                <a href="https://github.com/mantinedev/klink-ui/graphs/contributors">
                   these awesome people
                 </a>
               </Text>

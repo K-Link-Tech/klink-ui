@@ -1,19 +1,19 @@
 ---
 group: 'mantine-core'
-package: '@mantine/core'
+package: '@klink-ui/core'
 title: MultiSelect
 order: 1
 slug: /core/multi-select/
 category: 'inputs'
 description: 'Custom searchable multi select'
 props: ['MultiSelect']
-import: "import { MultiSelect } from '@mantine/core';"
+import: "import { MultiSelect } from '@klink-ui/core';"
 source: 'mantine-core/src/MultiSelect/MultiSelect.tsx'
 docs: 'core/MultiSelect.mdx'
 styles: ['MultiSelect']
 ---
 
-import { MultiSelectDemos } from '@mantine/demos';
+import { MultiSelectDemos } from '@klink-ui/demos';
 
 ## Usage
 
@@ -29,7 +29,7 @@ A bare minimum example:
 
 ```tsx
 import { useState } from 'react';
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@klink-ui/core';
 
 function Demo() {
   const [value, setValue] = useState([]);
@@ -236,7 +236,7 @@ Note that in this case `clearable` option will not work and will need to handle 
 
 ```tsx
 import { useRef } from 'react';
-import { MultiSelect } from '@mantine/core';
+import { MultiSelect } from '@klink-ui/core';
 
 function Demo() {
   const ref = useRef<HTMLInputElement>(null);

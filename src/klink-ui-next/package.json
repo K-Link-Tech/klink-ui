@@ -1,0 +1,32 @@
+{
+  "name": "@klink-ui/next",
+  "description": "Mantine integration for Next.js",
+  "version": "6.0.2",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
+  "sideEffects": false,
+  "homepage": "https://klink-ui.dev",
+  "repository": {
+    "url": "https://github.com/mantinedev/klink-ui.git",
+    "type": "git",
+    "directory": "src/klink-ui-ssr"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "nextjs"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "next": "*"
+  },
+  "dependencies": {
+    "@klink-ui/ssr": "6.0.2",
+    "@klink-ui/styles": "6.0.2"
+  },
+  "devDependencies": {}
+}

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { graphql, useStaticQuery, navigate } from 'gatsby';
-import { randomId, useMediaQuery } from '@mantine/hooks';
-import { Notifications } from '@mantine/notifications';
-import { ModalsProvider, ContextModalProps } from '@mantine/modals';
-import { SpotlightProvider, SpotlightAction } from '@mantine/spotlight';
-import { Text, Button, rem, em } from '@mantine/core';
+import { randomId, useMediaQuery } from '@klink-ui/hooks';
+import { Notifications } from '@klink-ui/notifications';
+import { ModalsProvider, ContextModalProps } from '@klink-ui/modals';
+import { SpotlightProvider, SpotlightAction } from '@klink-ui/spotlight';
+import { Text, Button, rem, em } from '@klink-ui/core';
 import { IconSearch } from '@tabler/icons-react';
 import MdxProvider from '../MdxPage/MdxProvider/MdxProvider';
 import Navbar from './Navbar/Navbar';

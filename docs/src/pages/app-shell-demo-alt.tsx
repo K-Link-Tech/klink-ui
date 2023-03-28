@@ -9,7 +9,7 @@ import {
   MediaQuery,
   Burger,
   useMantineTheme,
-} from '@mantine/core';
+} from '@klink-ui/core';
 
 export default function AppShellDemo() {
   const theme = useMantineTheme();

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Space } from '@mantine/core';
+import { Space } from '@klink-ui/core';
 import { FrameworksControls } from '../../FrameworksControls/FrameworksControls';
 import { PageSection } from '../PageSection/PageSection';
 

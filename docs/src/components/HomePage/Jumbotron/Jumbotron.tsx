@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Container, Group, Button, Text, useMantineTheme, SimpleGrid, rem } from '@mantine/core';
-import { GithubIcon } from '@mantine/ds';
+import { Container, Group, Button, Text, useMantineTheme, SimpleGrid, rem } from '@klink-ui/core';
+import { GithubIcon } from '@klink-ui/ds';
 import { Hero } from './Hero';
 import { FEATURES_DATA } from './features';
 import useStyles from './Jumbotron.styles';
@@ -61,7 +61,7 @@ export function Jumbotron() {
 
           <Button
             component="a"
-            href="https://github.com/mantinedev/mantine"
+            href="https://github.com/mantinedev/klink-ui"
             size="xl"
             variant="outline"
             radius="md"

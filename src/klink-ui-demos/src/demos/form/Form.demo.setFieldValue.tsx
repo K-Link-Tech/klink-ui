@@ -1,0 +1,73 @@
+import React from 'react';
+import { useForm } from '@klink-ui/form';
+import { TextInput, Button, Group, Box } from '@klink-ui/core';
+import { MantineDemo } from '@klink-ui/ds';
+import { randomId } from '@klink-ui/hooks';
+
+const code = `
+import { useForm } from '@klink-ui/form';
+import { TextInput, Button, Group, Box } from '@klink-ui/core';
+import { randomId } from '@klink-ui/hooks';
+
+function Demo() {
+  const form = useForm({
+    initialValues: {
+      name: '',
+      email: '',
+    },
+  });
+
+  return (
+    <Box maw={320} mx="auto">
+      <TextInput label="Name" placeholder="Name" {...form.getInputProps('name')} />
+      <TextInput mt="md" label="Email" placeholder="Email" {...form.getInputProps('email')} />
+
+      <Group position="center" mt="xl">
+        <Button variant="outline" onClick={() => form.setFieldValue('name', randomId())}>
+          Random name
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => form.setFieldValue('email', \`\${randomId()}@test.com\`)}
+        >
+          Random email
+        </Button>
+      </Group>
+    </Box>
+  );
+}
+`;
+
+function Demo() {
+  const form = useForm({
+    initialValues: {
+      name: '',
+      email: '',
+    },
+  });
+
+  return (
+    <Box maw={320} mx="auto">
+      <TextInput label="Name" placeholder="Name" {...form.getInputProps('name')} />
+      <TextInput mt="md" label="Email" placeholder="Email" {...form.getInputProps('email')} />
+
+      <Group position="center" mt="xl">
+        <Button variant="outline" onClick={() => form.setFieldValue('name', randomId())}>
+          Random name
+        </Button>
+        <Button
+          variant="outline"
+          onClick={() => form.setFieldValue('email', `${randomId()}@test.com`)}
+        >
+          Random email
+        </Button>
+      </Group>
+    </Box>
+  );
+}
+
+export const setFieldValue: MantineDemo = {
+  type: 'demo',
+  component: Demo,
+  code,
+};

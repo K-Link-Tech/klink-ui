@@ -1,4 +1,4 @@
-import type { MantineTheme } from '@mantine/core';
+import type { MantineTheme } from '@klink-ui/core';
 
 export function getGradient(theme: MantineTheme, variant: 'text' | 'bg') {
   if (variant === 'text') {

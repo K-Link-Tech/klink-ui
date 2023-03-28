@@ -19,7 +19,7 @@ export function PageHead({ title, description, disableTitleTemplate }: PageHeadP
       <meta name="og:title" content={title} />
       <meta
         name="og:image"
-        content="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/Hero.png"
+        content="https://raw.githubusercontent.com/mantinedev/klink-ui/master/.demo/Hero.png"
       />
       <meta name="og:image:width" content="1280" />
       <meta name="og:image:height" content="640" />

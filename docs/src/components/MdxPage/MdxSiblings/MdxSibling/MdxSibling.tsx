@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, rem } from '@mantine/core';
-import { upperFirst } from '@mantine/hooks';
+import { Text, rem } from '@klink-ui/core';
+import { upperFirst } from '@klink-ui/hooks';
 import { IconArrowLeft, IconArrowRight } from '@tabler/icons-react';
 import { Frontmatter } from '../../../../types';
 import useStyles from './MdxSibling.styles';

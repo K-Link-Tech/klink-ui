@@ -1,8 +1,8 @@
 {
   "extends": "./tsconfig.base.json",
   "include": [
-    "src/mantine-*/src",
-    "src/mantine-*/demos",
+    "src/klink-ui-*/src",
+    "src/klink-ui-*/demos",
     "./types",
     "./docs/src",
     "./scripts",
@@ -16,14 +16,14 @@
     "configuration/jest",
     "configuration/storybook/main.js",
     "node_modules",
-    "src/mantine-*/esm/**/*",
-    "src/mantine-*/lib/**/*",
-    "src/mantine-*/cjs/**/*"
+    "src/klink-ui-*/esm/**/*",
+    "src/klink-ui-*/lib/**/*",
+    "src/klink-ui-*/cjs/**/*"
   ],
   "compilerOptions": {
     "paths": {
-      "@mantine/*": ["src/mantine-*/src"],
-      "@demos/*": ["src/mantine-*/src/demos"]
+      "@klink-ui/*": ["src/klink-ui-*/src"],
+      "@demos/*": ["src/klink-ui-*/src/demos"]
     }
   }
 }

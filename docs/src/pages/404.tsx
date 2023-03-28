@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { Container } from '@mantine/core';
+import { Container } from '@klink-ui/core';
 import GatsbyLink from '../components/MdxPage/MdxProvider/GatsbyLink/GatsbyLink';
 import { components } from '../components/MdxPage/MdxProvider/MdxProvider';
 import { PageHead } from '../components/PageHead/PageHead';
@@ -15,8 +15,8 @@ export default function PageNotFound() {
           <H1>Congratulations!</H1>
           You've found a completely secret place on Mantine website. Unfortunately, this is only a
           404 page. If you've landed on this page from a link on the Mantine website, please{' '}
-          <A href="https://github.com/mantinedev/mantine/issues/new">create an issue</A>. Otherwise,
-          here are some learning materials that will help you get started with Mantine:
+          <A href="https://github.com/mantinedev/klink-ui/issues/new">create an issue</A>.
+          Otherwise, here are some learning materials that will help you get started with Mantine:
         </P>
         <Ul>
           <Li>
@@ -31,7 +31,7 @@ export default function PageNotFound() {
             <GatsbyLink to="/others/notifications/">Mantine notifications system</GatsbyLink>
           </Li>
           <Li>
-            <GatsbyLink to="/theming/mantine-provider/">
+            <GatsbyLink to="/theming/klink-ui-provider/">
               Learn how to customize Mantine theme
             </GatsbyLink>
           </Li>

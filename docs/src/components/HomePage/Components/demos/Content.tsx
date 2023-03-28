@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text, Box } from '@mantine/core';
-import { AccordionDemo, TimelineBase } from '@mantine/demos';
+import { Text, Box } from '@klink-ui/core';
+import { AccordionDemo, TimelineBase } from '@klink-ui/demos';
 
 export function Content() {
   return (

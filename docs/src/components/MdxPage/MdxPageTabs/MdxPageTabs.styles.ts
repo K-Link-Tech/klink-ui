@@ -1,4 +1,4 @@
-import { createStyles, rem, em } from '@mantine/core';
+import { createStyles, rem, em } from '@klink-ui/core';
 import {
   BREAKPOINT,
   TABLE_OF_CONTENTS_WIDTH,

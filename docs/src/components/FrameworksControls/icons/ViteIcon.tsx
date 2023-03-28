@@ -1,5 +1,5 @@
 import React from 'react';
-import { rem } from '@mantine/core';
+import { rem } from '@klink-ui/core';
 
 export function ViteIcon() {
   return (

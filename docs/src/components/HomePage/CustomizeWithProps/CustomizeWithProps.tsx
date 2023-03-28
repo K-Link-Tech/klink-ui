@@ -1,7 +1,7 @@
 import React from 'react';
-import { Space, Box, useMantineTheme } from '@mantine/core';
-import { TimelineDemos } from '@mantine/demos';
-import { Demo } from '@mantine/ds';
+import { Space, Box, useMantineTheme } from '@klink-ui/core';
+import { TimelineDemos } from '@klink-ui/demos';
+import { Demo } from '@klink-ui/ds';
 import { PageSection } from '../PageSection/PageSection';
 
 export function CustomizeWithProps() {

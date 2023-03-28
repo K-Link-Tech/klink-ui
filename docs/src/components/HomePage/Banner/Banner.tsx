@@ -1,6 +1,6 @@
 import React from 'react';
-import { Title, Overlay, Text, Button, Container } from '@mantine/core';
-import { GithubIcon } from '@mantine/ds';
+import { Title, Overlay, Text, Button, Container } from '@klink-ui/core';
+import { GithubIcon } from '@klink-ui/ds';
 import useStyles from './Banner.styles';
 
 export function Banner() {

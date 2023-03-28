@@ -1,5 +1,5 @@
-import { MANTINE_CORE_CATEGORIES, MANTINE_CORE_ORDER } from './mantine-core';
-import { MANTINE_HOOKS_ORDER, MANTINE_HOOKS_CATEGORIES } from './mantine-hooks';
+import { MANTINE_CORE_CATEGORIES, MANTINE_CORE_ORDER } from './klink-ui-core';
+import { MANTINE_HOOKS_ORDER, MANTINE_HOOKS_CATEGORIES } from './klink-ui-hooks';
 
 export const MANTINE_HOOKS_CATEGORIZED = {
   group: 'mantine-hooks',

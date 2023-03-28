@@ -1,4 +1,4 @@
-name: Report an issue with @mantine/ scoped package
+name: Report an issue with @klink-ui/ scoped package
 description: Tell us if something is not working as expected
 labels: 'review required'
 body:
@@ -6,24 +6,24 @@ body:
     attributes:
       value: |
         ## Thanks for reaching out!
-        Before submitting an issue please make sure that you use latest version of all @mantine/ packages.
+        Before submitting an issue please make sure that you use latest version of all @klink-ui/ packages.
   - type: dropdown
     id: package
     attributes:
       label: What package has an issue
       options:
-        - '@mantine/core'
-        - '@mantine/dates'
-        - '@mantine/hooks'
-        - '@mantine/form'
-        - '@mantine/notifications'
-        - '@mantine/tiptap'
-        - '@mantine/prism'
-        - '@mantine/modals'
-        - '@mantine/dropzone'
-        - '@mantine/spotlight'
-        - '@mantine/nprogress'
-        - '@mantine/carousel'
+        - '@klink-ui/core'
+        - '@klink-ui/dates'
+        - '@klink-ui/hooks'
+        - '@klink-ui/form'
+        - '@klink-ui/notifications'
+        - '@klink-ui/tiptap'
+        - '@klink-ui/prism'
+        - '@klink-ui/modals'
+        - '@klink-ui/dropzone'
+        - '@klink-ui/spotlight'
+        - '@klink-ui/nprogress'
+        - '@klink-ui/carousel'
     validations:
       required: true
   - type: textarea
@@ -35,14 +35,14 @@ body:
   - type: input
     id: version
     attributes:
-      label: What version of @mantine/hooks page do you have in package.json?
+      label: What version of @klink-ui/hooks page do you have in package.json?
     validations:
       required: true
   - type: input
     id: link
     attributes:
       label: If possible, please include a link to a codesandbox with the reproduced problem
-      description: Codesandbox template – https://codesandbox.io/s/mantine-template-9ze89
+      description: Codesandbox template – https://codesandbox.io/s/klink-ui-template-9ze89
   - type: dropdown
     id: fix
     attributes:

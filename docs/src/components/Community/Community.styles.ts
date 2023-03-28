@@ -1,4 +1,4 @@
-import { createStyles } from '@mantine/core';
+import { createStyles } from '@klink-ui/core';
 
 export default createStyles((theme) => ({
   card: {

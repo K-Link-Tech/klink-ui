@@ -7,8 +7,8 @@ import {
   ActionIcon,
   createEmotionCache,
   rem,
-} from '@mantine/core';
-import { useHotkeys } from '@mantine/hooks';
+} from '@klink-ui/core';
+import { useHotkeys } from '@klink-ui/hooks';
 import rtlPlugin from 'stylis-plugin-rtl';
 
 export const parameters = { layout: 'fullscreen' };

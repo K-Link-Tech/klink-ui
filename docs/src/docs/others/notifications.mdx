@@ -1,7 +1,7 @@
 ---
 order: 1
 group: 'Other packages'
-package: '@mantine/notifications'
+package: '@klink-ui/notifications'
 title: Notifications system
 slug: /others/notifications/
 props: ['Notifications']
@@ -9,26 +9,26 @@ source: 'mantine-notifications/src'
 docs: 'others/notifications.mdx'
 pageTitle: 'Mantine Notifications'
 description: 'Mantine notifications system'
-installation: '@mantine/notifications'
+installation: '@klink-ui/notifications'
 license: MIT
 ---
 
-import { NotificationDemos, NotificationsDemos } from '@mantine/demos';
+import { NotificationDemos, NotificationsDemos } from '@klink-ui/demos';
 
 ## Installation
 
-Package depends on `@mantine/core` and `@mantine/hooks`.
+Package depends on `@klink-ui/core` and `@klink-ui/hooks`.
 
 Install with yarn:
 
 ```bash
-yarn add @mantine/notifications
+yarn add @klink-ui/notifications
 ```
 
 Install with npm:
 
 ```bash
-npm install @mantine/notifications
+npm install @klink-ui/notifications
 ```
 
 ## Demo
@@ -38,11 +38,11 @@ npm install @mantine/notifications
 ## Usage
 
 Add `Notifications` component anywhere in your application, usually it is placed
-inside [MantineProvider](/theming/mantine-provider/) next to your `App` component:
+inside [MantineProvider](/theming/klink-ui-provider/) next to your `App` component:
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
-import { Notifications } from '@mantine/notifications';
+import { MantineProvider } from '@klink-ui/core';
+import { Notifications } from '@klink-ui/notifications';
 
 function Demo() {
   return (
@@ -61,7 +61,7 @@ Then use `notifications.show` function anywhere in your application:
 ## Functions
 
 Notifications system is based on [custom events](https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events),
-`@mantine/notifications` package exports the following functions:
+`@klink-ui/notifications` package exports the following functions:
 
 - **notifications.show** – adds given notification to notifications list or queue depending on current state and limit
 - **notifications.update** – updates notification that was previously added to the state or queue
@@ -69,10 +69,10 @@ Notifications system is based on [custom events](https://developer.mozilla.org/e
 - **notifications.clean** – removes all notifications from notifications state and queue
 - **notifications.cleanQueue** – removes all notifications from queue
 
-All functions can be imported from `@mantine/notifications` package and can be used in any part of your application:
+All functions can be imported from `@klink-ui/notifications` package and can be used in any part of your application:
 
 ```tsx
-import { notifications } from '@mantine/notifications';
+import { notifications } from '@klink-ui/notifications';
 ```
 
 ## Notification props
@@ -91,7 +91,7 @@ All properties except **message** are optional.
 
 ```tsx
 import { IconX } from '@tabler/icons-react';
-import { notifications } from '@mantine/notifications';
+import { notifications } from '@klink-ui/notifications';
 
 // Bare minimum – message is required for all notifications
 notifications.show({ message: 'Hello' });
@@ -137,7 +137,7 @@ Position cannot be changed per notification. `Notifications` supports the follow
 - `bottom-center`
 
 ```tsx
-import { Notifications } from '@mantine/notifications';
+import { Notifications } from '@klink-ui/notifications';
 
 function Demo() {
   return <Notifications position="top-right" zIndex={2077} />;
@@ -151,7 +151,7 @@ You can limit maximum amount of notifications that can be displayed by setting
 `limit` prop on `Notifications`:
 
 ```tsx
-import { Notifications } from '@mantine/notifications';
+import { Notifications } from '@klink-ui/notifications';
 
 function Demo() {
   return <Notifications limit={5} />;
@@ -168,7 +168,7 @@ and displayed when notification from current state is closed.
 To remove specific notification from state or queue use `notifications.hide` function:
 
 ```tsx
-import { notifications } from '@mantine/notifications';
+import { notifications } from '@klink-ui/notifications';
 
 notifications.show({ id: 'hello', message: 'Hello!' });
 notifications.hide('hello');
@@ -188,7 +188,7 @@ Use `notifications.cleanQueue` function to remove all notifications that are not
 You can configure auto close timeout with `Notifications`:
 
 ```tsx
-import { Notifications } from '@mantine/notifications';
+import { Notifications } from '@klink-ui/notifications';
 
 // All notifications will be closed automatically in 4000ms
 function Demo() {
@@ -199,7 +199,7 @@ function Demo() {
 Or in `notifications.show`/`notifications.update` functions:
 
 ```tsx
-import { notifications } from '@mantine/notifications';
+import { notifications } from '@klink-ui/notifications';
 
 notifications.show({
   message: 'I will close in 500ms seconds',

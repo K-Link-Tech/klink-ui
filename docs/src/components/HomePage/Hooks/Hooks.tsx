@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@mantine/core';
+import { Box } from '@klink-ui/core';
 import {
   IconArrowsMaximize,
   IconClock,
@@ -8,8 +8,8 @@ import {
   IconMaximize,
   IconResize,
 } from '@tabler/icons-react';
-import { Demo } from '@mantine/ds';
-import { FormDemos, HooksDemos } from '@mantine/demos';
+import { Demo } from '@klink-ui/ds';
+import { FormDemos, HooksDemos } from '@klink-ui/demos';
 import { DemoTabs } from '../DemoTabs/DemoTabs';
 
 const data = [

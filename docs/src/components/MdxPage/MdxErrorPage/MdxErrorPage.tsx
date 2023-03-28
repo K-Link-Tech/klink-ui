@@ -1,6 +1,6 @@
 import React from 'react';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
-import { Alert } from '@mantine/core';
+import { Alert } from '@klink-ui/core';
 import { MdxPageBase } from '../MdxPageBase/MdxPageBase';
 import MdxTitle from '../MdxProvider/MdxTitle/MdxTitle';
 import { MdxPageProps } from '../../../types';

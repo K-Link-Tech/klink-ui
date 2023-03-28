@@ -1,6 +1,6 @@
 import React from 'react';
-import { Table, Title } from '@mantine/core';
-import * as STYLES_API from '@mantine/styles-api';
+import { Table, Title } from '@klink-ui/core';
+import * as STYLES_API from '@klink-ui/styles-api';
 import useStyles from './StylesApiItem.styles';
 
 interface StylesApiItemProps {

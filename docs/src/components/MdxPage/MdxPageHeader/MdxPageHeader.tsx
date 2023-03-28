@@ -1,6 +1,6 @@
 import React from 'react';
-import { Title, Text, Badge, rem } from '@mantine/core';
-import { GithubIcon, NpmIcon } from '@mantine/ds';
+import { Title, Text, Badge, rem } from '@klink-ui/core';
+import { GithubIcon, NpmIcon } from '@klink-ui/ds';
 import { IconPencil, IconLicense, IconCalendar } from '@tabler/icons-react';
 import { Link } from 'gatsby';
 import { ImportStatement } from './ImportStatement/ImportStatement';
@@ -9,7 +9,7 @@ import { getGradient } from '../../HomePage/get-gradient';
 import { MdxPageProps } from '../../../types';
 import useStyles from './MdxPageHeader.styles';
 
-const REPO_BASE = 'https://github.com/mantinedev/mantine/blob/master';
+const REPO_BASE = 'https://github.com/mantinedev/klink-ui/blob/master';
 const DOCS_BASE = `${REPO_BASE}/docs/src/docs`;
 const SOURCE_BASE = `${REPO_BASE}/src`;
 
@@ -92,10 +92,10 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
             icon={<NpmIcon size={rem(14)} />}
             link={`https://www.npmjs.com/package/${frontmatter.package.replace(
               'mantine-',
-              '@mantine/'
+              '@klink-ui/'
             )}`}
           >
-            {frontmatter.package.replace('mantine-', '@mantine/')}
+            {frontmatter.package.replace('mantine-', '@klink-ui/')}
           </LinkItem>
         )}
 
@@ -103,7 +103,7 @@ export function MdxPageHeader({ frontmatter }: MdxPageProps) {
           <LinkItem
             label="License"
             icon={<IconLicense size={rem(14)} stroke={1.5} />}
-            link="https://github.com/mantinedev/mantine/blob/master/LICENSE"
+            link="https://github.com/mantinedev/klink-ui/blob/master/LICENSE"
           >
             MIT
           </LinkItem>

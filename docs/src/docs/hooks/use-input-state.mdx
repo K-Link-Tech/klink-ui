@@ -1,12 +1,12 @@
 ---
 group: 'mantine-hooks'
-package: '@mantine/hooks'
+package: '@klink-ui/hooks'
 title: 'use-input-state'
 category: 'state'
 order: 1
 slug: /hooks/use-input-state/
 description: 'Manage state of native and custom inputs'
-import: "import { useInputState } from '@mantine/hooks';"
+import: "import { useInputState } from '@klink-ui/hooks';"
 docs: 'hooks/use-input-state.mdx'
 source: 'mantine-hooks/src/use-input-state/use-input-state.ts'
 ---
@@ -18,8 +18,8 @@ Hook works with all Mantine and native inputs:
 
 ```tsx
 import { useState } from 'react';
-import { useInputState } from '@mantine/hooks';
-import { TextInput, NumberInput } from '@mantine/core';
+import { useInputState } from '@klink-ui/hooks';
+import { TextInput, NumberInput } from '@klink-ui/core';
 
 function WithUseInputState() {
   const [stringValue, setStringValue] = useInputState('');

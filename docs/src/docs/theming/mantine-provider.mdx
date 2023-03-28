@@ -1,12 +1,12 @@
 ---
 group: 'theming'
 title: MantineProvider
-slug: /theming/mantine-provider/
+slug: /theming/klink-ui-provider/
 order: 1
 search: 'Theme context, CSS reset, CSS variables, context classes and styles'
 ---
 
-import { ThemeDemos } from '@mantine/demos';
+import { ThemeDemos } from '@klink-ui/demos';
 
 # MantineProvider
 
@@ -15,7 +15,7 @@ MantineProvider component can be used to change theme. It is not required if you
 ## Usage
 
 ```tsx
-import { MantineProvider, Button } from '@mantine/core';
+import { MantineProvider, Button } from '@klink-ui/core';
 
 function App() {
   return <Button>My app button</Button>;
@@ -44,7 +44,7 @@ and global styles (`withGlobalStyles`). It is recommended to enable these option
 - font-size to `theme.fontSizes.md`
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@klink-ui/core';
 
 function Demo() {
   return (
@@ -61,7 +61,7 @@ If you prefer to style components with CSS/SCSS or other styling solutions that 
 context, then you can use Mantine CSS variables. To add CSS variables to the `:root` set `withCSSVariables` prop on `MantineProvider`:
 
 ```tsx
-import { MantineProvider } from '@mantine/core';
+import { MantineProvider } from '@klink-ui/core';
 
 function Demo() {
   return (
@@ -109,7 +109,7 @@ If some parts of your application require different theme settings, you can wrap
 Note that nested `MantineProvider` will inherit `theme` override from parent provider only if `inherit` prop is set:
 
 ```tsx
-import { MantineProvider, Button } from '@mantine/core';
+import { MantineProvider, Button } from '@klink-ui/core';
 
 function App() {
   return (
@@ -142,7 +142,7 @@ All components that are rendered inside MantineProvider will inherit those style
 If component does not specify Styles API selectors, then in most cases you can add styles using `root` selector:
 
 ```tsx
-import { MantineProvider, Text } from '@mantine/core';
+import { MantineProvider, Text } from '@klink-ui/core';
 
 function App() {
   return (
@@ -171,7 +171,7 @@ Same as with `styles` you can add classes to all components with `classNames`.
 This approach is useful when you want to styles components with utility based CSS libraries.
 
 ```tsx
-import { MantineProvider, Button } from '@mantine/core';
+import { MantineProvider, Button } from '@klink-ui/core';
 
 function App() {
   return (

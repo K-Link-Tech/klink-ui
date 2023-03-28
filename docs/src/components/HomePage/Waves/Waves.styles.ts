@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@mantine/core';
+import { createStyles, rem } from '@klink-ui/core';
 
 interface WavesStylesParams {
   height: number;

@@ -1,16 +1,16 @@
 /* eslint-disable import/no-webpack-loader-syntax */
 import React from 'react';
-import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@mantine/core';
-import { useClipboard } from '@mantine/hooks';
+import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@klink-ui/core';
+import { useClipboard } from '@klink-ui/hooks';
 
-import fullLogoCode from '!!raw-loader!./assets/mantine-logo-full.svg';
-import fullLogoImage from './assets/mantine-logo-full.svg';
+import fullLogoCode from '!!raw-loader!./assets/klink-ui-logo-full.svg';
+import fullLogoImage from './assets/klink-ui-logo-full.svg';
 
-import whiteLogoCode from '!!raw-loader!./assets/mantine-logo-white.svg';
-import whiteLogoImage from './assets/mantine-logo-white.svg';
+import whiteLogoCode from '!!raw-loader!./assets/klink-ui-logo-white.svg';
+import whiteLogoImage from './assets/klink-ui-logo-white.svg';
 
-import logoCode from '!!raw-loader!./assets/mantine-logo.svg';
-import logoImage from './assets/mantine-logo.svg';
+import logoCode from '!!raw-loader!./assets/klink-ui-logo.svg';
+import logoImage from './assets/klink-ui-logo.svg';
 
 interface LogoAssetProps {
   image: string;

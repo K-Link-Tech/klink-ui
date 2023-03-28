@@ -1,6 +1,6 @@
 import React from 'react';
-import { Paper, SimpleGrid, Input } from '@mantine/core';
-import { DatePickerInput, TimeInput, DatePicker, DateTimePicker } from '@mantine/dates';
+import { Paper, SimpleGrid, Input } from '@klink-ui/core';
+import { DatePickerInput, TimeInput, DatePicker, DateTimePicker } from '@klink-ui/dates';
 import dayjs from 'dayjs';
 
 function CalendarWrapper() {

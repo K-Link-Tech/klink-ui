@@ -10,7 +10,7 @@ module.exports = {
     title: 'Mantine Docs',
     description: 'Mantine documentation',
     author: '@rtivital',
-    siteUrl: 'https://mantine.dev',
+    siteUrl: 'https://klink-ui.dev',
   },
 
   plugins: [

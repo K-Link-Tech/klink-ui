@@ -1,9 +1,9 @@
 /* eslint-disable import/no-relative-packages */
 import React from 'react';
 import { IconChevronDown, IconExternalLink } from '@tabler/icons-react';
-import { Code, Menu, UnstyledButton, Text, RemoveScroll, rem } from '@mantine/core';
-import { useSpotlight } from '@mantine/spotlight';
-import { HeaderControls } from '@mantine/ds';
+import { Code, Menu, UnstyledButton, Text, RemoveScroll, rem } from '@klink-ui/core';
+import { useSpotlight } from '@klink-ui/spotlight';
+import { HeaderControls } from '@klink-ui/ds';
 import corePackageJson from '../../../../../package.json';
 import { Logo } from '../../Logo/Logo';
 import { useDirectionContext } from '../DirectionContext';
@@ -63,7 +63,7 @@ export function HeaderDesktop() {
       <HeaderControls
         pr="md"
         onSearch={spotlight.openSpotlight}
-        githubLink="https://github.com/mantinedev/mantine"
+        githubLink="https://github.com/mantinedev/klink-ui"
         direction={dir}
         toggleDirection={toggleDirection}
       />
