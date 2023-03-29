@@ -1,4 +1,4 @@
-# Mantine dates
+# Klink UI dates
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/dates)](https://www.npmjs.com/package/@klink-ui/dates)
 

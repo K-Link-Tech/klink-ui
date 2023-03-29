@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/remix",
-  "description": "Mantine integration for Remix",
+  "description": "Klink UI integration for Remix",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

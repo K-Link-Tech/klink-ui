@@ -8,13 +8,13 @@ search: 'Configure emotion and stylis, styles insertion point, RTL support'
 
 # Emotion cache
 
-All Mantine components are styled with [emotion](https://emotion.sh/).
+All Klink UI components are styled with [emotion](https://emotion.sh/).
 In some cases you will need to create custom emotion cache, for example to
 handle RTL direction.
 
 ## Configure emotion
 
-By default, Mantine create [emotion cache](https://emotion.sh/docs/@emotion/cache) for you automatically.
+By default, Klink UI create [emotion cache](https://emotion.sh/docs/@emotion/cache) for you automatically.
 If you need to change cache options, then use `createEmotionCache` function to create new cache, it accepts
 a configuration object with the following properties:
 
@@ -39,8 +39,8 @@ function Demo() {
 
 ## Change styles insertion point
 
-By default, Mantine components styles are prepended to head to allow overrides.
-To make Mantine styles override other styles, create emotion cache with `prepend: false`.
+By default, Klink UI components styles are prepended to head to allow overrides.
+To make Klink UI styles override other styles, create emotion cache with `prepend: false`.
 With this option styles will be added at the end of `head` element:
 
 ```tsx

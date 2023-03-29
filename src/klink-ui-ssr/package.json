@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/ssr",
-  "description": "Mantine server side rendering utils",
+  "description": "Klink UI server side rendering utils",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

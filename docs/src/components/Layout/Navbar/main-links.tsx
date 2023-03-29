@@ -18,14 +18,14 @@ export default [
   },
   {
     to: '/pages/about/',
-    label: 'About Mantine',
+    label: 'About Klink UI',
     color: DEFAULT_THEME.colors.indigo[5],
     icon: (props: any) => <MantineLogo type="mark" {...props} />,
     rawIcon: true,
   },
   {
     to: 'https://ui.mantine.dev/',
-    label: 'Mantine UI',
+    label: 'Klink UI',
     color: DEFAULT_THEME.colors.blue_light[5],
     icon: (props: any) => <MantineLogo type="mark" variant="ui.mantine.dev" {...props} />,
     rawIcon: true,

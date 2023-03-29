@@ -16,7 +16,7 @@ function Demo() {
 
       <Menu.Dropdown>
         <Menu.Item component="a" href="https://klink-ui.dev">
-          Mantine website
+          Klink UI website
         </Menu.Item>
 
         <Menu.Item
@@ -43,7 +43,7 @@ function Demo() {
 
         <Menu.Dropdown>
           <Menu.Item component="a" href="https://klink-ui.dev">
-            Mantine website
+            Klink UI website
           </Menu.Item>
           <Menu.Item
             icon={<IconExternalLink size={rem(14)} />}

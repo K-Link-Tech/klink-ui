@@ -31,7 +31,7 @@ export function FunctionsDemo() {
         <Anchor component={Link} to="/theming/functions/">
           theme functions
         </Anchor>{' '}
-        anywhere where Mantine theme is available:
+        anywhere where Klink UI theme is available:
       </Text>
       <Prism
         language="tsx"

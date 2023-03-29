@@ -33,7 +33,7 @@ export function Jumbotron() {
         <Hero />
 
         <Text className={classes.description}>
-          Build fully functional accessible web applications faster than ever – Mantine includes
+          Build fully functional accessible web applications faster than ever – Klink UI includes
           more than 100 customizable components and 40 hooks to cover you in any situation
         </Text>
 

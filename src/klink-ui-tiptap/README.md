@@ -1,4 +1,4 @@
-# Mantine tiptap
+# Klink UI tiptap
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/dates)](https://www.npmjs.com/package/@klink-ui/tiptap)
 

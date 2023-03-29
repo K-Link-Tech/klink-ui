@@ -4,7 +4,7 @@ export const NEXT_STEPS_DATA = [
   {
     title: 'Learn the basics',
     description:
-      'Read a 5 minute tutorial to get an overview of all core features, please start your journey with Mantine here',
+      'Read a 5 minute tutorial to get an overview of all core features, please start your journey with Klink UI here',
     link: '/pages/basics/',
     type: 'gatsby',
     icon: IconStar,
@@ -22,7 +22,7 @@ export const NEXT_STEPS_DATA = [
   {
     title: 'Explore source code',
     description:
-      'Mantine packages and documentation website is open source, if you like Mantine please give us a star',
+      'Klink UI packages and documentation website is open source, if you like Klink UI please give us a star',
     link: 'https://github.com/mantinedev/klink-ui',
     type: 'link',
     icon: IconCode,

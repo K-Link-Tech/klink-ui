@@ -1,4 +1,4 @@
-# Mantine notifications system
+# Klink UI notifications system
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/notifications)](https://www.npmjs.com/package/@klink-ui/notifications)
 

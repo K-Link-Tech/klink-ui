@@ -13,26 +13,26 @@ export default function PageNotFound() {
       <Container size={1100}>
         <P>
           <H1>Congratulations!</H1>
-          You've found a completely secret place on Mantine website. Unfortunately, this is only a
-          404 page. If you've landed on this page from a link on the Mantine website, please{' '}
+          You've found a completely secret place on Klink UI website. Unfortunately, this is only a
+          404 page. If you've landed on this page from a link on the Klink UI website, please{' '}
           <A href="https://github.com/mantinedev/klink-ui/issues/new">create an issue</A>.
-          Otherwise, here are some learning materials that will help you get started with Mantine:
+          Otherwise, here are some learning materials that will help you get started with Klink UI:
         </P>
         <Ul>
           <Li>
-            <GatsbyLink to="/pages/contributing/">Mantine contributions guideline</GatsbyLink>
+            <GatsbyLink to="/pages/contributing/">Klink UI contributions guideline</GatsbyLink>
           </Li>
           <Li>
             <GatsbyLink to="/guides/ssr/">
-              Learn how to setup server side rendering with Mantine
+              Learn how to setup server side rendering with Klink UI
             </GatsbyLink>
           </Li>
           <Li>
-            <GatsbyLink to="/others/notifications/">Mantine notifications system</GatsbyLink>
+            <GatsbyLink to="/others/notifications/">Klink UI notifications system</GatsbyLink>
           </Li>
           <Li>
             <GatsbyLink to="/theming/klink-ui-provider/">
-              Learn how to customize Mantine theme
+              Learn how to customize Klink UI theme
             </GatsbyLink>
           </Li>
           <Li>

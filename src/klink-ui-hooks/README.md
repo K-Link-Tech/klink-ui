@@ -1,4 +1,4 @@
-# Mantine Hooks
+# Klink UI Hooks
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/hooks)](https://www.npmjs.com/package/@klink-ui/hooks)
 

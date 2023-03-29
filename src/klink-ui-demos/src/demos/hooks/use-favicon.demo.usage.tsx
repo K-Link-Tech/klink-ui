@@ -18,7 +18,7 @@ function Demo() {
   return (
     <Group position="center">
       <Button onClick={setTwitterFavicon}>Twitter favicon</Button>
-      <Button onClick={setMantineFavicon}>Mantine favicon</Button>
+      <Button onClick={setMantineFavicon}>Klink UI favicon</Button>
     </Group>
   );
 }
@@ -34,7 +34,7 @@ function Demo() {
   return (
     <Group position="center">
       <Button onClick={setTwitterFavicon}>Twitter favicon</Button>
-      <Button onClick={setMantineFavicon}>Mantine favicon</Button>
+      <Button onClick={setMantineFavicon}>Klink UI favicon</Button>
     </Group>
   );
 }

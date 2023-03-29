@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/prism",
-  "description": "Code highlight with Mantine theme",
+  "description": "Code highlight with Klink UI theme",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

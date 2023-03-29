@@ -52,12 +52,12 @@ export function NextSteps() {
           </ThemeIcon>
 
           <Text weight={500} size="lg">
-            Explore Mantine UI
+            Explore Klink UI
           </Text>
         </Group>
         <Text size="sm" mt="md" className={classes.uiDescription} sx={{ lineHeight: 1.6 }}>
-          Mantine UI is a set of 120+ responsive components. All components support dark/light
-          theme. It is free for everyone.
+          Klink UI is a set of 120+ responsive components. All components support dark/light theme.
+          It is free for everyone.
         </Text>
       </a>
     </SimpleGrid>

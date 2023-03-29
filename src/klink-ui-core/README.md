@@ -1,8 +1,8 @@
-# Mantine core
+# Klink UI core
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/core)](https://www.npmjs.com/package/@klink-ui/core)
 
-Mantine core components library.
+Klink UI core components library.
 
 [View documentation](https://klink-ui.dev/)
 

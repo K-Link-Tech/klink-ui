@@ -1,4 +1,4 @@
-# Mantine Form
+# Klink UI Form
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/form)](https://www.npmjs.com/package/@klink-ui/form)
 

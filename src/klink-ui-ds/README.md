@@ -1,8 +1,8 @@
-# Mantine DS
+# Klink UI DS
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/ds)](https://www.npmjs.com/package/@klink-ui/ds)
 
-Mantine logo and other utility components.
+Klink UI logo and other utility components.
 
 [View documentation](https://klink-ui.dev/)
 

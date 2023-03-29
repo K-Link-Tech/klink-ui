@@ -1,4 +1,4 @@
-# Mantine Navigation Progress
+# Klink UI Navigation Progress
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/nprogress)](https://www.npmjs.com/package/@klink-ui/nprogress)
 

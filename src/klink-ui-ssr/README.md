@@ -1,8 +1,8 @@
-# Mantine SSR
+# Klink UI SSR
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/ssr)](https://www.npmjs.com/package/@klink-ui/ssr)
 
-General purpose utilities for Mantine server side rendering
+General purpose utilities for Klink UI server side rendering
 
 [View documentation](https://klink-ui.dev/)
 

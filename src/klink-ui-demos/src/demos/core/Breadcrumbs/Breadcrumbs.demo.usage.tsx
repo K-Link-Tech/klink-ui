@@ -6,8 +6,8 @@ const code = `
 import { Breadcrumbs, Anchor } from '@klink-ui/core';
 
 const items = [
-  { title: 'Mantine', href: '#' },
-  { title: 'Mantine hooks', href: '#' },
+  { title: 'Klink UI', href: '#' },
+  { title: 'Klink UI hooks', href: '#' },
   { title: 'use-id', href: '#' },
 ].map((item, index) => (
   <Anchor href={item.href} key={index}>
@@ -26,8 +26,8 @@ function Demo() {
 `;
 
 const items = [
-  { title: 'Mantine', href: 'https://klink-ui.dev' },
-  { title: 'Mantine hooks', href: '#' },
+  { title: 'Klink UI', href: 'https://klink-ui.dev' },
+  { title: 'Klink UI hooks', href: '#' },
   { title: 'use-id', href: '#' },
 ].map((item, index) => (
   <Anchor href={item.href} key={index}>

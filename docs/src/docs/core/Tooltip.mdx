@@ -25,7 +25,7 @@ import { TooltipDemos } from '@klink-ui/demos';
 Tooltip requires an element or a component as a single child –
 strings, fragments, numbers and multiple elements/components are not supported and **will throw error**.
 Custom components must provide a prop to get root element ref,
-all Mantine components support ref out of the box.
+all Klink UI components support ref out of the box.
 
 ```tsx
 import { Tooltip, Badge } from '@klink-ui/core';
@@ -38,7 +38,7 @@ function Demo() {
       </Tooltip>
 
       <Tooltip label="OK">
-        <Badge>Mantine component – ok</Badge>
+        <Badge>Klink UI component – ok</Badge>
       </Tooltip>
 
       <Tooltip label="Throws">Raw string, NOT OK – will throw error</Tooltip>

@@ -1,4 +1,4 @@
-# Mantine Spotlight
+# Klink UI Spotlight
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/spotlight)](https://www.npmjs.com/package/@klink-ui/spotlight)
 

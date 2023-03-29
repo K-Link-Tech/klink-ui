@@ -37,7 +37,7 @@ you can use anchors and buttons within dropdowns, using inputs is not recommende
 
 `HoverCard.Target` requires an element or a component as a single child –
 strings, fragments, numbers and multiple elements/components are not supported and **will throw error**.
-Custom components must provide a prop to get root element ref, all Mantine components support ref out of the box.
+Custom components must provide a prop to get root element ref, all Klink UI components support ref out of the box.
 
 ```tsx
 import { HoverCard, Badge } from '@klink-ui/core';
@@ -51,7 +51,7 @@ function Demo() {
 
       {/* OK */}
       <HoverCard.Target>
-        <Badge>Mantine component – ok</Badge>
+        <Badge>Klink UI component – ok</Badge>
       </HoverCard.Target>
 
       {/* String, NOT OK – will throw error */}

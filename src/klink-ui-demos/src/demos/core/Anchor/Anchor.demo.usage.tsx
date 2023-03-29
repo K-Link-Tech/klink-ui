@@ -8,7 +8,7 @@ import { Anchor } from '@klink-ui/core';
 function Demo() {
   return (
     <Anchor href="https://klink-ui.dev/" target="_blank">
-      Mantine docs
+      Klink UI docs
     </Anchor>
   );
 }
@@ -17,7 +17,7 @@ function Demo() {
 function Demo() {
   return (
     <Anchor href="https://klink-ui.dev/" target="_blank">
-      Mantine docs
+      Klink UI docs
     </Anchor>
   );
 }

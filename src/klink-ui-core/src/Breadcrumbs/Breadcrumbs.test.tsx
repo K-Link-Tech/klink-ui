@@ -6,8 +6,8 @@ import { Breadcrumbs, BreadcrumbsProps } from './Breadcrumbs';
 
 const defaultProps: BreadcrumbsProps = {
   children: [
-    { title: 'Mantine', href: '#' },
-    { title: 'Mantine hooks', href: '#' },
+    { title: 'Klink UI', href: '#' },
+    { title: 'Klink UI hooks', href: '#' },
     { title: 'use-id', href: '#' },
   ].map((item) => (
     <Text<'a'> variant="link" component="a" href={item.href} key={item.title}>

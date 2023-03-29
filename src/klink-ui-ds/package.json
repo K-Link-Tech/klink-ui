@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/ds",
-  "description": "Internal Mantine components used on *.mantine.dev websites",
+  "description": "Internal Klink UI components used on *.mantine.dev websites",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

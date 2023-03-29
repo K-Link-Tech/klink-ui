@@ -27,7 +27,7 @@ function Demo() {
 
 ## Colors
 
-Mantine uses `theme.colors.dark` values to style components with dark color scheme:
+Klink UI uses `theme.colors.dark` values to style components with dark color scheme:
 
 <ColorsGroup group="dark" />
 
@@ -85,7 +85,7 @@ function Demo() {
 
 ## ColorSchemeProvider
 
-Mantine support dynamic color scheme change and exports `ColorSchemeProvider` to
+Klink UI support dynamic color scheme change and exports `ColorSchemeProvider` to
 help you set up color scheme context:
 
 ```tsx
@@ -113,7 +113,7 @@ And then consume `ColorSchemeProvider` context with `useMantineColorScheme` hook
 
 ## Save to localStorage and add keyboard shortcut
 
-If you want to replicate dark theme behavior of Mantine docs website use [use-local-storage](/hooks/use-local-storage/)
+If you want to replicate dark theme behavior of Klink UI docs website use [use-local-storage](/hooks/use-local-storage/)
 hook to store theme state in localStorage and sync it across all opened tabs and [use-hotkeys](/hooks/use-hotkeys/)
 to add `Ctrl/⌘ + J` keyboard shortcut for theme toggle:
 
@@ -147,7 +147,7 @@ Usually saving value to localStorage is not the best strategy as it will create
 [FART](https://css-tricks.com/flash-of-inaccurate-color-theme-fart/).
 If it is possible, store user preferred color scheme on server and serve your application without flashes.
 
-For example, Mantine docs are deployed to gh-pages and do not have server (website is fully static) –
+For example, Klink UI docs are deployed to gh-pages and do not have server (website is fully static) –
 in this case if you refresh the page with dark theme, first you will see the prerendered light theme
 and your selected dark theme will be applied only after a few moments.
 
@@ -221,4 +221,4 @@ App.getInitialProps = async (appContext: AppContext) => {
 };
 ```
 
-Full code is available in [Mantine Next.js template](https://github.com/mantinedev/klink-ui-next-template).
+Full code is available in [Klink UI Next.js template](https://github.com/mantinedev/klink-ui-next-template).

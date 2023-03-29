@@ -33,7 +33,7 @@ let us know by [opening an issue on GitHub](https://github.com/mantinedev/klink-
 
 ### Migration to rem/em units
 
-All Mantine components now use [rem units](https://klink-ui.dev/styles/rem/). `1rem` is considered to be `16px`
+All Klink UI components now use [rem units](https://klink-ui.dev/styles/rem/). `1rem` is considered to be `16px`
 with medium text size selected by user, all components will scale based on settings specified in browser.
 `theme.spacing`, `theme.radius`, `theme.fontSizes` and other theme properties overrides
 are now expected to be defined in rem. `theme.breakpoints` are expected to be defined in `em` units:
@@ -104,7 +104,7 @@ createStyles((theme) => ({
 
 ### Automatic px to rem conversion
 
-If you use numbers in Mantine components props, they will be treated as `px` and converted to `rem`,
+If you use numbers in Klink UI components props, they will be treated as `px` and converted to `rem`,
 for example:
 
 ```tsx
@@ -312,7 +312,7 @@ Renamed props:
 - [Card](https://klink-ui.dev/core/card/) component now uses `padding` prop instead of `p` to offset `Card.Section` components
 - [RichTextEditor](https://klink-ui.dev/others/tiptap/) now depends on `@tabler/icons-react` (`>=2.1.0`) package instead of `@tabler/icons`
 - `@klink-ui/core` package no longer exports `GroupedTransition` component, use multiple [Transition](https://klink-ui.dev/core/transition/) components instead
-- `use-scroll-lock` hook is deprecated, all Mantine components now use [react-remove-scroll](https://github.com/theKashey/react-remove-scroll)
+- `use-scroll-lock` hook is deprecated, all Klink UI components now use [react-remove-scroll](https://github.com/theKashey/react-remove-scroll)
 - [ScrollArea.Autosize](https://klink-ui.dev/core/scroll-area/) component prop `maxHeight` is removed, it is replaced with `mah` [style prop](https://klink-ui.dev/styles/style-props/)
 - [SegmentedControl](https://klink-ui.dev/core/segmented-control/) component Styles API was changed – `labelActive` and `disabled` selectors were removed (replaced with `data-active` and `data-disabled` attributes on `label` selector), `active` selector was renamed to `indicator`
 - [Notification](https://klink-ui.dev/core/notification/) component prop `disallowClose` prop was renamed to `withCloseButton`, it also was changed in [notifications system](https://klink-ui.dev/others/notifications/)
@@ -322,7 +322,7 @@ Renamed props:
 
 ## Variants and sizes on MantineProvider
 
-You can now use [MantineProvider](https://klink-ui.dev/theming/klink-ui-provider/) to add variants to all Mantine components that support [Styles API](https://klink-ui.dev/styles/styles-api/)
+You can now use [MantineProvider](https://klink-ui.dev/theming/klink-ui-provider/) to add variants to all Klink UI components that support [Styles API](https://klink-ui.dev/styles/styles-api/)
 and sizes to components that support `size` prop.
 
 Variants:

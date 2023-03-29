@@ -1,4 +1,4 @@
-# Mantine carousel
+# Klink UI carousel
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/carousel)](https://www.npmjs.com/package/@klink-ui/carousel)
 

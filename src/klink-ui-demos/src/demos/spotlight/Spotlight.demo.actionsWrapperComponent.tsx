@@ -23,7 +23,7 @@ function ActionsWrapper({ children }: { children: React.ReactNode }) {
         })}
       >
         <Text size="xs" color="dimmed">
-          Search powered by Mantine
+          Search powered by Klink UI
         </Text>
         <Anchor size="xs" href="#">
           Learn more
@@ -62,7 +62,7 @@ function ActionsWrapper({ children }: { children: React.ReactNode }) {
         })}
       >
         <Text size="xs" color="dimmed">
-          Search powered by Mantine
+          Search powered by Klink UI
         </Text>
         <Anchor size="xs" href="#">
           Learn more

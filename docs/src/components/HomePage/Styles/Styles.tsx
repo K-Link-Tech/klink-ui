@@ -13,7 +13,7 @@ export function Styles() {
   return (
     <PageSection
       title="Based on emotion"
-      description="Mantine is based on emotion 👩‍🎤, take advantage of core emotion features: auto vendor-prefixing, critical css extraction during server side rendering, lazy evaluation, dynamic theming, type safe styles with TypeScript and more."
+      description="Klink UI is based on emotion 👩‍🎤, take advantage of core emotion features: auto vendor-prefixing, critical css extraction during server side rendering, lazy evaluation, dynamic theming, type safe styles with TypeScript and more."
       sx={(theme) => ({
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[8] : theme.white,
       })}

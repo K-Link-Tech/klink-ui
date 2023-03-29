@@ -1,8 +1,8 @@
-# Mantine Hooks
+# Klink UI Hooks
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/utils)](https://www.npmjs.com/package/@klink-ui/utils)
 
-A set of utils used in Mantine packages
+A set of utils used in Klink UI packages
 
 [View documentation](https://klink-ui.dev/)
 

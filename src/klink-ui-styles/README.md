@@ -1,8 +1,8 @@
-# Mantine styles
+# Klink UI styles
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/styles)](https://www.npmjs.com/package/@klink-ui/styles)
 
-Mantine CSS-in-JS library built on top of emotion
+Klink UI CSS-in-JS library built on top of emotion
 
 [View documentation](https://klink-ui.dev/)
 

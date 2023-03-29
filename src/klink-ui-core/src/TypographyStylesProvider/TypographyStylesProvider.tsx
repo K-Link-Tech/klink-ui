@@ -8,7 +8,7 @@ export interface TypographyStylesProviderProps
     React.ComponentPropsWithoutRef<'div'> {
   variant?: string;
 
-  /** Render any content to add Mantine typography styles */
+  /** Render any content to add Klink UI typography styles */
   children: React.ReactNode;
 }
 

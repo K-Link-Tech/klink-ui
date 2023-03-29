@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/styles-api",
-  "description": "Mantine components styles api descriptions",
+  "description": "Klink UI components styles api descriptions",
   "private": true,
   "version": "6.0.2",
   "main": "cjs/index.js",

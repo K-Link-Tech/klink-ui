@@ -85,7 +85,7 @@ Add `data-autofocus` attribute to element that should receive initial focus:
 
 `Popover.Target` requires an element or a component as a single child –
 strings, fragments, numbers and multiple elements/components are not supported and **will throw error**.
-Custom components must provide a prop to get root element ref, all Mantine components support ref out of the box.
+Custom components must provide a prop to get root element ref, all Klink UI components support ref out of the box.
 
 ```tsx
 import { Popover, Button } from '@klink-ui/core';
@@ -99,7 +99,7 @@ function Demo() {
 
       {/* OK */}
       <Popover.Target>
-        <Button>Mantine component – ok</Button>
+        <Button>Klink UI component – ok</Button>
       </Popover.Target>
 
       {/* String, NOT OK – will throw error */}

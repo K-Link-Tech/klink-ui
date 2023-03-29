@@ -66,7 +66,7 @@ export function TwitterButton({ sx, ...others }: SocialButtonProps) {
       href={meta.twitterLink}
       {...others}
     >
-      Follow Mantine on Twitter
+      Follow Klink UI on Twitter
     </SocialButton>
   );
 }

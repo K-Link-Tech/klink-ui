@@ -1,8 +1,8 @@
-# Mantine prism code highlight
+# Klink UI prism code highlight
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/prism)](https://www.npmjs.com/package/@klink-ui/prism)
 
-Code highlight built with prism and Mantine
+Code highlight built with prism and Klink UI
 
 [View documentation](https://klink-ui.dev/)
 

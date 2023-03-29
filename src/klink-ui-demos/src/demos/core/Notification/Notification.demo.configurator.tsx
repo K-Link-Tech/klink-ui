@@ -50,7 +50,7 @@ export const configurator: MantineDemo = {
     {
       name: 'children',
       type: 'string',
-      initialValue: 'You are now obligated to give a star to Mantine project on GitHub',
+      initialValue: 'You are now obligated to give a star to Klink UI project on GitHub',
     },
   ],
 };

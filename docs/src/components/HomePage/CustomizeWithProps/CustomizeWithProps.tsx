@@ -9,7 +9,7 @@ export function CustomizeWithProps() {
   return (
     <PageSection
       title="Customize components"
-      description="Every Mantine component supports visual customizations with props – you can quickly prototype and experiment by just modifying component props:"
+      description="Every Klink UI component supports visual customizations with props – you can quickly prototype and experiment by just modifying component props:"
       sx={{
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[7] : theme.colors.gray[0],
       }}

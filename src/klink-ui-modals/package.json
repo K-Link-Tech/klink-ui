@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/modals",
-  "description": "Modals manager based on Mantine components",
+  "description": "Modals manager based on Klink UI components",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

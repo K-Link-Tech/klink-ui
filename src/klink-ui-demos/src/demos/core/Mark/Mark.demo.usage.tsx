@@ -8,7 +8,7 @@ import { Mark, Text } from '@klink-ui/core';
 function Demo() {
   return (
     <Text>
-      Thanks for stopping by and checking out <Mark>Mantine</Mark>, you are awesome!
+      Thanks for stopping by and checking out <Mark>Klink UI</Mark>, you are awesome!
     </Text>
   );
 }
@@ -17,7 +17,7 @@ function Demo() {
 function Demo() {
   return (
     <Text>
-      Thanks for stopping by and checking out <Mark>Mantine</Mark>, you are awesome!
+      Thanks for stopping by and checking out <Mark>Klink UI</Mark>, you are awesome!
     </Text>
   );
 }

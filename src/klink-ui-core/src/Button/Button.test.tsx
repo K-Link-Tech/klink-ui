@@ -15,7 +15,7 @@ import { ButtonGroup } from './ButtonGroup/ButtonGroup';
 const defaultProps: ButtonProps = {};
 
 describe('@klink-ui/core/Button', () => {
-  checkAccessibility([<Button>Mantine button</Button>]);
+  checkAccessibility([<Button>Klink UI button</Button>]);
   itRendersChildren(Button, defaultProps);
   itIsPolymorphic(Button, defaultProps);
   itSupportsFocusEvents(Button, defaultProps, 'button');

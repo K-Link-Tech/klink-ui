@@ -39,7 +39,7 @@ function Demo() {
         </div>
         <div>
           <Text size="lg">
-            Add dark theme to your application with just a few lines of code – Mantine exports
+            Add dark theme to your application with just a few lines of code – Klink UI exports
             global styles both for light and dark theme, all components support dark theme out of
             the box.
           </Text>

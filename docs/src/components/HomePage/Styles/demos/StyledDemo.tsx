@@ -29,7 +29,7 @@ export function StyledDemo() {
   return (
     <Box pt="xl">
       <Text mb="sm">
-        Use styled components syntax with Mantine theme and{' '}
+        Use styled components syntax with Klink UI theme and{' '}
         <Anchor component={Link} to="/styles/styled/">
           @emotion/styled:
         </Anchor>

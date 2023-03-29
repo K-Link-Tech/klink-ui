@@ -1,4 +1,4 @@
-# Mantine
+# Klink UI
 
 [![NPM](https://img.shields.io/npm/l/@klink-ui/core)](https://github.com/mantinedev/klink-ui/blob/master/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/mantinedev/klink-ui)](https://github.com/mantinedev/klink-ui/graphs/contributors)
@@ -20,7 +20,7 @@
 ## Packages
 
 - `@klink-ui/hooks` – collection of 40+ hooks for state and UI management
-- [`@klink-ui/styles`](https://klink-ui.dev/styles/create-styles/) – [emotion](https://emotion.sh/) based css-in-js library that is used in all Mantine components
+- [`@klink-ui/styles`](https://klink-ui.dev/styles/create-styles/) – [emotion](https://emotion.sh/) based css-in-js library that is used in all Klink UI components
 - `@klink-ui/core` – core components library – 100+ components, exports everything from `@klink-ui/styles`
 - [`@klink-ui/form`](https://klink-ui.dev/form/use-form/) – forms management library
 - [`@klink-ui/notifications`](https://klink-ui.dev/others/notifications/) – a fully featured notifications system
@@ -35,11 +35,11 @@
 - [`@klink-ui/next`](https://klink-ui.dev/guides/next/) – server side rendering utilities for Next.js
 - [`@klink-ui/remix`](https://klink-ui.dev/guides/remix/) – server side rendering utilities for Remix
 - [`gatsby-plugin-mantine`](https://klink-ui.dev/guides/gatsby/) – Gatsby plugin to setup server side rendering
-- [`eslint-config-mantine`](https://www.npmjs.com/package/eslint-config-mantine) – ESLint and Prettier configuration that is used in all Mantine projects
+- [`eslint-config-mantine`](https://www.npmjs.com/package/eslint-config-mantine) – ESLint and Prettier configuration that is used in all Klink UI projects
 
 ## Getting help
 
-Mantine has a very friendly community, we are always happy to help you get started:
+Klink UI has a very friendly community, we are always happy to help you get started:
 
 - [Join Discord community](https://discord.gg/wbH82zuWMN) – it is the easiest way to get help, all questions are usually answered in about 30 minutes
 - [GitHub Discussions](https://github.com/mantinedev/klink-ui/discussions) – ask anything about the project or give feedback

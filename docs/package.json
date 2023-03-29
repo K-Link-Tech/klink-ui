@@ -1,7 +1,7 @@
 {
   "name": "klink-ui-docs",
   "private": true,
-  "description": "Mantine docs",
+  "description": "Klink UI docs",
   "version": "1.0.0",
   "author": "Vitaly Rtishchev <rtivital@gmail.com>",
   "resolutions": {

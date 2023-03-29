@@ -7,8 +7,8 @@ module.exports = {
   },
 
   siteMetadata: {
-    title: 'Mantine Docs',
-    description: 'Mantine documentation',
+    title: 'Klink UI Docs',
+    description: 'Klink UI documentation',
     author: '@rtivital',
     siteUrl: 'https://klink-ui.dev',
   },
@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Mantine Docs',
+        name: 'Klink UI Docs',
         short_name: 'mantine',
         start_url: '/',
         background_color: '#228be6',

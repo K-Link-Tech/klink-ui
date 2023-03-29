@@ -8,7 +8,7 @@ search: 'Inline styles with emotion'
 
 # sx prop
 
-All Mantine components support `sx` prop. With `sx` you can add styles to component **root** element.
+All Klink UI components support `sx` prop. With `sx` you can add styles to component **root** element.
 If you need to customize styles of other elements within component use [Styles API](/styles/styles-api/).
 
 ## sx object
@@ -128,7 +128,7 @@ function MyButton({ sx, ...others }: MyButtonProps) {
 ## Box component
 
 [Box](/core/box/) is an utility [polymorphic](/guides/polymorphic/) component
-that can be used to style non Mantine components or elements with `sx` prop:
+that can be used to style non Klink UI components or elements with `sx` prop:
 
 ```tsx
 import { Box } from '@klink-ui/core';
@@ -183,7 +183,7 @@ To create sharable styles you can store them in a variable:
 ```tsx
 import { Text, Box, CSSObject, rem } from '@klink-ui/core';
 
-// styles object is compatible with every Mantine component
+// styles object is compatible with every Klink UI component
 const styles: CSSObject = {
   border: `${rem(1)} solid #eee`,
   color: '#999',

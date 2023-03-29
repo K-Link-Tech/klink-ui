@@ -1,4 +1,4 @@
-# Mantine modals manager
+# Klink UI modals manager
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/modals)](https://www.npmjs.com/package/@klink-ui/modals)
 

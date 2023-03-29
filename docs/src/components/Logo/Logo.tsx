@@ -8,7 +8,7 @@ export function Logo(props: MantineLogoProps) {
   const { classes } = useStyles();
 
   return (
-    <Link to="/" className={classes.logo} aria-label="Mantine">
+    <Link to="/" className={classes.logo} aria-label="Klink UI">
       <MantineLogo size={rem(30)} {...props} />
     </Link>
   );

@@ -14,7 +14,7 @@ function Demo() {
       highlight="mantine"
       fw={500}
     >
-      Mantine website
+      Klink UI website
     </Highlight>
   );
 }
@@ -30,7 +30,7 @@ function Demo() {
       highlight="mantine"
       fw={500}
     >
-      Mantine website
+      Klink UI website
     </Highlight>
   );
 }

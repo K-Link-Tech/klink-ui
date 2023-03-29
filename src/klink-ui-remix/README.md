@@ -1,8 +1,8 @@
-# Mantine integration for Remix
+# Klink UI integration for Remix
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/remix)](https://www.npmjs.com/package/@klink-ui/remix)
 
-Utilities to setup Mantine server side rendering with Remix
+Utilities to setup Klink UI server side rendering with Remix
 
 [View documentation](https://klink-ui.dev/)
 

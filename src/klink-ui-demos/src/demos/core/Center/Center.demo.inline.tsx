@@ -12,7 +12,7 @@ function Demo() {
     <Anchor href="https://klink-ui.dev" target="_blank">
       <Center inline>
         <IconArrowLeft size={rem(14)} />
-        <Box ml={5}>Back to Mantine website</Box>
+        <Box ml={5}>Back to Klink UI website</Box>
       </Center>
     </Anchor>
   );
@@ -25,7 +25,7 @@ function Demo() {
     <Anchor href="https://klink-ui.dev" target="_blank">
       <Center inline>
         {theme.dir === 'ltr' ? <IconArrowLeft size={rem(14)} /> : <IconArrowRight size={rem(14)} />}
-        <Box ml={5}>Back to Mantine website</Box>
+        <Box ml={5}>Back to Klink UI website</Box>
       </Center>
     </Anchor>
   );

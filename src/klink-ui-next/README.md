@@ -1,8 +1,8 @@
-# Mantine integration for Next.js
+# Klink UI integration for Next.js
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/next)](https://www.npmjs.com/package/@klink-ui/next)
 
-Utilities to setup Mantine server side rendering with Next.js
+Utilities to setup Klink UI server side rendering with Next.js
 
 [View documentation](https://klink-ui.dev/)
 

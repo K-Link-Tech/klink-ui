@@ -10,7 +10,7 @@ import { ThemeDemos } from '@klink-ui/demos';
 
 # Theme object
 
-Mantine theme is an object where your application's colors, fonts, spacing, border-radius and other design tokens are stored.
+Klink UI theme is an object where your application's colors, fonts, spacing, border-radius and other design tokens are stored.
 
 ```tsx
 interface MantineTheme {
@@ -111,7 +111,7 @@ interface MantineTheme {
   // Global styles
   globalStyles: (theme: MantineTheme) => CSSObject;
 
-  // Add your own custom properties on Mantine theme
+  // Add your own custom properties on Klink UI theme
   other: Record<string, any>;
 }
 
@@ -191,7 +191,7 @@ passed as an argument to `resetStyles`, `styles` and `inputStyles` functions doe
 
 ### defaultRadius
 
-`theme.defaultRadius` controls default border-radius of all Mantine components ([Button](/core/button/), [TextInput](/core/text-input/), [ThemeIcon](/core/theme-icon/), etc.), default value is `sm`.
+`theme.defaultRadius` controls default border-radius of all Klink UI components ([Button](/core/button/), [TextInput](/core/text-input/), [ThemeIcon](/core/theme-icon/), etc.), default value is `sm`.
 It accepts `'xs' | 'sm' | 'md' | 'lg' | 'xl'` (key of `theme.radius`) or a number to set border-radius in px.
 For example, to remove border-radius from all elements set `defaultRadius: 0`:
 
@@ -210,7 +210,7 @@ function Demo() {
 
 ### colors
 
-Mantine theme has the following properties associated with colors:
+Klink UI theme has the following properties associated with colors:
 
 - `theme.white` used for body and overlays ([Modal](/core/modal/), [Popover](/core/popover/)) background when `theme.colorScheme` is `light`, default value is `#fff`
 - `theme.black` used as color for all text when `theme.colorScheme` is `light`, default value is `#000`

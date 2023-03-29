@@ -1,4 +1,4 @@
-# Mantine tests
+# Klink UI tests
 
 @klink-ui/tests is a helper package that is used to contain commonly repeated tests logic. It is not published on npm.
 

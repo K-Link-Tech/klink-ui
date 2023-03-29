@@ -17,7 +17,7 @@ function Demo() {
             <Avatar src="https://avatars.githubusercontent.com/u/79146003?s=200&v=4" radius="xl" />
             <Stack spacing={5}>
               <Text size="sm" weight={700} sx={{ lineHeight: 1 }}>
-                Mantine
+                Klink UI
               </Text>
               <Anchor
                 href="https://twitter.com/mantinedev"
@@ -59,7 +59,7 @@ export function HoverCardHomePageDemo({ children }: { children: React.ReactNode 
           <Avatar src="https://avatars.githubusercontent.com/u/79146003?s=200&v=4" radius="xl" />
           <Stack spacing={5}>
             <Text size="sm" weight={700} sx={{ lineHeight: 1 }}>
-              Mantine
+              Klink UI
             </Text>
             <Anchor
               href="https://twitter.com/mantinedev"

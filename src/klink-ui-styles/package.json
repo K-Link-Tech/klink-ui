@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/styles",
-  "description": "Mantine css-in-js styles engine, based on emotion",
+  "description": "Klink UI css-in-js styles engine, based on emotion",
   "version": "6.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",

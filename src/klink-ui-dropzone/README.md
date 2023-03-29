@@ -1,4 +1,4 @@
-# Mantine Dropzone
+# Klink UI Dropzone
 
 [![npm](https://img.shields.io/npm/dm/@klink-ui/dropzone)](https://www.npmjs.com/package/@klink-ui/dropzone)
 

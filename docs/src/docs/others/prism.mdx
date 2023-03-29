@@ -4,7 +4,7 @@ package: '@klink-ui/prism'
 title: 'Prism code highlight'
 order: 1
 slug: /others/prism/
-description: 'Code highlight with Mantine theme colors and styles'
+description: 'Code highlight with Klink UI theme colors and styles'
 props: ['Prism']
 import: "import { Prism } from '@klink-ui/prism';"
 source: 'klink-ui-prism/src'
@@ -34,9 +34,9 @@ npm install @klink-ui/prism
 
 ## Usage
 
-Use Prism component to highlight code with Mantine theme styles.
+Use Prism component to highlight code with Klink UI theme styles.
 Component uses [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer)
-under the hood and supports light and dark theme, it is used in Mantine docs to display all code examples.
+under the hood and supports light and dark theme, it is used in Klink UI docs to display all code examples.
 
 <Demo data={PrismDemos.usage} />
 
@@ -83,8 +83,8 @@ You can force dark/light color scheme by setting `colorScheme` prop:
 ## Custom themes
 
 Use `getPrismTheme` prop to change prism colors. You can use premade themes from [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer)
-package or build your own using [Mantine theme](/theming/theme-object/) colors. `getPrismTheme` prop accepts
-a function with two arguments: first is [Mantine theme object](/theming/theme-object/), second is color scheme (`light` or `dark`).
+package or build your own using [Klink UI theme](/theming/theme-object/) colors. `getPrismTheme` prop accepts
+a function with two arguments: first is [Klink UI theme object](/theming/theme-object/), second is color scheme (`light` or `dark`).
 The function must return prism theme object:
 
 <Demo data={PrismDemos.prismTheme} />
