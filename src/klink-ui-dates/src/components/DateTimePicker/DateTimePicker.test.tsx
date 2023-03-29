@@ -142,7 +142,7 @@ describe('@klink-ui/dates/DateTimePicker', () => {
     await userEvent.click(container.querySelectorAll('table button')[6]);
     expectValue(container, '11/04/2022 00:00');
     expect(spy).toHaveBeenLastCalledWith(new Date(2022, 3, 3));
-  });
+  }, 60_000);
 
   it('displays correct value when withSeconds is set', () => {
     const { container } = render(

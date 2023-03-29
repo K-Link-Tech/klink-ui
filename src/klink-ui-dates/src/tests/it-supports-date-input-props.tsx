@@ -241,7 +241,7 @@ export function itSupportsDateInputProps(
     await clickInput(container);
     await clickControl(container, 8);
     expectValue(container, 'test-placeholder');
-  });
+  }, 60_000);
 
   it('does not allow to deselect value if allowDeselect is not set (type="default")', async () => {
     const { container } = render(

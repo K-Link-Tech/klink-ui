@@ -3,7 +3,7 @@ import { getColorValue } from './get-color-value';
 
 describe('@klink-ui/core/Box/get-color-value', () => {
   it('returns correct color value from theme', () => {
-    expect(getColorValue('orange', DEFAULT_THEME)).toBe(DEFAULT_THEME.colors.orange[6]);
+    expect(getColorValue('orange.6', DEFAULT_THEME)).toBe(DEFAULT_THEME.colors.orange[6]);
     expect(getColorValue('pink.1', DEFAULT_THEME)).toBe(DEFAULT_THEME.colors.pink[1]);
   });
 

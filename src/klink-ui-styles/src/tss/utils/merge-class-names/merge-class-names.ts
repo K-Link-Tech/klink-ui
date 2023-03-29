@@ -38,10 +38,10 @@ export function mergeClassNames<T extends Record<string, string>>({
       Array.isArray(name)
         ? name
             .filter(Boolean)
-            .map((part) => `${cache?.key || 'mantine'}-${part}-${className}`)
+            .map((part) => `${cache?.key || 'klink-ui'}-${part}-${className}`)
             .join(' ')
         : name
-        ? `${cache?.key || 'mantine'}-${name}-${className}`
+        ? `${cache?.key || 'klink-ui'}-${name}-${className}`
         : null
     );
     return acc;

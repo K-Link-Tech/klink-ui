@@ -10,9 +10,9 @@ const getThemeBase = () => {
 describe('@klink-ui/styles/merge-theme', () => {
   it('shallow merges non-object properties', () => {
     const themeBase = getThemeBase();
-    expect(mergeTheme(themeBase, { primaryColor: 'red', white: '#ccc' })).toStrictEqual({
+    expect(mergeTheme(themeBase, { primaryColor: 'error', white: '#ccc' })).toStrictEqual({
       ...themeBase,
-      primaryColor: 'red',
+      primaryColor: 'error',
       white: '#ccc',
     });
   });
@@ -21,12 +21,12 @@ describe('@klink-ui/styles/merge-theme', () => {
     const themeBase = getThemeBase();
     expect(
       mergeTheme(themeBase, {
-        colors: { stone: ['#ccc', '#ddd', '#eee'], red: ['red'] },
+        colors: { stone: ['#ccc', '#ddd', '#eee'], red: ['error'] },
         spacing: { xl: '900rem' },
       })
     ).toStrictEqual({
       ...themeBase,
-      colors: { ...themeBase.colors, stone: ['#ccc', '#ddd', '#eee'], red: ['red'] },
+      colors: { ...themeBase.colors, stone: ['#ccc', '#ddd', '#eee'], red: ['error'] },
       spacing: {
         ...themeBase.spacing,
         xl: '900rem',

@@ -7,9 +7,9 @@ describe('@klink-ui/core/Box/get-system-styles', () => {
       getSystemStyles(
         {
           m: 'xl',
-          bg: { base: 'pink.1', xs: 'blue', md: '#CECECE' },
+          bg: { base: 'pink.1', xs: 'blue.6', md: '#CECECE' },
           c: {
-            base: 'cyan',
+            base: 'blue_light.6',
             xs: 'orange.1',
           },
         },

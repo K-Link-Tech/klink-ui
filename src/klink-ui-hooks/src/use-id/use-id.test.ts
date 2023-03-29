@@ -10,7 +10,8 @@ describe('use-id', () => {
   it('returns random id if static id is not provided', () => {
     const view = renderHook(() => useId());
     expect(typeof view.result.current).toBe('string');
-    expect(view.result.current.includes('mantine')).toBe(true);
+    expect(view.result.current.includes('klink-ui')).toBe(true);
+    // expect(view.result.current.includes('mantine')).toBe(true);
     expect(view.result.current !== renderHook(() => useId()).result.current).toBe(true);
   });
 });

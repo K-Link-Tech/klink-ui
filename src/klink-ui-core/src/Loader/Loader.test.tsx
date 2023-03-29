@@ -20,7 +20,7 @@ describe('@klink-ui/core/Loader', () => {
   });
 
   it('sets svg fill based on color prop', () => {
-    const { container } = render(<Loader color="yellow" variant="bars" />);
+    const { container } = render(<Loader color="warning.6" variant="bars" />);
     expect(container.querySelector('svg')).toHaveAttribute('fill', DEFAULT_THEME.colors.warning[6]);
   });
 });
