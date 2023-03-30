@@ -9,6 +9,7 @@ export default createStyles((theme, _params, { size }) => ({
     wordBreak: 'break-word',
     cursor: 'default',
     WebkitTapHighlightColor: 'transparent',
+    marginBottom: '2px',
   },
 
   required: {

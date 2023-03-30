@@ -117,6 +117,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     resetStyles: () => ({ outline: 'none' }),
     inputStyles: (theme) => ({
       outline: 'none',
+      boxShadow: '0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;',
       borderColor:
         theme.colors[theme.primaryColor][
           typeof theme.primaryShade === 'object'
