@@ -43,7 +43,7 @@
     "_release:alpha": "npm run _release minor -- --stage alpha --tag next",
     "_release:alpha:major": "npm run _release:no-test major -- --stage alpha --tag next",
     "release:prepare": "npm run clean && npm test",
-    " ": "npm run _release patch",
+    "release:patch": "npm run _release patch",
     "release:minor": "npm run _release minor",
     "release:major": "npm run _release major"
   },
