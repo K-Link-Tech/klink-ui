@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/next",
   "description": "Klink UI integration for Next.js",
-  "version": "6.0.4",
+  "version": "6.0.5",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -25,8 +25,8 @@
     "next": "*"
   },
   "dependencies": {
-    "@klink-ui/ssr": "6.0.4",
-    "@klink-ui/styles": "6.0.4"
+    "@klink-ui/ssr": "6.0.5",
+    "@klink-ui/styles": "6.0.5"
   },
   "devDependencies": {}
 }
