@@ -107,14 +107,22 @@ export function ActiveStatusIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
     <svg
       {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="10"
-      height="10"
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
       fill="none"
-      viewBox="0 0 10 10"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="7.5" height="7.5" x="1.25" y="1.25" fill="currentColor" rx="3.75" />
-      <rect width="7.5" height="7.5" x="1.25" y="1.25" stroke="#fff" strokeWidth="1.5" rx="3.75" />
+      <rect x="1.25" y="1.25" width="17.5" height="17.5" rx="8.75" fill="#12B76A" />
+      <rect
+        x="1.25"
+        y="1.25"
+        width="17.5"
+        height="17.5"
+        rx="8.75"
+        stroke="white"
+        strokeWidth="1.5"
+      />
     </svg>
   );
 }
