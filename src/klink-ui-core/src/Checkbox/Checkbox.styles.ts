@@ -87,7 +87,10 @@ export default createStyles(
         margin: 0,
         transition: `border-color ${transitionDuration}ms ease, background-color ${transitionDuration}ms ease`,
         cursor: theme.cursorType,
-
+        '&:hover': {
+          backgroundColor: '#E4E7F5',
+          borderColor: colors.background,
+        },
         '&:checked': {
           backgroundColor: 'white',
           borderColor: colors.background,
