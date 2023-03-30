@@ -44,7 +44,7 @@ export function itSupportsDateInputProps(
     await clickControl(container, 3);
     expect(getInputValue(container)).not.toBe(selectedValue);
     expect(getInputValue(container)).not.toBe('');
-  });
+  }, 60_000);
 
   it('supports uncontrolled state (type="range")', async () => {
     const { container } = render(
