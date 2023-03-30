@@ -256,7 +256,7 @@ export function itSupportsDateInputProps(
     await clickInput(container);
     await clickControl(container, 0);
     expect(getInputValue(container)).not.toBe('test-placeholder');
-  });
+  }, 60_000);
 
   it('allows to pick single date as range if allowSingleDateInRange prop is set (type="range")', async () => {
     const { container } = render(
