@@ -52,7 +52,7 @@ export default createStyles(
       radio: {
         ...theme.fn.focusStyles(),
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.white,
-        border: `${rem(1)} solid ${
+        border: `${rem(1.5)} solid ${
           error
             ? errorColor
             : theme.colorScheme === 'dark'
@@ -74,10 +74,11 @@ export default createStyles(
         cursor: theme.cursorType,
 
         '&:checked': {
-          background: colors.background,
+          background: 'transparent',
           borderColor: colors.background,
 
           [`& + .${getStylesRef('icon')}`]: {
+            color: theme.colors.primary,
             opacity: 1,
             transform: 'scale(1)',
           },

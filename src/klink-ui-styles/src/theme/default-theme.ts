@@ -11,7 +11,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     light: 7,
     dark: 8,
   },
-  focusRing: 'auto',
+  focusRing: 'always',
   loader: 'oval',
   colorScheme: 'light',
   white: '#fff',
@@ -108,7 +108,9 @@ export const _DEFAULT_THEME: MantineThemeBase = {
   focusRingStyles: {
     styles: (theme) => ({
       outlineOffset: '0.125rem',
-      outline: `0.125rem solid ${
+      boxShadow: '0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #F4EBFF;',
+      outline: 'none',
+      outlinee: `0.125rem solid ${
         theme.colors[theme.primaryColor][theme.colorScheme === 'dark' ? 7 : 5]
       }`,
     }),

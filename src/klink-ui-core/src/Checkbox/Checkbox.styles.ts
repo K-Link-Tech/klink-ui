@@ -28,7 +28,7 @@ export default createStyles(
   (
     theme,
     {
-      radius,
+      radius = 4,
       color,
       transitionDuration,
       labelPosition,
@@ -72,7 +72,7 @@ export default createStyles(
         ...theme.fn.focusStyles(),
         appearance: 'none',
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.white,
-        border: `${rem(1)} solid ${
+        border: `${rem(1.5)} solid ${
           error
             ? theme.fn.variant({ variant: 'filled', color: 'error' }).background
             : theme.colorScheme === 'dark'
@@ -89,12 +89,12 @@ export default createStyles(
         cursor: theme.cursorType,
 
         '&:checked': {
-          backgroundColor: colors.background,
+          backgroundColor: 'white',
           borderColor: colors.background,
 
           [`& + .${getStylesRef('icon')}`]: {
             opacity: 1,
-            color: theme.white,
+            color: theme.colors.primary,
             transform: 'translateY(0) scale(1)',
           },
         },
