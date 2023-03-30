@@ -1,6 +1,6 @@
 {
   "name": "@klink-ui/hooks",
-  "version": "6.0.3",
+  "version": "6.0.4",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
