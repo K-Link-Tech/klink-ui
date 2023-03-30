@@ -1,10 +1,10 @@
 {
   "name": "klink-ui",
-  "private": true,
+  "private": false,
   "workspaces": [
     "src/*"
   ],
-  "version": "6.0.2",
+  "version": "6.0.3",
   "description": "Klink UI Components Monorepo",
   "main": "index.js",
   "repository": "https://github.com/K-Link-Tech/klink-ui.git",
