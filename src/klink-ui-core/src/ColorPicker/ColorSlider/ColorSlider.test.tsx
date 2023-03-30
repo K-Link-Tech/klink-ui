@@ -7,7 +7,7 @@ const defaultProps: ColorSliderProps = {
   onChangeEnd: () => {},
   size: 'sm',
   maxValue: 360,
-  overlays: [{ color: 'red' }],
+  overlays: [{ color: 'error' }],
   round: true,
 };
 

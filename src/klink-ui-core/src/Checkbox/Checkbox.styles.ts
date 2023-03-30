@@ -74,7 +74,7 @@ export default createStyles(
         backgroundColor: theme.colorScheme === 'dark' ? theme.colors.dark[6] : theme.white,
         border: `${rem(1)} solid ${
           error
-            ? theme.fn.variant({ variant: 'filled', color: 'red' }).background
+            ? theme.fn.variant({ variant: 'filled', color: 'error' }).background
             : theme.colorScheme === 'dark'
             ? theme.colors.dark[4]
             : theme.colors.gray[4]

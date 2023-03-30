@@ -147,7 +147,7 @@ import { createStyles } from '@klink-ui/core';
 
 createStyles((theme, params, getRef) => {
   child: { ref: getRef('child') },
-  parent: { [`& .${getRef('child')}`]: { color: 'red' } },
+  parent: { [`& .${getRef('child')}`]: { color: 'error' } },
 });
 
 // in 6.x use getStylesRef function
@@ -155,7 +155,7 @@ import { createStyles, getStylesRef } from '@klink-ui/core';
 
 createStyles((theme, params) => {
   child: { ref: getStylesRef('child') },
-  parent: { [`& .${getStylesRef('child')}`]: { color: 'red' } },
+  parent: { [`& .${getStylesRef('child')}`]: { color: 'error' } },
 });
 ```
 

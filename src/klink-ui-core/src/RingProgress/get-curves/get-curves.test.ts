@@ -7,7 +7,7 @@ describe('@klink-ui/core/RingProgress/get-curves', () => {
       thickness: 12,
       sections: [
         { value: 40, color: 'blue' },
-        { value: 22.345, color: 'red' },
+        { value: 22.345, color: 'error' },
         { value: 9, color: 'blue' },
       ],
       renderRoundedLineCaps: false,
@@ -22,7 +22,7 @@ describe('@klink-ui/core/RingProgress/get-curves', () => {
         lineRoundCaps: false,
       },
       {
-        data: { color: 'red', value: 22.345 },
+        data: { color: 'error', value: 22.345 },
         offset: 548.5220773167778,
         root: false,
         sum: 71.345,

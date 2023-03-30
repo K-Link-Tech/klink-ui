@@ -91,7 +91,7 @@ interface MyButtonProps {
 }
 
 function MyButton({ sx }: MyButtonProps) {
-  return <Button sx={[{ color: 'red' }, sx]}>My Button</Button>;
+  return <Button sx={[{ color: 'error' }, sx]}>My Button</Button>;
 }
 ```
 
@@ -105,7 +105,7 @@ interface MyButtonProps {
 }
 
 function MyButton({ sx }: MyButtonProps) {
-  return <Button sx={[{ color: 'red' }, ...packSx(sx)]}>My Button</Button>;
+  return <Button sx={[{ color: 'error' }, ...packSx(sx)]}>My Button</Button>;
 }
 ```
 
@@ -118,7 +118,7 @@ interface MyButtonProps extends DefaultProps {}
 
 function MyButton({ sx, ...others }: MyButtonProps) {
   return (
-    <Button sx={[{ color: 'red' }, ...packSx(sx)]} {...others}>
+    <Button sx={[{ color: 'error' }, ...packSx(sx)]} {...others}>
       My Button
     </Button>
   );

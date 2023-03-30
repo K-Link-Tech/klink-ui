@@ -29,7 +29,7 @@ describe('@klink-ui/core/Progress', () => {
         value={84}
         sections={[
           { value: 40, color: 'cyan' },
-          { value: 20, color: 'red' },
+          { value: 20, color: 'error' },
           { value: 15, color: 'lime' },
         ]}
       />

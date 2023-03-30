@@ -12,6 +12,6 @@ export default createStyles((theme, _params, { size }) => ({
   },
 
   required: {
-    color: theme.fn.variant({ variant: 'filled', color: 'red' }).background,
+    color: theme.fn.variant({ variant: 'filled', color: 'error' }).background,
   },
 }));

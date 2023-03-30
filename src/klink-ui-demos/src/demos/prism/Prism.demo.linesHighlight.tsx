@@ -17,7 +17,7 @@ function Usage() {
 const code = `
 import { Prism } from '@klink-ui/prism';
 
-const deleted = { color: 'red', label: '-' };
+const deleted = { color: 'error', label: '-' };
 const added = { color: 'green', label: '+' };
 
 function Demo() {
@@ -41,7 +41,7 @@ function Demo() {
 `;
 
 function Demo() {
-  const deleted = { color: 'red', label: '-' };
+  const deleted = { color: 'error', label: '-' };
   const added = { color: 'green', label: '+' };
 
   return (

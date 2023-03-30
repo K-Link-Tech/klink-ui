@@ -54,7 +54,7 @@ export default createStyles(
     const colors = theme.fn.variant({ variant: 'filled', color });
     const trackWidth = getSize({ size, sizes: switchWidth });
     const trackPadding = rem(size === 'xs' ? 1 : 2);
-    const errorColor = theme.fn.variant({ variant: 'filled', color: 'red' }).background;
+    const errorColor = theme.fn.variant({ variant: 'filled', color: 'error' }).background;
 
     return {
       root: {

@@ -6,7 +6,7 @@ export interface DropzoneStylesParams {
 }
 
 export default createStyles((theme, { padding, radius }: DropzoneStylesParams) => {
-  const rejected = theme.fn.variant({ color: 'red', variant: 'light' });
+  const rejected = theme.fn.variant({ color: 'error', variant: 'light' });
   const accepted = theme.fn.variant({ color: theme.primaryColor, variant: 'light' });
 
   return {

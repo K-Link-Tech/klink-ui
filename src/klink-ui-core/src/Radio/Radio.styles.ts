@@ -26,7 +26,7 @@ const iconSizes = {
 export default createStyles(
   (theme, { color, transitionDuration, labelPosition, error }: RadioStylesParams, { size }) => {
     const colors = theme.fn.variant({ variant: 'filled', color });
-    const errorColor = theme.fn.variant({ variant: 'filled', color: 'red' }).background;
+    const errorColor = theme.fn.variant({ variant: 'filled', color: 'error' }).background;
 
     return {
       inner: {

@@ -67,7 +67,7 @@ function Usage() {
 }
 `;
 export function LinesHighlightWithCustomTheme() {
-  const deleted = { color: 'red', label: '-' };
+  const deleted = { color: 'error', label: '-' };
   const added = { color: 'green', label: '+' };
 
   return (

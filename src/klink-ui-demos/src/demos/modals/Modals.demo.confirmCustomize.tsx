@@ -20,7 +20,7 @@ function Demo() {
         </Text>
       ),
       labels: { confirm: 'Delete account', cancel: "No don't delete it" },
-      confirmProps: { color: 'red' },
+      confirmProps: { color: 'error' },
       onCancel: () => console.log('Cancel'),
       onConfirm: () => console.log('Confirmed'),
     });
@@ -41,7 +41,7 @@ function Demo() {
         </Text>
       ),
       labels: { confirm: 'Delete account', cancel: "No don't delete it" },
-      confirmProps: { color: 'red' },
+      confirmProps: { color: 'error' },
       onCancel: () =>
         notifications.show({
           title: 'Canceled',
@@ -52,7 +52,7 @@ function Demo() {
         notifications.show({
           title: 'Deleted',
           message: 'Delete modal was confirmed',
-          color: 'red',
+          color: 'error',
         }),
     });
 

@@ -58,7 +58,7 @@ export function Usage() {
   const showConfirmModal = () =>
     openConfirmModal({
       title: 'Please confirm this action',
-      confirmProps: { color: 'red' },
+      confirmProps: { color: 'error' },
       closeOnConfirm: false,
       children: (
         <Text size="sm" color="dimmed">

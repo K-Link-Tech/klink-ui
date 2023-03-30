@@ -48,11 +48,11 @@ export default createStyles(
       },
 
       '&[data-invalid]': {
-        color: theme.fn.variant({ variant: 'filled', color: 'red' }).background,
+        color: theme.fn.variant({ variant: 'filled', color: 'error' }).background,
 
         '&::placeholder': {
           opacity: 1,
-          color: theme.fn.variant({ variant: 'filled', color: 'red' }).background,
+          color: theme.fn.variant({ variant: 'filled', color: 'error' }).background,
         },
       },
 

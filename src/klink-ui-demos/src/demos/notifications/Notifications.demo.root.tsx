@@ -39,7 +39,7 @@ function Demo() {
         color="red"
         onClick={() =>
           notifications.show({
-            color: 'red',
+            color: 'error',
             title: 'Bummer!',
             message: 'You have no right to do this',
           })

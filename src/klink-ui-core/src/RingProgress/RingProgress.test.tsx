@@ -24,7 +24,7 @@ describe('@klink-ui/core/RingProgress', () => {
       <RingProgress
         sections={[
           { value: 10, color: 'blue' },
-          { value: 15, color: 'red' },
+          { value: 15, color: 'error' },
           { value: 10, color: 'green' },
         ]}
       />
@@ -62,7 +62,7 @@ describe('@klink-ui/core/RingProgress', () => {
       <RingProgress
         sections={[
           { value: 10, color: 'blue' },
-          { value: 15, color: 'red' },
+          { value: 15, color: 'error' },
           { value: 10, color: 'green' },
         ]}
         rootColor="transparent"

@@ -90,7 +90,7 @@ export default createStyles(
     }: InputStylesParams,
     { variant, size }
   ) => {
-    const invalidColor = theme.fn.variant({ variant: 'filled', color: 'red' }).background;
+    const invalidColor = theme.fn.variant({ variant: 'filled', color: 'error' }).background;
     const sizeStyles =
       variant === 'default' || variant === 'filled'
         ? {

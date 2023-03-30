@@ -37,7 +37,7 @@ import { itRendersChildren } from '@klink-ui/tests';
 import { Button } from '@klink-ui/core';
 
 describe('@klink-ui/core/Button', () => {
-  itRendersChildren(Button, { color: 'red' });
+  itRendersChildren(Button, { color: 'error' });
 });
 ```
 
@@ -50,7 +50,7 @@ import { itSupportsClassName } from '@klink-ui/tests';
 import { Button } from '@klink-ui/core';
 
 describe('@klink-ui/core/Button', () => {
-  itSupportsClassName(Button, { color: 'red' });
+  itSupportsClassName(Button, { color: 'error' });
 });
 ```
 

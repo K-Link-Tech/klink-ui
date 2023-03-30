@@ -21,9 +21,9 @@ function Demo() {
 
   const handleError = (errors: typeof form.errors) => {
     if (errors.name) {
-      notifications.show({ message: 'Please fill name field', color: 'red' });
+      notifications.show({ message: 'Please fill name field', color: 'error' });
     } else if (errors.email) {
-      notifications.show({ message: 'Please provide a valid email', color: 'red' });
+      notifications.show({ message: 'Please provide a valid email', color: 'error' });
     }
   };
 
@@ -54,9 +54,9 @@ function Demo() {
 
   const handleError = (errors: typeof form.errors) => {
     if (errors.name) {
-      notifications.show({ message: 'Please fill name field', color: 'red' });
+      notifications.show({ message: 'Please fill name field', color: 'error' });
     } else if (errors.email) {
-      notifications.show({ message: 'Please provide a valid email', color: 'red' });
+      notifications.show({ message: 'Please provide a valid email', color: 'error' });
     }
   };
 
