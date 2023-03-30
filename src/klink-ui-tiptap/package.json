@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/tiptap",
   "description": "Rich text editor based on tiptap",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "author": "Vitaly Rtishchev <rtivital@gmail.com>",
   "homepage": "https://klink-ui.dev/others/tiptap",
   "repository": {
-    "url": "https://github.com/mantinedev/klink-ui.git",
+    "url": "https://github.com/K-Link-Tech/klink-ui.git",
     "type": "git",
     "directory": "src/klink-ui-tiptap"
   },
@@ -28,15 +28,15 @@
     "rich-text-editor"
   ],
   "peerDependencies": {
-    "@klink-ui/core": "6.0.5",
-    "@klink-ui/hooks": "6.0.5",
+    "@klink-ui/core": "6.0.6",
+    "@klink-ui/hooks": "6.0.6",
     "@tabler/icons-react": ">=2.1.0",
     "@tiptap/extension-link": "^2.0.0-beta.202",
     "@tiptap/react": "^2.0.0-beta.202",
     "react": ">=16.8.0"
   },
   "dependencies": {
-    "@klink-ui/utils": "6.0.5"
+    "@klink-ui/utils": "6.0.6"
   },
   "devDependencies": {}
 }

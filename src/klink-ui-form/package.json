@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/form",
   "description": "Klink UI form management library",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "sideEffects": false,
   "homepage": "https://klink-ui.dev",
   "repository": {
-    "url": "https://github.com/mantinedev/klink-ui.git",
+    "url": "https://github.com/K-Link-Tech/klink-ui.git",
     "type": "git",
     "directory": "src/klink-ui-hooks"
   },

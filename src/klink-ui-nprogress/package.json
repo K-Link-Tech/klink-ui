@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/nprogress",
   "description": "Navigation progress bar",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -10,18 +10,18 @@
   "sideEffects": false,
   "homepage": "https://klink-ui.dev/others/nprogress/",
   "repository": {
-    "url": "https://github.com/mantinedev/klink-ui.git",
+    "url": "https://github.com/K-Link-Tech/klink-ui.git",
     "type": "git",
     "directory": "src/klink-ui-nprogress"
   },
   "peerDependencies": {
-    "@klink-ui/core": "6.0.5",
-    "@klink-ui/hooks": "6.0.5",
+    "@klink-ui/core": "6.0.6",
+    "@klink-ui/hooks": "6.0.6",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@klink-ui/utils": "6.0.5"
+    "@klink-ui/utils": "6.0.6"
   },
   "devDependencies": {}
 }

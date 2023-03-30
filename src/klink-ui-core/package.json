@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/core",
   "description": "React components library focused on usability, accessibility and developer experience",
-  "version": "6.0.5",
+  "version": "6.0.6",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "sideEffects": false,
   "homepage": "https://klink-ui.dev/",
   "repository": {
-    "url": "https://github.com/mantinedev/klink-ui.git",
+    "url": "https://github.com/K-Link-Tech/klink-ui.git",
     "type": "git",
     "directory": "src/klink-ui-core"
   },
@@ -27,13 +27,13 @@
     "emotion"
   ],
   "peerDependencies": {
-    "@klink-ui/hooks": "6.0.5",
+    "@klink-ui/hooks": "6.0.6",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@klink-ui/utils": "6.0.5",
-    "@klink-ui/styles": "6.0.5",
+    "@klink-ui/utils": "6.0.6",
+    "@klink-ui/styles": "6.0.6",
     "@radix-ui/react-scroll-area": "1.0.2",
     "react-textarea-autosize": "8.3.4",
     "react-remove-scroll": "^2.5.5",

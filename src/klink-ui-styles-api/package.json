@@ -2,7 +2,7 @@
   "name": "@klink-ui/styles-api",
   "description": "Klink UI components styles api descriptions",
   "private": true,
-  "version": "6.0.5",
+  "version": "6.0.6",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -11,13 +11,13 @@
   "sideEffects": false,
   "homepage": "https://klink-ui.dev",
   "repository": {
-    "url": "https://github.com/mantinedev/klink-ui.git",
+    "url": "https://github.com/K-Link-Tech/klink-ui.git",
     "type": "git",
     "directory": "src/klink-ui-styles-api"
   },
   "peerDependencies": {
-    "@klink-ui/core": "6.0.5",
-    "@klink-ui/hooks": "6.0.5"
+    "@klink-ui/core": "6.0.6",
+    "@klink-ui/hooks": "6.0.6"
   },
   "dependencies": {},
   "devDependencies": {}
