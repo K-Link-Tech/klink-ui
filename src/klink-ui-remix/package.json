@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/remix",
   "description": "Klink UI integration for Remix",
-  "version": "6.0.6",
+  "version": "6.0.7",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
@@ -20,14 +20,14 @@
     "remix"
   ],
   "peerDependencies": {
-    "@klink-ui/core": "6.0.6",
-    "@klink-ui/hooks": "6.0.6",
+    "@klink-ui/core": "6.0.7",
+    "@klink-ui/hooks": "6.0.7",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
   "dependencies": {
-    "@klink-ui/ssr": "6.0.6",
-    "@klink-ui/styles": "6.0.6"
+    "@klink-ui/ssr": "6.0.7",
+    "@klink-ui/styles": "6.0.7"
   },
   "devDependencies": {}
 }
