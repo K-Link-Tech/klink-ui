@@ -5,7 +5,8 @@
     "src/*"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://registry.yarnpkg.com"
   },
   "version": "1.0.3",
   "description": "Klink UI Components Monorepo",
