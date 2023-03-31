@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/dropzone",
   "description": "Dropzone component built with Klink UI theme and components",
-  "version": "6.0.7",
+  "version": "1.0.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",

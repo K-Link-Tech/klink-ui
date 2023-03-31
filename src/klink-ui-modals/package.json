@@ -1,7 +1,7 @@
 {
   "name": "@klink-ui/modals",
   "description": "Modals manager based on Klink UI components",
-  "version": "6.0.7",
+  "version": "1.0.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "lib/index.d.ts",
