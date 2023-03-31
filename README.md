@@ -37,21 +37,6 @@
 - [`gatsby-plugin-mantine`](https://klink-ui.dev/guides/gatsby/) – Gatsby plugin to setup server side rendering
 - [`eslint-config-mantine`](https://www.npmjs.com/package/eslint-config-mantine) – ESLint and Prettier configuration that is used in all Klink UI projects
 
-## Getting help
-
-Klink UI has a very friendly community, we are always happy to help you get started:
-
-- [Join Discord community](https://discord.gg/wbH82zuWMN) – it is the easiest way to get help, all questions are usually answered in about 30 minutes
-- [GitHub Discussions](https://github.com/mantinedev/klink-ui/discussions) – ask anything about the project or give feedback
-
-## Contributors
-
-<a href="https://github.com/mantinedev/klink-ui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mantinedev/klink-ui" />
-</a>
-
-[Become a contributor](https://klink-ui.dev/pages/contributing/)
-
 ## License
 
 MIT

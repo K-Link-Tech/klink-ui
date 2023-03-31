@@ -1,10 +1,12 @@
 import { createStyles } from '@klink-ui/core';
 
-interface NotificationsStylesParams {
-  zIndex: React.CSSProperties['zIndex'];
-}
+//TODO: need to uncomment back and change 'any' type
+// interface NotificationsStylesParams {
+//   zIndex: React.CSSProperties['zIndex'];
+// }
 
-export default createStyles((theme, { zIndex }: NotificationsStylesParams) => ({
+// export default createStyles((theme, { zIndex }: NotificationsStylesParams) => ({
+export default createStyles((theme, { zIndex }: any) => ({
   notifications: {
     width: `calc(100% - ${theme.spacing.md} * 2)`,
     boxSizing: 'border-box',

@@ -45,7 +45,9 @@ export interface NavigationProgressProps {
   portalProps?: PortalProps;
 
   /** Progressbar z-index */
-  zIndex?: React.CSSProperties['zIndex'];
+  zIndex?: any;
+  //TODO: need to uncomment back and change 'any' type
+  // zIndex?: React.CSSProperties['zIndex'];
 
   /** aria-label for `Progress`*/
   progressLabel?: string;
