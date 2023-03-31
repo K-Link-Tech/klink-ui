@@ -84,7 +84,9 @@ export default createStyles(
       withBorder,
       withLabel,
       zIndex,
-    }: IndicatorStylesParams,
+    }: // }: IndicatorStylesParams,
+    //TODO: need to uncomment back and change 'any' type
+    any,
     { size }
   ) => {
     const { background } = theme.fn.variant({

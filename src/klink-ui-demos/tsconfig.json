@@ -20,6 +20,7 @@
       "@klink-ui/modals": ["../klink-ui-modals/src"],
       "@klink-ui/nprogress": ["../klink-ui-nprogress/src"],
       "@klink-ui/form": ["../klink-ui-form/src"],
+      "@klink-ui/ds": ["../klink-ui-ds/src"],
       "@klink-ui/spotlight": ["../klink-ui-spotlight/src"],
       "@klink-ui/carousel": ["../klink-ui-carousel/src"],
       "@klink-ui/tiptap": ["../klink-ui-tiptap/src"]
@@ -37,6 +38,7 @@
     { "path": "../klink-ui-nprogress" },
     { "path": "../klink-ui-spotlight" },
     { "path": "../klink-ui-form" },
+    { "path": "../klink-ui-ds" },
     { "path": "../klink-ui-tiptap" }
   ]
 }

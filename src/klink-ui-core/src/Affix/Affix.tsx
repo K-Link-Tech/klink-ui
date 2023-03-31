@@ -9,7 +9,8 @@ export interface AffixProps extends DefaultProps, React.ComponentPropsWithoutRef
   target?: HTMLDivElement;
 
   /** Root element z-index property */
-  zIndex?: React.CSSProperties['zIndex'];
+  // zIndex?: React.CSSProperties['zIndex'];
+  zIndex?: any;
 
   /** Determines whether component should be rendered within portal, defaults to true */
   withinPortal?: boolean;

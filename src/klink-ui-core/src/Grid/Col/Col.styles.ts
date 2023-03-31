@@ -10,34 +10,35 @@ import {
 
 export type ColSpan = number | 'auto' | 'content';
 
-interface ColStyles {
-  gutter: MantineNumberSize;
-  gutterXs: MantineNumberSize;
-  gutterSm: MantineNumberSize;
-  gutterMd: MantineNumberSize;
-  gutterLg: MantineNumberSize;
-  gutterXl: MantineNumberSize;
-  columns: number;
-  grow: boolean;
-  offset: number;
-  offsetXs: number;
-  offsetSm: number;
-  offsetMd: number;
-  offsetLg: number;
-  offsetXl: number;
-  span: ColSpan;
-  xs: ColSpan;
-  sm: ColSpan;
-  md: ColSpan;
-  lg: ColSpan;
-  xl: ColSpan;
-  order: React.CSSProperties['order'];
-  orderXs: React.CSSProperties['order'];
-  orderSm: React.CSSProperties['order'];
-  orderMd: React.CSSProperties['order'];
-  orderLg: React.CSSProperties['order'];
-  orderXl: React.CSSProperties['order'];
-}
+//TODO : need to uncomment back and use below
+// interface ColStyles {
+//   gutter: MantineNumberSize;
+//   gutterXs: MantineNumberSize;
+//   gutterSm: MantineNumberSize;
+//   gutterMd: MantineNumberSize;
+//   gutterLg: MantineNumberSize;
+//   gutterXl: MantineNumberSize;
+//   columns: number;
+//   grow: boolean;
+//   offset: number;
+//   offsetXs: number;
+//   offsetSm: number;
+//   offsetMd: number;
+//   offsetLg: number;
+//   offsetXl: number;
+//   span: ColSpan;
+//   xs: ColSpan;
+//   sm: ColSpan;
+//   md: ColSpan;
+//   lg: ColSpan;
+//   xl: ColSpan;
+//   order: React.CSSProperties['order'];
+//   orderXs: React.CSSProperties['order'];
+//   orderSm: React.CSSProperties['order'];
+//   orderMd: React.CSSProperties['order'];
+//   orderLg: React.CSSProperties['order'];
+//   orderXl: React.CSSProperties['order'];
+// }
 
 const getColumnFlexBasis = (colSpan: ColSpan, columns: number) => {
   if (colSpan === 'content') {
@@ -134,7 +135,9 @@ export default createStyles(
       orderMd,
       orderLg,
       orderXl,
-    }: ColStyles
+    }: // }: ColStyles
+    //TODO: need to uncomment back and change 'any' type
+    any
   ) => ({
     col: {
       boxSizing: 'border-box',
