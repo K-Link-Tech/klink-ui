@@ -44,7 +44,7 @@ export function itSupportsDateInputProps(
     await clickControl(container, 3);
     expect(getInputValue(container)).not.toBe(selectedValue);
     expect(getInputValue(container)).not.toBe('');
-  }, 60_000);
+  });
 
   it('supports uncontrolled state (type="range")', async () => {
     const { container } = render(
@@ -241,7 +241,7 @@ export function itSupportsDateInputProps(
     await clickInput(container);
     await clickControl(container, 8);
     expectValue(container, 'test-placeholder');
-  }, 60_000);
+  });
 
   it('does not allow to deselect value if allowDeselect is not set (type="default")', async () => {
     const { container } = render(
@@ -256,7 +256,7 @@ export function itSupportsDateInputProps(
     await clickInput(container);
     await clickControl(container, 0);
     expect(getInputValue(container)).not.toBe('test-placeholder');
-  }, 60_000);
+  });
 
   it('allows to pick single date as range if allowSingleDateInRange prop is set (type="range")', async () => {
     const { container } = render(
