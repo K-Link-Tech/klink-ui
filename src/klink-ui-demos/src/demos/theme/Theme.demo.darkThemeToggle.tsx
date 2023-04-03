@@ -14,7 +14,7 @@ function Demo() {
   return (
     <ActionIcon
       variant="outline"
-      color={dark ? 'yellow' : 'blue'}
+      color={dark ? 'warning' : 'blue'}
       onClick={() => toggleColorScheme()}
       title="Toggle color scheme"
     >
@@ -32,7 +32,7 @@ function Demo() {
     <Group position="center">
       <ActionIcon
         variant="outline"
-        color={dark ? 'yellow' : 'blue'}
+        color={dark ? 'warning' : 'blue'}
         onClick={() => toggleColorScheme()}
         title="Toggle color scheme"
       >

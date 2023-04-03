@@ -7,7 +7,7 @@ import { RingProgress } from '@klink-ui/core';
 
 function Demo() {
   return (
-    <RingProgress sections={[{ value: 40, color: 'yellow' }]} rootColor="error" />
+    <RingProgress sections={[{ value: 40, color: 'warning' }]} rootColor="error" />
   );
 }
 `;
@@ -15,7 +15,7 @@ function Demo() {
 function Demo() {
   return (
     <Group position="center">
-      <RingProgress sections={[{ value: 40, color: 'yellow' }]} rootColor="error" />
+      <RingProgress sections={[{ value: 40, color: 'warning' }]} rootColor="error" />
     </Group>
   );
 }

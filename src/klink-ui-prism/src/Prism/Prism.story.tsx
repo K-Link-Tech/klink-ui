@@ -68,7 +68,7 @@ function Usage() {
 `;
 export function LinesHighlightWithCustomTheme() {
   const deleted = { color: 'error', label: '-' };
-  const added = { color: 'green', label: '+' };
+  const added = { color: 'success', label: '+' };
 
   return (
     <Prism

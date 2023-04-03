@@ -188,20 +188,20 @@ export function Groups() {
 export function ColorsIndex() {
   return (
     <Group m={50}>
-      <Button color="green.6">Filled</Button>
-      <Button color="green.6" variant="default">
+      <Button color="success.6">Filled</Button>
+      <Button color="success.6" variant="default">
         Default
       </Button>
-      <Button color="green.6" variant="white">
+      <Button color="success.6" variant="white">
         White
       </Button>
-      <Button color="green.6" variant="light">
+      <Button color="success.6" variant="light">
         Light
       </Button>
-      <Button color="green.6" variant="outline">
+      <Button color="success.6" variant="outline">
         Outline
       </Button>
-      <Button color="green.6" variant="gradient">
+      <Button color="success.6" variant="gradient">
         Gradient
       </Button>
     </Group>

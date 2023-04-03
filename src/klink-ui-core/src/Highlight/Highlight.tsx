@@ -20,7 +20,7 @@ export interface HighlightProps extends TextProps {
 }
 
 const defaultProps: Partial<HighlightProps> = {
-  highlightColor: 'yellow',
+  highlightColor: 'warning',
 };
 
 export const _Highlight = forwardRef<HTMLDivElement, HighlightProps>((props, ref) => {

@@ -11,7 +11,7 @@ export interface MarkProps extends DefaultProps, React.ComponentPropsWithoutRef<
 }
 
 const defaultProps: Partial<MarkProps> = {
-  color: 'yellow',
+  color: 'warning',
 };
 
 export const Mark = forwardRef<HTMLElement, MarkProps>((props, ref) => {

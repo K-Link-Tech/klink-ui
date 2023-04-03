@@ -49,7 +49,7 @@ function getCodeHighlight(withCodeHighlightStyles: boolean, theme: MantineTheme)
       },
 
       '& .hljs-title, & .hljs-section': {
-        color: theme.colors[theme.colorScheme === 'dark' ? 'yellow' : 'pink'][highlightIndex],
+        color: theme.colors[theme.colorScheme === 'dark' ? 'warning' : 'pink'][highlightIndex],
       },
 
       '& .hljs-keyword, & .hljs-selector-tag': {

@@ -46,7 +46,7 @@ export default createStyles((theme) => {
       },
 
       '& mark': {
-        backgroundColor: theme.fn.themeColor('yellow', theme.colorScheme === 'dark' ? 5 : 2),
+        backgroundColor: theme.fn.themeColor('warning', theme.colorScheme === 'dark' ? 5 : 2),
         color: theme.colorScheme === 'dark' ? theme.colors.dark[9] : 'inherit',
       },
 

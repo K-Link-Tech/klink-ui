@@ -13,7 +13,7 @@ function Demo() {
       styles={(theme) => ({
         control: {
           '&[data-active]': {
-            backgroundImage: theme.fn.gradient({ from: 'error', to: 'yellow' }),
+            backgroundImage: theme.fn.gradient({ from: 'error', to: 'warning' }),
           },
         },
       })}
@@ -30,7 +30,7 @@ function Demo() {
       styles={(theme) => ({
         control: {
           '&[data-active]': {
-            backgroundImage: theme.fn.gradient({ from: 'error', to: 'yellow' }),
+            backgroundImage: theme.fn.gradient({ from: 'error', to: 'warning' }),
           },
         },
       })}

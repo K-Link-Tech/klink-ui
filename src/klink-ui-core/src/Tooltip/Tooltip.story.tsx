@@ -71,7 +71,7 @@ export const FloatingAndDisabled = () => {
             Enabled
           </Box>
           <Box
-            bg="green"
+            bg="success"
             w={100}
             h={100}
             onMouseEnter={() => setTooltipEnabled(false)}
@@ -141,8 +141,8 @@ export const TooltipAndArrowWithBorder = () => (
       transitionProps={{ duration: 0 }}
       arrowSize={10}
       styles={{
-        tooltip: { border: '4px solid green' },
-        arrow: { border: '4px solid green' },
+        tooltip: { border: '4px solid success' },
+        arrow: { border: '4px solid success' },
       }}
     >
       <Button>target</Button>

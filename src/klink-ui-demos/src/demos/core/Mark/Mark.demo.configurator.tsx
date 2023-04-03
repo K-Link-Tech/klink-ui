@@ -26,5 +26,7 @@ export const configurator: MantineDemo = {
   type: 'configurator',
   component: Wrapper,
   codeTemplate,
-  configurator: [{ name: 'color', type: 'color', initialValue: 'yellow', defaultValue: 'yellow' }],
+  configurator: [
+    { name: 'color', type: 'color', initialValue: 'warning', defaultValue: 'warning' },
+  ],
 };

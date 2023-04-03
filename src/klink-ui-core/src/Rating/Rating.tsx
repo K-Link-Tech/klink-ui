@@ -72,7 +72,7 @@ const defaultProps: Partial<RatingProps> = {
   getSymbolLabel: (value) => `${value}`,
   count: 5,
   fractions: 1,
-  color: 'yellow',
+  color: 'warning',
 };
 
 export const Rating = forwardRef<HTMLInputElement, RatingProps>((props, ref) => {

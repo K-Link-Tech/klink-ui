@@ -4,7 +4,7 @@ import { transitions } from '../transitions';
 const customTransition = {
   in: { opacity: 1, backgroundColor: 'error' },
   out: { opacity: 0, backgroundColor: 'blue' },
-  common: { color: 'green' },
+  common: { color: 'success' },
   transitionProperty: 'color, background-color',
 };
 

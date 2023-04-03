@@ -103,7 +103,7 @@ function Demo() {
 
             '& .hljs-number, & .hljs-meta, & .hljs-built_in, & .hljs-builtin-name, & .hljs-literal, & .hljs-type, & .hljs-params':
               {
-                color: theme.colors[theme.colorScheme === 'dark' ? 'warning' : 'green'][5],
+                color: theme.colors[theme.colorScheme === 'dark' ? 'warning' : 'success'][5],
               },
 
             '& .hljs-string, & .hljs-symbol, & .hljs-bullet': {
@@ -111,7 +111,7 @@ function Demo() {
             },
 
             '& .hljs-title, & .hljs-section': {
-              color: theme.colors[theme.colorScheme === 'dark' ? 'green' : 'error'][5],
+              color: theme.colors[theme.colorScheme === 'dark' ? 'success' : 'error'][5],
             },
 
             '& .hljs-keyword, & .hljs-selector-tag': {
@@ -229,7 +229,7 @@ function Demo() {
 
             '& .hljs-number, & .hljs-meta, & .hljs-built_in, & .hljs-builtin-name, & .hljs-literal, & .hljs-type, & .hljs-params':
               {
-                color: theme.colors[theme.colorScheme === 'dark' ? 'warning' : 'green'][5],
+                color: theme.colors[theme.colorScheme === 'dark' ? 'warning' : 'success'][5],
               },
 
             '& .hljs-string, & .hljs-symbol, & .hljs-bullet': {
@@ -237,7 +237,7 @@ function Demo() {
             },
 
             '& .hljs-title, & .hljs-section': {
-              color: theme.colors[theme.colorScheme === 'dark' ? 'green' : 'error'][5],
+              color: theme.colors[theme.colorScheme === 'dark' ? 'success' : 'error'][5],
             },
 
             '& .hljs-keyword, & .hljs-selector-tag': {

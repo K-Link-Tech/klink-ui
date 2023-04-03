@@ -48,7 +48,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'error';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'warning' : 'error';
 
   return (
     <Box maw={340} mx="auto">
@@ -118,7 +118,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'error';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'warning' : 'error';
 
   return (
     <Box maw={340} mx="auto">

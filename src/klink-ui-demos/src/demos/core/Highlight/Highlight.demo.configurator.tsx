@@ -23,7 +23,7 @@ export const configurator: MantineDemo = {
   component: Wrapper,
   codeTemplate,
   configurator: [
-    { name: 'highlightColor', type: 'color', initialValue: 'yellow', defaultValue: 'yellow' },
+    { name: 'highlightColor', type: 'color', initialValue: 'warning', defaultValue: 'warning' },
     { name: 'highlight', type: 'string', initialValue: 'this' },
     {
       name: 'children',

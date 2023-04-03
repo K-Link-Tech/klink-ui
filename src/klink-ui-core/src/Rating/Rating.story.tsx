@@ -68,7 +68,7 @@ export function WithCustomSymbol() {
             sx={{
               width: size,
               height: size,
-              backgroundColor: value < 4 ? 'error' : 'green',
+              backgroundColor: value < 4 ? 'error' : 'success',
               borderRadius: 999,
             }}
           />
