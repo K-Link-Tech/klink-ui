@@ -90,7 +90,7 @@ export function Usage() {
     >
       <Group sx={{ padding: 40 }}>
         <Button onClick={showContextModal}>Open context modal</Button>
-        <Button onClick={showConfirmModal} color="red">
+        <Button onClick={showConfirmModal} color="error">
           Open nested confirm modal
         </Button>
         <Button onClick={showSingleConfirmModal} color="cyan">

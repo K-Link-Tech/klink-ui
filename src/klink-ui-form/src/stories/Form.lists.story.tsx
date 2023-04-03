@@ -34,7 +34,7 @@ export function Lists() {
         label="Active"
         {...form.getInputProps(`employees.${index}.active`, { type: 'checkbox' })}
       />
-      <ActionIcon color="red" onClick={() => form.removeListItem('employees', index)}>
+      <ActionIcon color="error" onClick={() => form.removeListItem('employees', index)}>
         $
       </ActionIcon>
     </Group>

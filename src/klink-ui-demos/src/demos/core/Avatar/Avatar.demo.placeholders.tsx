@@ -17,7 +17,7 @@ function Demo() {
       <Avatar src={null} alt="no image here" color="indigo" />
 
       {/* Placeholder with initials */}
-      <Avatar src={null} alt="Vitaly Rtishchev" color="red">VR</Avatar>
+      <Avatar src={null} alt="Vitaly Rtishchev" color="error">VR</Avatar>
 
       {/* Placeholder with custom icon */}
       <Avatar color="blue" radius="xl">
@@ -35,7 +35,7 @@ function Demo() {
       <Group position="center">
         <Avatar src={null} alt="no image here" />
         <Avatar src={null} alt="no image here" color="indigo" />
-        <Avatar src={null} alt="no image here" color="red">
+        <Avatar src={null} alt="no image here" color="error">
           VR
         </Avatar>
         <Avatar color="blue" radius="xl">

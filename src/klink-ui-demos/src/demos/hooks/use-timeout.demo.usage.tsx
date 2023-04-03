@@ -17,7 +17,7 @@ function Demo() {
       <Button onClick={start} variant="outline">
         Start
       </Button>
-      <Button onClick={clear} variant="outline" color="red">
+      <Button onClick={clear} variant="outline" color="error">
         Clear
       </Button>
       <Text>Random value: {value}</Text>
@@ -35,7 +35,7 @@ function Demo() {
       <Button onClick={start} variant="outline">
         Start
       </Button>
-      <Button onClick={clear} variant="outline" color="red">
+      <Button onClick={clear} variant="outline" color="error">
         Clear
       </Button>
       <Text>Random value: {value}</Text>

@@ -8,7 +8,7 @@ export function SystemProps() {
     <div style={{ padding: 40 }}>
       <Box
         bg={{
-          base: 'red',
+          base: 'error',
           xs: 'pink.5',
           sm: '#e5e5e5',
         }}

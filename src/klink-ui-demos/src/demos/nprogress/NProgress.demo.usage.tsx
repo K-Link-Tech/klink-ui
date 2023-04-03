@@ -13,7 +13,7 @@ function Demo() {
       <NavigationProgress />
       <Group position="center">
         <Button onClick={() => nprogress.increment(10)}>Add 10%</Button>
-        <Button color="red" onClick={() => nprogress.decrement(10)}>
+        <Button color="error" onClick={() => nprogress.decrement(10)}>
           Decrease 10%
         </Button>
         <Button onClick={() => nprogress.set(50)}>Set 50%</Button>

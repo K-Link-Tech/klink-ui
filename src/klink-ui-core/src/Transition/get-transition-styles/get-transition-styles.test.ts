@@ -2,7 +2,7 @@ import { getTransitionStyles } from './get-transition-styles';
 import { transitions } from '../transitions';
 
 const customTransition = {
-  in: { opacity: 1, backgroundColor: 'red' },
+  in: { opacity: 1, backgroundColor: 'error' },
   out: { opacity: 0, backgroundColor: 'blue' },
   common: { color: 'green' },
   transitionProperty: 'color, background-color',

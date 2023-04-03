@@ -22,7 +22,7 @@ function Demo() {
         <Center
           sx={(theme) => ({
             height: '${rem(40)}',
-            backgroundImage: theme.fn.gradient({ from: 'red', to: 'orange', deg: 45 }),
+            backgroundImage: theme.fn.gradient({ from: 'error', to: 'orange', deg: 45 }),
             color: theme.white,
           })}
         >
@@ -51,7 +51,7 @@ function Demo() {
         <Center
           sx={(theme) => ({
             height: rem(40),
-            backgroundImage: theme.fn.gradient({ from: 'red', to: 'orange', deg: 45 }),
+            backgroundImage: theme.fn.gradient({ from: 'error', to: 'orange', deg: 45 }),
             color: theme.white,
           })}
         >

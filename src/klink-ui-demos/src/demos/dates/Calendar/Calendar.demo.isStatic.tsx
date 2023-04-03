@@ -15,7 +15,7 @@ function Demo() {
         renderDay={(date) => {
           const day = date.getDate();
           return (
-            <Indicator size={6} color="red" offset={-2} disabled={day !== 16}>
+            <Indicator size={6} color="error" offset={-2} disabled={day !== 16}>
               <div>{day}</div>
             </Indicator>
           );
@@ -34,7 +34,7 @@ function Demo() {
         renderDay={(date) => {
           const day = date.getDate();
           return (
-            <Indicator size={6} color="red" offset={-2} disabled={day !== 16}>
+            <Indicator size={6} color="error" offset={-2} disabled={day !== 16}>
               <div>{day}</div>
             </Indicator>
           );

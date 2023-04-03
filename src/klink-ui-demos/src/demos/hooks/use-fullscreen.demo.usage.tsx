@@ -11,7 +11,7 @@ function Demo() {
   const { toggle, fullscreen } = useFullscreen();
 
   return (
-    <Button onClick={toggle} color={fullscreen ? 'red' : 'blue'}>
+    <Button onClick={toggle} color={fullscreen ? 'error' : 'blue'}>
       {fullscreen ? 'Exit Fullscreen' : 'Enter Fullscreen'}
     </Button>
   );
@@ -23,7 +23,7 @@ function Demo() {
 
   return (
     <Group position="center">
-      <Button onClick={toggle} color={fullscreen ? 'red' : 'blue'}>
+      <Button onClick={toggle} color={fullscreen ? 'error' : 'blue'}>
         {fullscreen ? 'Exit Fullscreen' : 'Enter Fullscreen'}
       </Button>
     </Group>

@@ -146,7 +146,7 @@ export function PercentageHeight() {
     <div style={{ height: 400, display: 'flex' }}>
       <Carousel withIndicators height="100%" sx={{ flex: 1 }}>
         <Carousel.Slide sx={{ background: 'blue' }}>1</Carousel.Slide>
-        <Carousel.Slide sx={{ background: 'red' }}>2</Carousel.Slide>
+        <Carousel.Slide sx={{ background: 'error' }}>2</Carousel.Slide>
         <Carousel.Slide sx={{ background: 'orange' }}>3</Carousel.Slide>
       </Carousel>
     </div>

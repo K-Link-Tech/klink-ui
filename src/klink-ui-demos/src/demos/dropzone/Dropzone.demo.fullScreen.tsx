@@ -18,7 +18,7 @@ function Demo() {
   return (
     <>
       <Group position="center">
-        <Button color={active ? 'red' : 'blue'} onClick={() => setActive((d) => !d)}>
+        <Button color={active ? 'error' : 'blue'} onClick={() => setActive((d) => !d)}>
           {active ? 'Disable' : 'Enable'} full screen dropzone
         </Button>
       </Group>
@@ -71,7 +71,7 @@ function Demo() {
   return (
     <>
       <Group position="center">
-        <Button color={active ? 'red' : 'blue'} onClick={() => setActive((d) => !d)}>
+        <Button color={active ? 'error' : 'blue'} onClick={() => setActive((d) => !d)}>
           {active ? 'Deactivate' : 'Activate'} full screen dropzone
         </Button>
       </Group>

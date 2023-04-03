@@ -30,7 +30,7 @@ function Demo() {
             <Menu.Dropdown>
               <Menu.Item icon={<IconFileZip size={rem(14)} />}>Download zip</Menu.Item>
               <Menu.Item icon={<IconEye size={rem(14)} />}>Preview all</Menu.Item>
-              <Menu.Item icon={<IconTrash size={rem(14)} />} color="red">
+              <Menu.Item icon={<IconTrash size={rem(14)} />} color="error">
                 Delete all
               </Menu.Item>
             </Menu.Dropdown>
@@ -83,7 +83,7 @@ function Demo() {
             <Menu.Dropdown>
               <Menu.Item icon={<IconFileZip size={rem(14)} />}>Download zip</Menu.Item>
               <Menu.Item icon={<IconEye size={rem(14)} />}>Preview all</Menu.Item>
-              <Menu.Item icon={<IconTrash size={rem(14)} />} color="red">
+              <Menu.Item icon={<IconTrash size={rem(14)} />} color="error">
                 Delete all
               </Menu.Item>
             </Menu.Dropdown>

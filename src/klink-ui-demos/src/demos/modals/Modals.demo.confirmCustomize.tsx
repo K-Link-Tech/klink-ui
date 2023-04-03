@@ -25,7 +25,7 @@ function Demo() {
       onConfirm: () => console.log('Confirmed'),
     });
 
-  return <Button onClick={openDeleteModal} color="red">Delete account</Button>;
+  return <Button onClick={openDeleteModal} color="error">Delete account</Button>;
 }
 `;
 
@@ -58,7 +58,7 @@ function Demo() {
 
   return (
     <Group position="center">
-      <Button onClick={openDeleteModal} color="red">
+      <Button onClick={openDeleteModal} color="error">
         Delete account
       </Button>
     </Group>

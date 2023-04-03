@@ -34,7 +34,7 @@ export function AvatarGroup() {
           </Avatar>
         </Tooltip>
         <Tooltip label="Hello">
-          <Avatar radius="xl" color="red">
+          <Avatar radius="xl" color="error">
             BU
           </Avatar>
         </Tooltip>
@@ -89,7 +89,7 @@ export function Gradient() {
           <MantineProvider
             theme={{
               defaultGradient: {
-                from: 'red.2',
+                from: 'error.2',
                 to: 'orange.8',
                 deg: 45,
               },
@@ -115,7 +115,7 @@ export function Gradient() {
         <Box>
           <Text>Specific</Text>
           <Center>
-            <Avatar variant="gradient" gradient={{ from: 'orange', to: 'red' }} radius="md">
+            <Avatar variant="gradient" gradient={{ from: 'orange', to: 'error' }} radius="md">
               ZH
             </Avatar>
           </Center>

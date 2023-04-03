@@ -22,7 +22,7 @@ function Demo() {
       <Text>Page loaded <b>{seconds}</b> seconds ago</Text>
       <Button
         onClick={interval.toggle}
-        color={interval.active ? 'red' : 'success'}
+        color={interval.active ? 'error' : 'success'}
         variant="outline"
       >
         {interval.active ? 'Stop' : 'Start'} counting
@@ -48,7 +48,7 @@ function Demo() {
       </Text>
       <Button
         onClick={interval.toggle}
-        color={interval.active ? 'red' : 'success'}
+        color={interval.active ? 'error' : 'success'}
         variant="outline"
       >
         {interval.active ? 'Stop' : 'Start'} counting

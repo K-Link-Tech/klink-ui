@@ -13,7 +13,7 @@ export function MdxErrorPage({ body, frontmatter }: MdxPageProps) {
       <div className={classes.wrapper}>
         <div className={classes.container}>
           <MdxTitle order={1}>{frontmatter.title}</MdxTitle>
-          <Alert className={classes.error} color="red" title="Error message">
+          <Alert className={classes.error} color="error" title="Error message">
             {frontmatter.error}
           </Alert>
           <MDXRenderer>{body}</MDXRenderer>

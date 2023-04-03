@@ -12,7 +12,7 @@ function Demo() {
     <>
       <Slider
         thumbChildren={<IconHeart size="1rem" />}
-        color="red"
+        color="error"
         label={null}
         defaultValue={40}
         thumbSize={26}
@@ -22,7 +22,7 @@ function Demo() {
       <RangeSlider
         mt="xl"
         styles={{ thumb: { borderWidth: rem(2), padding: rem(3) } }}
-        color="red"
+        color="error"
         label={null}
         defaultValue={[20, 60]}
         thumbSize={26}
@@ -38,7 +38,7 @@ function Demo() {
     <>
       <Slider
         thumbChildren={<IconHeart size="1rem" stroke={1.5} />}
-        color="red"
+        color="error"
         label={null}
         defaultValue={40}
         thumbSize={26}
@@ -48,7 +48,7 @@ function Demo() {
       <RangeSlider
         mt="xl"
         styles={{ thumb: { borderWidth: rem(2), padding: rem(3) } }}
-        color="red"
+        color="error"
         label={null}
         defaultValue={[20, 60]}
         thumbSize={26}

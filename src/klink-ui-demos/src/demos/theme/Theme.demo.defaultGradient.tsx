@@ -14,7 +14,7 @@ function Demo() {
         theme={{
           defaultGradient: {
             from: 'orange',
-            to: 'red',
+            to: 'error',
             deg: 45,
           },
         }}
@@ -35,7 +35,7 @@ function Demo() {
         theme={{
           defaultGradient: {
             from: 'orange',
-            to: 'red',
+            to: 'error',
             deg: 45,
           },
         }}

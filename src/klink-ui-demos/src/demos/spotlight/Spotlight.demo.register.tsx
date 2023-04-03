@@ -21,7 +21,7 @@ function SpotlightControls() {
       {registered ? (
         <Button
           variant="outline"
-          color="red"
+          color="error"
           onClick={() => {
             setRegistered(false);
             spotlight.removeActions(['secret-action-1', 'secret-action-2']);
@@ -88,7 +88,7 @@ function SpotlightControls() {
       {registered ? (
         <Button
           variant="outline"
-          color="red"
+          color="error"
           onClick={() => {
             setRegistered(false);
             spotlight.removeActions(['secret-action-1', 'secret-action-2']);

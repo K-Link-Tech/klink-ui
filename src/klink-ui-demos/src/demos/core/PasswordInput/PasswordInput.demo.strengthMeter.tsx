@@ -11,7 +11,7 @@ import { PasswordInput, Progress, Text, Popover, Box } from '@klink-ui/core';
 function PasswordRequirement({ meets, label }: { meets: boolean; label: string }) {
   return (
     <Text
-      color={meets ? 'success' : 'red'}
+      color={meets ? 'success' : 'error'}
       sx={{ display: 'flex', alignItems: 'center' }}
       mt={7}
       size="sm"
@@ -48,7 +48,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'red';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'error';
 
   return (
     <Box maw={340} mx="auto">
@@ -81,7 +81,7 @@ function Demo() {
 function PasswordRequirement({ meets, label }: { meets: boolean; label: string }) {
   return (
     <Text
-      color={meets ? 'success' : 'red'}
+      color={meets ? 'success' : 'error'}
       sx={{ display: 'flex', alignItems: 'center' }}
       mt={7}
       size="sm"
@@ -118,7 +118,7 @@ function Demo() {
   ));
 
   const strength = getStrength(value);
-  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'red';
+  const color = strength === 100 ? 'success' : strength > 50 ? 'yellow' : 'error';
 
   return (
     <Box maw={340} mx="auto">

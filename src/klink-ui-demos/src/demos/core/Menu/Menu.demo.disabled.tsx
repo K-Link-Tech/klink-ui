@@ -52,7 +52,7 @@ function Demo() {
           <Menu.Divider />
           <Menu.Label>Danger zone</Menu.Label>
           <Menu.Item icon={<IconArrowsLeftRight size={rem(14)} />}>Transfer my data</Menu.Item>
-          <Menu.Item color="red" icon={<IconTrash size={rem(14)} />}>
+          <Menu.Item color="error" icon={<IconTrash size={rem(14)} />}>
             Delete my account
           </Menu.Item>
         </Menu.Dropdown>

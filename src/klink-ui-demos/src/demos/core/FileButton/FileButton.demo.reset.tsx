@@ -21,7 +21,7 @@ function Demo() {
         <FileButton resetRef={resetRef} onChange={setFile} accept="image/png,image/jpeg">
           {(props) => <Button {...props}>Upload image</Button>}
         </FileButton>
-        <Button disabled={!file} color="red" onClick={clearFile}>
+        <Button disabled={!file} color="error" onClick={clearFile}>
           Reset
         </Button>
       </Group>
@@ -51,7 +51,7 @@ function Demo() {
         <FileButton resetRef={resetRef} onChange={setFile} accept="image/png,image/jpeg">
           {(props) => <Button {...props}>Upload image</Button>}
         </FileButton>
-        <Button disabled={!file} color="red" onClick={clearFile}>
+        <Button disabled={!file} color="error" onClick={clearFile}>
           Reset
         </Button>
       </Group>

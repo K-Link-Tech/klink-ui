@@ -6,7 +6,7 @@ const code = `
 import { createStyles } from '@klink-ui/core';
 
 interface ButtonProps {
-  color: 'blue' | 'violet';
+  color: 'blue' | 'purple';
   radius: number;
 }
 
@@ -42,7 +42,7 @@ function Demo() {
 `;
 
 interface ButtonProps {
-  color: 'blue' | 'violet';
+  color: 'blue' | 'purple';
   radius: number;
 }
 
@@ -71,7 +71,7 @@ function Demo() {
   return (
     <>
       <Button color="blue" radius={5} />
-      <Button color="violet" radius={50} />
+      <Button color="purple" radius={50} />
     </>
   );
 }

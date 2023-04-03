@@ -29,7 +29,7 @@ const paramsStyles = createStyles((_theme, params: { radius: number }) => ({
 const getRefStyles = createStyles(() => ({
   overrideRef: { ref: getStylesRef('override') },
   testRef: {
-    backgroundColor: 'red',
+    backgroundColor: 'error',
 
     [`&.${getStylesRef('override')}`]: {
       backgroundColor: 'blue',
@@ -112,8 +112,8 @@ describe('@klink-ui/styles/create-styles', () => {
   });
 
   it('adds given styles with object syntax', () => {
-    render(<NamedContainer styles={{ testObject: { outline: '2rem solid red' } }} />);
-    expect(screen.getByText('test-element')).toHaveStyle({ outline: '2rem solid red' });
+    render(<NamedContainer styles={{ testObject: { outline: '2rem solid error' } }} />);
+    expect(screen.getByText('test-element')).toHaveStyle({ outline: '2rem solid error' });
   });
 
   it('adds given styles with function syntax', () => {

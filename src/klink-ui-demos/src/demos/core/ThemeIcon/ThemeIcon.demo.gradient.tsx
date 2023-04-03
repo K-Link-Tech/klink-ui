@@ -19,7 +19,7 @@ function Demo() {
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'red' }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'error' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}>
@@ -42,7 +42,7 @@ function Demo() {
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'red' }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'orange', to: 'error' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon

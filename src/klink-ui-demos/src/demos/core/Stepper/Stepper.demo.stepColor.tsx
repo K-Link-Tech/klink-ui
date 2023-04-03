@@ -14,7 +14,7 @@ function Demo() {
       <Stepper.Step
         label="Step 2"
         description="Verify email"
-        color="red"
+        color="error"
         completedIcon={<IconCircleX size="1.1rem" />}
       />
       <Stepper.Step label="Step 3" description="Get full access" />
@@ -30,7 +30,7 @@ function Demo() {
       <Stepper.Step
         label="Step 2"
         description="Verify email"
-        color="red"
+        color="error"
         completedIcon={<IconCircleX size="1.1rem" />}
       />
       <Stepper.Step label="Step 3" description="Get full access" />

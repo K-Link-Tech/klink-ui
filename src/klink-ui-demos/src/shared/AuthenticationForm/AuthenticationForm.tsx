@@ -130,7 +130,7 @@ export function AuthenticationForm({
         )}
 
         {error && (
-          <Text color="red" size="sm" mt="sm">
+          <Text color="error" size="sm" mt="sm">
             {error}
           </Text>
         )}

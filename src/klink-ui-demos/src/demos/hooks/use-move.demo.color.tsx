@@ -19,7 +19,7 @@ function Demo() {
         style={{
           width: rem(300),
           height: rem(150),
-          backgroundColor: 'red',
+          backgroundColor: 'error',
           position: 'relative',
         }}
       >
@@ -73,7 +73,7 @@ function Demo() {
         style={{
           width: rem(300),
           height: rem(150),
-          backgroundColor: 'red',
+          backgroundColor: 'error',
           position: 'relative',
         }}
       >

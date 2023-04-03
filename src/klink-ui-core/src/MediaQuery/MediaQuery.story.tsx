@@ -7,7 +7,7 @@ export function Usage() {
   return (
     <div style={{ padding: 40 }}>
       <MediaQuery smallerThan="md" styles={{ display: 'none' }}>
-        <div style={{ height: 100, backgroundColor: 'red' }} />
+        <div style={{ height: 100, backgroundColor: 'error' }} />
       </MediaQuery>
       <MediaQuery largerThan="md" styles={{ display: 'none' }}>
         <div style={{ height: 100, backgroundColor: 'blue' }} />

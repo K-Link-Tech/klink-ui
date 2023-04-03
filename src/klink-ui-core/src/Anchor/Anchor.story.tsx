@@ -6,7 +6,7 @@ export default { title: 'Anchor' };
 export function CustomComponent() {
   return (
     <div style={{ padding: 40 }}>
-      <Anchor component="button" type="button" color="red.9">
+      <Anchor component="button" type="button" color="error.9">
         Anchor as button
       </Anchor>
 
@@ -20,7 +20,7 @@ export function CustomComponent() {
 export function WithTextProps() {
   return (
     <div style={{ padding: 40 }}>
-      <Anchor size="lg" weight={700} color="red">
+      <Anchor size="lg" weight={700} color="error">
         Text props
       </Anchor>
     </div>

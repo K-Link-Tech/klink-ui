@@ -20,14 +20,14 @@ function Demo() {
 
       <Text size="sm" mt="sm">
         Touched:{' '}
-        <Text span color={form.isTouched('text') ? 'blue' : 'red'}>
+        <Text span color={form.isTouched('text') ? 'blue' : 'error'}>
           {form.isTouched('text') ? 'touched' : 'not touched'}
         </Text>
       </Text>
 
       <Text size="sm">
         Dirty:{' '}
-        <Text span color={form.isDirty('text') ? 'blue' : 'red'}>
+        <Text span color={form.isDirty('text') ? 'blue' : 'error'}>
           {form.isDirty('text') ? 'dirty' : 'not dirty'}
         </Text>
       </Text>
@@ -49,14 +49,14 @@ function Demo() {
 
       <Text size="sm" mt="sm">
         Touched:{' '}
-        <Text span color={form.isTouched('text') ? 'blue' : 'red'}>
+        <Text span color={form.isTouched('text') ? 'blue' : 'error'}>
           {form.isTouched('text') ? 'touched' : 'not touched'}
         </Text>
       </Text>
 
       <Text size="sm">
         Dirty:{' '}
-        <Text span color={form.isDirty('text') ? 'blue' : 'red'}>
+        <Text span color={form.isDirty('text') ? 'blue' : 'error'}>
           {form.isDirty('text') ? 'dirty' : 'not dirty'}
         </Text>
       </Text>

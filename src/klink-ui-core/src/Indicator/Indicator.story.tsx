@@ -34,7 +34,7 @@ export const Inline = () => (
 
 export const WithRadius = () => (
   <Box sx={{ padding: 40 }}>
-    <Indicator inline offset={12} size={20} position="bottom-end" withBorder color="red">
+    <Indicator inline offset={12} size={20} position="bottom-end" withBorder color="error">
       <Avatar
         radius={50000}
         size="xl"

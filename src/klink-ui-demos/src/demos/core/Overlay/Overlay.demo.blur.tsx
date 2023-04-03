@@ -17,7 +17,7 @@ function Demo() {
       />
       {!visible && (
         <Overlay blur={15} center>
-          <Button color="red" radius="xl" onClick={() => setVisible(true)}>
+          <Button color="error" radius="xl" onClick={() => setVisible(true)}>
             NSFW, click to reveal
           </Button>
         </Overlay>
@@ -38,7 +38,7 @@ function Demo() {
       />
       {!visible && (
         <Overlay blur={15} center>
-          <Button color="red" radius="xl" onClick={() => setVisible(true)}>
+          <Button color="error" radius="xl" onClick={() => setVisible(true)}>
             NSFW, click to reveal
           </Button>
         </Overlay>

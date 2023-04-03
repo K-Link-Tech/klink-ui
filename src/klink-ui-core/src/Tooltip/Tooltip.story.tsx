@@ -67,7 +67,7 @@ export const FloatingAndDisabled = () => {
     <div style={{ padding: 0 }}>
       <Tooltip.Floating label="test" disabled={!tooltipEnabled}>
         <Group>
-          <Box bg="red" w={100} h={100}>
+          <Box bg="error" w={100} h={100}>
             Enabled
           </Box>
           <Box

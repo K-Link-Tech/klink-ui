@@ -45,7 +45,7 @@ export function WithCustomSymbol() {
           <Box sx={{ width: size, height: size, backgroundColor: 'gray', borderRadius: 999 }} />
         }
         fullSymbol={
-          <Box sx={{ width: size, height: size, backgroundColor: 'red', borderRadius: 999 }} />
+          <Box sx={{ width: size, height: size, backgroundColor: 'error', borderRadius: 999 }} />
         }
       />
 
@@ -68,7 +68,7 @@ export function WithCustomSymbol() {
             sx={{
               width: size,
               height: size,
-              backgroundColor: value < 4 ? 'red' : 'green',
+              backgroundColor: value < 4 ? 'error' : 'green',
               borderRadius: 999,
             }}
           />

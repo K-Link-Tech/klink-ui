@@ -61,7 +61,7 @@ export function Usage() {
         </Notification>
 
         <Notification
-          color="red"
+          color="error"
           onClose={() => {}}
           mt="xl"
           title="Danger notification with icon"

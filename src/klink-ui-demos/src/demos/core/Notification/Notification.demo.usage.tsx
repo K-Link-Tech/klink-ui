@@ -19,7 +19,7 @@ function Demo() {
         This is success notification with icon
       </Notification>
 
-      <Notification icon={<IconX size="1.1rem" />} color="red">
+      <Notification icon={<IconX size="1.1rem" />} color="error">
         Bummer! Notification without title
       </Notification>
 
@@ -52,7 +52,7 @@ function Demo() {
         This is success notification with icon
       </Notification>
 
-      <Notification mt="md" icon={<IconX size="1.1rem" />} color="red" onClose={() => {}}>
+      <Notification mt="md" icon={<IconX size="1.1rem" />} color="error" onClose={() => {}}>
         Bummer! Notification without title
       </Notification>
 

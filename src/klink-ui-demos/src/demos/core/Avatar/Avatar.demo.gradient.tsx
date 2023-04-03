@@ -12,7 +12,7 @@ function Demo() {
       <Avatar variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }} radius="xl" />
       <Avatar variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }} radius="xl" />
       <Avatar variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }} radius="xl" />
-      <Avatar variant="gradient" gradient={{ from: 'orange', to: 'red' }} radius="xl" />
+      <Avatar variant="gradient" gradient={{ from: 'orange', to: 'error' }} radius="xl" />
       <Avatar variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }} radius="xl" />
     </Group>
   );
@@ -25,7 +25,7 @@ function Demo() {
       <Avatar variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }} radius="xl" />
       <Avatar variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }} radius="xl" />
       <Avatar variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }} radius="xl" />
-      <Avatar variant="gradient" gradient={{ from: 'orange', to: 'red' }} radius="xl" />
+      <Avatar variant="gradient" gradient={{ from: 'orange', to: 'error' }} radius="xl" />
       <Avatar
         variant="gradient"
         gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}

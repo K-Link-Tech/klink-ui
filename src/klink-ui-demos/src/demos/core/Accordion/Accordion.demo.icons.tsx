@@ -14,7 +14,7 @@ function Demo() {
   return (
     <Accordion variant="contained">
       <Accordion.Item value="photos">
-        <Accordion.Control icon={<IconPhoto size={rem(20)} color={getColor('red')} />}>
+        <Accordion.Control icon={<IconPhoto size={rem(20)} color={getColor('error')} />}>
           Recent photos
         </Accordion.Control>
         <Accordion.Panel>Content</Accordion.Panel>
@@ -45,7 +45,7 @@ export function IconsReplacementDemo(props: Partial<AccordionProps>) {
   return (
     <Accordion variant="contained" {...props}>
       <Accordion.Item value="photos">
-        <Accordion.Control icon={<IconPhoto size={rem(20)} color={getColor('red')} />}>
+        <Accordion.Control icon={<IconPhoto size={rem(20)} color={getColor('error')} />}>
           Recent photos
         </Accordion.Control>
         <Accordion.Panel>Content</Accordion.Panel>

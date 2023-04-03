@@ -15,7 +15,7 @@ export function ColorsIndex() {
           },
           {
             value: 10,
-            color: 'red.1',
+            color: 'error.1',
           },
           {
             value: 10,
@@ -64,7 +64,7 @@ export function WithRootColor() {
           { value: 20, color: 'blue' },
           { value: 15, color: 'indigo' },
         ]}
-        rootColor="red"
+        rootColor="error"
       />
     </div>
   );

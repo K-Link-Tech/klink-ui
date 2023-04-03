@@ -1,7 +1,7 @@
 import { hover } from './hover';
 
 const testHoverStyle = {
-  backgroundColor: 'red',
+  backgroundColor: 'error',
 };
 
 const testReturnStyle = {

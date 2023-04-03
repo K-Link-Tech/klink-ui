@@ -26,7 +26,7 @@ function Demo() {
       </ScrollArea.Autosize>
 
       <Group position="center" mt="md">
-        <Button variant="outline" color="red" onClick={handlers.decrement}>
+        <Button variant="outline" color="error" onClick={handlers.decrement}>
           Remove paragraph
         </Button>
         <Button variant="outline" onClick={handlers.increment}>
@@ -51,7 +51,7 @@ function Demo() {
       </ScrollArea.Autosize>
 
       <Group position="center" mt="md">
-        <Button variant="outline" color="red" onClick={handlers.decrement}>
+        <Button variant="outline" color="error" onClick={handlers.decrement}>
           Remove paragraph
         </Button>
         <Button variant="outline" onClick={handlers.increment}>

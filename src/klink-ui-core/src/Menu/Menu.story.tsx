@@ -38,7 +38,7 @@ export function Usage() {
           <Menu.Divider />
 
           <Menu.Label>Label 2</Menu.Label>
-          <Menu.Item color="red" icon={<IconTable size={14} />}>
+          <Menu.Item color="error" icon={<IconTable size={14} />}>
             Red color
           </Menu.Item>
           <Menu.Item icon={<IconTable size={14} />}>Button item 3</Menu.Item>

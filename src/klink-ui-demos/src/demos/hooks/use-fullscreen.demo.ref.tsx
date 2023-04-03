@@ -19,7 +19,7 @@ function Demo() {
         width={200}
       />
 
-      <Button onClick={toggle} color={fullscreen ? 'red' : 'blue'}>
+      <Button onClick={toggle} color={fullscreen ? 'error' : 'blue'}>
         {fullscreen ? 'Exit Fullscreen' : 'View Image Fullscreen'}
       </Button>
     </>
@@ -38,7 +38,7 @@ function RefDemo() {
         alt="Unsplash Image to make Fullscreen"
         width={200}
       />
-      <Button onClick={toggle} color={fullscreen ? 'red' : 'blue'}>
+      <Button onClick={toggle} color={fullscreen ? 'error' : 'blue'}>
         {fullscreen ? 'Exit Fullscreen' : 'View Image Fullscreen'}
       </Button>
     </Stack>

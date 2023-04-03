@@ -120,9 +120,9 @@ function App() {
         Child MantineProvider, inherits theme from parent MantineProvider.
         Other properties specified on child provider will override parent props.
         For example, in this case theme override will be:
-        { colorScheme: 'dark', primaryColor: 'red' }
+        { colorScheme: 'dark', primaryColor: 'error' }
       */}
-      <MantineProvider theme={{ primaryColor: 'red' }} inherit>
+      <MantineProvider theme={{ primaryColor: 'error' }} inherit>
         <Button>Affected only by child provider</Button>
       </MantineProvider>
     </MantineProvider>

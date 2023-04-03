@@ -23,7 +23,7 @@ function Demo() {
         <tr>
           <td>Online</td>
           <td>
-            <Text size="sm" color={networkStatus.online ? 'success' : 'red'}>
+            <Text size="sm" color={networkStatus.online ? 'success' : 'error'}>
               {networkStatus.online ? 'Online' : 'Offline'}
             </Text>
           </td>
@@ -47,7 +47,7 @@ function Demo() {
         <tr>
           <td>saveData</td>
           <td>
-            <Text size="sm" color={networkStatus.saveData ? 'success' : 'red'}>
+            <Text size="sm" color={networkStatus.saveData ? 'success' : 'error'}>
               {networkStatus.saveData ? 'true' : 'false'}
             </Text>
           </td>
@@ -74,7 +74,7 @@ function Demo() {
         <tr>
           <td>Online</td>
           <td>
-            <Text size="sm" color={networkStatus.online ? 'success' : 'red'}>
+            <Text size="sm" color={networkStatus.online ? 'success' : 'error'}>
               {networkStatus.online ? 'Online' : 'Offline'}
             </Text>
           </td>
@@ -98,7 +98,7 @@ function Demo() {
         <tr>
           <td>saveData</td>
           <td>
-            <Text size="sm" color={networkStatus.saveData ? 'success' : 'red'}>
+            <Text size="sm" color={networkStatus.saveData ? 'success' : 'error'}>
               {networkStatus.saveData ? 'true' : 'false'}
             </Text>
           </td>

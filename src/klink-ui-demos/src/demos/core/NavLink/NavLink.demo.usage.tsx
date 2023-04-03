@@ -27,7 +27,7 @@ function Demo() {
         label="With description"
         description="Additional information"
         icon={
-          <Badge size="xs" variant="filled" color="red" w={16} h={16} p={0}>
+          <Badge size="xs" variant="filled" color="error" w={16} h={16} p={0}>
             3
           </Badge>
         }
@@ -72,7 +72,7 @@ function Demo() {
           label="With description"
           description="Additional information"
           icon={
-            <Badge size="xs" variant="filled" color="red" w={16} h={16} p={0}>
+            <Badge size="xs" variant="filled" color="error" w={16} h={16} p={0}>
               3
             </Badge>
           }

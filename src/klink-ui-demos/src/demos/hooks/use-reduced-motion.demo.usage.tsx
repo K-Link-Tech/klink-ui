@@ -12,7 +12,7 @@ function Demo() {
 
   return (
     <Badge
-      color={reduceMotion ? 'red' : 'success'}
+      color={reduceMotion ? 'error' : 'success'}
       style={{ transitionDuration: reduceMotion ? '0ms' : '200ms' }}
       variant="filled"
     >
@@ -26,7 +26,7 @@ function Demo() {
   return (
     <Group position="center">
       <Badge
-        color={reduceMotion ? 'red' : 'success'}
+        color={reduceMotion ? 'error' : 'success'}
         style={{ transitionDuration: reduceMotion ? '0ms' : '200ms' }}
         variant="filled"
       >

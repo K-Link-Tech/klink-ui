@@ -31,7 +31,7 @@ function Demo() {
         Clean queue
       </Button>
 
-      <Button variant="outline" color="red" onClick={notifications.clean}>
+      <Button variant="outline" color="error" onClick={notifications.clean}>
         Clean all
       </Button>
     </Group>
@@ -62,7 +62,7 @@ function Demo() {
         Clean queue
       </Button>
 
-      <Button variant="outline" color="red" onClick={notifications.clean}>
+      <Button variant="outline" color="error" onClick={notifications.clean}>
         Clean all
       </Button>
     </Group>

@@ -36,7 +36,7 @@ function Demo() {
 
       <Button
         variant="outline"
-        color="red"
+        color="error"
         onClick={() =>
           notifications.show({
             color: 'error',

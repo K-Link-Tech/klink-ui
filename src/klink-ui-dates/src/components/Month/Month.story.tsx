@@ -52,7 +52,7 @@ export function RenderDay() {
       renderDay={(date) => {
         const day = date.getDate();
         return (
-          <Indicator size={6} color="red" offset={-3} disabled={day !== 16}>
+          <Indicator size={6} color="error" offset={-3} disabled={day !== 16}>
             <div>{day}</div>
           </Indicator>
         );

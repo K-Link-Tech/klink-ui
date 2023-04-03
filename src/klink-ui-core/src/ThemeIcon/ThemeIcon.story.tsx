@@ -25,7 +25,7 @@ export function Gradient() {
           <MantineProvider
             theme={{
               defaultGradient: {
-                from: 'red.2',
+                from: 'error.2',
                 to: 'orange.8',
                 deg: 45,
               },
@@ -51,7 +51,7 @@ export function Gradient() {
         <Box>
           <Text>Specific</Text>
           <Center>
-            <ThemeIcon variant="gradient" gradient={{ from: 'orange', to: 'red' }} radius="md">
+            <ThemeIcon variant="gradient" gradient={{ from: 'orange', to: 'error' }} radius="md">
               $
             </ThemeIcon>
           </Center>
