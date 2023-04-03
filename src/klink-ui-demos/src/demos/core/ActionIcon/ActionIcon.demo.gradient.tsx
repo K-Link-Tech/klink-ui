@@ -9,8 +9,8 @@ import { Sun } from 'tabler-icons-react';
 function Demo() {
   return (
     <>
-      <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}><IconSun size={18} /></ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}><IconSun size={18} /></ActionIcon>
+      <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'blue_light' }}><IconSun size={18} /></ActionIcon>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue_light', deg: 105 }}><IconSun size={18} /></ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}><IconSun size={18} /></ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: 'orange', to: 'error' }}><IconSun size={18} /></ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: '#ed6ea0', to: '#ec8c69', deg: 35 }}><IconSun size={18} /></ActionIcon>
@@ -22,10 +22,10 @@ function Demo() {
 function Demo() {
   return (
     <Group position="center">
-      <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
+      <ActionIcon variant="gradient" gradient={{ from: 'indigo', to: 'blue_light' }}>
         <IconSun size={rem(18)} />
       </ActionIcon>
-      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
+      <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue_light', deg: 105 }}>
         <IconSun size={rem(18)} />
       </ActionIcon>
       <ActionIcon variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>

@@ -50,7 +50,7 @@ export function CustomComponent() {
 export function ColorsIndex() {
   return (
     <div style={{ padding: 40 }}>
-      <Badge color="violet.2" variant="dot">
+      <Badge color="purple.2" variant="dot">
         Anchor
       </Badge>
     </div>

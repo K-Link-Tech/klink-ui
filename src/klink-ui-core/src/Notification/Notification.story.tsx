@@ -118,7 +118,7 @@ export function Usage() {
         </Notification>
 
         <Notification
-          color="grape"
+          color="pink"
           onClose={() => {}}
           mt="xl"
           title="Grape notification without icon"
@@ -126,7 +126,7 @@ export function Usage() {
           This action will not work very soon
         </Notification>
 
-        <Notification color="cyan" onClose={() => {}} mt="xl" title="Primary notification">
+        <Notification color="blue_light" onClose={() => {}} mt="xl" title="Primary notification">
           You have achieved something important
         </Notification>
 
@@ -174,11 +174,11 @@ export function Usage() {
           NotificationWithIconDisallowCloseAndDescriptionSoLargeThatItShouldUseOverflowEllipsis
         </Notification>
 
-        <Notification color="grape" onClose={() => {}} mt="xl">
+        <Notification color="pink" onClose={() => {}} mt="xl">
           Notification without title
         </Notification>
 
-        <Notification color="grape" onClose={() => {}} mt="xl">
+        <Notification color="pink" onClose={() => {}} mt="xl">
           NotificationWithoutTitleAndTheDescriptionSoLargeThatItShouldUseOverflowEllipsis
         </Notification>
 

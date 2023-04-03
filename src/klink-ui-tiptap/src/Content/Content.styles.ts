@@ -41,7 +41,7 @@ function getCodeHighlight(withCodeHighlightStyles: boolean, theme: MantineTheme)
 
       '& .hljs-number, & .hljs-meta, & .hljs-built_in, & .hljs-builtin-name, & .hljs-literal, & .hljs-type, & .hljs-params':
         {
-          color: theme.colors[theme.colorScheme === 'dark' ? 'cyan' : 'blue'][highlightIndex],
+          color: theme.colors[theme.colorScheme === 'dark' ? 'blue_light' : 'blue'][highlightIndex],
         },
 
       '& .hljs-string, & .hljs-symbol, & .hljs-bullet': {

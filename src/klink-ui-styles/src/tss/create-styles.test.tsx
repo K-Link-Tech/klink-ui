@@ -155,11 +155,14 @@ describe('@klink-ui/styles/create-styles', () => {
           },
         }}
       >
-        <NamedContainer styles={{ testObject: { color: 'cyan' } }} />
+        <NamedContainer styles={{ testObject: { color: 'blue_light' } }} />
       </MantineProvider>
     );
 
-    expect(screen.getByText('test-element')).toHaveStyle({ background: '#EF56ED', color: 'cyan' });
+    expect(screen.getByText('test-element')).toHaveStyle({
+      background: '#EF56ED',
+      color: 'blue_light',
+    });
   });
 
   it('assigns styles from MantineProvider (function)', () => {
@@ -173,13 +176,13 @@ describe('@klink-ui/styles/create-styles', () => {
           },
         }}
       >
-        <NamedContainer styles={{ testObject: { color: 'cyan' } }} />
+        <NamedContainer styles={{ testObject: { color: 'blue_light' } }} />
       </MantineProvider>
     );
 
     expect(screen.getByText('test-element')).toHaveStyle({
       fontSize: `${DEFAULT_THEME.fontSizes.sm}`,
-      color: 'cyan',
+      color: 'blue_light',
     });
   });
 

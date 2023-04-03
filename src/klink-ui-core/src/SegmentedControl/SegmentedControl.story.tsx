@@ -47,5 +47,5 @@ export function EmptyStringValue() {
 }
 
 export function ColorsIndexReference() {
-  return <SegmentedControl color="cyan.9" data={data} />;
+  return <SegmentedControl color="blue_light.9" data={data} />;
 }

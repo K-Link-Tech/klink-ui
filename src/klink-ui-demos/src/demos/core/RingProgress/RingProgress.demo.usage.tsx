@@ -14,9 +14,9 @@ function Demo() {
         </Text>
       }
       sections={[
-        { value: 40, color: 'cyan' },
+        { value: 40, color: 'blue_light' },
         { value: 15, color: 'orange' },
-        { value: 15, color: 'grape' },
+        { value: 15, color: 'pink' },
       ]}
     />
   );
@@ -33,9 +33,9 @@ function Demo() {
           </Text>
         }
         sections={[
-          { value: 40, color: 'cyan' },
+          { value: 40, color: 'blue_light' },
           { value: 15, color: 'orange' },
-          { value: 15, color: 'grape' },
+          { value: 15, color: 'pink' },
         ]}
       />
     </Group>

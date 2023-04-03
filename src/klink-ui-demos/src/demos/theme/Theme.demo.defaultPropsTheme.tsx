@@ -13,7 +13,7 @@ function Demo() {
         components: {
           Button: {
             defaultProps: (theme) => ({
-              color: theme.colorScheme === 'dark' ? 'orange' : 'cyan',
+              color: theme.colorScheme === 'dark' ? 'orange' : 'blue_light',
             }),
           },
         },
@@ -33,7 +33,7 @@ function Demo() {
         components: {
           Button: {
             defaultProps: (theme) => ({
-              color: theme.colorScheme === 'dark' ? 'orange' : 'cyan',
+              color: theme.colorScheme === 'dark' ? 'orange' : 'blue_light',
             }),
           },
         },

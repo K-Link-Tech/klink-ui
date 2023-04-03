@@ -43,7 +43,7 @@ function Demo() {
             <ThemeIcon
               size={22}
               variant="gradient"
-              gradient={{ from: 'lime', to: 'cyan' }}
+              gradient={{ from: 'success', to: 'blue_light' }}
               radius="xl"
             >
               <IconVideo size="0.8rem" />
@@ -96,7 +96,7 @@ function Demo() {
             <ThemeIcon
               size={22}
               variant="gradient"
-              gradient={{ from: 'lime', to: 'cyan' }}
+              gradient={{ from: 'success', to: 'blue_light' }}
               radius="xl"
             >
               <IconVideo size="0.8rem" />

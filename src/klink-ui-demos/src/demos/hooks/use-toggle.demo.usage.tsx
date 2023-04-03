@@ -8,7 +8,7 @@ import { Button } from '@klink-ui/core';
 import { useToggle } from '@klink-ui/hooks';
 
 function Demo() {
-  const [value, toggle] = useToggle(['blue', 'orange', 'cyan', 'success']);
+  const [value, toggle] = useToggle(['blue', 'orange', 'blue_light', 'success']);
 
   return (
     <Button color={value} onClick={() => toggle()}>
@@ -19,7 +19,7 @@ function Demo() {
 `;
 
 function Demo() {
-  const [value, toggle] = useToggle(['blue', 'orange', 'cyan', 'success']);
+  const [value, toggle] = useToggle(['blue', 'orange', 'blue_light', 'success']);
 
   return (
     <Group position="center">

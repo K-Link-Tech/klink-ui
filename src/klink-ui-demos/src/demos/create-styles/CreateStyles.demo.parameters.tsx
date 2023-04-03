@@ -35,7 +35,7 @@ function Demo() {
   return (
     <>
       <Button color="blue" radius={5} />
-      <Button color="violet" radius={50} />
+      <Button color="purple" radius={50} />
     </>
   );
 }

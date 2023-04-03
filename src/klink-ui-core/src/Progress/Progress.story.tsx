@@ -10,7 +10,7 @@ export function WithTooltips() {
       <Progress
         size={20}
         sections={[
-          { value: 40, color: 'cyan', tooltip: 'Hello' },
+          { value: 40, color: 'blue_light', tooltip: 'Hello' },
           { value: 20, color: 'blue', tooltip: 'There' },
           { value: 15, color: 'indigo', tooltip: 'You' },
         ]}
@@ -25,7 +25,7 @@ export function WithSectionProps() {
       <Progress
         size={20}
         sections={[
-          { value: 40, color: 'cyan', onClick: () => console.log('1') },
+          { value: 40, color: 'blue_light', onClick: () => console.log('1') },
           { value: 20, color: 'blue', onClick: () => console.log('2') },
           { value: 15, color: 'indigo', onClick: () => console.log('3') },
         ]}

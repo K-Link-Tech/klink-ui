@@ -8,9 +8,9 @@ function Wrapper(props: RingProgressProps) {
       <RingProgress
         {...props}
         sections={[
-          { value: 40, color: 'cyan' },
+          { value: 40, color: 'blue_light' },
           { value: 15, color: 'orange' },
-          { value: 15, color: 'grape' },
+          { value: 15, color: 'pink' },
         ]}
       />
     </Group>
@@ -25,9 +25,9 @@ function Demo() {
     <RingProgress
      ${props}
       sections={[
-        { value: 40, color: 'cyan' },
+        { value: 40, color: 'blue_light' },
         { value: 15, color: 'orange' },
-        { value: 15, color: 'grape' },
+        { value: 15, color: 'pink' },
       ]}
     />
   )

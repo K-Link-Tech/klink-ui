@@ -34,7 +34,7 @@ function Demo() {
         <Button onClick={() => setSlowTransitionOpened(true)} color="pink">
           Rotate left transition
         </Button>
-        <Button onClick={() => setNoTransitionOpened(true)} color="cyan">
+        <Button onClick={() => setNoTransitionOpened(true)} color="blue_light">
           Fade transition
         </Button>
       </Group>
@@ -71,7 +71,7 @@ function Demo() {
         <Button onClick={() => setSlowTransitionOpened(true)} color="pink">
           Rotate left transition
         </Button>
-        <Button onClick={() => setNoTransitionOpened(true)} color="cyan">
+        <Button onClick={() => setNoTransitionOpened(true)} color="blue_light">
           Fade transition
         </Button>
       </Group>

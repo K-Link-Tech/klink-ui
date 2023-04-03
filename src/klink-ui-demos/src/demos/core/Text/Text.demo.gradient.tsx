@@ -9,13 +9,13 @@ function Demo() {
   return (
     <Text
       variant="gradient"
-      gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}
+      gradient={{ from: 'indigo', to: 'blue_light', deg: 45 }}
       sx={{ fontFamily: 'Greycliff CF, sans-serif' }}
       ta="center"
       fz="xl"
       fw={700}
     >
-      Indigo cyan gradient
+      Indigo blue_light gradient
     </Text>
   );
 }
@@ -26,13 +26,13 @@ function Demo() {
     <Group position="center">
       <Text
         variant="gradient"
-        gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}
+        gradient={{ from: 'indigo', to: 'blue_light', deg: 45 }}
         sx={{ fontFamily: 'Greycliff CF, sans-serif' }}
         ta="center"
         fz="xl"
         fw={700}
       >
-        Indigo cyan gradient
+        Indigo blue_light gradient
       </Text>
     </Group>
   );

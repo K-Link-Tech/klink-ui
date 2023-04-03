@@ -28,9 +28,9 @@ describe('@klink-ui/core/Progress', () => {
       <Progress
         value={84}
         sections={[
-          { value: 40, color: 'cyan' },
+          { value: 40, color: 'blue_light' },
           { value: 20, color: 'error' },
-          { value: 15, color: 'lime' },
+          { value: 15, color: 'success' },
         ]}
       />
     );
@@ -56,7 +56,7 @@ describe('@klink-ui/core/Progress', () => {
     const { container } = render(
       <Progress
         sections={[
-          { value: 20, color: 'cyan', onClick: spy },
+          { value: 20, color: 'blue_light', onClick: spy },
           { value: 30, color: 'orange' },
         ]}
       />

@@ -44,7 +44,7 @@ describe('@klink-ui/core/RingProgress', () => {
     const { container } = render(
       <RingProgress
         sections={[
-          { value: 20, color: 'cyan', onClick: spy },
+          { value: 20, color: 'blue_light', onClick: spy },
           { value: 30, color: 'orange' },
         ]}
       />

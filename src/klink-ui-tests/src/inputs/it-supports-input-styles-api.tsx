@@ -22,11 +22,11 @@ export function itSupportsInputStylesApi<P>(Component: React.ComponentType<P>, r
         {...requiredProps}
         id="test-input"
         label="test-label"
-        styles={{ label: { lineHeight: 1.946 }, input: { background: 'cyan' } }}
+        styles={{ label: { lineHeight: 1.946 }, input: { background: 'blue_light' } }}
       />
     );
 
     expect(screen.getByText('test-label')).toHaveStyle({ lineHeight: 1.946 });
-    expect(container.querySelector('#test-input')).toHaveStyle({ background: 'cyan' });
+    expect(container.querySelector('#test-input')).toHaveStyle({ background: 'blue_light' });
   });
 }

@@ -26,7 +26,10 @@ export function Sizes() {
       icon={size}
       rightSection={size}
       mt="md"
-      styles={{ rightSection: { backgroundColor: 'pink' }, icon: { backgroundColor: 'cyan' } }}
+      styles={{
+        rightSection: { backgroundColor: 'pink' },
+        icon: { backgroundColor: 'blue_light' },
+      }}
     />
   ));
 

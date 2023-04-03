@@ -30,7 +30,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
   cursorType: 'default',
   defaultGradient: {
     from: 'indigo',
-    to: 'cyan',
+    to: 'blue_light',
     deg: 45,
   },
 

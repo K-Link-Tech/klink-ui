@@ -10,10 +10,10 @@ import { ThemeIcon } from '@klink-ui/core';
 function Demo() {
   return (
     <>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'blue_light' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue_light', deg: 105 }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>
@@ -33,10 +33,14 @@ function Demo() {
 function Demo() {
   return (
     <Group position="center">
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'cyan' }}>
+      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'indigo', to: 'blue_light' }}>
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
-      <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'lime', deg: 105 }}>
+      <ThemeIcon
+        size="lg"
+        variant="gradient"
+        gradient={{ from: 'success', to: 'blue_light', deg: 105 }}
+      >
         <IconPhoto size="1.2rem" />
       </ThemeIcon>
       <ThemeIcon size="lg" variant="gradient" gradient={{ from: 'success', to: 'blue', deg: 60 }}>

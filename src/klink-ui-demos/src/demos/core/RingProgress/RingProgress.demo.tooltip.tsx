@@ -17,9 +17,9 @@ function Demo() {
           </Text>
         }
         sections={[
-          { value: 40, color: 'cyan', tooltip: 'Documents – 40 Gb' },
+          { value: 40, color: 'blue_light', tooltip: 'Documents – 40 Gb' },
           { value: 25, color: 'orange', tooltip: 'Apps – 25 Gb' },
-          { value: 15, color: 'grape', tooltip: 'Other – 15 Gb' },
+          { value: 15, color: 'pink', tooltip: 'Other – 15 Gb' },
         ]}
       />
     </Group>
@@ -39,9 +39,9 @@ function Demo() {
           </Text>
         }
         sections={[
-          { value: 40, color: 'cyan', tooltip: 'Documents – 40 Gb' },
+          { value: 40, color: 'blue_light', tooltip: 'Documents – 40 Gb' },
           { value: 25, color: 'orange', tooltip: 'Apps – 25 Gb' },
-          { value: 15, color: 'grape', tooltip: 'Other – 15 Gb' },
+          { value: 15, color: 'pink', tooltip: 'Other – 15 Gb' },
         ]}
       />
     </Group>

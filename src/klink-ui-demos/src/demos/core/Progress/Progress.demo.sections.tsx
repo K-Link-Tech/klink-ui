@@ -10,7 +10,7 @@ function Demo() {
     <Progress
       size="xl"
       sections={[
-        { value: 40, color: 'cyan' },
+        { value: 40, color: 'blue_light' },
         { value: 20, color: 'blue' },
         { value: 15, color: 'indigo' },
       ]}
@@ -24,7 +24,7 @@ function Demo() {
     <Progress
       size="xl"
       sections={[
-        { value: 40, color: 'cyan' },
+        { value: 40, color: 'blue_light' },
         { value: 20, color: 'blue' },
         { value: 15, color: 'indigo' },
       ]}

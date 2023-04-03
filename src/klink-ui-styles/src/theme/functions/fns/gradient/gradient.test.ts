@@ -6,8 +6,8 @@ describe('@klink-ui/styles/linear-gradient', () => {
   });
 
   it('returns correct gradient with multiple color stops', () => {
-    expect(linearGradient(133, 'blue', 'error', 'orange', 'cyan', 'white')).toBe(
-      'linear-gradient(133deg, blue 0%, error 25%, orange 50%, cyan 75%, white 100%)'
+    expect(linearGradient(133, 'blue', 'error', 'orange', 'blue_light', 'white')).toBe(
+      'linear-gradient(133deg, blue 0%, error 25%, orange 50%, blue_light 75%, white 100%)'
     );
   });
 });
@@ -18,8 +18,8 @@ describe('@klink-ui/styles/radial-gradient', () => {
   });
 
   it('returns correct gradient with multiple color stops', () => {
-    expect(radialGradient('blue', 'error', 'orange', 'cyan', 'white')).toBe(
-      'radial-gradient(circle, blue 0%, error 25%, orange 50%, cyan 75%, white 100%)'
+    expect(radialGradient('blue', 'error', 'orange', 'blue_light', 'white')).toBe(
+      'radial-gradient(circle, blue 0%, error 25%, orange 50%, blue_light 75%, white 100%)'
     );
   });
 });

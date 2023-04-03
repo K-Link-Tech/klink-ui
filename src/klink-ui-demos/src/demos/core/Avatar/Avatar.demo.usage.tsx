@@ -18,7 +18,7 @@ function Demo() {
       <Avatar radius="xl" />
 
       {/* Letters with xl radius */}
-      <Avatar color="cyan" radius="xl">MK</Avatar>
+      <Avatar color="blue_light" radius="xl">MK</Avatar>
 
       {/* Custom placeholder icon */}
       <Avatar color="blue" radius="sm">
@@ -35,7 +35,7 @@ function Demo() {
     <Group position="center">
       <Avatar src={avatars[0]} alt="it's me" />
       <Avatar radius="xl" />
-      <Avatar color="cyan" radius="xl">
+      <Avatar color="blue_light" radius="xl">
         MK
       </Avatar>
       <Avatar color="blue" radius="xl">

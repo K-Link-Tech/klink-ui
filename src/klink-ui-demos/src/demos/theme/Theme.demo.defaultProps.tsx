@@ -4,7 +4,7 @@ import { MantineProvider, Group, Button, Switch, ButtonProps, SwitchProps } from
 
 const ButtonDefaultProps: Partial<ButtonProps> = {
   size: 'xs',
-  color: 'cyan',
+  color: 'blue_light',
 };
 
 const SwitchDefaultProps: Partial<SwitchProps> = {
@@ -25,7 +25,7 @@ function Demo() {
             Button: {
               defaultProps: {
                 size: 'xs',
-                color: 'cyan',
+                color: 'blue_light',
               },
             },
 

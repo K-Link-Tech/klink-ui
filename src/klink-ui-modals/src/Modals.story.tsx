@@ -93,10 +93,10 @@ export function Usage() {
         <Button onClick={showConfirmModal} color="error">
           Open nested confirm modal
         </Button>
-        <Button onClick={showSingleConfirmModal} color="cyan">
+        <Button onClick={showSingleConfirmModal} color="blue_light">
           Open single confirm modal
         </Button>
-        <Button onClick={showContentModal} color="violet">
+        <Button onClick={showContentModal} color="purple">
           Open content modal
         </Button>
       </Group>

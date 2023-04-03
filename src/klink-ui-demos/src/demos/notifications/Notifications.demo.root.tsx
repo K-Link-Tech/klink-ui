@@ -50,10 +50,10 @@ function Demo() {
 
       <Button
         variant="outline"
-        color="grape"
+        color="pink"
         onClick={() =>
           notifications.show({
-            color: 'grape',
+            color: 'pink',
             title: 'I will never close',
             message: 'unless you click X',
             autoClose: false,
@@ -80,11 +80,11 @@ function Demo() {
 
       <Button
         variant="outline"
-        color="cyan"
+        color="blue_light"
         onClick={() => {
           notifications.show({
             id: 'data-loading',
-            color: 'cyan',
+            color: 'blue_light',
             loading: true,
             title: 'Loading your data',
             message: 'Data will be loaded in 3 seconds, you cannot close this yet',
