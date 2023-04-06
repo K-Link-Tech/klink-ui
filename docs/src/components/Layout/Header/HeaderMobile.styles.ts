@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@klink-ui/core';
+import { createStyles, rem } from '@k-link/core';
 import { NAVBAR_BREAKPOINT } from '../Navbar/Navbar.styles';
 import { HEADER_HEIGHT } from './HeaderDesktop.styles';
 

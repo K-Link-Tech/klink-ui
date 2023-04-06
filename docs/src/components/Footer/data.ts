@@ -1,4 +1,4 @@
-import { meta } from '@klink-ui/ds';
+import { meta } from '@k-link/ds';
 import { LinksGroupProps } from './LinksGroup/LinksGroup';
 
 export const FOOTER_LINKS_DATA: LinksGroupProps[] = [

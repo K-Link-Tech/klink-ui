@@ -1,7 +1,7 @@
 import React from 'react';
-import { em, Tooltip } from '@klink-ui/core';
-import { useClipboard, useMediaQuery } from '@klink-ui/hooks';
-import { Prism } from '@klink-ui/prism';
+import { em, Tooltip } from '@k-link/core';
+import { useClipboard, useMediaQuery } from '@k-link/hooks';
+import { Prism } from '@k-link/prism';
 import { Language } from 'prism-react-renderer';
 import useStyles from './HeaderCode.styles';
 

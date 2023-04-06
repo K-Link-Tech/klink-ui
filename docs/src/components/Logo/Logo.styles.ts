@@ -1,4 +1,4 @@
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 export default createStyles((theme) => ({
   logo: {

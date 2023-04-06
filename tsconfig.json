@@ -1,8 +1,8 @@
 {
   "extends": "./tsconfig.base.json",
   "include": [
-    "src/klink-ui-*/src",
-    "src/klink-ui-*/demos",
+    "src/k-link-*/src",
+    "src/k-link-*/demos",
     "./types",
     "./docs/src",
     "./scripts",
@@ -16,14 +16,14 @@
     "configuration/jest",
     "configuration/storybook/main.js",
     "node_modules",
-    "src/klink-ui-*/esm/**/*",
-    "src/klink-ui-*/lib/**/*",
-    "src/klink-ui-*/cjs/**/*"
+    "src/k-link-*/esm/**/*",
+    "src/k-link-*/lib/**/*",
+    "src/k-link-*/cjs/**/*"
   ],
   "compilerOptions": {
     "paths": {
-      "@klink-ui/*": ["src/klink-ui-*/src"],
-      "@demos/*": ["src/klink-ui-*/src/demos"]
+      "@k-link/*": ["src/k-link-*/src"],
+      "@demos/*": ["src/k-link-*/src/demos"]
     }
   }
 }

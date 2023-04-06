@@ -1,6 +1,6 @@
 import React from 'react';
-import { SimpleGrid, Group, Text, Card } from '@klink-ui/core';
-import { GithubIcon, TwitterIcon, meta, DiscordIcon } from '@klink-ui/ds';
+import { SimpleGrid, Group, Text, Card } from '@k-link/core';
+import { GithubIcon, TwitterIcon, meta, DiscordIcon } from '@k-link/ds';
 import useStyles from './Community.styles';
 
 export function Community() {
@@ -52,7 +52,7 @@ export function Community() {
         padding="lg"
         component="a"
         radius="md"
-        href="https://github.com/mantinedev/klink-ui/discussions"
+        href="https://github.com/mantinedev/k-link/discussions"
         className={cx(classes.card, classes.github)}
       >
         <Group noWrap>

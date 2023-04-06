@@ -1,11 +1,11 @@
 import React from 'react';
-import { Group, Button, Badge, MantineProvider } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
+import { Group, Button, Badge, MantineProvider } from '@k-link/core';
+import { Prism } from '@k-link/prism';
 import { PageSection } from '../PageSection/PageSection';
 import useStyles from './Theming.styles';
 
 const code = `
-import { Badge, Button, MantineProvider } from '@klink-ui/core';
+import { Badge, Button, MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (

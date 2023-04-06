@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Table, Checkbox, Code, Text, Box, rem } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
-import { NpmIcon, YarnIcon } from '@klink-ui/ds';
+import { Table, Checkbox, Code, Text, Box, rem } from '@k-link/core';
+import { Prism } from '@k-link/prism';
+import { NpmIcon, YarnIcon } from '@k-link/ds';
 import { PACKAGES_DATA } from './data';
 
 function getInstallationCommand(
@@ -15,7 +15,7 @@ function getInstallationCommand(
   }, []);
 
   const unique = Array.from(
-    new Set(['@klink-ui/core', '@klink-ui/hooks', ...packages, ...extraPackages, '@emotion/react'])
+    new Set(['@k-link/core', '@k-link/hooks', ...packages, ...extraPackages, '@emotion/react'])
   );
   const prefix = type === 'yarn' ? 'yarn add' : 'npm install';
   return `${prefix} ${unique.join(' ')}`;
@@ -26,7 +26,7 @@ interface PackagesInstallationProps {
 }
 
 export function PackagesInstallation({ extraPackages = [] }: PackagesInstallationProps) {
-  const [selection, setSelection] = useState(['@klink-ui/core', '@klink-ui/hooks']);
+  const [selection, setSelection] = useState(['@k-link/core', '@k-link/hooks']);
   const toggleSelection = (item: string) =>
     setSelection((current) =>
       current.includes(item) ? current.filter((i) => i !== item) : [...current, item]

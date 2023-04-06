@@ -1,5 +1,5 @@
 import React from 'react';
-import { ColorSwatch, Text, Box, rem } from '@klink-ui/core';
+import { ColorSwatch, Text, Box, rem } from '@k-link/core';
 import useStyles from './ColorsGroup.styles';
 
 interface ColorsGroupProps {

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Title, Overlay, Text, Button, Container } from '@klink-ui/core';
-import { GithubIcon } from '@klink-ui/ds';
+import { Title, Overlay, Text, Button, Container } from '@k-link/core';
+import { GithubIcon } from '@k-link/ds';
 import useStyles from './Banner.styles';
 
 export function Banner() {

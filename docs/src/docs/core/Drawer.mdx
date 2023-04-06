@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Drawer
 order: 1
 slug: /core/drawer/
 category: 'overlay'
 description: 'Display overlay area at any side of the screen'
 props: ['Drawer']
-import: "import { Drawer } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Drawer/Drawer.tsx'
+import: "import { Drawer } from '@k-link/core';"
+source: 'k-link-core/src/Drawer/Drawer.tsx'
 docs: 'core/Drawer.mdx'
 styles: ['Drawer']
 ---
 
-import { DrawerDemos } from '@klink-ui/demos';
+import { DrawerDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -111,7 +111,7 @@ You can use the following modular components to have full control over the `Draw
 package to lock scroll. To properly size these `elements` add a `className` to them ([documentation](https://github.com/theKashey/react-remove-scroll#positionfixed-elements)):
 
 ```tsx
-import { RemoveScroll } from '@klink-ui/core';
+import { RemoveScroll } from '@k-link/core';
 
 // to make "width: 100%"
 <div className={RemoveScroll.classNames.fullWidth} />
@@ -129,7 +129,7 @@ import { RemoveScroll } from '@klink-ui/core';
 Set `title` props to make component accessible, will add `aria-labelledby` to the content element:
 
 ```tsx
-import { Drawer } from '@klink-ui/core';
+import { Drawer } from '@k-link/core';
 
 function Demo() {
   return <Drawer title="Drawer label" opened onClose={() => {}} />;
@@ -139,7 +139,7 @@ function Demo() {
 To set close button `aria-label` use `closeButtonProps`:
 
 ```tsx
-import { Drawer } from '@klink-ui/core';
+import { Drawer } from '@k-link/core';
 
 function Demo() {
   return <Drawer closeButtonProps={{ 'aria-label': 'Close modal' }} opened onClose={() => {}} />;

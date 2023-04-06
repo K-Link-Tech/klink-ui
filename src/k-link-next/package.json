@@ -1,0 +1,32 @@
+{
+  "name": "@k-link/next",
+  "description": "Klink UI integration for Next.js",
+  "version": "1.1.0",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "author": "Vitaly Rtishchev <rtivital@gmail.com>",
+  "sideEffects": false,
+  "homepage": "https://k-link.dev",
+  "repository": {
+    "url": "https://github.com/K-Link-Tech/k-link.git",
+    "type": "git",
+    "directory": "src/k-link-ssr"
+  },
+  "keywords": [
+    "react",
+    "next",
+    "nextjs"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "next": "*"
+  },
+  "dependencies": {
+    "@k-link/ssr": "1.1.0",
+    "@k-link/styles": "1.1.0"
+  },
+  "devDependencies": {}
+}

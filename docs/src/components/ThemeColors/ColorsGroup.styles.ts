@@ -1,4 +1,4 @@
-import { createStyles, MantineTheme, rem, em } from '@klink-ui/core';
+import { createStyles, MantineTheme, rem, em } from '@k-link/core';
 
 const BREAKPOINT = 765;
 

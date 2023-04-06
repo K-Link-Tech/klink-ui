@@ -1,4 +1,4 @@
-import { createStyles, rem, em } from '@klink-ui/core';
+import { createStyles, rem, em } from '@k-link/core';
 import { BREAKPOINT } from '../settings';
 
 export default createStyles((theme) => ({

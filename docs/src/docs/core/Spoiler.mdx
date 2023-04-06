@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Spoiler
 order: 1
 slug: /core/spoiler/
 category: 'data-display'
 description: 'Hide long sections of content under spoiler'
 props: ['Spoiler']
-import: "import { Spoiler } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Spoiler/Spoiler.tsx'
+import: "import { Spoiler } from '@k-link/core';"
+source: 'k-link-core/src/Spoiler/Spoiler.tsx'
 docs: 'core/Spoiler.mdx'
 styles: ['Spoiler']
 ---
 
-import { SpoilerDemos } from '@klink-ui/demos';
+import { SpoilerDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -36,7 +36,7 @@ To disable animations, set prop to 0:
 
 ```tsx
 import { useRef } from 'react';
-import { Spoiler } from '@klink-ui/core';
+import { Spoiler } from '@k-link/core';
 
 function Demo() {
   const spoilerControlRef = useRef<HTMLButtonElement>(null);

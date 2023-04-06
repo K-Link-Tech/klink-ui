@@ -1,7 +1,7 @@
 /* eslint-disable import/no-relative-packages */
 import React from 'react';
-import { Burger } from '@klink-ui/core';
-import { ColorSchemeControl } from '@klink-ui/ds';
+import { Burger } from '@k-link/core';
+import { ColorSchemeControl } from '@k-link/ds';
 import { Logo } from '../../Logo/Logo';
 import useStyles from './HeaderMobile.styles';
 

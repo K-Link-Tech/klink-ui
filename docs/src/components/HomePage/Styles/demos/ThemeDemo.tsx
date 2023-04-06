@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor, em } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
+import { Text, Box, Anchor, em } from '@k-link/core';
+import { Prism } from '@k-link/prism';
 
 const code = `
-import { Text } from '@klink-ui/core';
+import { Text } from '@k-link/core';
 
 function Demo() {
   return (

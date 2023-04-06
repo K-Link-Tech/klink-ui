@@ -1,6 +1,6 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: HoverCard
 order: 1
 slug: /core/hover-card/
@@ -8,13 +8,13 @@ category: 'overlay'
 description: 'Display popover section when target element is hovered'
 componentPrefix: 'HoverCard'
 props: ['HoverCard', 'HoverCardTarget', 'HoverCardDropdown']
-import: "import { HoverCard } from '@klink-ui/core';"
-source: 'klink-ui-core/src/HoverCard/HoverCard.tsx'
+import: "import { HoverCard } from '@k-link/core';"
+source: 'k-link-core/src/HoverCard/HoverCard.tsx'
 docs: 'core/HoverCard.mdx'
 styles: ['HoverCard']
 ---
 
-import { HoverCardDemos } from '@klink-ui/demos';
+import { HoverCardDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -40,7 +40,7 @@ strings, fragments, numbers and multiple elements/components are not supported a
 Custom components must provide a prop to get root element ref, all Klink UI components support ref out of the box.
 
 ```tsx
-import { HoverCard, Badge } from '@klink-ui/core';
+import { HoverCard, Badge } from '@k-link/core';
 
 function Demo() {
   return (
@@ -81,7 +81,7 @@ Custom components that are rendered inside `HoverCard.Target` are required to su
 
 ```tsx
 // Example of code that WILL NOT WORK
-import { HoverCard } from '@klink-ui/core';
+import { HoverCard } from '@k-link/core';
 
 function MyComponent() {
   return <div>My component</div>;
@@ -104,7 +104,7 @@ Use `forwardRef` function to forward ref to root element:
 ```tsx
 // Example of code that will work
 import { forwardRef } from 'react';
-import { HoverCard } from '@klink-ui/core';
+import { HoverCard } from '@k-link/core';
 
 const MyComponent = forwardRef((props, ref) => (
   <div ref={ref} {...props}>

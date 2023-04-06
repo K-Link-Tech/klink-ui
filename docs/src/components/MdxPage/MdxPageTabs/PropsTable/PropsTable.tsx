@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Text, Highlight, useMantineTheme, rem } from '@klink-ui/core';
+import { Table, Text, Highlight, useMantineTheme, rem } from '@k-link/core';
 import DocsSection from '../../../DocsSection/DocsSection';
 import PROPS_DATA from '../../../../../.docgen/docgen.json';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Title, rem } from '@klink-ui/core';
+import { Title, rem } from '@k-link/core';
 import useStyles from './MdxTitle.styles';
 
 export default function MdxTitle({

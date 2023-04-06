@@ -14,8 +14,8 @@ import {
   Stepper,
   Pagination,
   Box,
-} from '@klink-ui/core';
-import { AuthenticationForm, HoverCardHomePageDemo } from '@klink-ui/demos';
+} from '@k-link/core';
+import { AuthenticationForm, HoverCardHomePageDemo } from '@k-link/demos';
 
 function StepperDemo() {
   const [active, setActive] = useState(1);

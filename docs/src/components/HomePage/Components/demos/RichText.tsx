@@ -1,5 +1,5 @@
 import React from 'react';
-import { TipTapDemos } from '@klink-ui/demos';
+import { TipTapDemos } from '@k-link/demos';
 
 export function RichText() {
   const Component = TipTapDemos.usage.component as any;

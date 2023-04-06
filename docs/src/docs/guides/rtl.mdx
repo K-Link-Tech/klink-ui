@@ -26,14 +26,14 @@ Add `dir="rtl"` to `html` element:
 <html dir="rtl">...</html>
 ```
 
-Add `stylis-plugin-rtl` and `theme.dir` to your [MantineProvider](/theming/klink-ui-provider/):
+Add `stylis-plugin-rtl` and `theme.dir` to your [MantineProvider](/theming/k-link-provider/):
 
 ```tsx
-import { MantineProvider, createEmotionCache } from '@klink-ui/core';
+import { MantineProvider, createEmotionCache } from '@k-link/core';
 import rtlPlugin from 'stylis-plugin-rtl';
 
 const rtlCache = createEmotionCache({
-  key: 'klink-ui-rtl',
+  key: 'k-link-rtl',
   stylisPlugins: [rtlPlugin],
 });
 
@@ -57,11 +57,11 @@ To make direction dynamic, change cache key when cache changes:
 
 ```tsx
 import { useState } from 'react';
-import { MantineProvider, Button, createEmotionCache } from '@klink-ui/core';
+import { MantineProvider, Button, createEmotionCache } from '@k-link/core';
 import rtlPlugin from 'stylis-plugin-rtl';
 
 const rtlCache = createEmotionCache({
-  key: 'klink-ui-rtl',
+  key: 'k-link-rtl',
   stylisPlugins: [rtlPlugin],
 });
 

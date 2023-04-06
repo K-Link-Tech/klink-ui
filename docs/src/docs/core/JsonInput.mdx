@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: JsonInput
 order: 1
 slug: /core/json-input/
 category: 'inputs'
 description: 'Capture json data from user'
 props: ['JsonInput']
-import: "import { JsonInput } from '@klink-ui/core';"
-source: 'klink-ui-core/src/JsonInput/JsonInput.tsx'
+import: "import { JsonInput } from '@k-link/core';"
+source: 'k-link-core/src/JsonInput/JsonInput.tsx'
 docs: 'core/JsonInput.mdx'
 styles: ['JsonInput']
 ---
 
-import { JsonInputDemos } from '@klink-ui/demos';
+import { JsonInputDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -26,7 +26,7 @@ it includes json validation logic and option to format input value on blur:
 
 ```tsx
 import { useState } from 'react';
-import { JsonInput } from '@klink-ui/core';
+import { JsonInput } from '@k-link/core';
 
 function Demo() {
   const [value, setValue] = useState('');
@@ -42,7 +42,7 @@ function Demo() {
 
 ```tsx
 import { useRef } from 'react';
-import { JsonInput } from '@klink-ui/core';
+import { JsonInput } from '@k-link/core';
 
 function Demo() {
   const ref = useRef<HTMLTextAreaElement>(null);

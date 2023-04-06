@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@klink-ui/core';
+import { createStyles, rem } from '@k-link/core';
 
 export default createStyles((theme) => ({
   prism: {
@@ -12,11 +12,11 @@ export default createStyles((theme) => ({
       paddingBottom: rem(30),
     },
 
-    '& .klink-ui-ScrollArea-viewport': {
+    '& .k-link-ScrollArea-viewport': {
       borderRadius: theme.radius.md,
     },
 
-    '& .klink-ui-ScrollArea-root': {
+    '& .k-link-ScrollArea-root': {
       marginTop: theme.spacing.xl,
       borderRadius: theme.radius.md,
       boxShadow: theme.shadows.md,

@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: NumberInput
 order: 1
 slug: /core/number-input/
 category: 'inputs'
 description: 'Capture number input from user'
 props: ['NumberInput']
-import: "import { NumberInput } from '@klink-ui/core';"
-source: 'klink-ui-core/src/NumberInput/NumberInput.tsx'
+import: "import { NumberInput } from '@k-link/core';"
+source: 'k-link-core/src/NumberInput/NumberInput.tsx'
 docs: 'core/NumberInput.mdx'
 styles: ['NumberInput']
 ---
 
-import { NumberInputDemos } from '@klink-ui/demos';
+import { NumberInputDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -23,7 +23,7 @@ import { NumberInputDemos } from '@klink-ui/demos';
 
 ```tsx
 import { useState } from 'react';
-import { NumberInput } from '@klink-ui/core';
+import { NumberInput } from '@k-link/core';
 
 function Demo() {
   const [value, setValue] = useState<number | ''>(0);
@@ -119,7 +119,7 @@ Controls to increment/decrement value are not displayed when input is disabled:
 
 ```tsx
 import { useRef } from 'react';
-import { NumberInput } from '@klink-ui/core';
+import { NumberInput } from '@k-link/core';
 
 function Demo() {
   const ref = useRef<HTMLInputElement>(null);

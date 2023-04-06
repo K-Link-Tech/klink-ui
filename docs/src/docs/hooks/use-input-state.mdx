@@ -1,14 +1,14 @@
 ---
-group: 'klink-ui-hooks'
-package: '@klink-ui/hooks'
+group: 'k-link-hooks'
+package: '@k-link/hooks'
 title: 'use-input-state'
 category: 'state'
 order: 1
 slug: /hooks/use-input-state/
 description: 'Manage state of native and custom inputs'
-import: "import { useInputState } from '@klink-ui/hooks';"
+import: "import { useInputState } from '@k-link/hooks';"
 docs: 'hooks/use-input-state.mdx'
-source: 'klink-ui-hooks/src/use-input-state/use-input-state.ts'
+source: 'k-link-hooks/src/use-input-state/use-input-state.ts'
 ---
 
 ## Usage
@@ -18,8 +18,8 @@ Hook works with all Klink UI and native inputs:
 
 ```tsx
 import { useState } from 'react';
-import { useInputState } from '@klink-ui/hooks';
-import { TextInput, NumberInput } from '@klink-ui/core';
+import { useInputState } from '@k-link/hooks';
+import { TextInput, NumberInput } from '@k-link/core';
 
 function WithUseInputState() {
   const [stringValue, setStringValue] = useInputState('');

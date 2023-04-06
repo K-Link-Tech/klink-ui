@@ -6,7 +6,7 @@ order: 3
 search: 'rgba, lighten, darken, smallerThan, gradient'
 ---
 
-import { ThemeDemos } from '@klink-ui/demos';
+import { ThemeDemos } from '@k-link/demos';
 
 # Theme functions
 
@@ -21,7 +21,7 @@ There are 4 main ways to work with theme:
 - [createStyles](/styles/create-styles) function
 
 ```tsx
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 const useStyles = createStyles((theme) => ({
   myCustomButton: {
@@ -33,7 +33,7 @@ const useStyles = createStyles((theme) => ({
 - [sx prop](/styles/sx/)
 
 ```tsx
-import { Box } from '@klink-ui/core';
+import { Box } from '@k-link/core';
 
 function Demo() {
   return (
@@ -49,7 +49,7 @@ function Demo() {
 - `styles` component prop
 
 ```tsx
-import { Slider } from '@klink-ui/core';
+import { Slider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -67,7 +67,7 @@ function Demo() {
 - `useMantineTheme` hook
 
 ```tsx
-import { useMantineTheme } from '@klink-ui/core';
+import { useMantineTheme } from '@k-link/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -83,7 +83,7 @@ include Klink UI focus styles to your custom interactive elements. `theme.fn.foc
 without providing any additional parameters:
 
 ```tsx
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 const useStyles = createStyles((theme) => ({
   myCustomButton: {
@@ -107,7 +107,7 @@ With `theme.fn.fontStyles` function you can add font styles from your Klink UI t
 Function returns font-family and font-smoothing styles:
 
 ```tsx
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 const useStyles = createStyles((theme) => ({
   myCustomText: {
@@ -137,7 +137,7 @@ theme.fn.largerThan(768); // -> `@media (min-width: 48.0625em)`
 You can use both functions as a replacement for regular media query syntax in `createStyles` function, `styles` and `sx` props:
 
 ```tsx
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 const useStyles = createStyles((theme) => ({
   myResponsiveText: {

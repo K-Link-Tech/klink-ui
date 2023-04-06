@@ -1,7 +1,7 @@
 import React from 'react';
-import { DEFAULT_THEME } from '@klink-ui/core';
+import { DEFAULT_THEME } from '@k-link/core';
 import { IconCode, IconStar, IconRocket } from '@tabler/icons-react';
-import { MantineLogo } from '@klink-ui/ds';
+import { MantineLogo } from '@k-link/ds';
 
 export default [
   {

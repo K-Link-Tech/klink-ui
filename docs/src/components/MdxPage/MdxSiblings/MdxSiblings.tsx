@@ -1,5 +1,5 @@
 import React from 'react';
-import { SimpleGrid } from '@klink-ui/core';
+import { SimpleGrid } from '@k-link/core';
 import { MdxPageProps } from '../../../types';
 import { MdxSibling } from './MdxSibling/MdxSibling';
 

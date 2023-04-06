@@ -6,17 +6,17 @@ import {
   Global,
   createEmotionCache,
   rem,
-} from '@klink-ui/core';
-import { useHotkeys, useLocalStorage } from '@klink-ui/hooks';
+} from '@k-link/core';
+import { useHotkeys, useLocalStorage } from '@k-link/hooks';
 import rtlPlugin from 'stylis-plugin-rtl';
 import { LayoutInner, LayoutProps } from './LayoutInner';
 import { DirectionContext } from './DirectionContext';
 import { GreycliffCF } from '../../fonts/GreycliffCF/GreycliffCF';
 
-const THEME_KEY = 'klink-ui-color-scheme';
+const THEME_KEY = 'k-link-color-scheme';
 
 const rtlCache = createEmotionCache({
-  key: 'klink-ui-rtl',
+  key: 'k-link-rtl',
   prepend: true,
   stylisPlugins: [rtlPlugin],
 });

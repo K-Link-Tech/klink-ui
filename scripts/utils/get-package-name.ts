@@ -3,5 +3,5 @@ export function getPackageName(input: string) {
     return input;
   }
 
-  return `@klink-ui/${input}`;
+  return `@k-link/${input}`;
 }

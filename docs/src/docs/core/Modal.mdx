@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Modal
 order: 1
 slug: /core/modal/
 category: 'overlay'
 description: 'An accessible overlay dialog'
 props: ['Modal']
-import: "import { Modal } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Modal/Modal.tsx'
+import: "import { Modal } from '@k-link/core';"
+source: 'k-link-core/src/Modal/Modal.tsx'
 docs: 'core/Modal.mdx'
 styles: ['Modal']
 ---
 
-import { ModalDemos } from '@klink-ui/demos';
+import { ModalDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -135,7 +135,7 @@ You can use the following modular components to have full control over the `Moda
 package to lock scroll. To properly size these `elements` add a `className` to them ([documentation](https://github.com/theKashey/react-remove-scroll#positionfixed-elements)):
 
 ```tsx
-import { RemoveScroll } from '@klink-ui/core';
+import { RemoveScroll } from '@k-link/core';
 
 // to make "width: 100%"
 <div className={RemoveScroll.classNames.fullWidth} />
@@ -153,7 +153,7 @@ import { RemoveScroll } from '@klink-ui/core';
 Set `title` props to make component accessible, will add `aria-labelledby` to the content element:
 
 ```tsx
-import { Modal } from '@klink-ui/core';
+import { Modal } from '@k-link/core';
 
 function Demo() {
   return <Modal title="Modal label" opened onClose={() => {}} />;
@@ -163,7 +163,7 @@ function Demo() {
 To set close button `aria-label` use `closeButtonProps`:
 
 ```tsx
-import { Modal } from '@klink-ui/core';
+import { Modal } from '@k-link/core';
 
 function Demo() {
   return <Modal closeButtonProps={{ 'aria-label': 'Close modal' }} opened onClose={() => {}} />;

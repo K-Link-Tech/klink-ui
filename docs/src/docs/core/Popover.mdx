@@ -1,6 +1,6 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Popover
 order: 1
 slug: /core/popover/
@@ -8,13 +8,13 @@ category: 'overlay'
 description: 'Display popover section relative to given target element'
 componentPrefix: 'Popover'
 props: ['Popover', 'PopoverTarget', 'PopoverDropdown']
-import: "import { Popover } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Popover/Popover.tsx'
+import: "import { Popover } from '@k-link/core';"
+source: 'k-link-core/src/Popover/Popover.tsx'
 docs: 'core/Popover.mdx'
 styles: ['Popover']
 ---
 
-import { PopoverDemos, PasswordInputDemos } from '@klink-ui/demos';
+import { PopoverDemos, PasswordInputDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -26,7 +26,7 @@ You can control Popover state with `opened` and `onChange` props:
 
 ```tsx
 import { useState } from 'react';
-import { Popover, Button } from '@klink-ui/core';
+import { Popover, Button } from '@k-link/core';
 
 function Demo() {
   const [opened, setOpened] = useState(false);
@@ -88,7 +88,7 @@ strings, fragments, numbers and multiple elements/components are not supported a
 Custom components must provide a prop to get root element ref, all Klink UI components support ref out of the box.
 
 ```tsx
-import { Popover, Button } from '@klink-ui/core';
+import { Popover, Button } from '@k-link/core';
 
 function Demo() {
   return (
@@ -129,7 +129,7 @@ Custom components that are rendered inside `Popover.Target` are required to supp
 
 ```tsx
 // Example of code that WILL NOT WORK
-import { Popover } from '@klink-ui/core';
+import { Popover } from '@k-link/core';
 
 function MyComponent() {
   return <div>My component</div>;
@@ -152,7 +152,7 @@ Use `forwardRef` function to forward ref to root element:
 ```tsx
 // Example of code that will work
 import { forwardRef } from 'react';
-import { Popover } from '@klink-ui/core';
+import { Popover } from '@k-link/core';
 
 const MyComponent = forwardRef((props, ref) => (
   <div ref={ref} {...props}>

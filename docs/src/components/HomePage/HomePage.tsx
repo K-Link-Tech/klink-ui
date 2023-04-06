@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box } from '@klink-ui/core';
+import { Box } from '@k-link/core';
 import { Jumbotron } from './Jumbotron/Jumbotron';
 import { Components } from './Components/Components';
 import { Banner } from './Banner/Banner';

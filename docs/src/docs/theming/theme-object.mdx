@@ -3,10 +3,10 @@ group: 'theming'
 title: Theme object
 slug: /theming/theme-object/
 order: 0
-search: 'Theme object, use-klink-ui-theme, theme overrides, MantineTheme type'
+search: 'Theme object, use-k-link-theme, theme overrides, MantineTheme type'
 ---
 
-import { ThemeDemos } from '@klink-ui/demos';
+import { ThemeDemos } from '@k-link/demos';
 
 # Theme object
 
@@ -124,11 +124,11 @@ interface Heading {
 
 ## Usage
 
-To customize theme, pass theme override object to [MantineProvider](/theming/klink-ui-provider/) `theme` prop.
-Theme override will be deeply merged with [default theme](https://github.com/mantinedev/klink-ui/blob/master/src/klink-ui-styles/src/theme/default-theme.ts).
+To customize theme, pass theme override object to [MantineProvider](/theming/k-link-provider/) `theme` prop.
+Theme override will be deeply merged with [default theme](https://github.com/mantinedev/k-link/blob/master/src/k-link-styles/src/theme/default-theme.ts).
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -196,7 +196,7 @@ It accepts `'xs' | 'sm' | 'md' | 'lg' | 'xl'` (key of `theme.radius`) or a numbe
 For example, to remove border-radius from all elements set `defaultRadius: 0`:
 
 ```tsx
-import { MantineProvider, Button } from '@klink-ui/core';
+import { MantineProvider, Button } from '@k-link/core';
 
 function Demo() {
   return (
@@ -261,7 +261,7 @@ and other native elements will have `cursor: pointer` style:
 With `theme.other` you can add any amount of extra properties to theme:
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -286,7 +286,7 @@ function Demo() {
 To specify `theme.other` type, add file with the following declaration:
 
 ```ts
-declare module '@klink-ui/core' {
+declare module '@k-link/core' {
   export interface MantineThemeOther {
     myCustomProperty: string;
     myCustomFunction: () => void;
@@ -299,7 +299,7 @@ declare module '@klink-ui/core' {
 To store theme override object in a variable use `MantineThemeOverride` type:
 
 ```tsx
-import { MantineThemeOverride, MantineProvider } from '@klink-ui/core';
+import { MantineThemeOverride, MantineProvider } from '@k-link/core';
 
 const myTheme: MantineThemeOverride = {
   colorScheme: 'light',
@@ -316,13 +316,13 @@ function Demo() {
 }
 ```
 
-## use-klink-ui-theme hook
+## use-k-link-theme hook
 
-`use-klink-ui-theme` hook returns theme from [MantineProvider](/theming/klink-ui-provider/) context or default theme
+`use-k-link-theme` hook returns theme from [MantineProvider](/theming/k-link-provider/) context or default theme
 if you did not provide theme override:
 
 ```tsx
-import { useMantineTheme } from '@klink-ui/core';
+import { useMantineTheme } from '@k-link/core';
 
 function Demo() {
   const theme = useMantineTheme();
@@ -332,10 +332,10 @@ function Demo() {
 
 ## MantineTheme type
 
-You can import `MantineTheme` type from `@klink-ui/core` package:
+You can import `MantineTheme` type from `@k-link/core` package:
 
 ```tsx
-import { useMantineTheme, MantineTheme } from '@klink-ui/core';
+import { useMantineTheme, MantineTheme } from '@k-link/core';
 
 function getColor(theme: MantineTheme) {
   return theme.colors.blue[5];

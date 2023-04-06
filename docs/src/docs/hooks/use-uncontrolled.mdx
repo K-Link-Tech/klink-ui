@@ -1,14 +1,14 @@
 ---
-group: 'klink-ui-hooks'
-package: '@klink-ui/hooks'
+group: 'k-link-hooks'
+package: '@k-link/hooks'
 title: 'use-uncontrolled'
 category: 'state'
 order: 1
 slug: /hooks/use-uncontrolled/
 description: 'Manage state of both controlled and uncontrolled components'
-import: "import { useUncontrolled } from '@klink-ui/hooks';"
+import: "import { useUncontrolled } from '@k-link/hooks';"
 docs: 'hooks/use-uncontrolled.mdx'
-source: 'klink-ui-hooks/src/use-uncontrolled/use-uncontrolled.ts'
+source: 'k-link-hooks/src/use-uncontrolled/use-uncontrolled.ts'
 ---
 
 ## Usage
@@ -16,7 +16,7 @@ source: 'klink-ui-hooks/src/use-uncontrolled/use-uncontrolled.ts'
 `use-uncontrolled` hook allows you to manage state for both controlled and uncontrolled components:
 
 ```tsx
-import { useUncontrolled } from '@klink-ui/hooks';
+import { useUncontrolled } from '@k-link/hooks';
 
 function CustomInput({ value, defaultValue, onChange }) {
   const [_value, handleChange] = useUncontrolled({

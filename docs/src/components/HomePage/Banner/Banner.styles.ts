@@ -1,4 +1,4 @@
-import { createStyles, rem } from '@klink-ui/core';
+import { createStyles, rem } from '@k-link/core';
 import { getGradient } from '../get-gradient';
 import banner from './banner.webp';
 

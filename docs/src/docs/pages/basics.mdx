@@ -2,12 +2,12 @@
 title: Learn the basics
 ---
 
-import { SliderDemos, CreateStylesDemos } from '@klink-ui/demos';
+import { SliderDemos, CreateStylesDemos } from '@k-link/demos';
 
 # Learn the basics
 
 This guide will help you get familiar with core Klink UI concepts.
-Please read this guide, [theming](/theming/klink-ui-provider/) and [styles](/styles/sx/) sections before starting development
+Please read this guide, [theming](/theming/k-link-provider/) and [styles](/styles/sx/) sections before starting development
 to learn about all available theming and styling features.
 
 ## Getting help
@@ -15,7 +15,7 @@ to learn about all available theming and styling features.
 Klink UI has a very friendly community, we are always happy to help you get started:
 
 - [Join the Discord community](https://discord.gg/wbH82zuWMN) – it is the easiest way to get help, all questions are usually answered in about 30 minutes.
-- [GitHub Discussions](https://github.com/mantinedev/klink-ui/discussions) – ask anything about the project or give feedback.
+- [GitHub Discussions](https://github.com/mantinedev/k-link/discussions) – ask anything about the project or give feedback.
 
 ## Using documentation
 
@@ -28,10 +28,10 @@ Klink UI documentation includes more than 150 pages, to use it efficiently remem
 ## Theming
 
 [Theme object](/theming/theme-object/) supports changing colors, spacing, box-shadows, font families, font sizes and many other properties.
-To configure theme, wrap your app with a [MantineProvider](/theming/klink-ui-provider/) component:
+To configure theme, wrap your app with a [MantineProvider](/theming/k-link-provider/) component:
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -54,7 +54,7 @@ All Klink UI components support light and dark color scheme out of the box.
 To learn how to implement color scheme changes via context follow [dark theme guide](/guides/dark-theme/).
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -98,7 +98,7 @@ Klink UI components work with colors defined in [theme.colors](/theming/colors/)
 You can [extend theme](/theming/colors/) with any amount of your colors:
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -155,7 +155,7 @@ Components that have padding get values from `theme.spacing`, default values are
 To change these values set `spacing` property on [theme](/theming/theme-object/):
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -192,7 +192,7 @@ Components that use the box-shadow property get values from `theme.shadows`, def
 To change these values set the `shadows` property on [theme](/theming/theme-object/):
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -226,7 +226,7 @@ You can get ref of most components with their `ref` prop:
 
 ```tsx
 import { useRef } from 'react';
-import { Button, Paper, TextInput } from '@klink-ui/core';
+import { Button, Paper, TextInput } from '@k-link/core';
 
 function Demo() {
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -256,7 +256,7 @@ To setup server side rendering follow one of these guides
 
 ### Exported types
 
-`@klink-ui/core` package export types to help you build components and styles with TypeScript:
+`@k-link/core` package export types to help you build components and styles with TypeScript:
 
 - `MantineTheme` – theme interface defined in MantineProvider.
 - `ColorScheme` – union of `'light' | 'dark'`.
@@ -271,5 +271,5 @@ To setup server side rendering follow one of these guides
 You can import props type of any component by adding `Props` to the component name:
 
 ```tsx
-import type { ButtonProps } from '@klink-ui/core';
+import type { ButtonProps } from '@k-link/core';
 ```

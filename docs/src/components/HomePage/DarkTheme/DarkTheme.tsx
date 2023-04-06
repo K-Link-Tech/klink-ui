@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, Image, SimpleGrid, Text, useMantineColorScheme, Group, rem } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
+import { Button, Image, SimpleGrid, Text, useMantineColorScheme, Group, rem } from '@k-link/core';
+import { Prism } from '@k-link/prism';
 import { IconMoonStars, IconSun } from '@tabler/icons-react';
 import { PageSection } from '../PageSection/PageSection';
 import image from './dark-theme-image.png';
@@ -11,7 +11,7 @@ export function DarkTheme() {
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
 
   const code = `
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (

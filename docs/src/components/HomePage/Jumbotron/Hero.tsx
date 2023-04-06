@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMantineTheme } from '@klink-ui/core';
+import { useMantineTheme } from '@k-link/core';
 
 export function Hero() {
   const theme = useMantineTheme();

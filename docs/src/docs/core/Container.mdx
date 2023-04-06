@@ -1,18 +1,18 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Container
 order: 1
 slug: /core/container/
 category: 'layout'
 description: 'Center content horizontally with predefined max-width'
 props: ['Container']
-import: "import { Container } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Container/Container.tsx'
+import: "import { Container } from '@k-link/core';"
+source: 'k-link-core/src/Container/Container.tsx'
 docs: 'core/Container.mdx'
 ---
 
-import { ContainerDemos } from '@klink-ui/demos';
+import { ContainerDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -27,10 +27,10 @@ Component accepts these props:
 
 ## Configure sizes
 
-To configure container sizes use default props on [MantineProvider](/theming/klink-ui-provider/):
+To configure container sizes use default props on [MantineProvider](/theming/k-link-provider/):
 
 ```tsx
-import { MantineProvider, Container } from '@klink-ui/core';
+import { MantineProvider, Container } from '@k-link/core';
 
 function App() {
   return (

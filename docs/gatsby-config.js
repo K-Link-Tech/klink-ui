@@ -10,7 +10,7 @@ module.exports = {
     title: 'Klink UI Docs',
     description: 'Klink UI documentation',
     author: '@rtivital',
-    siteUrl: 'https://klink-ui.dev',
+    siteUrl: 'https://k-link.dev',
   },
 
   plugins: [

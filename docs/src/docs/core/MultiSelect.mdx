@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: MultiSelect
 order: 1
 slug: /core/multi-select/
 category: 'inputs'
 description: 'Custom searchable multi select'
 props: ['MultiSelect']
-import: "import { MultiSelect } from '@klink-ui/core';"
-source: 'klink-ui-core/src/MultiSelect/MultiSelect.tsx'
+import: "import { MultiSelect } from '@k-link/core';"
+source: 'k-link-core/src/MultiSelect/MultiSelect.tsx'
 docs: 'core/MultiSelect.mdx'
 styles: ['MultiSelect']
 ---
 
-import { MultiSelectDemos } from '@klink-ui/demos';
+import { MultiSelectDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -29,7 +29,7 @@ A bare minimum example:
 
 ```tsx
 import { useState } from 'react';
-import { MultiSelect } from '@klink-ui/core';
+import { MultiSelect } from '@k-link/core';
 
 function Demo() {
   const [value, setValue] = useState([]);
@@ -236,7 +236,7 @@ Note that in this case `clearable` option will not work and will need to handle 
 
 ```tsx
 import { useRef } from 'react';
-import { MultiSelect } from '@klink-ui/core';
+import { MultiSelect } from '@k-link/core';
 
 function Demo() {
   const ref = useRef<HTMLInputElement>(null);

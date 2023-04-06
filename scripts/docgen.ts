@@ -5,103 +5,103 @@ import { generateDeclarations } from './docgen/generate-declarations';
 
 const EXTRA_FILES_PATHS = [
   // Tabs
-  '../src/klink-ui-core/src/Tabs/TabsList/TabsList.tsx',
-  '../src/klink-ui-core/src/Tabs/Tab/Tab.tsx',
-  '../src/klink-ui-core/src/Tabs/TabsPanel/TabsPanel.tsx',
-  '../src/klink-ui-core/src/Tabs/Tabs.tsx',
+  '../src/k-link-core/src/Tabs/TabsList/TabsList.tsx',
+  '../src/k-link-core/src/Tabs/Tab/Tab.tsx',
+  '../src/k-link-core/src/Tabs/TabsPanel/TabsPanel.tsx',
+  '../src/k-link-core/src/Tabs/Tabs.tsx',
 
   // Accordion
-  '../src/klink-ui-core/src/Accordion/AccordionControl/AccordionControl.tsx',
-  '../src/klink-ui-core/src/Accordion/AccordionItem/AccordionItem.tsx',
-  '../src/klink-ui-core/src/Accordion/AccordionPanel/AccordionPanel.tsx',
+  '../src/k-link-core/src/Accordion/AccordionControl/AccordionControl.tsx',
+  '../src/k-link-core/src/Accordion/AccordionItem/AccordionItem.tsx',
+  '../src/k-link-core/src/Accordion/AccordionPanel/AccordionPanel.tsx',
 
   // Tooltip
-  '../src/klink-ui-core/src/Tooltip/TooltipFloating/TooltipFloating.tsx',
-  '../src/klink-ui-core/src/Tooltip/TooltipGroup/TooltipGroup.tsx',
+  '../src/k-link-core/src/Tooltip/TooltipFloating/TooltipFloating.tsx',
+  '../src/k-link-core/src/Tooltip/TooltipGroup/TooltipGroup.tsx',
 
   // Popover
-  '../src/klink-ui-core/src/Popover/PopoverTarget/PopoverTarget.tsx',
-  '../src/klink-ui-core/src/Popover/PopoverDropdown/PopoverDropdown.tsx',
+  '../src/k-link-core/src/Popover/PopoverTarget/PopoverTarget.tsx',
+  '../src/k-link-core/src/Popover/PopoverDropdown/PopoverDropdown.tsx',
 
   // HoverCard
-  '../src/klink-ui-core/src/HoverCard/HoverCardTarget/HoverCardTarget.tsx',
-  '../src/klink-ui-core/src/HoverCard/HoverCardDropdown/HoverCardDropdown.tsx',
+  '../src/k-link-core/src/HoverCard/HoverCardTarget/HoverCardTarget.tsx',
+  '../src/k-link-core/src/HoverCard/HoverCardDropdown/HoverCardDropdown.tsx',
 
   // Menu
-  '../src/klink-ui-core/src/Menu/MenuTarget/MenuTarget.tsx',
-  '../src/klink-ui-core/src/Menu/MenuDropdown/MenuDropdown.tsx',
-  '../src/klink-ui-core/src/Menu/MenuItem/MenuItem.tsx',
-  '../src/klink-ui-core/src/Menu/MenuLabel/MenuLabel.tsx',
+  '../src/k-link-core/src/Menu/MenuTarget/MenuTarget.tsx',
+  '../src/k-link-core/src/Menu/MenuDropdown/MenuDropdown.tsx',
+  '../src/k-link-core/src/Menu/MenuItem/MenuItem.tsx',
+  '../src/k-link-core/src/Menu/MenuLabel/MenuLabel.tsx',
 
   // Input
-  '../src/klink-ui-core/src/Input/InputLabel/InputLabel.tsx',
-  '../src/klink-ui-core/src/Input/InputWrapper/InputWrapper.tsx',
-  '../src/klink-ui-core/src/Input/InputDescription/InputDescription.tsx',
-  '../src/klink-ui-core/src/Input/InputError/InputError.tsx',
+  '../src/k-link-core/src/Input/InputLabel/InputLabel.tsx',
+  '../src/k-link-core/src/Input/InputWrapper/InputWrapper.tsx',
+  '../src/k-link-core/src/Input/InputDescription/InputDescription.tsx',
+  '../src/k-link-core/src/Input/InputError/InputError.tsx',
 
   // List
-  '../src/klink-ui-core/src/List/ListItem/ListItem.tsx',
+  '../src/k-link-core/src/List/ListItem/ListItem.tsx',
 
   // Avatar
-  '../src/klink-ui-core/src/Avatar/AvatarGroup/AvatarGroup.tsx',
+  '../src/k-link-core/src/Avatar/AvatarGroup/AvatarGroup.tsx',
 
   // Checkbox
-  '../src/klink-ui-core/src/Checkbox/CheckboxGroup/CheckboxGroup.tsx',
+  '../src/k-link-core/src/Checkbox/CheckboxGroup/CheckboxGroup.tsx',
 
   // Switch
-  '../src/klink-ui-core/src/Switch/SwitchGroup/SwitchGroup.tsx',
+  '../src/k-link-core/src/Switch/SwitchGroup/SwitchGroup.tsx',
 
   // Radio
-  '../src/klink-ui-core/src/Radio/RadioGroup/RadioGroup.tsx',
+  '../src/k-link-core/src/Radio/RadioGroup/RadioGroup.tsx',
 
   // Chip
-  '../src/klink-ui-core/src/Chip/ChipGroup/ChipGroup.tsx',
+  '../src/k-link-core/src/Chip/ChipGroup/ChipGroup.tsx',
 
   // Grid
-  '../src/klink-ui-core/src/Grid/Col/Col.tsx',
+  '../src/k-link-core/src/Grid/Col/Col.tsx',
 
   // Button
-  '../src/klink-ui-core/src/Button/ButtonGroup/ButtonGroup.tsx',
+  '../src/k-link-core/src/Button/ButtonGroup/ButtonGroup.tsx',
 
   // Timeline
-  '../src/klink-ui-core/src/Timeline/TimelineItem/TimelineItem.tsx',
+  '../src/k-link-core/src/Timeline/TimelineItem/TimelineItem.tsx',
 
   // Slider
-  '../src/klink-ui-core/src/Slider/Slider/Slider.tsx',
-  '../src/klink-ui-core/src/Slider/RangeSlider/RangeSlider.tsx',
+  '../src/k-link-core/src/Slider/Slider/Slider.tsx',
+  '../src/k-link-core/src/Slider/RangeSlider/RangeSlider.tsx',
 
   // AppShell
-  '../src/klink-ui-core/src/AppShell/Navbar/Navbar.tsx',
-  '../src/klink-ui-core/src/AppShell/Header/Header.tsx',
-  '../src/klink-ui-core/src/AppShell/Footer/Footer.tsx',
-  '../src/klink-ui-core/src/AppShell/Aside/Aside.tsx',
+  '../src/k-link-core/src/AppShell/Navbar/Navbar.tsx',
+  '../src/k-link-core/src/AppShell/Header/Header.tsx',
+  '../src/k-link-core/src/AppShell/Footer/Footer.tsx',
+  '../src/k-link-core/src/AppShell/Aside/Aside.tsx',
 
   // Stepper
-  '../src/klink-ui-core/src/Stepper/Step/Step.tsx',
+  '../src/k-link-core/src/Stepper/Step/Step.tsx',
 
   // Pagination
-  '../src/klink-ui-core/src/Pagination/PaginationRoot/PaginationRoot.tsx',
-  '../src/klink-ui-core/src/Pagination/PaginationItems/PaginationItems.tsx',
+  '../src/k-link-core/src/Pagination/PaginationRoot/PaginationRoot.tsx',
+  '../src/k-link-core/src/Pagination/PaginationItems/PaginationItems.tsx',
 
   // Carousel
-  '../src/klink-ui-carousel/src/Carousel.tsx',
-  '../src/klink-ui-carousel/src/CarouselSlide/CarouselSlide.tsx',
+  '../@k-link/carousel/Carousel.tsx',
+  '../@k-link/carousel/CarouselSlide/CarouselSlide.tsx',
 
   // Other
-  '../src/klink-ui-notifications/src/Notifications/Notifications.tsx',
-  '../src/klink-ui-prism/src/Prism/Prism.tsx',
-  '../src/klink-ui-spotlight/src/SpotlightProvider.tsx',
-  '../src/klink-ui-modals/src/ModalsProvider.tsx',
-  '../src/klink-ui-tiptap/src/RichTextEditor.tsx',
-  '../src/klink-ui-nprogress/src/NavigationProgress.tsx',
-  '../src/klink-ui-dropzone/src/Dropzone.tsx',
-  '../src/klink-ui-dropzone/src/DropzoneFullScreen.tsx',
+  '../src/k-link-notifications/src/Notifications/Notifications.tsx',
+  '../src/k-link-prism/src/Prism/Prism.tsx',
+  '../src/k-link-spotlight/src/SpotlightProvider.tsx',
+  '../src/k-link-modals/src/ModalsProvider.tsx',
+  '../src/k-link-tiptap/src/RichTextEditor.tsx',
+  '../src/k-link-nprogress/src/NavigationProgress.tsx',
+  '../src/k-link-dropzone/src/Dropzone.tsx',
+  '../src/k-link-dropzone/src/DropzoneFullScreen.tsx',
 ];
 
 const PATHS: DeclarationPath[] = [
-  { type: 'package', path: path.join(__dirname, '../src/klink-ui-core/src') },
-  { type: 'package', path: path.join(__dirname, '../src/klink-ui-dates/src/components') },
-  { type: 'package', path: path.join(__dirname, '../src/klink-ui-dropzone/src') },
+  { type: 'package', path: path.join(__dirname, '../src/k-link-core/src') },
+  { type: 'package', path: path.join(__dirname, '../src/k-link-dates/src/components') },
+  { type: 'package', path: path.join(__dirname, '../src/k-link-dropzone/src') },
   ...EXTRA_FILES_PATHS.map((filePath) => ({
     type: 'file' as const,
     path: path.join(__dirname, filePath),

@@ -1,19 +1,19 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Menu
 order: 1
 slug: /core/menu/
 category: 'overlay'
 description: 'Combine a list of secondary actions into single interactive area'
 props: ['Menu', 'MenuItem', 'MenuDropdown', 'MenuTarget']
-import: "import { Menu } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Menu/Menu.tsx'
+import: "import { Menu } from '@k-link/core';"
+source: 'k-link-core/src/Menu/Menu.tsx'
 docs: 'core/Menu.mdx'
 styles: ['Menu']
 ---
 
-import { MenuDemos } from '@klink-ui/demos';
+import { MenuDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -25,7 +25,7 @@ Dropdown opened state can be controlled with `opened` and `onChange` props:
 
 ```tsx
 import { useState } from 'react';
-import { Menu } from '@klink-ui/core';
+import { Menu } from '@k-link/core';
 
 function Demo() {
   const [opened, setOpened] = useState(false);

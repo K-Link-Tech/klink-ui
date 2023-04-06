@@ -14,7 +14,7 @@ export const NEXT_STEPS_DATA = [
     title: 'Learn about theming',
     description:
       'Learn how to change colors, fonts, shadows, spacing and other theme values with MantineProvider',
-    link: '/theming/klink-ui-provider/',
+    link: '/theming/k-link-provider/',
     type: 'gatsby',
     icon: IconPalette,
     color: 'pink',
@@ -23,7 +23,7 @@ export const NEXT_STEPS_DATA = [
     title: 'Explore source code',
     description:
       'Klink UI packages and documentation website is open source, if you like Klink UI please give us a star',
-    link: 'https://github.com/mantinedev/klink-ui',
+    link: 'https://github.com/mantinedev/k-link',
     type: 'link',
     icon: IconCode,
     color: '#000',

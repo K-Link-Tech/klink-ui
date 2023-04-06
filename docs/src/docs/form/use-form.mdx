@@ -1,32 +1,32 @@
 ---
-group: 'klink-ui-form'
-package: '@klink-ui/form'
+group: 'k-link-form'
+package: '@k-link/form'
 title: 'use-form'
 order: 0
 slug: /form/use-form/
 description: 'Manage form state'
-import: "import { useForm } from '@klink-ui/form';"
+import: "import { useForm } from '@k-link/form';"
 docs: 'form/use-form.mdx'
-source: 'klink-ui-form/src'
+source: 'k-link-form/src'
 license: MIT
 ---
 
-import { FormDemos } from '@klink-ui/demos';
+import { FormDemos } from '@k-link/demos';
 
 ## Installation
 
-`@klink-ui/form` package does not depend on any other libraries, you can use it with or without `@klink-ui/core` inputs:
+`@k-link/form` package does not depend on any other libraries, you can use it with or without `@k-link/core` inputs:
 
 Install with npm:
 
 ```bash
-npm install @klink-ui/form
+npm install @k-link/form
 ```
 
 Install with yarn:
 
 ```bash
-yarn add @klink-ui/form
+yarn add @k-link/form
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ yarn add @klink-ui/form
 All examples below use the following example use-form hook.
 
 ```tsx
-import { useForm } from '@klink-ui/form';
+import { useForm } from '@k-link/form';
 
 const form = useForm({
   initialValues: {
@@ -109,7 +109,7 @@ form.reorderListItem('fruits', { from: 1, to: 0 });
 [Form validation guide](/form/validation/)
 
 ```tsx
-import { useForm } from '@klink-ui/form';
+import { useForm } from '@k-link/form';
 
 const form = useForm({
   initialValues: {
@@ -230,8 +230,8 @@ As second parameter options can be passed.
 `UseFormReturnType` can be used when you want to pass `form` as a prop to another component:
 
 ```tsx
-import { TextInput } from '@klink-ui/core';
-import { useForm, UseFormReturnType } from '@klink-ui/form';
+import { TextInput } from '@k-link/core';
+import { useForm, UseFormReturnType } from '@k-link/form';
 
 interface FormValues {
   name: string;

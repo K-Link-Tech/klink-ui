@@ -10,18 +10,18 @@ search: 'General approach to SSR'
 This guide covers server side rendering with custom server, [Next.js](/guides/next/) and [Gatsby](/guides/gatsby/)
 usage guides are available separately.
 
-1. Install `@klink-ui/ssr` package
+1. Install `@k-link/ssr` package
 
 ```bash
-yarn add @klink-ui/ssr
+yarn add @k-link/ssr
 
-npm install @klink-ui/ssr
+npm install @k-link/ssr
 ```
 
 2. Create `App` component with `MantineProvider`
 
 ```tsx
-import { Button, MantineProvider } from '@klink-ui/core';
+import { Button, MantineProvider } from '@k-link/core';
 
 export function App() {
   return (
@@ -60,7 +60,7 @@ export function Html({ children, styles }) {
 ```tsx
 import { renderToStaticMarkup, renderToString } from 'react-dom/server';
 import express from 'express';
-import { createStylesServer, ServerStyles } from '@klink-ui/ssr';
+import { createStylesServer, ServerStyles } from '@k-link/ssr';
 import { App } from './App';
 import { Html } from './Html';
 

@@ -1,6 +1,6 @@
 ---
-group: 'klink-ui-core'
-package: '@klink-ui/core'
+group: 'k-link-core'
+package: '@k-link/core'
 title: Pagination
 order: 1
 slug: /core/pagination/
@@ -8,13 +8,13 @@ category: 'navigation'
 description: 'Display active page and navigate between multiple pages'
 componentPrefix: 'Pagination'
 props: ['Pagination', 'PaginationRoot', 'PaginationItems']
-import: "import { Pagination } from '@klink-ui/core';"
-source: 'klink-ui-core/src/Pagination/Pagination.tsx'
+import: "import { Pagination } from '@k-link/core';"
+source: 'k-link-core/src/Pagination/Pagination.tsx'
 docs: 'core/Pagination.mdx'
 styles: ['Pagination']
 ---
 
-import { PaginationDemos } from '@klink-ui/demos';
+import { PaginationDemos } from '@k-link/demos';
 
 ## Usage
 
@@ -26,7 +26,7 @@ To control component state provide `page` and `onChange` props:
 
 ```tsx
 import { useState } from 'react';
-import { Pagination } from '@klink-ui/core';
+import { Pagination } from '@k-link/core';
 
 function Demo() {
   const [activePage, setPage] = useState(1);
@@ -75,5 +75,5 @@ You can use the following modular components to have full control over the `Moda
 
 ## use-pagination hook
 
-If you need more flexibility @klink-ui/hooks exports [use-pagination](/hooks/use-pagination/) hook,
+If you need more flexibility @k-link/hooks exports [use-pagination](/hooks/use-pagination/) hook,
 you can use it to create your own pagination component.

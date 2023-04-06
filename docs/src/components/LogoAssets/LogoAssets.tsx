@@ -1,7 +1,7 @@
 /* eslint-disable import/no-webpack-loader-syntax */
 import React from 'react';
-import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@klink-ui/core';
-import { useClipboard } from '@klink-ui/hooks';
+import { SimpleGrid, Button, Group, createStyles, DEFAULT_THEME, rem } from '@k-link/core';
+import { useClipboard } from '@k-link/hooks';
 
 import fullLogoCode from '!!raw-loader!./assets/mantine-logo-full.svg';
 import fullLogoImage from './assets/mantine-logo-full.svg';

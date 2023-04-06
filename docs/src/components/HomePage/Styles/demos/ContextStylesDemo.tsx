@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
+import { Text, Box, Anchor } from '@k-link/core';
+import { Prism } from '@k-link/prism';
 
 const code = `
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -42,7 +42,7 @@ export function ContextStylesDemo() {
     <Box pt="xl">
       <Text mb="sm">
         Add context styles with{' '}
-        <Anchor component={Link} to="/theming/klink-ui-provider/">
+        <Anchor component={Link} to="/theming/k-link-provider/">
           MantineProvider
         </Anchor>{' '}
         that will be applied to every component:

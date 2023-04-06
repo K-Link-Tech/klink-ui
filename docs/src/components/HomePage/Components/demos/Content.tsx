@@ -1,6 +1,6 @@
 import React from 'react';
-import { Text, Box } from '@klink-ui/core';
-import { AccordionDemo, TimelineBase } from '@klink-ui/demos';
+import { Text, Box } from '@k-link/core';
+import { AccordionDemo, TimelineBase } from '@k-link/demos';
 
 export function Content() {
   return (

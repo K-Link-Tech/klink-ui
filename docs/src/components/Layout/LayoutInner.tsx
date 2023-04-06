@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { graphql, useStaticQuery, navigate } from 'gatsby';
-import { randomId, useMediaQuery } from '@klink-ui/hooks';
-import { Notifications } from '@klink-ui/notifications';
-import { ModalsProvider, ContextModalProps } from '@klink-ui/modals';
-import { SpotlightProvider, SpotlightAction } from '@klink-ui/spotlight';
-import { Text, Button, rem, em } from '@klink-ui/core';
+import { randomId, useMediaQuery } from '@k-link/hooks';
+import { Notifications } from '@k-link/notifications';
+import { ModalsProvider, ContextModalProps } from '@k-link/modals';
+import { SpotlightProvider, SpotlightAction } from '@k-link/spotlight';
+import { Text, Button, rem, em } from '@k-link/core';
 import { IconSearch } from '@tabler/icons-react';
 import MdxProvider from '../MdxPage/MdxProvider/MdxProvider';
 import Navbar from './Navbar/Navbar';

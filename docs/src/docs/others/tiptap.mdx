@@ -1,38 +1,38 @@
 ---
 group: 'Other packages'
-package: '@klink-ui/tiptap'
+package: '@k-link/tiptap'
 title: 'Rich text editor'
 order: 1
 slug: /others/tiptap/
 description: 'Tiptap based rich text editor'
 props: ['RichTextEditor']
-import: "import { RichTextEditor } from '@klink-ui/tiptap';"
-source: 'klink-ui-tiptap/src'
+import: "import { RichTextEditor } from '@k-link/tiptap';"
+source: 'k-link-tiptap/src'
 docs: 'others/tiptap.mdx'
-installation: '@klink-ui/tiptap'
+installation: '@k-link/tiptap'
 license: MIT
 styles: ['RichTextEditor']
 ---
 
-import { TipTapDemos } from '@klink-ui/demos';
+import { TipTapDemos } from '@k-link/demos';
 
 ## Installation
 
 Install with yarn:
 
 ```bash
-yarn add @klink-ui/tiptap @klink-ui/core @klink-ui/hooks @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit
+yarn add @k-link/tiptap @k-link/core @k-link/hooks @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit
 ```
 
 Install with npm:
 
 ```bash
-npm install @klink-ui/tiptap @klink-ui/core @klink-ui/hooks @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit
+npm install @k-link/tiptap @k-link/core @k-link/hooks @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit
 ```
 
 ## TipTap editor
 
-`@klink-ui/tiptap` provides a UI for [Tiptap](https://tiptap.dev/). `RichTextEditor` component
+`@k-link/tiptap` provides a UI for [Tiptap](https://tiptap.dev/). `RichTextEditor` component
 works with [Editor](https://tiptap.dev/api/editor) instance of tiptap.
 This means that you have full control over the editor [state and configuration](https://tiptap.dev/guide/configuration)
 with [useEditor hook](https://tiptap.dev/installation/react).
@@ -119,12 +119,12 @@ npm install @tiptap/extension-placeholder
 
 ## Link extension
 
-`@klink-ui/tiptap` provides custom `Link` extension that is required to be used instead of
+`@k-link/tiptap` provides custom `Link` extension that is required to be used instead of
 `@tiptap/extension-link` in order for `Ctrl + K` keyboard shortcut to work:
 
 ```tsx
-// Use Link extension exported from the @klink-ui/tiptap package
-import { RichTextEditor, Link } from '@klink-ui/tiptap';
+// Use Link extension exported from the @k-link/tiptap package
+import { RichTextEditor, Link } from '@k-link/tiptap';
 import { useEditor } from '@tiptap/react';
 
 function Demo() {
@@ -185,7 +185,7 @@ By default, `RichTextEditor` renders content with [TypographyStylesProvider](/co
 You can disable these styles by setting `withTypographyStyles={false}`:
 
 ```tsx
-import { RichTextEditor } from '@klink-ui/tiptap';
+import { RichTextEditor } from '@k-link/tiptap';
 import { useEditor } from '@tiptap/react';
 
 function Demo() {
@@ -253,8 +253,8 @@ the context. This hook can be used to create custom control or run any operation
 by the Tiptap [editor API](https://tiptap.dev/api/editor).
 
 ```tsx
-import { useRichTextEditorContext } from '@klink-ui/tiptap';
-import { Button } from '@klink-ui/core';
+import { useRichTextEditorContext } from '@k-link/tiptap';
+import { Button } from '@k-link/core';
 
 function Demo() {
   const { editor } = useRichTextEditorContext();
@@ -282,7 +282,7 @@ that must handle `size` prop:
 `RichTextEditor` supports changing labels for all controls with `labels` prop:
 
 ```tsx
-import { RichTextEditor } from '@klink-ui/tiptap';
+import { RichTextEditor } from '@k-link/tiptap';
 import { useEditor } from '@tiptap/react';
 
 function Demo() {
@@ -314,7 +314,7 @@ the default labels.
 All available labels:
 
 ```tsx
-// RichTextEditorLabels type can be imported from @klink-ui/tiptap package
+// RichTextEditorLabels type can be imported from @k-link/tiptap package
 export interface RichTextEditorLabels {
   /** RichTextEditor.Bold control aria-label */
   boldControlLabel: string;
@@ -438,7 +438,7 @@ export interface RichTextEditorLabels {
 }
 ```
 
-Default labels (can be imported from `@klink-ui/tiptap` package):
+Default labels (can be imported from `@k-link/tiptap` package):
 
 ```tsx
 export const DEFAULT_LABELS: RichTextEditorLabels = {

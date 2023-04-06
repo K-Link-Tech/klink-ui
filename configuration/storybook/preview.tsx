@@ -7,14 +7,14 @@ import {
   ActionIcon,
   createEmotionCache,
   rem,
-} from '@klink-ui/core';
-import { useHotkeys } from '@klink-ui/hooks';
+} from '@k-link/core';
+import { useHotkeys } from '@k-link/hooks';
 import rtlPlugin from 'stylis-plugin-rtl';
 
 export const parameters = { layout: 'fullscreen' };
 
 const rtlCache = createEmotionCache({
-  key: 'klink-ui-rtl',
+  key: 'k-link-rtl',
   prepend: true,
   stylisPlugins: [rtlPlugin],
 });

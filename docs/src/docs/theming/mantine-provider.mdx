@@ -1,12 +1,12 @@
 ---
 group: 'theming'
 title: MantineProvider
-slug: /theming/klink-ui-provider/
+slug: /theming/k-link-provider/
 order: 1
 search: 'Theme context, CSS reset, CSS variables, context classes and styles'
 ---
 
-import { ThemeDemos } from '@klink-ui/demos';
+import { ThemeDemos } from '@k-link/demos';
 
 # MantineProvider
 
@@ -15,7 +15,7 @@ MantineProvider component can be used to change theme. It is not required if you
 ## Usage
 
 ```tsx
-import { MantineProvider, Button } from '@klink-ui/core';
+import { MantineProvider, Button } from '@k-link/core';
 
 function App() {
   return <Button>My app button</Button>;
@@ -44,7 +44,7 @@ and global styles (`withGlobalStyles`). It is recommended to enable these option
 - font-size to `theme.fontSizes.md`
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -61,7 +61,7 @@ If you prefer to style components with CSS/SCSS or other styling solutions that 
 context, then you can use Klink UI CSS variables. To add CSS variables to the `:root` set `withCSSVariables` prop on `MantineProvider`:
 
 ```tsx
-import { MantineProvider } from '@klink-ui/core';
+import { MantineProvider } from '@k-link/core';
 
 function Demo() {
   return (
@@ -76,29 +76,29 @@ Then you will be able to use variables anywhere in your CSS:
 
 ```css
 .my-button {
-  background-color: var(--klink-ui-color-blue-6);
-  font-family: var(--klink-ui-font-family);
-  line-height: var(--klink-ui-line-height);
+  background-color: var(--k-link-color-blue-6);
+  font-family: var(--k-link-font-family);
+  line-height: var(--k-link-line-height);
 }
 ```
 
 Klink UI exposes the following CSS variables based on [theme](/theming/theme-object/) you provide:
 
-- `--klink-ui-color-white`
-- `--klink-ui-color-black`
-- `--klink-ui-transition-timing-function`
-- `--klink-ui-line-height`
-- `--klink-ui-font-family`
-- `--klink-ui-font-family-monospace`
-- `--klink-ui-font-family-headings`
-- `--klink-ui-heading-font-weight`
-- `--klink-ui-shadow-{size}`, e.g. `--klink-ui-shadow-sm`, `--klink-ui-shadow-xl`
-- `--klink-ui-radius-{size}`, e.g. `--klink-ui-radius-sm`, `--klink-ui-radius-xl`
-- `--klink-ui-spacing-{size}`, e.g. `--klink-ui-spacing-sm`, `--klink-ui-spacing-xl`
-- `--klink-ui-font-size-{size}`, e.g. `--klink-ui-font-size-sm`, `--klink-ui-font-size-xl`
-- `--klink-ui-color-{color}-{shade}`, e.g. `--klink-ui-color-blue-6`, `--klink-ui-color-gray-0`
-- `--klink-ui-{heading}-font-size`, e.g. `--klink-ui-h1-font-size`
-- `--klink-ui-{heading}-line-height`, e.g, `--klink-ui-h3-line-height`
+- `--k-link-color-white`
+- `--k-link-color-black`
+- `--k-link-transition-timing-function`
+- `--k-link-line-height`
+- `--k-link-font-family`
+- `--k-link-font-family-monospace`
+- `--k-link-font-family-headings`
+- `--k-link-heading-font-weight`
+- `--k-link-shadow-{size}`, e.g. `--k-link-shadow-sm`, `--k-link-shadow-xl`
+- `--k-link-radius-{size}`, e.g. `--k-link-radius-sm`, `--k-link-radius-xl`
+- `--k-link-spacing-{size}`, e.g. `--k-link-spacing-sm`, `--k-link-spacing-xl`
+- `--k-link-font-size-{size}`, e.g. `--k-link-font-size-sm`, `--k-link-font-size-xl`
+- `--k-link-color-{color}-{shade}`, e.g. `--k-link-color-blue-6`, `--k-link-color-gray-0`
+- `--k-link-{heading}-font-size`, e.g. `--k-link-h1-font-size`
+- `--k-link-{heading}-line-height`, e.g, `--k-link-h3-line-height`
 
 ## Nested MantineProviders
 
@@ -109,7 +109,7 @@ If some parts of your application require different theme settings, you can wrap
 Note that nested `MantineProvider` will inherit `theme` override from parent provider only if `inherit` prop is set:
 
 ```tsx
-import { MantineProvider, Button } from '@klink-ui/core';
+import { MantineProvider, Button } from '@k-link/core';
 
 function App() {
   return (
@@ -142,7 +142,7 @@ All components that are rendered inside MantineProvider will inherit those style
 If component does not specify Styles API selectors, then in most cases you can add styles using `root` selector:
 
 ```tsx
-import { MantineProvider, Text } from '@klink-ui/core';
+import { MantineProvider, Text } from '@k-link/core';
 
 function App() {
   return (
@@ -171,7 +171,7 @@ Same as with `styles` you can add classes to all components with `classNames`.
 This approach is useful when you want to styles components with utility based CSS libraries.
 
 ```tsx
-import { MantineProvider, Button } from '@klink-ui/core';
+import { MantineProvider, Button } from '@k-link/core';
 
 function App() {
   return (

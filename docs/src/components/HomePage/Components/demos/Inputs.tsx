@@ -8,7 +8,7 @@ import {
   NativeSelect,
   MultiSelect,
   Autocomplete,
-} from '@klink-ui/core';
+} from '@k-link/core';
 
 export function Inputs() {
   return (

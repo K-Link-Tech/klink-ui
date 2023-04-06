@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Text, Box, Anchor, rem } from '@klink-ui/core';
-import { Prism } from '@klink-ui/prism';
+import { Text, Box, Anchor, rem } from '@k-link/core';
+import { Prism } from '@k-link/prism';
 
 const code = `
-import { createStyles } from '@klink-ui/core';
+import { createStyles } from '@k-link/core';
 
 const useStyles = createStyles({
   parent: {
