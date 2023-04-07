@@ -14,7 +14,7 @@ export async function publishPackage({
   tag: string;
 }) {
   try {
-    await execa('yarn', ['publish --access public', path, '--tag', tag]);
+    await execa('yarn', ['publish', path, '--tag', tag]);
     logger.success(`Package ${chalk.cyan(name)} was published`);
   } catch (error) {
     logger.error(`Failed to publish package ${chalk.red(name)}`);
