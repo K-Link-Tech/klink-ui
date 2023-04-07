@@ -4,6 +4,10 @@
   "workspaces": [
     "src/*"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
   "version": "1.1.0",
   "description": "Klink UI Components Monorepo",
   "main": "index.js",
