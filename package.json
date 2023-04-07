@@ -1,13 +1,9 @@
 {
   "name": "k-link",
-  "private": false,
+  "private": true,
   "workspaces": [
     "src/*"
   ],
-  "publishConfig": {
-    "access":"public",
-    "registry":"https://registry.npmjs.org/"
-  },
   "version": "1.1.0",
   "description": "Klink UI Components Monorepo",
   "main": "index.js",
