@@ -48,7 +48,7 @@ module.exports = {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Klink UI Docs',
-        short_name: 'mantine',
+        short_name: 'k-link',
         start_url: '/',
         background_color: '#228be6',
         theme_color: '#228be6',
