@@ -23,6 +23,7 @@ const sizes = {
   md: { fontSize: rem(13), height: rem(24), lineHeight: rem(20) },
   lg: { fontSize: rem(14), height: rem(28), lineHeight: rem(20) },
   xl: { fontSize: rem(16), height: rem(32), lineHeight: rem(22) },
+  '2xl': { fontSize: rem(20), height: rem(36), lineHeight: rem(22) },
 };
 
 const dotSizes = {

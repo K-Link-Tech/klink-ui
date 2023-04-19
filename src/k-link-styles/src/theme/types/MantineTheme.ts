@@ -76,9 +76,9 @@ export interface MantineTheme {
   cursorType: 'default' | 'pointer';
   defaultGradient: MantineGradient;
 
-  fontSizes: MantineSizes;
-  radius: MantineSizes;
-  spacing: MantineSizes;
+  fontSizes: MantineSizes | '2xl';
+  radius: MantineSizes | '2xl';
+  spacing: MantineSizes | '2xl';
   breakpoints: MantineSizes;
   shadows: Record<MantineSize, string>;
 

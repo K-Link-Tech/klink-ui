@@ -35,11 +35,13 @@ export const sizes = {
   md: { height: rem(44), paddingLeft: rem(18), paddingRight: rem(18) },
   lg: { height: rem(48), paddingLeft: rem(20), paddingRight: rem(20) },
   xl: { height: rem(60), paddingLeft: rem(28), paddingRight: rem(28) },
+  '2xl': { height: rem(68), paddingLeft: rem(36), paddingRight: rem(36) },
   'compact-xs': { height: rem(22), paddingLeft: rem(8), paddingRight: rem(8) },
   'compact-sm': { height: rem(26), paddingLeft: rem(8), paddingRight: rem(8) },
   'compact-md': { height: rem(30), paddingLeft: rem(10), paddingRight: rem(10) },
   'compact-lg': { height: rem(34), paddingLeft: rem(12), paddingRight: rem(12) },
   'compact-xl': { height: rem(40), paddingLeft: rem(14), paddingRight: rem(14) },
+  'compact-2xl': { height: rem(44), paddingLeft: rem(16), paddingRight: rem(16) },
 };
 
 interface GetSizeStyles {

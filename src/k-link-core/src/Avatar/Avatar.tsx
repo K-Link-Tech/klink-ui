@@ -59,7 +59,6 @@ const defaultProps: Partial<AvatarProps> = {
   color: 'gray',
   variant: 'light',
   isAddAvatar: false,
-  showOnlineActive: false,
 };
 
 export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
@@ -97,8 +96,14 @@ export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   return (
     <Box component="div" className={cx(classes.parentRoot, className)} ref={ref} {...others}>
       <Box component="div" className={classes.root}>
-        {!isAddAvatar ? (
-          error ? (
+        {isAddAvatar && (
+          <div className={classes.placeholder}>
+            <AvatarAddIcon className={classes.addIcon} />
+          </div>
+        )}
+
+        {!isAddAvatar &&
+          (error ? (
             <div className={classes.placeholder} title={alt}>
               {children || <AvatarPlaceholderIcon className={classes.placeholderIcon} />}
             </div>
@@ -110,12 +115,7 @@ export const _Avatar = forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
               alt={alt}
               onError={() => setError(true)}
             />
-          )
-        ) : (
-          <div className={classes.placeholder}>
-            <AvatarAddIcon className={classes.addIcon} />
-          </div>
-        )}
+          ))}
       </Box>
 
       {showOnlineActive ? (

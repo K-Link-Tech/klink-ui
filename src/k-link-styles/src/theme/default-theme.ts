@@ -49,6 +49,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     md: '1rem',
     lg: '1.125rem',
     xl: '1.25rem',
+    '2xl': '1.5rem',
 
     // // display
     // 'display-xs': '1.5rem',
@@ -74,7 +75,7 @@ export const _DEFAULT_THEME: MantineThemeBase = {
     md: '1rem',
     lg: '1.25rem',
     xl: '1.5rem',
-    // '2xl': '2rem',
+    '2xl': '2rem',
   },
 
   breakpoints: {
