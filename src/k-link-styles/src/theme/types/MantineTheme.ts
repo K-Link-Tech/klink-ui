@@ -1,5 +1,10 @@
 import type { CSSProperties } from 'react';
-import type { MantineSizes, MantineSize, MantineNumberSize } from './MantineSize';
+import type {
+  MantineSizes,
+  MantineSize,
+  MantineNumberSize,
+  UpdateMantineSizes,
+} from './MantineSize';
 import type { DeepPartial } from './DeepPartial';
 import type { MantineThemeColors } from './MantineColor';
 import type { MantineGradient } from './MantineGradient';
@@ -76,9 +81,9 @@ export interface MantineTheme {
   cursorType: 'default' | 'pointer';
   defaultGradient: MantineGradient;
 
-  fontSizes: MantineSizes | '2xl';
-  radius: MantineSizes | '2xl';
-  spacing: MantineSizes | '2xl';
+  fontSizes: UpdateMantineSizes;
+  radius: UpdateMantineSizes;
+  spacing: UpdateMantineSizes;
   breakpoints: MantineSizes;
   shadows: Record<MantineSize, string>;
 
